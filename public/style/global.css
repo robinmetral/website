@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  src: url("/fonts/FernVariable-Roman-VF.woff2") format("woff2");
+  font-family: "Fern Web";
+  font-style: normal;
+  font-weight: 400 800;
+}
+
+@font-face {
+  src: url("/fonts/FernVariable-Italic-VF.woff2") format("woff2");
+  font-family: "Fern Web";
+  font-style: italic;
+  font-weight: 400 800;
+}
+
+:root {
+  --black: hsl(100, 30%, 6%);
+  --black-subtle: hsl(100, 30%, 10%);
+  --white: hsl(35, 30%, 94%);
+  --white-subtle: hsl(35, 30%, 88%);
+  --primary-light: hsl(100, 50%, 25%);
+  --primary-dark: hsl(100, 50%, 55%);
+  --accent-light: hsl(35, 85%, 35%);
+  --accent-dark: hsl(35, 85%, 65%);
+}
+
+html {
+  font-family: "Fern Web", Georgia, "Times New Roman", Times, serif;
+  --bg: var(--white);
+  --bg-subtle: var(--white-subtle);
+  --text: var(--black);
+  --text-subtle: var(--black-subtle);
+  --primary: var(--primary-light);
+  --accent: var(--accent-light);
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    --bg: var(--black);
+    --bg-subtle: var(--black-subtle);
+    --text: var(--white);
+    --text-subtle: var(--white-subtle);
+    --primary: var(--primary-dark);
+    --accent: var(--accent-dark);
+  }
+}
+
+@layer utilities {
+  .font-small-caps {
+    font-variant: all-small-caps;
+  }
+  .divider {
+    border: none;
+    position: relative;
+    height: 1em; /* TODO this should be as high as the ::before */
+  }
+  .divider::before {
+    content: "☙❧";
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: var(--primary);
+  }
+}

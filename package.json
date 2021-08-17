@@ -1,0 +1,14 @@
+{
+  "name": "website",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "astro dev",
+    "build": "astro build"
+  },
+  "devDependencies": {
+    "@astrojs/renderer-react": "^0.2.0",
+    "astro": "^0.19.1",
+    "tailwindcss": "^2.2.7"
+  }
+}

@@ -1,0 +1,13 @@
+---
+import { Markdown } from 'astro/components';
+import BaseHead from '../components/BaseHead.astro';
+
+const { content } = Astro.props;
+const { title, description, publishDate, author } = content;
+---
+<html lang="en">
+  <BaseHead title={title} description={description} />
+  <body>
+    <slot />
+  </body>
+</html>
