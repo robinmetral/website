@@ -4,12 +4,10 @@ import Link from "../components/Link.astro";
 
 function getGreeting(): string {
   const hour = new Date().getHours();
-  if (hour >= 3 && hour <= 11) {
+  if (hour >= 6 && hour <= 11) {
     return "Good morning";
-  } else if (hour <= 17) {
-    return "Hello";
   } else {
-    return "Good evening";
+    return "Hello";
   }
 }
 

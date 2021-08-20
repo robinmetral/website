@@ -1,0 +1,12 @@
+name: Cron
+on:
+  schedule:
+    - cron: "0 */2 * * *" # run every two hours
+jobs:
+  trigger-build:
+    name: Trigger build
+    runs-on: ubuntu-latest
+    steps:
+      - name: cURL Vercel deploy hook
+        with: ${{ secrets.DEPLOY_HOOK_URL }}
+        run: curl -X POST "$DEPLOY_HOOK_URL"
