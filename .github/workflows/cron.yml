@@ -2,7 +2,7 @@ name: Cron
 on:
   schedule:
     - cron: "0 */2 * * *" # run every two hours
-  workflow_dispatch
+  workflow_dispatch: {}
 jobs:
   trigger-build:
     name: Trigger build
