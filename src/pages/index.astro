@@ -1,6 +1,5 @@
 ---
 import Page from "../layouts/Page.astro";
-import Link from "../components/Link.astro";
 
 async function getWeather() {
   const date = new Date();
@@ -52,12 +51,17 @@ sortedPosts = allPosts.sort((a, b) => new Date(b.publishDate) - new Date(a.publi
 
 <Page>
   <h1 class="sr-only">Home</h1>
-  <p class="text-2xl md:text-3xl lg:text-4xl my-8">
-    Hello from {weather}<Link href="/berlin">Berlin</Link><span class="text-primary not-sr-only"></span> My name is <Link href="/about">Robin</Link>, and this is my website. Have a look around!
+  <p class="text-2xl md:text-3xl lg:text-4xl my-8 md:my-16">
+    Hello from {weather}<a class="link font-small-caps" href="/berlin">Berlin</a><span class="text-primary not-sr-only"></span> My name is <a class="link font-small-caps" href="/about">Robin</a>, and this is my website. Have a look around!
   </p>
-  <hr class="divider" />
-  <h2 class="font-small-caps text-center my-8">Latest notes</h2>
+  <h2 class="font-small-caps mb-2 md:mb-4 text-primary">Latest notes</h2>
   <section>
-    {sortedPosts.map(p => <a href={p.url}>{p.title}</a>)}
+    <ul>
+      {sortedPosts.map(p => (
+        <li class="text-2xl md:text-3xl lg:text-4xl mb-4 md:mb-6">
+          <a href={p.url} class="link">{p.title}</a>
+        </li>
+      ))}
+    </ul>
   </section>
 </Page>

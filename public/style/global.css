@@ -54,17 +54,18 @@ html {
   .font-small-caps {
     font-variant: all-small-caps;
   }
+}
+
+@layer components {
   .divider {
-    border: none;
-    position: relative;
-    height: 1em; /* TODO this should be as high as the ::before */
+    /* height should be the same as the line-height */
+    @apply border-none relative h-7 lg:h-8;
   }
   .divider::before {
+    @apply absolute right-0 left-0 text-center text-primary;
     content: "☙❧";
-    position: absolute;
-    right: 0;
-    left: 0;
-    text-align: center;
-    color: var(--primary);
+  }
+  .link {
+    @apply transition-colors hover:text-accent focus:outline-none focus:text-accent focus:ring-2 focus:ring-current rounded-sm;
   }
 }

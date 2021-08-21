@@ -1,6 +1,5 @@
 ---
 import BaseHead, { Props } from '../components/BaseHead.astro';
-import Link from "../components/Link.astro";
 
 const { title, description } = Astro.props;
 ---
@@ -11,9 +10,9 @@ const { title, description } = Astro.props;
     <header class="p-4 md:p-6 text-xl lg:text-2xl bg-bg-subtle order-last mt-auto md:order-first md:mt-0">
       <nav>
         <ul class="flex gap-4 justify-center">
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/about">About</Link></li>
-          <li><Link href="/notes">Notes</Link></li>
+          <li><a class="link font-small-caps" href="/">Home</a></li>
+          <li><a class="link font-small-caps" href="/about">About</a></li>
+          <li><a class="link font-small-caps" href="/notes">Notes</a></li>
         </ul>
       </nav>
     </header>
