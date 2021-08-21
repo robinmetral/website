@@ -1,5 +1,5 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
+import Page from "../layouts/Page.astro";
 import Link from "../components/Link.astro";
 
 async function getWeather() {
@@ -17,7 +17,7 @@ async function getWeather() {
   switch (weatherCode) {
     case 'clear-night':
     case 'partly-cloudy-night':
-      return "nighttime ";
+      return "starry ";
     case 'clear-day':
     case 'partly-cloudy-day':
       return "sunny ";
@@ -49,28 +49,15 @@ const weather = await getWeather();
 const allPosts = Astro.fetchContent('./posts/*.md');
 sortedPosts = allPosts.sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate));
 ---
-<html lang="en">
-  <BaseHead />
-  <body class="text-lg md:text-xl lg:text-2xl flex flex-col min-h-screen bg-bg text-text">
-    <header class="p-4 md:p-6 text-xl lg:text-2xl bg-bg-subtle order-last mt-auto md:order-first md:mt-0">
-      <nav>
-        <ul class="flex gap-4 justify-center">
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/about">About</Link></li>
-          <li><Link href="/notes">Notes</Link></li>
-        </ul>
-      </nav>
-    </header>
-    <main class="max-w-3xl px-4 mx-auto">
-      <h1 class="sr-only">Home</h1>
-      <p class="text-2xl md:text-3xl lg:text-4xl my-8">
-        Hello from {weather}<Link href="/berlin">Berlin</Link><span class="text-primary not-sr-only"></span> My name is <Link href="/about">Robin</Link>, and this is my website. Have a look around!
-      </p>
-      <hr class="divider" />
-      <h2 class="font-small-caps text-center my-8">Latest notes</h2>
-      <section>
-        {sortedPosts.map(p => <a href={p.url}>{p.title}</a>)}
-      </section>
-    </main>
-  </body>
-</html>
+
+<Page>
+  <h1 class="sr-only">Home</h1>
+  <p class="text-2xl md:text-3xl lg:text-4xl my-8">
+    Hello from {weather}<Link href="/berlin">Berlin</Link><span class="text-primary not-sr-only"></span> My name is <Link href="/about">Robin</Link>, and this is my website. Have a look around!
+  </p>
+  <hr class="divider" />
+  <h2 class="font-small-caps text-center my-8">Latest notes</h2>
+  <section>
+    {sortedPosts.map(p => <a href={p.url}>{p.title}</a>)}
+  </section>
+</Page>
