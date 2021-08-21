@@ -66,6 +66,6 @@ html {
     content: "☙❧";
   }
   .link {
-    @apply transition-colors hover:text-accent focus:outline-none focus:text-accent focus:ring-2 focus:ring-current rounded-sm focus:transition-none;
+    @apply hover:transition-colors hover:text-accent focus:outline-none focus:text-accent focus:ring-2 focus:ring-current rounded-sm;
   }
 }
