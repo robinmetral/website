@@ -1,0 +1,22 @@
+---
+import Page from "../layouts/Page.astro";
+
+const allPosts = Astro.fetchContent('./posts/*.md');
+sortedPosts = allPosts.sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate));
+---
+
+<Page>
+  <h1 class="text-large my-8 md:my-16">
+    Notes
+  </h1>
+  <h2 class="small-caps mb-2 md:mb-4 text-primary">Latest notes</h2>
+  <section>
+    <ul>
+      {sortedPosts.map(p => (
+        <li class="text-large mb-4 md:mb-6">
+          <a href={p.url} class="not-small-caps">{p.title}</a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</Page>
