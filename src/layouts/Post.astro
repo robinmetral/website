@@ -3,9 +3,13 @@ import { Markdown } from 'astro/components';
 import Page from './Page.astro';
 
 const { content } = Astro.props;
-const { title, description, publishDate, author } = content;
+const { title, description, publishDate } = content;
 ---
 
 <Page title={title} description={description}>
+  <header class="flex flex-col-reverse gap-2 mb-4 md:mb-8 mt-8 md:mt-16">
+    <h1 class="text-large">{title}</h1>
+    <p class="font-small-caps text-text-subtle text-small">Published on <time datetime={publishDate}>{new Date(publishDate).toLocaleDateString("en-US", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</time></p>
+  </header>
   <slot />
 </Page>

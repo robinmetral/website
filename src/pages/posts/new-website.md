@@ -1,8 +1,7 @@
 ---
-title: "New website"
-description: "I'm redesigning my website with Astro."
-publishDate: "August 21st, 2021"
-author: "Robin"
+title: "A new website"
+description: "I'm rewriting my website with Astro."
+publishDate: "2021-08-22"
 layout: "../../layouts/Post.astro"
 ---
 
