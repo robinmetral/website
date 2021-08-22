@@ -61,7 +61,7 @@ html {
     font-variant: all-small-caps;
   }
   .text-small {
-    @apply text-sm md:text-lg lg:text-xl;
+    @apply text-base md:text-lg lg:text-xl;
   }
   .text-medium {
     @apply text-lg md:text-xl lg:text-2xl;
