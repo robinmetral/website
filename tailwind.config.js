@@ -2,7 +2,9 @@ module.exports = {
   mode: "jit",
   purge: {
     content: ["./public/**/*.html", "./src/**/*.{astro,js,jsx,ts,tsx}"],
-    safelist: ["footnotes"], // from remark-footnotes (via astro/markdown)
+    safelist: [
+      "footnotes", // from remark-footnotes (via astro/markdown)
+    ],
   },
   theme: {
     extend: {

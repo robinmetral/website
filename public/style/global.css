@@ -77,7 +77,7 @@ html {
 @layer components {
   hr {
     /* height should be the same as the line-height */
-    @apply border-none relative h-7 lg:h-8;
+    @apply text-medium border-none relative h-7 lg:h-8;
   }
   hr::before {
     @apply absolute right-0 left-0 text-center text-primary;
