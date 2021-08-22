@@ -52,13 +52,16 @@ html {
 
 @layer base {
   a {
-    @apply font-small-caps hover:transition-colors hover:text-accent focus:outline-none focus:text-accent focus:ring-2 focus:ring-current rounded-sm;
+    @apply small-caps hover:transition-colors hover:text-accent focus:outline-none focus:text-accent focus:ring-2 focus:ring-current rounded-sm;
   }
 }
 
 @layer utilities {
-  .font-small-caps {
-    font-variant: all-small-caps;
+  .small-caps {
+    font-variant-caps: all-small-caps;
+  }
+  .not-small-caps {
+    font-variant-caps: normal;
   }
   .text-small {
     @apply text-base md:text-lg lg:text-xl;
