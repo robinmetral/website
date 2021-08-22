@@ -7,40 +7,46 @@ async function getWeather() {
   const isoDate = date.toISOString();
   const isoOneHourAgo = oneHourAgo.toISOString();
 
-  const res = await fetch(
-    `https://api.brightsky.dev/weather?tz=Europe/Berlin&wmo_station_id=10384&date=${isoOneHourAgo}&last_date=${isoDate}`
-  );
-  const data = await res.json();
+  try {
+    const res = await fetch(
+      `https://api.brightsky.dev/weather?tz=Europe/Berlin&wmo_station_id=10384&date=${isoOneHourAgo}&last_date=${isoDate}`
+    );
+    const data = await res.json();
 
-  const weatherCode = data.weather[0].icon;
-  switch (weatherCode) {
-    case 'clear-night':
-    case 'partly-cloudy-night':
-      return "starry ";
-    case 'clear-day':
-    case 'partly-cloudy-day':
-      return "sunny ";
-    case 'cloudy':
-      return "cloudy ";
-    case 'fog':
-      return "foggy ";
-    case 'wind':
-      return "windy ";
-    case 'rain':
-      return "rainy ";
-    case 'sleet':
-      return "sleety ";
-    case 'snow':
-      return "snowy ";
-    case 'hail':
-      return "haily ";
-    case 'thunderstorm':
-      return "stormy ";
-    default:
-      return "";
-  }
+    const weatherCode = data.weather[0].icon;
+    switch (weatherCode) {
+      case 'clear-night':
+      case 'partly-cloudy-night':
+        return "starry ";
+      case 'clear-day':
+      case 'partly-cloudy-day':
+        return "sunny ";
+      case 'cloudy':
+        return "cloudy ";
+      case 'fog':
+        return "foggy ";
+      case 'wind':
+        return "windy ";
+      case 'rain':
+        return "rainy ";
+      case 'sleet':
+        return "sleety ";
+      case 'snow':
+        return "snowy ";
+      case 'hail':
+        return "haily ";
+      case 'thunderstorm':
+        return "stormy ";
+      default:
+        throw new Error(`Weather code ${weatherCode} unknown`);
+    }
   
-  return weatherCode;
+    return weatherCode;
+  }
+  catch (error) {
+    // TODO logging?
+    return ""
+  }
 }
 
 const weather = await getWeather();
