@@ -21,8 +21,17 @@ module.exports = {
       typography: {
         DEFAULT: {
           css: {
-            color: null,
-            a: null, // overrides prose styles
+            color: null, // null removes prose styles
+            h2: null,
+            h3: null,
+            h4: null,
+            a: null,
+            "ul > li::before": {
+              backgroundColor: "currentColor",
+            },
+            "ol > li::before": {
+              color: "inherit",
+            },
           },
         },
       },
