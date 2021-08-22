@@ -7,9 +7,11 @@ const { title, description, publishDate } = content;
 ---
 
 <Page title={title} description={description}>
-  <header class="flex flex-col-reverse gap-2 mb-4 md:mb-8 mt-8 md:mt-16">
+  <header class="flex flex-col-reverse gap-2 my-8 md:my-16 xl:my-24 xl:-mx-32">
     <h1 class="text-large">{title}</h1>
     <p class="font-small-caps text-text-subtle text-small">Published on <time datetime={publishDate}>{new Date(publishDate).toLocaleDateString("en-US", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</time></p>
   </header>
-  <slot />
+  <article class="prose prose-lg md:prose-xl lg:prose-2xl max-w-none">
+    <slot />
+  </article>
 </Page>

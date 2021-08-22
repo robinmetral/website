@@ -1,6 +1,9 @@
 module.exports = {
   mode: "jit",
-  purge: ["./public/**/*.html", "./src/**/*.{astro,js,jsx,ts,tsx}"],
+  purge: {
+    content: ["./public/**/*.html", "./src/**/*.{astro,js,jsx,ts,tsx}"],
+    safelist: ["footnotes"], // from remark-footnotes (via astro/markdown)
+  },
   theme: {
     extend: {
       colors: {
@@ -15,6 +18,15 @@ module.exports = {
         primary: "var(--primary)",
         accent: "var(--accent)",
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            color: null,
+            a: null, // overrides prose styles
+          },
+        },
+      },
     },
   },
+  plugins: [require("@tailwindcss/typography")],
 };

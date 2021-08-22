@@ -8,12 +8,12 @@ const { title, description } = Astro.props;
   <BaseHead title={title} description={description} />
   <body class="text-medium flex flex-col min-h-screen bg-bg text-text">
     <header class="p-4 lg:p-6 bg-bg-subtle order-last mt-auto md:order-first md:mt-0">
-      <a href="#main" class="sr-only focus:not-sr-only link text-large">Skip to main content</a>
+      <a href="#main" class="sr-only focus:not-sr-only text-large">Skip to main content</a>
       <nav>
         <ul class="flex gap-4 justify-center">
-          <li><a class="link font-small-caps" href="/">Home</a></li>
-          <li><a class="link font-small-caps" href="/now">Now</a></li>
-          <li><a class="link font-small-caps" href="/notes">Notes</a></li>
+          <li><a class="font-small-caps" href="/">Home</a></li>
+          <li><a class="font-small-caps" href="/now">Now</a></li>
+          <li><a class="font-small-caps" href="/notes">Notes</a></li>
         </ul>
       </nav>
     </header>

@@ -50,6 +50,12 @@ html {
   }
 }
 
+@layer base {
+  a {
+    @apply font-small-caps hover:transition-colors hover:text-accent focus:outline-none focus:text-accent focus:ring-2 focus:ring-current rounded-sm;
+  }
+}
+
 @layer utilities {
   .font-small-caps {
     font-variant: all-small-caps;
@@ -66,15 +72,15 @@ html {
 }
 
 @layer components {
-  .divider {
+  hr {
     /* height should be the same as the line-height */
     @apply border-none relative h-7 lg:h-8;
   }
-  .divider::before {
+  hr::before {
     @apply absolute right-0 left-0 text-center text-primary;
     content: "☙❧";
   }
-  .link {
-    @apply hover:transition-colors hover:text-accent focus:outline-none focus:text-accent focus:ring-2 focus:ring-current rounded-sm;
+  .footnotes {
+    @apply flex flex-col gap-8 my-16 text-small;
   }
 }
