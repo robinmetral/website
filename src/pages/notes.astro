@@ -9,12 +9,12 @@ sortedPosts = allPosts.sort((a, b) => new Date(b.publishDate) - new Date(a.publi
   <h1 class="text-large my-8 md:my-16">
     Notes
   </h1>
-  <h2 class="small-caps mb-2 md:mb-4 text-primary">Latest notes</h2>
   <section>
     <ul>
       {sortedPosts.map(p => (
-        <li class="text-large mb-4 md:mb-6">
+        <li class="flex flex-col-reverse gap-2 text-large mb-4 md:mb-6">
           <a href={p.url} class="not-small-caps">{p.title}</a>
+          <p class="small-caps text-text-subtle text-small"><span class="sr-only">Published on</span> <time datetime={p.publishDate}>{new Date(p.publishDate).toLocaleDateString("en-US", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</time></p>
         </li>
       ))}
     </ul>
