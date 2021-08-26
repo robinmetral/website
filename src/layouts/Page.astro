@@ -7,7 +7,7 @@ const { title, description } = Astro.props;
 <html lang="en">
   <BaseHead title={title} description={description} />
   <body class="text-medium h-full bg-bg text-text">
-    <header class="p-4 lg:p-6 bg-bg-subtle fixed bottom-0 left-0 right-0 md:static md:bottom-auto md:left-auto md:right-auto z-10">
+    <header class="p-4 lg:p-6 bg-bg-subtle">
       <a href="#main" class="sr-only focus:not-sr-only text-large">Skip to main content</a>
       <nav>
         <ul class="flex gap-4 justify-center">
@@ -17,7 +17,7 @@ const { title, description } = Astro.props;
         </ul>
       </nav>
     </header>
-    <main class="max-w-3xl w-full px-4 mx-auto mb-16" id="main">
+    <main class="max-w-3xl w-full px-4 mx-auto" id="main">
       <slot />
     </main>
   </body>
