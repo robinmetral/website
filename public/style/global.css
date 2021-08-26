@@ -30,6 +30,7 @@
 }
 
 html {
+  @apply h-full;
   font-family: "Fern Web", Georgia, "Times New Roman", Times, serif;
   --bg: var(--white);
   --bg-subtle: var(--white-subtle);
