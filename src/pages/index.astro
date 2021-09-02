@@ -51,8 +51,8 @@ async function getWeather() {
 
 const weather = await getWeather();
 
-const allPosts = Astro.fetchContent('./posts/*.md');
-sortedPosts = allPosts.sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate));
+const allNotes = Astro.fetchContent('./notes/*.md');
+sortedNotes = allNotes.sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate));
 ---
 
 <Page>
@@ -63,7 +63,7 @@ sortedPosts = allPosts.sort((a, b) => new Date(b.publishDate) - new Date(a.publi
   <h2 class="small-caps mb-2 md:mb-4 text-primary">Latest notes</h2>
   <section>
     <ul>
-      {sortedPosts.map(p => (
+      {sortedNotes.map(p => (
         <li class="text-large mb-4 md:mb-6">
           <a href={p.url} class="not-small-caps">{p.title}</a>
         </li>
