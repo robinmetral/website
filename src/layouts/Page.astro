@@ -20,6 +20,14 @@ const { title, description } = Astro.props;
     <main class="max-w-3xl w-full px-4 mx-auto" id="main">
       <slot />
     </main>
+    <footer><span id="timing"></span></footer>
     <slot name="script" />
+    <script type="text/javascript">
+      const perfEntries = window.performance.getEntries();
+      const bytes = perfEntries.map(entry => entry.transferSize).reduce((a, b) => a + b);
+      const ms = perfEntries.reduce((total, {responseEnd, requestStart}) => { const duration = responseEnd - requestStart; return total + duration }, 0);
+      const perfElement = document.getElementById("timing");
+     perfElement.innerText = `${(bytes / 1000).toFixed(2)}kb downloaded in ${(ms / 1000).toFixed(2)}s`;
+    </script>
   </body>
 </html>
