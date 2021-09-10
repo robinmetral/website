@@ -1,18 +1,18 @@
 ---
 import Page from "../layouts/Page.astro";
 
-const allNotes = Astro.fetchContent('./notes/*.md');
-sortedNotes = allNotes.sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate));
+const allNotes = Astro.fetchContent<{ publishDate: string; title: string }>('./notes/*.md');
+const sortedNotes = allNotes.sort((a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime());
 ---
 
 <Page>
-  <h1 class="text-large my-8 md:my-16">
+  <h1 class="text-large mb-8 md:mb-16">
     Notes
   </h1>
   <section>
     <ul>
       {sortedNotes.map(p => (
-        <li class="flex flex-col-reverse gap-2 text-large mb-4 md:mb-6">
+        <li class="flex flex-col-reverse gap-2 text-large mb-6 md:mb-10">
           <a href={p.url} class="not-small-caps">{p.title}</a>
           <p class="small-caps text-text-subtle text-small"><span class="sr-only">Published on</span> <time datetime={p.publishDate}>{new Date(p.publishDate).toLocaleDateString("en-US", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</time></p>
         </li>

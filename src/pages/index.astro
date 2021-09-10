@@ -2,12 +2,12 @@
 import Page from "../layouts/Page.astro";
 
 const allNotes = Astro.fetchContent('./notes/*.md');
-sortedNotes = allNotes.sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate));
+const sortedNotes = allNotes.sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate));
 ---
 
 <Page>
   <h1 class="sr-only">Home</h1>
-  <p class="text-large my-8 md:my-16">
+  <p class="text-large mb-8 md:mb-16">
     Hello from <span id="weather">sunny</span> Berlin<span class="text-primary not-sr-only"></span> My name is <a href="/now">Robin</a> and this is my website—have a look around!
   </p>
   <h2 class="small-caps mb-2 md:mb-4 text-primary">Latest notes</h2>
