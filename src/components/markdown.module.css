@@ -1,0 +1,16 @@
+.markdown > * {
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.markdown blockquote {
+  border-left: 2px solid var(--text);
+  padding-left: 1.5rem;
+  font-style: italic;
+}
+
+.markdown ol {
+  /* TODO remove list style resets */
+  list-style-type: decimal;
+  list-style-position: inside;
+}

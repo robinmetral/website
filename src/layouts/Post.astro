@@ -1,5 +1,6 @@
 ---
 import Page from './Page.astro';
+import styles from '../components/markdown.module.css';
 
 const { content } = Astro.props;
 const { title, description, publishDate } = content;
@@ -10,7 +11,7 @@ const { title, description, publishDate } = content;
     <h1 class="text-large text-primary">{title}</h1>
     <p class="small-caps text-text-subtle text-small"><span class="sr-only">Published on</span> <time datetime={publishDate}>{new Date(publishDate).toLocaleDateString("en-US", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</time></p>
   </header>
-  <article class="prose prose-lg md:prose-xl lg:prose-2xl max-w-none">
+  <article class={styles.markdown}>
     <slot />
   </article>
 </Page>
