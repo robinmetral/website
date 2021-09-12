@@ -50,10 +50,21 @@ html {
   }
 }
 
-@layer base {
-  a {
-    @apply small-caps hover:transition-colors hover:text-accent focus:outline-none focus:text-accent focus:ring-2 focus:ring-current rounded-sm;
-  }
+a {
+  font-variant: all-small-caps;
+}
+
+a:hover {
+  transition: color 150ms ease-in-out;
+  color: var(--accent);
+}
+
+a:focus {
+  color: var(--accent);
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  box-shadow: var(--accent) 0px 0px 0px 2px;
+  border-radius: 0.125rem;
 }
 
 @layer utilities {
