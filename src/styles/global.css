@@ -50,6 +50,60 @@ html {
   }
 }
 
+/* Typography */
+
+.text-small {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.text-medium {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-large {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+@media (min-width: 768px) {
+  .text-small {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  .text-medium {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  .text-large {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-small {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  .text-medium {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .text-large {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+.small-caps {
+  font-variant-caps: all-small-caps;
+}
+.not-small-caps {
+  font-variant-caps: normal;
+}
+
+/* Links */
+
 a {
   font-variant: all-small-caps;
 }
@@ -67,34 +121,31 @@ a:focus {
   border-radius: 0.125rem;
 }
 
-@layer utilities {
-  .small-caps {
-    font-variant-caps: all-small-caps;
-  }
-  .not-small-caps {
-    font-variant-caps: normal;
-  }
-  .text-small {
-    @apply text-base md:text-lg lg:text-xl;
-  }
-  .text-medium {
-    @apply text-lg md:text-xl lg:text-2xl;
-  }
-  .text-large {
-    @apply text-2xl md:text-3xl lg:text-4xl;
+/* Separators */
+
+hr {
+  border: none;
+  position: relative;
+  height: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  hr {
+    height: 1.75rem;
   }
 }
 
-@layer components {
+@media (min-width: 1024px) {
   hr {
-    /* height should be the same as the line-height */
-    @apply text-medium border-none relative h-7 lg:h-8;
+    height: 2rem;
   }
-  hr::before {
-    @apply absolute right-0 left-0 text-center text-primary;
-    content: "☙❧";
-  }
-  .footnotes {
-    @apply flex flex-col gap-8 my-16 text-small;
-  }
+}
+
+hr::before {
+  position: absolute;
+  right: 0;
+  left: 0;
+  text-align: center;
+  color: var(--primary);
+  content: "☙❧";
 }

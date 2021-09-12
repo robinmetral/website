@@ -7,8 +7,12 @@
     "build": "astro build"
   },
   "devDependencies": {
+    "@silvenon/remark-smartypants": "^1.0.0",
     "@tailwindcss/typography": "^0.4.1",
     "astro": "^0.20.3",
-    "tailwindcss": "^2.2.7"
+    "rehype-add-classes": "^1.0.0",
+    "remark-footnotes": "^4.0.1",
+    "tailwindcss": "^2.2.7",
+    "unist-util-visit": "^4.0.0"
   }
 }
