@@ -1,23 +1,39 @@
 ---
-import BaseHead, { Props } from '../components/BaseHead.astro';
+import BaseHead from '../components/BaseHead.astro';
+import Nav from '../components/Nav.astro';
+
+export interface Props {
+  title?: string;
+  description?: string;
+}
 
 const { title, description } = Astro.props;
 ---
 
+<style>
+body {
+  height: 100%;
+  background-color: var(--bg);
+  color:  var(--text)
+}
+main {
+  max-width: 48rem;
+  width: 100%;
+  padding: 0 1rem;
+  margin: 2rem auto;
+}
+@media (min-width: 768px) {
+  main {
+    margin: 4rem auto;
+  }
+}
+</style>
+
 <html lang="en">
   <BaseHead title={title} description={description} />
-  <body class="text-medium h-full bg-bg text-text">
-    <header class="p-4 lg:p-6 bg-bg-subtle">
-      <a href="#main" class="sr-only focus:not-sr-only text-large">Skip to main content</a>
-      <nav>
-        <ul class="flex gap-4 justify-center">
-          <li><a href="/">Home</a></li>
-          <li><a href="/now">Now</a></li>
-          <li><a href="/notes">Notes</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main class="max-w-3xl w-full px-4 mx-auto my-8 md:my-16" id="main">
+  <body class="text-medium">
+    <Nav />
+    <main id="main">
       <slot />
     </main>
     <slot name="script" />

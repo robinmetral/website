@@ -3,9 +3,6 @@ export default {
     site: "https://robinmetral.com",
     sitemap: true,
   },
-  devOptions: {
-    tailwindConfig: "./tailwind.config.js",
-  },
   markdownOptions: {
     remarkPlugins: ["remark-footnotes", "@silvenon/remark-smartypants"],
     rehypePlugins: [

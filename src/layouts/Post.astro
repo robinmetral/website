@@ -1,17 +1,86 @@
 ---
 import Page from './Page.astro';
-import styles from '../components/markdown.module.css';
+import PostHeader from '../components/PostHeader.astro';
 
 const { content } = Astro.props;
 const { title, description, publishDate } = content;
 ---
 
+<style global>
+.wrapper {
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .wrapper {
+    margin-bottom: 4rem;
+  }
+}
+@media (min-width: 1280px) {
+  .wrapper {
+    margin: 6rem -8rem;
+  }
+}
+.markdown > * {
+  margin-bottom: 2rem;
+}
+.markdown blockquote {
+  border-left: 2px solid var(--text);
+  padding-left: 1.5rem;
+  font-style: italic;
+}
+.markdown ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+.markdown ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+}
+.markdown .footnotes {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  margin-top: 6rem;
+}
+.markdown .footnotes hr::before {
+  content: "✣";
+}
+.markdown h2 { /* text-xlarge ? */
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.markdown h3 { /* text-large (TODO import util) */
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: var(--text-subtle);
+}
+@media (min-width: 768px) {
+  .markdown h2 {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+  }
+  .markdown h3 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+@media (min-width: 1024px) {
+  .markdown h3 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  .markdown h2 {
+    font-size: 2.75rem;
+    line-height: 3rem;
+  }
+}
+</style>
+
 <Page title={title} description={description}>
-  <header class="flex flex-col-reverse gap-2 mb-8 md:mb-16 xl:my-24 xl:-mx-32">
-    <h1 class="text-large text-primary">{title}</h1>
-    <p class="small-caps text-text-subtle text-small"><span class="sr-only">Published on</span> <time datetime={publishDate}>{new Date(publishDate).toLocaleDateString("en-US", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</time></p>
-  </header>
-  <article class={styles.markdown}>
+  <div class="wrapper">
+    <PostHeader title={title} publishDate={publishDate} />
+  </div>
+  <article class="markdown">
     <slot />
   </article>
 </Page>

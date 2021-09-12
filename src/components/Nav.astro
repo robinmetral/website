@@ -1,0 +1,29 @@
+<style>
+header {
+  padding: 1rem;
+  background: var(--bg-subtle);
+}
+@media (min-width: 1024px) {
+  header {
+   padding: 1.5rem;
+  }
+}
+nav ul {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  list-style-type: none;
+  padding-left: 0px;
+}
+</style>
+
+<header>
+  <a href="#main" class="focus-only text-large">Skip to main content</a>
+  <nav>
+    <ul role="list">
+      <li><a href="/">Home</a></li>
+      <li><a href="/now">Now</a></li>
+      <li><a href="/notes">Notes</a></li>
+    </ul>
+  </nav>
+</header>

@@ -1,0 +1,26 @@
+---
+export interface Props {
+  title: string;
+  publishDate: string;
+}
+const { title, publishDate } = Astro.props;
+---
+
+<style>
+  header {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0.5rem;
+  }
+  h1 {
+    color: var(--primary);
+  }
+  p {
+    color: var(--text-subtle);
+  }
+</style>
+
+<header>
+  <h1 class="text-large">{title}</h1>
+  <p class="small-caps text-small"><span class="sr-only">Published on</span> <time datetime={publishDate}>{new Date(publishDate).toLocaleDateString("en-US", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</time></p>
+</header>
