@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "start": "astro dev",
-    "build": "astro build"
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "devDependencies": {
     "@silvenon/remark-smartypants": "^1.0.0",
-    "astro": "^0.20.3",
+    "astro": "^0.20.6",
     "rehype-add-classes": "^1.0.0",
     "remark-footnotes": "^4.0.1",
     "unist-util-visit": "^4.0.0"
