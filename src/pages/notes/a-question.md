@@ -8,4 +8,9 @@ When is the last time you got caught in the rain?
 
 ---
 
-- September 15th, 2021
+15.9.21
+14.3.21
+11.3.21
+28.6.20
+13.6.20
+5.5.20
