@@ -15,10 +15,23 @@ nav ul {
   list-style-type: none;
   padding-left: 0px;
 }
+.skip {
+  display: block;
+  position: absolute;
+  padding: 4px 8px;
+  left: 24px;
+  top: 16px;
+  transform: translateY(calc(-100% - 16px));
+  text-decoration: none;
+}
+.skip:focus {
+  transform: translateY(0);
+  transition: transform .2s ease-in-out;
+}
 </style>
 
 <header>
-  <a href="#main" class="focus-only text-large">Skip to main content</a>
+  <a href="#main" class="skip focus-only text-large">Skip to main content</a>
   <nav>
     <ul role="list">
       <li><a href="/">Home</a></li>
