@@ -68,8 +68,8 @@ const sortedNotes = allNotes.sort((a, b) => new Date(b.publishDate).getTime() - 
           case 'partly-cloudy-night':
             return "starry";
           case 'clear-day':
-          case 'partly-cloudy-day':
             return "sunny";
+          case 'partly-cloudy-day':
           case 'cloudy':
             return "cloudy";
           case 'fog':
