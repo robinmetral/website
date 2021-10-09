@@ -1,7 +1,9 @@
 <style>
+a {
+  text-decoration: none;
+}
 header {
   padding: 1rem;
-  background: var(--bg-subtle);
 }
 @media (min-width: 1024px) {
   header {
@@ -11,7 +13,7 @@ header {
 nav ul {
   display: flex;
   gap: 1rem;
-  justify-content: center;
+  justify-content: flex-end;
   list-style-type: none;
   padding-left: 0px;
 }
@@ -35,7 +37,6 @@ nav ul {
   <nav>
     <ul role="list">
       <li><a href="/">Home</a></li>
-      <li><a href="/now">Now</a></li>
       <li><a href="/notes">Notes</a></li>
     </ul>
   </nav>

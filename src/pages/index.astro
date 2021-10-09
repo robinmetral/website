@@ -29,6 +29,9 @@ const sortedNotes = allNotes.sort((a, b) => new Date(b.publishDate).getTime() - 
   .note {
     margin-bottom: 1rem;
   }
+  .note a {
+    text-decoration: none;
+  }
   @media (min-width: 768px) {
     .note {
       margin-bottom: 1.5rem;
@@ -39,14 +42,14 @@ const sortedNotes = allNotes.sort((a, b) => new Date(b.publishDate).getTime() - 
 <Page>
   <h1 class="sr-only">Home</h1>
   <p class="welcome text-large"><!-- TODO we could avoid this class + css mix by importing utils via sass -->
-    Hello from <span id="weather">sunny</span> Berlin<span class="leaf not-sr-only"></span> My name is <a href="/now">Robin</a> and this is my website—have a look around!
+    Hello from <span id="weather">sunny</span> Berlin<span class="leaf not-sr-only"></span> My name is Robin and this is my website—have a look around!
   </p>
   <h2 class="small-caps">Latest notes</h2>
   <section>
     <ul role="list">
       {sortedNotes.map(p => (
         <li class="note text-large">
-          <a href={p.url} class="not-small-caps">{p.title}</a>
+          <a href={p.url}>{p.title}</a>
         </li>
       ))}
     </ul>

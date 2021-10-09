@@ -1,12 +1,19 @@
 ---
 import Page from "../layouts/Page.astro";
-import Heading from "../components/Heading.astro";
 
 const allNotes = Astro.fetchContent<{ publishDate: string; title: string }>('./notes/*.md');
 const sortedNotes = allNotes.sort((a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime());
 ---
 
 <style>
+h1 {
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  h1 {
+    margin-bottom: 4rem;
+  }
+}
 .note { /* TODO this should be a component (spacing should be a util) */
   display: flex;
   flex-direction: column-reverse;
@@ -21,15 +28,20 @@ const sortedNotes = allNotes.sort((a, b) => new Date(b.publishDate).getTime() - 
 .note p {
   color: --var(text-subtle);
 }
+.note a {
+  text-decoration: none;
+}
 </style>
 
 <Page>
-  <Heading title="Notes" />
+  <h1 class="text-large">
+    Notes
+  </h1>
   <section>
     <ul>
       {sortedNotes.map(p => (
         <li class="note text-large">
-          <a href={p.url} class="not-small-caps">{p.title}</a>
+          <a href={p.url}>{p.title}</a>
           <p class="small-caps text-small"><span class="sr-only">Published on</span> <time datetime={p.publishDate}>{new Date(p.publishDate).toLocaleDateString("en-US", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</time></p>
         </li>
       ))}
