@@ -13,8 +13,12 @@
   line-height: 28px;
 }
 
+.whostyle * {
+  margin: 0;
+}
+
 .whostyle *:not(:last-child) {
-  margin: 0 0 20px 0;
+  margin-bottom: 20px;
 }
 
 .whostyle a {
