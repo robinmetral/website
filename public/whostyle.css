@@ -1,10 +1,20 @@
+/**
+ * Whostyle for robinmetral.com
+ * See https://www.kickscondor.com/whostyles/
+ **/
+
 .whostyle {
   font-family: "Bookman Old Style", "Bookman", "Palatino", "serif";
-  padding: 15px 25px;
+  padding: 20px;
   color: hsl(100, 30%, 6%);
   background-color: hsl(35, 30%, 94%);
+  border: 1px solid currentColor;
   font-size: 18px;
   line-height: 28px;
+}
+
+.whostyle * {
+  margin: 0 0 20px 0;
 }
 
 .whostyle a {
@@ -25,11 +35,16 @@
   border-radius: 0.125rem;
 }
 
-@media (min-width: 768px) {
-  .whostyle {
-    font-size: 24px;
-    line-height: 32px;
-  }
+.whostyle h1,
+.whostyle h2,
+.whostyle h3 {
+  font-weight: normal;
+}
+
+.whostyle blockquote {
+  border-left: 2px solid currentColor;
+  padding-left: 20px;
+  font-style: italic;
 }
 
 @media (prefers-color-scheme: dark) {
