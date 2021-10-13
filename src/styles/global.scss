@@ -18,9 +18,7 @@
 
 :root {
   --black: hsl(100, 30%, 6%);
-  --black-subtle: hsl(100, 30%, 10%);
   --white: hsl(35, 30%, 94%);
-  --white-subtle: hsl(35, 30%, 88%);
   --primary-light: hsl(100, 50%, 25%);
   --primary-dark: hsl(100, 50%, 55%);
   --accent-light: hsl(35, 85%, 35%);
@@ -30,9 +28,7 @@
 html {
   font-family: "Fern Web", Georgia, "Times New Roman", Times, serif;
   --bg: var(--white);
-  --bg-subtle: var(--white-subtle);
   --text: var(--black);
-  --text-subtle: var(--black-subtle);
   --primary: var(--primary-light);
   --accent: var(--accent-light);
 }
@@ -40,9 +36,7 @@ html {
 @media (prefers-color-scheme: dark) {
   html {
     --bg: var(--black);
-    --bg-subtle: var(--black-subtle);
     --text: var(--white);
-    --text-subtle: var(--white-subtle);
     --primary: var(--primary-dark);
     --accent: var(--accent-dark);
   }

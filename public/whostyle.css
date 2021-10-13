@@ -3,11 +3,37 @@
  * See https://www.kickscondor.com/whostyles/
  **/
 
+:root {
+  --black: hsl(100, 30%, 6%);
+  --white: hsl(35, 30%, 94%);
+  --primary-light: hsl(100, 50%, 25%);
+  --primary-dark: hsl(100, 50%, 55%);
+  --accent-light: hsl(35, 85%, 35%);
+  --accent-dark: hsl(35, 85%, 65%);
+}
+
+html {
+  font-family: "Fern Web", Georgia, "Times New Roman", Times, serif;
+  --bg: var(--white);
+  --text: var(--black);
+  --primary: var(--primary-light);
+  --accent: var(--accent-light);
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    --bg: var(--black);
+    --text: var(--white);
+    --primary: var(--primary-dark);
+    --accent: var(--accent-dark);
+  }
+}
+
 .whostyle {
   font-family: "Bookman Old Style", "Bookman", "Palatino", "serif";
   padding: 20px;
-  color: hsl(100, 30%, 6%);
-  background-color: hsl(35, 30%, 94%);
+  color: var(--text);
+  background-color: var(--bg);
   border: 1px solid currentColor;
   font-size: 18px;
   line-height: 28px;
@@ -28,14 +54,14 @@
 
 .whostyle a:hover {
   transition: color 150ms ease-in-out;
-  color: hsl(35, 85%, 35%);
+  color: var(--accent);
 }
 
 .whostyle a:focus {
-  color: hsl(35, 85%, 35%);
+  color: var(--accent);
   outline: 2px solid transparent;
   outline-offset: 2px;
-  box-shadow: hsl(35, 85%, 35%) 0px 0px 0px 2px;
+  box-shadow: currentColor 0px 0px 0px 2px;
   border-radius: 0.125rem;
 }
 
@@ -49,18 +75,4 @@
   border-left: 2px solid currentColor;
   padding-left: 20px;
   font-style: italic;
-}
-
-@media (prefers-color-scheme: dark) {
-  .whostyle {
-    color: hsl(35, 30%, 94%);
-    background-color: hsl(100, 30%, 6%);
-  }
-  .whostyle a:hover {
-    color: hsl(35, 85%, 65%);
-  }
-  .whostyle a:focus {
-    color: hsl(35, 85%, 65%);
-    box-shadow: hsl(35, 85%, 65%) 0px 0px 0px 2px;
-  }
 }
