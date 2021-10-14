@@ -1,6 +1,6 @@
 ---
 title: "Indieweb vibes"
-publishDate: "2021-10-10"
+publishDate: "2021-10-13"
 layout: "../../layouts/Post.astro"
 ---
 
