@@ -1,4 +1,5 @@
 @use "./normalize.css";
+@use "./prism.css"; // TODO only import on post pages
 
 @font-face {
   src: url("/fonts/FernVariable-Roman-VF.woff2") format("woff2");

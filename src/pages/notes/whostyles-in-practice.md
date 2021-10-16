@@ -45,9 +45,9 @@ Let's break it down:
 
 I won't go into too many details here, you know what a stylesheet is.
 
-One gotcha: [the closest thing there is to a whostyles standard](https://www.kickscondor.com/whostyles/) specifies that your styles should target a `.whostyle` class, and whoever quoting you will add that class to the wrapping element (more about this under point 3):
+One gotcha: [the closest thing there is to a whostyles standard](https://www.kickscondor.com/whostyles/) specifies that your styles should target a `.whostyle`[^1] class, and whoever quoting you will add that class to the wrapping element (more about this under point 3):
 
-> All styles within the file must be attached to the `.whostyle` selector[^1], unless it's an `@-rule` (such as `@font-face`.)
+> All styles within the file must be attached to the `.whostyle` selector, unless it's an `@-rule` (such as `@font-face`.)
 
 I have my doubts about custom fonts or other non-CSS assets in whostyles.
 
@@ -127,8 +127,11 @@ Here's a basic example for quoting Kicks:
 
 I also made a few improvements to make them look better:
 
-- iframes are notoriously difficult to size properly (i.e. avoid the scrollbar) because we don't know what the height of their content will be. A common solution is to resize it on load with JavaScript, but even this will not be 100% reliable across browsers. The most robust solution I've found is this one:  
-  `onload="this.style.height=(Math.max(this.contentWindow.document.body.scrollHeight, this.contentWindow.document.documentElement.scrollHeight,this.contentWindow.document.body.offsetHeight, this.contentWindow.document.documentElement.offsetHeight,this.contentWindow.document.body.clientHeight, this.contentWindow.document.documentElement.clientHeight))+'px';"`
+- iframes are notoriously difficult to size properly (i.e. avoid the scrollbar) because we don't know what the height of their content will be. A common solution is to resize it on load with JavaScript, but even this will not be 100% reliable across browsers. The most robust solution I've found is this one:
+  ```js
+  onload =
+    "this.style.height=(Math.max(this.contentWindow.document.body.scrollHeight, this.contentWindow.document.documentElement.scrollHeight,this.contentWindow.document.body.offsetHeight, this.contentWindow.document.documentElement.offsetHeight,this.contentWindow.document.body.clientHeight, this.contentWindow.document.documentElement.clientHeight))+'px';";
+  ```
 - Related to the above: if, like me, your website has a custom background-color, you'll have to add additional styles into the iframe to avoid a white border around your quotes.[^5]
 
 If I end up using whostyles again in the future, I would probably dig deeper into:
