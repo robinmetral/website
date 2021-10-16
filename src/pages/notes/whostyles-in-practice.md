@@ -1,12 +1,12 @@
 ---
 title: "Whostyles in practice"
-publishDate: "2021-10-14"
+publishDate: "2021-10-16"
 layout: "../../layouts/Post.astro"
 ---
 
 > This is a technical note that follows up on the last one, [Indieweb vibes](./indieweb-vibes). Read on if you'd like to use whostyles on your website.
 
-> **Content warning**: iframes
+> **Trigger warning**: iframes
 
 ---
 
@@ -98,7 +98,7 @@ I've seen two ways of doing this (there may be more).
 1. Copy the CSS over to your site
 2. Import the stylesheet in an iframe
 
-There's benefits and drawbacks to both approaches.
+There are benefits and drawbacks to both approaches.
 
 The first is the easiest, cleanest (because no iframes), most performant (because no iframes). But it will pin the styles to the point in time you copied them—if the author redesigns their site, the changes won't be reflected on yours.[^4]
 
