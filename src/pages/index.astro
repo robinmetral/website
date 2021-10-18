@@ -36,9 +36,9 @@ const lastFiveNotes = allNotes.sort((a, b) => new Date(b.publishDate).getTime() 
     text-decoration: none;
   }
   .all-notes::before {
+    display: inline-block;
     content: "→";
     margin-right: 0.5rem;
-    text-decoration: none;
   }
   @media (min-width: 768px) {
     ul {
