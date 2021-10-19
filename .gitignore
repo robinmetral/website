@@ -1,3 +1,6 @@
+# generated files
+public/feed.xml
+
 # build output
 dist
 
