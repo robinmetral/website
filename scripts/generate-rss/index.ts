@@ -11,7 +11,7 @@ import { Feed } from "feed";
 
 const NOTES_DIR = "./src/pages/notes/";
 const PUBLIC_DIR = "./public/";
-const SITE_URL = "https://www.robinmetral.com";
+const SITE_URL = "https://robinmetral.com";
 
 type Note = {
   title: string;
