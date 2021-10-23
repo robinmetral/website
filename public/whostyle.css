@@ -13,7 +13,6 @@
 }
 
 html {
-  font-family: "Fern Web", Georgia, "Times New Roman", Times, serif;
   --bg: var(--white);
   --text: var(--black);
   --primary: var(--primary-light);
