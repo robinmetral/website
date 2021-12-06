@@ -19,7 +19,7 @@ You can't see much in this size[^2], but the work is essentially made of thousan
 I won't quote any more of the project's intro and will instead invite you to read it [here](http://soheinishino.net/dioramamap), but it combines a lot of ideas that I liked:
 
 - Cities are in constant movement, and the map is a snapshot, a picture
-- Photos on a map put the emphasis on the organic, living parts of a city (in contract to e.g. lines for streets and squares for buildings)
+- Photos on a map put the emphasis on the organic, living parts of a city (in contrast to e.g. lines for streets and squares for buildings)
 - Making a map from memory creates a personal, subjective view of the city, it tells the story of visiting and experiencing it
 - Sohei: "photographs are not completed at the moment they are taken, but are completed in the process of recollecting the memories by confronting them again"
 
