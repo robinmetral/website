@@ -26,16 +26,16 @@ Fontana came up with the story of a polite Swiss private banker's disturbingly b
 
 The directing itself is just as unlikely: where you might expect action, blood and screams, you get old money private clubs where soft-spoken gentlemen do business while their stylish wives entertain by the pool.[^1]
 
-Everything happens "hors-champs", offscreen. Nothing is ever said explicitly, and purebred horses are disappearing from ranches. Siddhant Adlakha says it best in his [IndieWire review of the film](https://www.indiewire.com/2021/09/azor-review-1234662593/):
+Everything happens "hors-champs", offscreen. Nothing is ever said explicitly, and purebred horses are disappearing from ranches. Jessica Kiang says it best in her fantastic [thoughts on the film in the MUBI Notebook](https://mubi.com/notebook/posts/neutral-evil-close-up-on-azor):
 
-> "Show, don’t tell," says conventional wisdom. "Conceal, conceal, conceal" responds director Andreas Fontana.
+> Here, all appearances are deceptive; only disappearances reveal.
 
-So yes, Azor was weird. And slow. And ambiguous. And captivating, and superb, and refreshing.
+Yes, Azor was weird. And slow. And ambiguous. And captivating, and superb, and refreshing.
 
 It was good weird.
 
 ---
 
-_Unfortunately, Azor isn't [streaming on Mubi](https://mubi.com/films/azor) anymore. It might be in a cinema near you. You can also [watch the trailer on YouTube](https://www.youtube.com/watch?v=JuHYkSpqAKw), and if you want to read more, I liked [Jessica Kiang's thoughts on the film in the MUBI Notebook](https://mubi.com/notebook/posts/neutral-evil-close-up-on-azor) and this [interview of Andreas Fontana in The Moveable Fest](https://moveablefest.com/andreas-fontana-on-blending-in-with-azor/)._
+_Unfortunately, Azor isn't [streaming on Mubi](https://mubi.com/films/azor) anymore. It might be in a cinema near you. You can also [watch the trailer on YouTube](https://www.youtube.com/watch?v=JuHYkSpqAKw), and if you want to read more, I recommend [Jessica Kiang's thoughts on the film in the MUBI Notebook](https://mubi.com/notebook/posts/neutral-evil-close-up-on-azor), quoted above, and this [interview of Andreas Fontana in The Moveable Fest](https://moveablefest.com/andreas-fontana-on-blending-in-with-azor/)._
 
 [^1]: Fontana was inspired by the work of photographer [Slim Aarons](https://www.staleywise.com/artists/slim-aarons/selected-works), who documented the lives of the elite in the 50s, 60s and 70s.
