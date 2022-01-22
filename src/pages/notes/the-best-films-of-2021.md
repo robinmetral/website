@@ -27,7 +27,7 @@ Here's the full film list:[^1]
 <li><em>Titane</em> (Julia Ducournau)</li>
 <li><em>The Matrix Resurrections</em> (Lana Wachowski)</li>
 <li><em>Procession</em> (Robert Greene)</li>
-<li><em>The World to Come</em> (Josh Fagen)</li>
+<li><em>The World to Come</em> (Mona Fastvold)</li>
 <li><em>In the Heights</em> (Jon M. Chu)</li>
 <li><em>The Lost Daughter</em> (Maggie Gyllenhaal)</li>
 <li><em>Red Rocket</em> (Sean Baker)</li>
