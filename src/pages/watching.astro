@@ -23,6 +23,9 @@ h1 {
   <section>
     <p>I mostly watch movies on <a href="https://mubi.com/t/web/global/ty2TYanZ">MUBI</a> (referral link), and I really recommend it!</p>
   </section>
-  <div id="watching" /> <!-- data viz goes here -->
-  <script type="module" slot="script" src="/scripts/watching/index.js"></script>
+  <div id="viz-root" /> <!-- data viz goes here -->
+  <div slot="script">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script type="module" src="/scripts/watching/index.js"></script>
+  </div>
 </Page>

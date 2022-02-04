@@ -9,11 +9,13 @@
     "check": "astro check",
     "generate-rss": "tsc -p scripts/generate-rss && node scripts/generate-rss",
     "build-runtime-scripts": "tsc -p scripts",
+    "prestart": "npm run build-runtime-scripts",
     "prebuild": "npm run generate-rss & npm run build-runtime-scripts"
   },
   "devDependencies": {
     "@silvenon/remark-smartypants": "^1.0.0",
     "@tsconfig/node14": "^1.0.1",
+    "@types/d3": "^7.1.0",
     "astro": "^0.20.12",
     "feed": "^4.2.2",
     "gray-matter": "^4.0.3",
