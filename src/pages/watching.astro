@@ -24,7 +24,7 @@ h1 {
     <p>I mostly watch movies on <a href="https://mubi.com/t/web/global/ty2TYanZ">MUBI</a> (referral link), and I really recommend it!</p>
   </section>
   <div id="viz-root" /> <!-- data viz goes here -->
-  <script type="module">
+  <script type="module" slot="script">
     import * as d3 from "https://cdn.skypack.dev/d3@7";
     let movies = ["Power of the Dog", "Azor"];
     d3.select("#viz-root")
