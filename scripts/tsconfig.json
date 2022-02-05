@@ -1,8 +1,3 @@
 {
-  "compilerOptions": {
-    "module": "ESNext",
-    "moduleResolution": "node",
-    "outDir": "../public/scripts"
-  },
-  "exclude": ["generate-rss"]
+  "extends": "@tsconfig/node14/tsconfig.json"
 }
