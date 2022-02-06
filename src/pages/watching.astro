@@ -95,7 +95,7 @@ h1 {
       minFilms.text(min(data, count));
     }
 
-    csv("films.csv").then(data => {
+    csv("/data/films.csv").then(data => {
       const parseTime = timeParse("%Y-%m-%d");
       const formatTime = timeFormat("%b %y");
       const byMonth = data.reduce((acc, cur) => {
