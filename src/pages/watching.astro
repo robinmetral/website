@@ -20,18 +20,96 @@ h1 {
   <h1 class="text-large">
     Watching
   </h1>
-  <section>
-    <p>I mostly watch movies on <a href="https://mubi.com/t/web/global/ty2TYanZ">MUBI</a> (referral link), and I really recommend it!</p>
-  </section>
-  <div id="viz-root" /> <!-- data viz goes here -->
+  <div id="films-by-month">
+    <p>Since January 2020, I've watched on average <span class="average" /> films each month.</p>
+    <p>I've watched at most <span class="max-films" /> films in a month (<span class="max-month" />) and as little as just <span class="min-films" /> (<span class="min-month" />).</p>
+    <svg width="600" height="350"></svg>
+  </div>
+
   <script type="module" slot="script">
-    import * as d3 from "https://cdn.skypack.dev/d3@7";
-    const movies = ["Power of the Dog", "Azor"];
-    d3.select("#viz-root")
-      .selectAll("p")
-      .data(movies)
-      .enter()
-      .append("p")
-      .text((movie) => movie);
+    import {
+      select,
+      csv,
+      timeParse,
+      timeFormat,
+      scaleLinear,
+      max,
+      min,
+      maxIndex,
+      minIndex,
+      scaleBand,
+      axisBottom,
+      axisLeft,
+      mean,
+      format,
+    } from "https://cdn.skypack.dev/d3@7";
+
+    const svg = select("#films-by-month svg");
+    const width = +svg.attr("width");
+    const height = +svg.attr("height");
+    const margin = { top: 20, right: 20, bottom: 60, left: 20 }
+    const innerWidth = width - margin.left - margin.right;
+    const innerHeight = height - margin.top - margin.bottom;
+
+    const render = (data) => {
+      // value accessors
+      const xValue = d => d.month;
+      const yValue = d => d.count;
+
+      const yScale = scaleLinear()
+        .domain([max(data, yValue), 0])
+        .range([0, innerHeight]);
+      const xScale = scaleBand()
+        .domain(data.map(xValue))
+        .range([0, innerWidth])
+        .padding(0.2);
+
+      const g = svg.append("g")
+                   .attr("transform", `translate(${margin.left},${margin.top})`);
+      g.append("g").call(axisBottom(xScale)).attr("transform", `translate(0, ${innerHeight})`);
+      g.append("g").call(axisLeft(yScale));
+
+      g.selectAll("rect")
+       .data(data)
+       .enter()
+       .append("rect")
+       .attr("x", d => xScale(xValue(d)))
+       .attr("y", d => yScale(yValue(d)))
+       .attr("height", d => innerHeight - yScale(yValue(d)))
+       .attr("width", xScale.bandwidth())
+       .attr("fill", "var(--primary)");
+    }
+
+    // copy
+    const average = select("#films-by-month .average");
+    const maxMonth =  select("#films-by-month .max-month");
+    const minMonth =  select("#films-by-month .min-month");
+    const maxFilms =  select("#films-by-month .max-films");
+    const minFilms =  select("#films-by-month .min-films");
+    const renderCopy = (data) => {
+      const count = d => d.count;
+      average.text(format(".2r")(mean(data, count))); // format to 2 significant digits
+      maxMonth.text(data[maxIndex(data, count)].month)
+      minMonth.text(data[minIndex(data, count)].month)
+      maxFilms.text(max(data, count));
+      minFilms.text(min(data, count));
+    }
+
+    csv("films.csv").then(data => {
+      const parseTime = timeParse("%Y-%m-%d");
+      const formatTime = timeFormat("%b %y");
+      const byMonth = data.reduce((acc, cur) => {
+        const curMonth = formatTime(parseTime(cur.watchedOn));
+        const accIndex = acc.findIndex(a => a.month === curMonth);
+        if(accIndex >= 0) {
+          acc[accIndex].count += 1;
+        } else {
+          acc.push({ month: curMonth, count: 1 });
+        }
+        return acc;
+      }, [])
+      render(byMonth);
+      renderCopy(byMonth);
+    })
   </script>
 </Page>
