@@ -10,7 +10,8 @@ Every year, Indiewire film critic [David Ehrlich](https://twitter.com/davidehrli
 
 I'm not sure if that qualifies as a film award, but if it does it's hands down my favorite (and definitely the most cinematic).
 
-<iframe src="https://player.vimeo.com/video/664072010?h=a764d04881&byline=0&portrait=0" width="640" height="347" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class='embed-container'><iframe src='https://player.vimeo.com/video/664072010?byline=0&portrait=0' frameborder='0' allowFullScreen></iframe></div>
 
 Here's the full film list:[^1]
 
