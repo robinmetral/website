@@ -7,7 +7,8 @@
     "build": "npm run prebuild && astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "prebuild": "tsc -p scripts && node scripts/generate-rss"
+    "generate-rss": "tsc -p scripts && node scripts/generate-rss",
+    "prebuild": "npm run generate-rss"
   },
   "devDependencies": {
     "@silvenon/remark-smartypants": "^1.0.0",

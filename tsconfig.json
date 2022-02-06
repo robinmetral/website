@@ -1,4 +1,4 @@
 {
-  "moduleResolution": "node",
+  "compilerOptions": { "moduleResolution": "node" },
   "exclude": ["scripts"]
 }
