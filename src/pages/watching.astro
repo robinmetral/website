@@ -20,9 +20,8 @@ h1 {
   <h1 class="text-large">
     Watching
   </h1>
-  <p>Since January 2020, I've watched on average <span id="average" /> films each month.</p>
-  <p>I've watched at most <span id="max-films" /> films in a month (<span id="max-month" />) and as little as just <span id="min-films" /> (<span id="min-month" />).</p>
-  <svg id="films-by-month" viewBox="0 0 600 350"></svg>
+  <p id="chart-label">Number of films watched by month since January 2021:</p>
+  <svg role="img" id="films-by-month" viewBox="0 0 600 350" />
 
   <script type="module" slot="script">
     import {
@@ -78,21 +77,16 @@ h1 {
        .attr("height", d => innerHeight - yScale(yValue(d)))
        .attr("width", xScale.bandwidth())
        .attr("fill", "var(--primary)");
-    }
 
-    // copy
-    const average = select("#average");
-    const maxMonth =  select("#max-month");
-    const minMonth =  select("#min-month");
-    const maxFilms =  select("#max-films");
-    const minFilms =  select("#min-films");
-    const renderCopy = (data) => {
+      // label
       const count = d => d.count;
-      average.text(format(".2r")(mean(data, count))); // format to 2 significant digits
-      maxMonth.text(data[maxIndex(data, count)].month)
-      minMonth.text(data[minIndex(data, count)].month)
-      maxFilms.text(max(data, count));
-      minFilms.text(min(data, count));
+      const average = format(".2r")(mean(data, count)); // format to 2 significant digits;
+      const maxMonth = data[maxIndex(data, count)].month;
+      const minMonth = data[minIndex(data, count)].month;
+      const maxFilms = max(data, count);
+      const minFilms = min(data, count);
+      const label = `Since January 2021, I've watched on average ${average} films each month—at most ${maxFilms} films in a month (${maxMonth}) and as few as just ${minFilms} (${minMonth}).`;
+      svg.attr("aria-label", label);
     }
 
     csv("/data/films.csv").then(data => {
@@ -109,7 +103,6 @@ h1 {
         return acc;
       }, [])
       render(byMonth);
-      renderCopy(byMonth);
     })
   </script>
 </Page>
