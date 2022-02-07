@@ -21,7 +21,7 @@ h1 {
     Watching
   </h1>
   <p id="chart-label">Number of films watched by month since January 2021:</p>
-  <svg role="img" id="films-by-month" viewBox="0 0 600 350" />
+  <svg role="img" id="chart" viewBox="0 0 600 400" />
 
   <script type="module" slot="script">
     import {
@@ -41,9 +41,8 @@ h1 {
       format,
     } from "https://cdn.skypack.dev/d3@7";
 
-    const svg = select("#films-by-month");
+    const svg = select("#chart");
     const viewBox = svg.attr("viewBox").split(" ");
-    console.log(viewBox);
     const width = +viewBox[2];
     const height = +viewBox[3];
     const margin = { top: 20, right: 20, bottom: 60, left: 20 }
