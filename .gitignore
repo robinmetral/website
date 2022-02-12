@@ -1,21 +1,12 @@
 # generated files
 public/feed.xml
+scripts/*.js
 
 # build output
 dist
 
 # dependencies
-node_modules/
-.snowpack/
+node_modules
 
-# logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# environment variables
-.env
-.env.production
-
-# macOS-specific files
-.DS_Store
+# drafts
+drafts
