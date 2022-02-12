@@ -1,7 +1,7 @@
 ---
 title: "A question"
 publishDate: "2021-09-15"
-layout: "../../layouts/Post.astro"
+template: "/templates/page.html"
 ---
 
 When is the last time you got caught in the rain?

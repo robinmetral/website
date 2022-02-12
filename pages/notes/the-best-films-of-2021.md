@@ -1,7 +1,7 @@
 ---
 title: "The Best Films of 2021"
 publishDate: "2022-01-11"
-layout: "../../layouts/Post.astro"
+template: "/templates/page.html"
 ---
 
 The 2021 video countdown is out!

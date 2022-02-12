@@ -1,0 +1,62 @@
+- 2008 crisis
+  - bonds from thousands of mortgages
+  - perceived as stable
+  - bought by pension funds etc.
+  - good for banks issuing both mortgages and bonds (two returns)
+  - bonds start having higher returns than the actual mortgages
+    - bond has higher value when it hits the market (incentivizes creating more bonds)
+    - limited number of houses in the US, there's a ceiling o the market
+  - incentives:
+    - more houses = good (more mortgages)
+    - more mortgages = good (more bonds) ("a bad mortgage is worth more as part of a bond than a good mortgage that's not part of a bond")
+  - --> easy to get funding from banks to build houses
+  - --> easy to get mortgages from banks to buy houses
+  - --> houses bought by speculators (synthetic demand, illusion that value is going up)
+  - "sold a house to get a mortgage to put into a bond to sell to a pension fund to make a line go up, because it's good when the line goes up: it's a bubble"
+  - bubble burst: teaser rate for mortgages expires, monthly cost goes up, speculators would want to sell the house then, but there's no buyers (synthetic demand). Stocks are dumped = price goes down. Still no buyers, but now house costs are down but mortgage costs are still the originals (high). Buyers/speculators default on their payments (can't pay) --> bonds fail
+  - pension funds, savings funds etc. start failing
+  - economy collapse (side effects)
+  - so:
+    - banks issuing mortgages were the same banks that sold the bonds and provided capital to build houses that provided mortgages
+    - ratings companies (rated bonds AAA) were in relationships with banks and incentivized to keep their client happy
+    - decision makers knew they could count on bailouts from the gov because they were too big to fail
+- bitcoin
+  - 2008 frustration with centralized gov/financial institutions. two groups:
+    - anarcho-capitalists: system was too regulated (crash wouldn't have happened if there was less gov, more incentive to call foul—but plenty of people profited from the foul itself = were incentivized not to call it)
+    - anti-capitalist: system inherently corrupt
+  - 2009: bitcoin
+    - philosophically: end to banks/centralized currency. Removes gatekeepers
+    - digital wallet works like a bank account
+    - no need for a bank to process a tx because crypto coins are the actual money (not a representation)
+    - money not issues by a gov = resistant to crises like hyperinflation from gov devaluing currency
+    - flexibility of cash to the digital realm (trade without intermediaries)
+  - didn't turn out like that
+    - BC was slow and expensive: cannot handle regular commerce
+    - mostly speculation material
+    - only viable market: buy/sell prohibited drugs (high fees and multi-hour tx mitigated by receiving LSD in the mail)
+    - never solved 99% of problems in the banking industry
+      - still centralized, e.g. opensea, coinbase
+      - changing of the guards: old money jumped onto crypto early
+      - largest crypto holders are investment banks that created the subprime crash
+      - new playground for smoke vendors
+      - real problems are human: "what people are doing to others, not that the building they're doing it in has the word BANK on the outside"
+    - other drawbacks
+      - distributed, append-only ledger: **blockchain**
+      - competition over who adds the next node (validator nodes): **proof of work**
+      - proof of work
+        - deterrent to misbehavior (email spamming example)
+        - when tx are ready to be recorded, all validators compete to solve a cryptographic problem (mine)
+        - more complex problems the more the network has processing power (diminishing returns) (to avoid someone building a better computer and taking over)
+          - new problems: escalating processing costs: rewards capital holders (money to process). Diminishing returns are still returns
+    - instead of dismantling power structure, became a new tool for existing wealth
+    - energy
+      - energy consumption of the Netherlands
+      - critique: global banking also consumed energy
+        - yes, but orders of magnitude less by tx
+        - global banking is for 7bn people, not a few hundred thousand gambling addicts
+      - electrical waste is the value that underpins bitcoin
+        - miners spend X$ in electricity to mine a bitcoin
+        - expect to sell that coin for X$+profit
+        - when new power comes online (e.g. green energy), they don't let X go down, they build a bigger machine
+- ethereum
+  -

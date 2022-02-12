@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="preload"
+      href="/fonts/FernVariable-Roman-VF.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌿</text></svg>"
+    />
+    <link rel="whostyle" href="/whostyle.css" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      href="/feed.xml"
+      title="Robin's Feed"
+    />
+    <title>{{#title}}{{title}} ✣ {{/title}}Robin Métral</title>
+    {{#description}}
+    <meta name="description" content="{{description}}" />
+    {{/description}}
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        background-color: var(--bg);
+        color: var(--text);
+      }
+      header {
+        padding: 1rem;
+      }
+      @media (min-width: 1024px) {
+        header {
+          padding: 1.5rem;
+        }
+      }
+      header a {
+        text-decoration: none;
+      }
+      nav ul {
+        display: flex;
+        gap: 1rem;
+        justify-content: flex-end;
+        list-style-type: none;
+        padding-left: 0px;
+      }
+      .skip {
+        display: block;
+        position: absolute;
+        padding: 4px 8px;
+        left: 12px;
+        top: 8px;
+        transform: translateY(calc(-100% - 16px));
+        background: var(--bg);
+      }
+      .skip:focus {
+        transform: translateY(0);
+        transition: transform 0.2s ease-in-out;
+      }
+      main {
+        max-width: 48rem;
+        width: 100%;
+        padding: 2rem 1rem;
+      }
+      @media (min-width: 768px) {
+        main {
+          padding: 4rem 4rem;
+        }
+      }
+      .post-header {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0.5rem;
+        margin-bottom: 2rem;
+      }
+      @media (min-width: 768px) {
+        .post-header {
+          margin-bottom: 4rem;
+        }
+      }
+      .post-header h1 {
+        color: var(--primary);
+      }
+      .markdown > *,
+      .markdown > blockquote > * {
+        margin-bottom: 2rem;
+      }
+      .markdown blockquote {
+        border-left: 2px solid currentColor;
+        padding-left: 1.5rem;
+        font-style: italic;
+      }
+      .markdown ul {
+        list-style-type: disc;
+        padding-left: 1.5rem;
+      }
+      .markdown ol {
+        list-style-type: decimal;
+        padding-left: 1.5rem;
+      }
+      .markdown .footnotes {
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+        margin-top: 6rem;
+      }
+      .markdown .footnotes hr::before {
+        content: "✣";
+      }
+      .markdown h2 {
+        /* text-xlarge ? */
+        font-size: 2rem;
+        line-height: 2.5rem;
+      }
+      .markdown h3 {
+        /* text-large (TODO import util) */
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
+      @media (min-width: 768px) {
+        .markdown h2 {
+          font-size: 2.25rem;
+          line-height: 2.75rem;
+        }
+        .markdown h3 {
+          font-size: 1.875rem;
+          line-height: 2.25rem;
+        }
+      }
+      @media (min-width: 1024px) {
+        .markdown h3 {
+          font-size: 2.25rem;
+          line-height: 2.5rem;
+        }
+        .markdown h2 {
+          font-size: 2.75rem;
+          line-height: 3rem;
+        }
+      }
+    </style>
+  </head>
+  <body class="text-medium">
+    <script>
+      0;
+    </script>
+    <!-- Fixes FOUC in FF -->
+    <header>
+      <a href="#main" class="skip">Skip to main content</a>
+      <nav>
+        <ul role="list">
+          <li><a href="/">Home</a></li>
+          <li><a href="/notes">Notes</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <!-- if it has a publishDate it's a post -->
+      {{#publishDate}}
+      <div class="post-header">
+        <h1 class="text-large">{{title}}</h1>
+        <p class="small-caps text-small">
+          <span class="sr-only">Published on</span>
+          <time datetime="{{publishDate}}">{{publishDate}}</time>
+        </p>
+      </div>
+      <article class="markdown">
+        {{/publishDate}} {{> content}} {{#publishDate}}
+      </article>
+      {{/publishDate}}
+    </main>
+  </body>
+</html>

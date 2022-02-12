@@ -1,7 +1,7 @@
 ---
 title: "WordPress: A New Hope"
 publishDate: "2021-10-25"
-layout: "../../layouts/Post.astro"
+template: "/templates/page.html"
 ---
 
 My frustration with WordPress is a big part of what led me into frontend engineering.

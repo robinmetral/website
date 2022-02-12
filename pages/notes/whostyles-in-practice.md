@@ -1,7 +1,7 @@
 ---
 title: "Whostyles in practice"
 publishDate: "2021-10-16"
-layout: "../../layouts/Post.astro"
+template: "/templates/page.html"
 ---
 
 > This is a technical note that follows up on the last one, [Indieweb vibes](./indieweb-vibes). Read on if you'd like to use whostyles on your website.

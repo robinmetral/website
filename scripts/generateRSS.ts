@@ -1,15 +1,12 @@
 /**
  * This script generates an RSS2 feed from the markdown notes.
- * It can be removed when Astro's built-in feed generator becomes compatible
- * with static pages.
- * https://docs.astro.build/guides/rss/
  */
 
 import { readdirSync, readFileSync, writeFileSync } from "fs";
 import matter from "gray-matter";
 import { Feed } from "feed";
 
-const NOTES_DIR = "./src/pages/notes/";
+const NOTES_DIR = "./pages/notes/";
 const PUBLIC_DIR = "./public/";
 const SITE_URL = "https://robinmetral.com";
 

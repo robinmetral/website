@@ -1,7 +1,7 @@
 ---
 title: "The Labrouste Hall"
 publishDate: "2021-11-17"
-layout: "../../layouts/Post.astro"
+template: "/templates/page.html"
 ---
 
 This happened:
@@ -39,8 +39,6 @@ There are 36 low reliefs of famous writers on the walls: Shakespeare, Corneille,
 The hall originally didn't have any artificial lights, because gaz lighting was considered a hazard. Electric lamps were added in the 1920s to supplement the skylights.
 
 The paintings of trees that you can see in the first picture were painted by Alexandre Desgoffe in 1864 to "induce a sense of calm and relaxation in readers".[^3]
-
-...
 
 ---
 

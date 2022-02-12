@@ -1,7 +1,7 @@
 ---
 title: "Georges Perec on Spaces"
 publishDate: "2021-09-10"
-layout: "../../layouts/Post.astro"
+template: "/templates/page.html"
 ---
 
 I'm staying in an old house in Ardèche, France, and on a shelf I found a couple of books by [Georges Perec](https://en.wikipedia.org/wiki/Georges_Perec).
