@@ -2,6 +2,7 @@
 title: "WordPress: A New Hope"
 publishDate: "2021-10-25"
 template: "/templates/page.html"
+buildScript: "/scripts/formatPostDate.js"
 ---
 
 My frustration with WordPress is a big part of what led me into frontend engineering.

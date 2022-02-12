@@ -2,6 +2,7 @@
 title: "Sohei Nishino's Diorama Maps"
 publishDate: "2021-10-18"
 template: "/templates/page.html"
+buildScript: "/scripts/formatPostDate.js"
 ---
 
 I can't begin to express how much I love photographer Sohei Nishino's [_Diorama Maps_](http://soheinishino.net/dioramamap) project[^1].

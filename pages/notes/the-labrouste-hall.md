@@ -2,6 +2,7 @@
 title: "The Labrouste Hall"
 publishDate: "2021-11-17"
 template: "/templates/page.html"
+buildScript: "/scripts/formatPostDate.js"
 ---
 
 This happened:

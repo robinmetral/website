@@ -2,6 +2,7 @@
 title: "Indieweb vibes"
 publishDate: "2021-10-13"
 template: "/templates/page.html"
+buildScript: "/scripts/formatPostDate.js"
 ---
 
 The [Indieweb](https://indieweb.org/) feels distinctly different from the rest of the internet. Fewer hero sections, blue CTA buttons, popular Google Fonts, newsletter subscription popups.

@@ -2,6 +2,7 @@
 title: "Whostyles in practice"
 publishDate: "2021-10-16"
 template: "/templates/page.html"
+buildScript: "/scripts/formatPostDate.js"
 ---
 
 > This is a technical note that follows up on the last one, [Indieweb vibes](./indieweb-vibes). Read on if you'd like to use whostyles on your website.
