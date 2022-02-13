@@ -1,7 +1,8 @@
 ---
 title: "Azor by Andreas Fontana was good weird"
 publishDate: "2022-01-04"
-layout: "../../layouts/Post.astro"
+template: "/templates/page.html"
+buildScript: "/scripts/formatPostDate.js"
 ---
 
 _Warning: some spoilers._

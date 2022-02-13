@@ -1,5 +1,5 @@
-@use "./normalize.css";
-@use "./prism.css"; // TODO only import on post pages
+@import "/styles/normalize.css";
+@import "/styles/prism.css"; /* TODO only import on post pages */
 
 @font-face {
   src: url("/fonts/FernVariable-Roman-VF.woff2") format("woff2");
@@ -45,7 +45,8 @@ html {
 
 /* Typography */
 
-.text-small {
+.text-small,
+.footnotes {
   font-size: 1rem;
   line-height: 1.5rem;
 }
@@ -59,7 +60,8 @@ html {
 }
 
 @media (min-width: 768px) {
-  .text-small {
+  .text-small,
+  .footnotes {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
@@ -74,7 +76,8 @@ html {
 }
 
 @media (min-width: 1024px) {
-  .text-small {
+  .text-small,
+  .footnotes {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
@@ -135,9 +138,7 @@ hr {
 }
 
 hr::before {
-  position: absolute;
-  right: 0;
-  left: 0;
+  display: block;
   text-align: center;
   color: var(--primary);
   content: "☙❧";

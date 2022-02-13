@@ -2,7 +2,8 @@
 title: "New website"
 description: "I'm rebuilding my website using Astro, with a fern-inspired theme and a focus on accessibility."
 publishDate: "2021-08-22"
-layout: "../../layouts/Post.astro"
+template: "/templates/page.html"
+buildScript: "/scripts/formatPostDate.js"
 ---
 
 The time has come: I'm rebuilding my website (again). Welcome to robinmetral.com v5! [^1]
