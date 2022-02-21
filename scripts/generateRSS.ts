@@ -73,7 +73,7 @@ function getNotes(files: string[]): Note[] {
   });
 }
 
-function process() {
+export default async function process() {
   const files = readdirSync(NOTES_DIR);
   const notes = getNotes(files);
   const sortedNotes = notes.sort(
@@ -81,6 +81,5 @@ function process() {
   );
   const feed = generateFeed(sortedNotes);
   writeFileSync(PUBLIC_DIR + "feed.xml", feed, "utf8");
+  console.log("Generated RSS feed.");
 }
-
-process();

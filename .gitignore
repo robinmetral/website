@@ -1,5 +1,6 @@
 # generated files
 public/feed.xml
+public/data
 scripts/*.js
 
 # build output
