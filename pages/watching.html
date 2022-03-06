@@ -2,21 +2,7 @@
 template: /templates/page.html
 -->
 
-<style>
-  p {
-    margin-bottom: 2rem;
-  }
-  h1 {
-    margin-bottom: 2rem;
-  }
-  @media (min-width: 768px) {
-    h1 {
-      margin-bottom: 4rem;
-    }
-  }
-</style>
-
-<h1 class="text-large">Watching</h1>
+<h1>Watching</h1>
 <p id="chart-label">Number of films watched by month since January 2021:</p>
 <svg role="img" id="chart" viewBox="0 0 600 400"></svg>
 
@@ -75,7 +61,7 @@ template: /templates/page.html
       .attr("y", (d) => yScale(yValue(d)))
       .attr("height", (d) => innerHeight - yScale(yValue(d)))
       .attr("width", xScale.bandwidth())
-      .attr("fill", "var(--primary)");
+      .attr("fill", "currentColor");
 
     // label
     const count = (d) => d.count;

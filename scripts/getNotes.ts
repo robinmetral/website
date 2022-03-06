@@ -45,9 +45,9 @@ export async function buildPage(html: string): Promise<string> {
       )
       .map(
         (note) =>
-          `<li class="note text-large">
+          `<li>
             <a href="${note.slug}">${note.title}</a>
-            <p class="small-caps text-small">
+            <p>
               <span class="sr-only">Published on</span> <time datetime="${
                 note.publishDate
               }">${new Date(note.publishDate).toLocaleDateString("en-US", {

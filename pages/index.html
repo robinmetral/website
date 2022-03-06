@@ -3,66 +3,40 @@ template: /templates/page.html
 buildScript: /scripts/getNotesLastFive.js
 -->
 
-<style>
-  .welcome {
-    margin-bottom: 2rem; /* TODO extract responsive spacings into utility classes */
-  }
-  @media (min-width: 768px) {
-    .welcome {
-      margin-bottom: 4rem;
-    }
-  }
-  h2 {
-    margin-bottom: 0.5rem;
-    color: var(--primary);
-  }
-  @media (min-width: 768px) {
-    h2 {
-      margin-bottom: 1rem;
-    }
-  }
-  ul {
-    margin-bottom: 2rem;
-  }
-  .note {
-    margin-bottom: 1rem;
-  }
-  .all-notes::before {
-    display: inline-block;
-    content: "→";
-    margin-right: 0.5rem;
-  }
-  @media (min-width: 768px) {
-    ul {
-      margin-bottom: 3rem;
-    }
-    .note {
-      margin-bottom: 1.5rem;
-    }
-  }
-</style>
-
 <h1 class="sr-only">Home</h1>
-<p class="welcome text-large">
-  Hello from <span id="weather">sunny</span> Berlin!
-</p>
+<p>Hello from <span id="weather">sunny</span> Berlin!</p>
 <section>
-  <h2 class="small-caps">Latest notes</h2>
+  <h2>Latest notes</h2>
   <ul role="list">
     <li>Notes go here</li>
   </ul>
-  <a href="/notes" class="all-notes">See all notes</a>
+  <a href="/notes">See all notes</a>
 </section>
-
 <script type="module">
+  /**
+   * Formats a date to an ISO string for the exact hour.
+   *
+   * For example:
+   * - in: 2022-03-06T18:17:33.040Z (e.g. as IsO string, truly a Date object)
+   * - out: 2022-03-06T18:00Z
+   *
+   * This is useful to help the brightsky API cache requests, instead of
+   * sending a brand new request for each millisecond.
+   **/
+  function formatDate(date) {
+    return `${
+      date
+        .toISOString() // 2022-03-06T18:17:33.040Z
+        .slice(0, 13) // 2022-03-06T18
+    }:00Z`; // 2022-03-06T18:00Z
+  }
   async function getWeather() {
     const date = new Date();
-    const oneHourAgo = new Date(date - 1000 * 60 * 60);
-    const isoDate = date.toISOString();
-    const isoOneHourAgo = oneHourAgo.toISOString();
+    const thisHour = formatDate(date);
+    const lastHour = formatDate(new Date(date - 1000 * 60 * 60));
     try {
       const res = await fetch(
-        `https://api.brightsky.dev/weather?tz=Europe/Berlin&wmo_station_id=10384&date=${isoOneHourAgo}&last_date=${isoDate}`
+        `https://api.brightsky.dev/weather?tz=Europe/Berlin&wmo_station_id=10384&date=${lastHour}&last_date=${thisHour}`
       );
       const data = await res.json();
       const weatherCode = data.weather[0].icon;

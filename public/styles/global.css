@@ -1,13 +1,13 @@
 @import "/styles/normalize.css";
 @import "/styles/prism.css"; /* TODO only import on post pages */
 
+/* Colors */
+
 :root {
   --black: hsl(0, 0%, 0%);
   --white: hsl(0, 0%, 100%);
-  --primary-light: hsl(100, 50%, 25%);
-  --primary-dark: hsl(100, 50%, 55%);
-  --accent-light: hsl(35, 85%, 35%);
-  --accent-dark: hsl(35, 85%, 65%);
+  --accent-light: blue;
+  --accent-dark: lightskyblue;
 }
 
 html {
@@ -15,7 +15,6 @@ html {
     segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
   --bg: var(--white);
   --text: var(--black);
-  --primary: var(--primary-light);
   --accent: var(--accent-light);
 }
 
@@ -23,110 +22,26 @@ html {
   html {
     --bg: var(--black);
     --text: var(--white);
-    --primary: var(--primary-dark);
     --accent: var(--accent-dark);
   }
 }
 
-/* Typography */
+/* Components */
 
-.text-small,
-.footnotes {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-.text-medium {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-.text-large {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-@media (min-width: 768px) {
-  .text-small,
-  .footnotes {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-  .text-medium {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-  .text-large {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .text-small,
-  .footnotes {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-  .text-medium {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-  .text-large {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-}
-
-.small-caps {
-  font-variant-caps: all-small-caps;
-}
-.not-small-caps {
-  font-variant-caps: normal;
-}
-
-strong {
-  font-weight: 800;
-}
-
-/* Links */
-
-a:hover {
-  transition: color 150ms ease-in-out;
+a {
   color: var(--accent);
 }
-
-a:focus {
-  color: var(--accent);
+a:focus-visible {
   outline: 2px solid transparent;
   outline-offset: 2px;
-  box-shadow: var(--accent) 0px 0px 0px 2px;
-  border-radius: 0.125rem;
+  box-shadow: currentColor 0px 0px 0px 2px;
+  border-radius: 4px;
 }
 
-/* Separators */
-
-hr {
-  border: none;
-  position: relative;
-  height: 1.5rem;
-}
-
-@media (min-width: 768px) {
-  hr {
-    height: 1.75rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  hr {
-    height: 2rem;
-  }
-}
-
-hr::before {
-  display: block;
-  text-align: center;
-  color: var(--primary);
-  content: "☙❧";
+blockquote {
+  border-left: 2px solid currentColor;
+  padding-left: 16px;
+  font-style: italic;
 }
 
 /* Accessibility */
