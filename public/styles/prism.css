@@ -12,6 +12,7 @@ Adapted for robinmetral.com:
 2. Reduced the font-size (1em -> 0.8em)
 3. Added highlighting for inline code blocks (code[class*="language-"] -> code)
 4. Added more bottom margin (0.5em 0 -> 2rem 0)
+5. changed the font to https://systemfontstack.com/
 */
 
 @media (prefers-color-scheme: light) {
@@ -20,7 +21,8 @@ Adapted for robinmetral.com:
     color: black;
     background: none;
     text-shadow: 0 1px white;
-    font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
+      monospace;
     font-size: 0.8em;
     text-align: left;
     white-space: pre;
@@ -166,7 +168,8 @@ Adapted for robinmetral.com:
   pre[class*="language-"] {
     color: #ccc;
     background: none;
-    font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
+      monospace;
     font-size: 0.8em;
     text-align: left;
     white-space: pre;
