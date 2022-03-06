@@ -1,25 +1,9 @@
 @import "/styles/normalize.css";
 @import "/styles/prism.css"; /* TODO only import on post pages */
 
-@font-face {
-  src: url("/fonts/FernVariable-Roman-VF.woff2") format("woff2");
-  font-family: "Fern Web";
-  font-style: normal;
-  font-weight: 400 800;
-  font-display: swap;
-}
-
-@font-face {
-  src: url("/fonts/FernVariable-Italic-VF.woff2") format("woff2");
-  font-family: "Fern Web";
-  font-style: italic;
-  font-weight: 400 800;
-  font-display: swap;
-}
-
 :root {
-  --black: hsl(100, 30%, 6%);
-  --white: hsl(35, 30%, 94%);
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
   --primary-light: hsl(100, 50%, 25%);
   --primary-dark: hsl(100, 50%, 55%);
   --accent-light: hsl(35, 85%, 35%);
@@ -27,7 +11,8 @@
 }
 
 html {
-  font-family: "Fern Web", Georgia, "Times New Roman", Times, serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
   --bg: var(--white);
   --text: var(--black);
   --primary: var(--primary-light);
