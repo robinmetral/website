@@ -1,8 +1,6 @@
 @import "/styles/normalize.css";
-@import "/styles/prism.css"; /* TODO only import on post pages */
 
 /* Variables */
-
 :root {
   --black: hsl(0, 0%, 0%);
   --white: hsl(0, 0%, 100%);
@@ -10,7 +8,6 @@
   --accent-dark: lightskyblue;
   --font-medium: 1.2rem;
 }
-
 html {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, avenir next, avenir,
     segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
@@ -18,7 +15,6 @@ html {
   --text: var(--black);
   --accent: var(--accent-light);
 }
-
 @media (prefers-color-scheme: dark) {
   html {
     --bg: var(--black);
@@ -28,7 +24,6 @@ html {
 }
 
 /* Global */
-
 body {
   background-color: var(--bg);
   color: var(--text);
@@ -36,7 +31,6 @@ body {
 }
 
 /* Components */
-
 a {
   color: var(--accent);
 }
@@ -46,7 +40,6 @@ a:focus-visible {
   box-shadow: currentColor 0px 0px 0px 2px;
   border-radius: 4px;
 }
-
 blockquote {
   border-left: 2px solid currentColor;
   padding-left: 16px;
@@ -54,7 +47,6 @@ blockquote {
 }
 
 /* Accessibility */
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -66,7 +58,6 @@ blockquote {
   white-space: nowrap;
   border-width: 0;
 }
-
 .not-sr-only {
   position: static;
   width: auto;
