@@ -16,27 +16,22 @@
     <meta name="description" content="{{description}}" />
     {{/description}}
     <style>
-      /* General */
+      /* Layout */
       body {
-        background-color: var(--bg);
-        color: var(--text);
+        display: flex;
+        padding: 24px 24px;
+        gap: 24px;
+      }
+      header {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
       }
       main {
-        max-width: 600px;
+        max-width: 768px;
         width: 100%;
-        padding: 16px 24px;
       }
       /* Nav */
-      header a {
-        text-decoration: none;
-      }
-      nav ul {
-        display: flex;
-        gap: 16px;
-        justify-content: flex-start;
-        list-style-type: none;
-        padding-left: 0px;
-      }
       .skip {
         display: block;
         position: absolute;
@@ -50,11 +45,40 @@
         transform: translateY(0);
         transition: transform 0.2s ease-in-out;
       }
+      .name {
+        font-variant: all-small-caps;
+        font-weight: bold;
+        line-height: 1;
+        width: 100px;
+      }
+      nav ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        padding-left: 0px;
+      }
+      @media screen and (max-width: 1024px) {
+        body {
+          flex-direction: column;
+        }
+        header {
+          width: 100%;
+          flex-direction: row;
+          gap: 16px;
+          align-items: center;
+        }
+        nav ul {
+          flex-direction: row;
+          column-gap: 16px;
+          flex-wrap: wrap;
+        }
+      }
     </style>
   </head>
   <body>
     <header>
       <a href="#main" class="skip">Skip to main content</a>
+      <div class="name">Robin Métral</div>
       <nav>
         <ul role="list">
           <li><a href="/">Home</a></li>

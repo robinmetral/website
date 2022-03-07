@@ -1,13 +1,14 @@
 @import "/styles/normalize.css";
 @import "/styles/prism.css"; /* TODO only import on post pages */
 
-/* Colors */
+/* Variables */
 
 :root {
   --black: hsl(0, 0%, 0%);
   --white: hsl(0, 0%, 100%);
   --accent-light: blue;
   --accent-dark: lightskyblue;
+  --font-medium: 1.2rem;
 }
 
 html {
@@ -24,6 +25,14 @@ html {
     --text: var(--white);
     --accent: var(--accent-dark);
   }
+}
+
+/* Global */
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-size: var(--font-medium);
 }
 
 /* Components */
