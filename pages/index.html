@@ -13,33 +13,14 @@ buildScript: /scripts/getNotesLastFive.js
   <a href="/notes">See all notes</a>
 </section>
 <script type="module">
-  /**
-   * Formats a date to an ISO string for the exact hour.
-   *
-   * For example:
-   * - in: 2022-03-06T18:17:33.040Z (e.g. as IsO string, truly a Date object)
-   * - out: 2022-03-06T18:00Z
-   *
-   * This is useful to help the brightsky API cache requests, instead of
-   * sending a brand new request for each millisecond.
-   **/
-  function formatDate(date) {
-    return `${
-      date
-        .toISOString() // 2022-03-06T18:17:33.040Z
-        .slice(0, 13) // 2022-03-06T18
-    }:00Z`; // 2022-03-06T18:00Z
-  }
   async function getWeather() {
-    const date = new Date();
-    const thisHour = formatDate(date);
-    const lastHour = formatDate(new Date(date - 1000 * 60 * 60));
     try {
       const res = await fetch(
-        `https://api.brightsky.dev/weather?tz=Europe/Berlin&wmo_station_id=10384&date=${lastHour}&last_date=${thisHour}`
+        `https://api.brightsky.dev/current_weather?wmo_station_id=10384`
       );
       const data = await res.json();
-      const weatherCode = data.weather[0].icon;
+      const weatherCode = data.weather.icon;
+      console.log(weatherCode);
       switch (weatherCode) {
         case "clear-night":
         case "partly-cloudy-night":
