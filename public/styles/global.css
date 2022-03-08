@@ -1,151 +1,146 @@
-@import "/styles/normalize.css";
-@import "/styles/prism.css"; /* TODO only import on post pages */
-
-@font-face {
-  src: url("/fonts/FernVariable-Roman-VF.woff2") format("woff2");
-  font-family: "Fern Web";
-  font-style: normal;
-  font-weight: 400 800;
-  font-display: swap;
+/* Reset (https://www.joshwcomeau.com/css/custom-css-reset/) */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
-
-@font-face {
-  src: url("/fonts/FernVariable-Italic-VF.woff2") format("woff2");
-  font-family: "Fern Web";
-  font-style: italic;
-  font-weight: 400 800;
-  font-display: swap;
+* {
+  margin: 0;
 }
-
-:root {
-  --black: hsl(100, 30%, 6%);
-  --white: hsl(35, 30%, 94%);
-  --primary-light: hsl(100, 50%, 25%);
-  --primary-dark: hsl(100, 50%, 55%);
-  --accent-light: hsl(35, 85%, 35%);
-  --accent-dark: hsl(35, 85%, 65%);
-}
-
 html {
-  font-family: "Fern Web", Georgia, "Times New Roman", Times, serif;
+  height: 100%;
+}
+body {
+  min-height: 100%; /* Changed: height:100% doesn't grow with content */
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* Variables */
+:root {
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+  --accent-light: blue;
+  --accent-dark: lightskyblue;
+  /* Typography: augmented fourth scale (1.414) */
+  --font-s: 0.9rem; /* 14.5px–using major third scale for readability (augmented fourths would have been 12px) */
+  --font-m: 1.125rem; /* 18px */
+  --font-l: 1.591rem; /* 25.5px */
+  --font-xl: 2.249rem; /* 36px */
+  /* Spacings: linear scale */
+  --space-2xs: 4px; /* I know, it's not really linear, deal with it */
+  --space-xs: 8px;
+  --space-s: 16px;
+  --space-m: 24px;
+  --space-l: 32px;
+  --space-xl: 40px;
+  --space-2xl: 48px;
+  --space-3xl: 56px;
+  --space-4xl: 64px;
+}
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
   --bg: var(--white);
   --text: var(--black);
-  --primary: var(--primary-light);
   --accent: var(--accent-light);
 }
-
 @media (prefers-color-scheme: dark) {
   html {
     --bg: var(--black);
     --text: var(--white);
-    --primary: var(--primary-dark);
     --accent: var(--accent-dark);
   }
 }
 
-/* Typography */
-
-.text-small,
-.footnotes {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-.text-medium {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-.text-large {
-  font-size: 1.5rem;
-  line-height: 2rem;
+/* Defaults */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-size: var(--font-m);
 }
 
-@media (min-width: 768px) {
-  .text-small,
-  .footnotes {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-  .text-medium {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-  .text-large {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .text-small,
-  .footnotes {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-  .text-medium {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-  .text-large {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-}
-
-.small-caps {
-  font-variant-caps: all-small-caps;
-}
-.not-small-caps {
-  font-variant-caps: normal;
-}
-
-strong {
-  font-weight: 800;
-}
-
-/* Links */
-
-a:hover {
-  transition: color 150ms ease-in-out;
+/* Components */
+a {
   color: var(--accent);
 }
-
-a:focus {
-  color: var(--accent);
+a:focus-visible {
   outline: 2px solid transparent;
   outline-offset: 2px;
-  box-shadow: var(--accent) 0px 0px 0px 2px;
-  border-radius: 0.125rem;
+  box-shadow: currentColor 0px 0px 0px 2px;
+  border-radius: 4px;
 }
-
-/* Separators */
-
+blockquote {
+  border-left: 2px solid currentColor;
+  padding-left: var(--space-s);
+  font-style: italic;
+}
 hr {
   border: none;
-  position: relative;
-  height: 1.5rem;
+  border-top: 1px solid currentColor;
+  /* avoid a specificity issue where the `article>*` rules in page.html override hr margin (cascade layers?) */
+  margin: var(--space-2xl) 0 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+h1,
+.h1 {
+  font-size: var(--font-xl);
+  line-height: 1; /* align with name in the nav */
+  margin-bottom: var(
+    --space-xl
+  ); /* we can set spacing since there's always one h1 in the same spot */
+}
+h2 {
+  font-size: var(--font-l);
+}
+h3 {
+  font-size: var(--font-m);
+  font-variant: all-small-caps;
 }
 
-@media (min-width: 768px) {
-  hr {
-    height: 1.75rem;
-  }
+/* Utils */
+.mb-m {
+  margin-bottom: var(--space-m);
 }
-
-@media (min-width: 1024px) {
-  hr {
-    height: 2rem;
-  }
-}
-
-hr::before {
-  display: block;
-  text-align: center;
-  color: var(--primary);
-  content: "☙❧";
+.mb-s {
+  margin-bottom: var(--space-s);
 }
 
 /* Accessibility */
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -157,7 +152,6 @@ hr::before {
   white-space: nowrap;
   border-width: 0;
 }
-
 .not-sr-only {
   position: static;
   width: auto;

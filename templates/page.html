@@ -3,18 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <link
-      rel="preload"
-      href="/fonts/FernVariable-Roman-VF.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
     <link rel="stylesheet" href="/styles/global.css" />
-    <link
-      rel="icon"
-      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌿</text></svg>"
-    />
+    {{#highlightCode}}
+    <link rel="stylesheet" href="/styles/prism.css" />
+    {{/highlightCode}}
     <link rel="whostyle" href="/whostyle.css" />
     <link
       rel="alternate"
@@ -27,136 +19,85 @@
     <meta name="description" content="{{description}}" />
     {{/description}}
     <style>
-      html,
+      /* Layout */
       body {
-        height: 100%;
-      }
-      body {
-        background-color: var(--bg);
-        color: var(--text);
+        display: flex;
+        padding: var(--space-2xl);
+        gap: var(--space-2xl);
       }
       header {
-        padding: 1rem;
-      }
-      @media (min-width: 1024px) {
-        header {
-          padding: 1.5rem;
-        }
-      }
-      header a {
-        text-decoration: none;
-      }
-      nav ul {
         display: flex;
-        gap: 1rem;
-        justify-content: flex-end;
-        list-style-type: none;
-        padding-left: 0px;
+        flex-direction: column;
+        gap: var(--space-m);
       }
+      main {
+        max-width: 768px;
+        width: 100%;
+      }
+      /* Nav */
       .skip {
         display: block;
         position: absolute;
-        padding: 4px 8px;
-        left: 12px;
-        top: 8px;
-        transform: translateY(calc(-100% - 16px));
+        padding: var(--space-2xs) var(--space-xs);
+        left: var(--space-m);
+        top: var(--space-xs);
+        transform: translateY(calc(-100% - calc(2 * var(--space-xs))));
         background: var(--bg);
       }
       .skip:focus {
         transform: translateY(0);
         transition: transform 0.2s ease-in-out;
       }
-      main {
-        max-width: 48rem;
-        width: 100%;
-        padding: 2rem 1rem;
+      .name {
+        font-variant: all-small-caps;
+        font-weight: bold;
+        line-height: 1;
+        width: 100px;
       }
-      @media (min-width: 768px) {
-        main {
-          padding: 4rem 4rem;
+      nav ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        padding-left: 0px;
+      }
+      @media screen and (max-width: 1024px) {
+        body {
+          flex-direction: column;
+          padding: var(--space-m);
         }
+        header {
+          width: 100%;
+          flex-direction: row;
+          gap: var(--space-s);
+          align-items: center;
+        }
+        nav ul {
+          flex-direction: row;
+          column-gap: var(--space-s);
+          flex-wrap: wrap;
+        }
+      }
+      /* Posts styling (TODO: only include on posts) */
+      article > *,
+      article blockquote > * {
+        margin-bottom: var(--space-m);
       }
       .post-header {
         display: flex;
         flex-direction: column-reverse;
-        gap: 0.5rem;
-        margin-bottom: 2rem;
       }
-      @media (min-width: 768px) {
-        .post-header {
-          margin-bottom: 4rem;
-        }
-      }
-      .post-header h1 {
-        color: var(--primary);
-      }
-      .markdown > *,
-      .markdown > blockquote > * {
-        margin-bottom: 2rem;
-      }
-      .markdown blockquote {
-        border-left: 2px solid currentColor;
-        padding-left: 1.5rem;
-        font-style: italic;
-      }
-      .markdown ul {
-        list-style-type: disc;
-        padding-left: 1.5rem;
-      }
-      .markdown ol {
-        list-style-type: decimal;
-        padding-left: 1.5rem;
-      }
-      .markdown .footnotes {
-        display: flex;
-        flex-direction: column;
-        gap: 6rem;
-        margin-top: 6rem;
-      }
-      .markdown .footnotes::before {
-        content: "✣";
-        text-align: center;
-        color: var(--primary);
-      }
-      .markdown h2 {
-        /* text-xlarge ? */
-        font-size: 2rem;
-        line-height: 2.5rem;
-      }
-      .markdown h3 {
-        /* text-large (TODO import util) */
-        font-size: 1.5rem;
-        line-height: 2rem;
-      }
-      @media (min-width: 768px) {
-        .markdown h2 {
-          font-size: 2.25rem;
-          line-height: 2.75rem;
-        }
-        .markdown h3 {
-          font-size: 1.875rem;
-          line-height: 2.25rem;
-        }
-      }
-      @media (min-width: 1024px) {
-        .markdown h3 {
-          font-size: 2.25rem;
-          line-height: 2.5rem;
-        }
-        .markdown h2 {
-          font-size: 2.75rem;
-          line-height: 3rem;
-        }
+      .footnotes {
+        padding-top: var(--space-3xl);
+        margin-top: var(--space-3xl);
+        border-top: 1px solid currentColor;
+        font-size: var(--font-s);
       }
     </style>
   </head>
-  <body class="text-medium">
-    <script>
-      0;
-    </script>
-    <!-- Fixes FOUC in FF -->
+  <body>
     <header>
       <a href="#main" class="skip">Skip to main content</a>
+      <div class="name">Robin Métral</div>
       <nav>
         <ul role="list">
           <li><a href="/">Home</a></li>
@@ -168,15 +109,13 @@
       <!-- if it has a publishDate it's a post -->
       {{#publishDate}}
       <div class="post-header">
-        <h1 class="text-large">{{title}}</h1>
-        <p class="small-caps text-small">
+        <h1>{{title}}</h1>
+        <p>
           <span class="sr-only">Published on</span>
           <time datetime="{{publishDate}}">{{publishDate}}</time>
         </p>
       </div>
-      <article class="markdown">
-        {{/publishDate}} {{> content}} {{#publishDate}}
-      </article>
+      <article>{{/publishDate}} {{> content}} {{#publishDate}}</article>
       {{/publishDate}}
     </main>
   </body>
