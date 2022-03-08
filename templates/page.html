@@ -22,13 +22,13 @@
       /* Layout */
       body {
         display: flex;
-        padding: 24px 24px;
-        gap: 24px;
+        padding: var(--space-2xl);
+        gap: var(--space-2xl);
       }
       header {
         display: flex;
         flex-direction: column;
-        gap: 24px;
+        gap: var(--space-m);
       }
       main {
         max-width: 768px;
@@ -38,10 +38,10 @@
       .skip {
         display: block;
         position: absolute;
-        padding: 4px 8px;
-        left: 12px;
-        top: 8px;
-        transform: translateY(calc(-100% - 16px));
+        padding: var(--space-2xs) var(--space-xs);
+        left: var(--space-m);
+        top: var(--space-xs);
+        transform: translateY(calc(-100% - calc(2 * var(--space-xs))));
         background: var(--bg);
       }
       .skip:focus {
@@ -63,18 +63,34 @@
       @media screen and (max-width: 1024px) {
         body {
           flex-direction: column;
+          padding: var(--space-m);
         }
         header {
           width: 100%;
           flex-direction: row;
-          gap: 16px;
+          gap: var(--space-s);
           align-items: center;
         }
         nav ul {
           flex-direction: row;
-          column-gap: 16px;
+          column-gap: var(--space-s);
           flex-wrap: wrap;
         }
+      }
+      /* Posts styling (TODO: only include on posts) */
+      article > *,
+      article blockquote > * {
+        margin-bottom: var(--space-m);
+      }
+      .post-header {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      .footnotes {
+        padding-top: var(--space-3xl);
+        margin-top: var(--space-3xl);
+        border-top: 1px solid currentColor;
+        font-size: var(--font-s);
       }
     </style>
   </head>
@@ -92,7 +108,7 @@
     <main id="main">
       <!-- if it has a publishDate it's a post -->
       {{#publishDate}}
-      <div>
+      <div class="post-header">
         <h1>{{title}}</h1>
         <p>
           <span class="sr-only">Published on</span>

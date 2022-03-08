@@ -27,7 +27,7 @@ export async function getNotes(): Promise<Note[]> {
       const frontmatter = getFrontmatter(content);
       return {
         title: frontmatter.title,
-        publishDate: new Date(frontmatter.publishDate).toLocaleDateString(),
+        publishDate: frontmatter.publishDate,
         slug: `/notes/${file.replace(".md", "")}`,
       };
     })
@@ -46,17 +46,15 @@ export async function buildPage(html: string): Promise<string> {
       .map(
         (note) =>
           `<li>
-            <a href="${note.slug}">${note.title}</a>
-            <p>
-              <span class="sr-only">Published on</span> <time datetime="${
-                note.publishDate
-              }">${new Date(note.publishDate).toLocaleDateString("en-US", {
-            weekday: "long",
+            <a href="${note.slug}">${
+            note.title
+          }</a> (<span class="sr-only">Published on </span><time datetime="${
+            note.publishDate
+          }">${new Date(note.publishDate).toLocaleDateString("en-US", {
             year: "numeric",
             month: "long",
             day: "numeric",
-          })}</time>
-            </p>
+          })}</time>)
           </li>`
       )
       .join("");

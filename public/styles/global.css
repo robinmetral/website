@@ -7,11 +7,11 @@
 * {
   margin: 0;
 }
-html,
-body {
+html {
   height: 100%;
 }
 body {
+  min-height: 100%; /* Changed: height:100% doesn't grow with content */
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -49,7 +49,21 @@ h6 {
   --white: hsl(0, 0%, 100%);
   --accent-light: blue;
   --accent-dark: lightskyblue;
-  --font-medium: 1.2rem;
+  /* Typography: augmented fourth scale (1.414) */
+  --font-s: 0.9rem; /* 14.5px–using major third scale for readability (augmented fourths would have been 12px) */
+  --font-m: 1.125rem; /* 18px */
+  --font-l: 1.591rem; /* 25.5px */
+  --font-xl: 2.249rem; /* 36px */
+  /* Spacings: linear scale */
+  --space-2xs: 4px; /* I know, it's not really linear, deal with it */
+  --space-xs: 8px;
+  --space-s: 16px;
+  --space-m: 24px;
+  --space-l: 32px;
+  --space-xl: 40px;
+  --space-2xl: 48px;
+  --space-3xl: 56px;
+  --space-4xl: 64px;
 }
 html {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, avenir next, avenir,
@@ -66,11 +80,11 @@ html {
   }
 }
 
-/* Global */
+/* Defaults */
 body {
   background-color: var(--bg);
   color: var(--text);
-  font-size: var(--font-medium);
+  font-size: var(--font-m);
 }
 
 /* Components */
@@ -85,8 +99,45 @@ a:focus-visible {
 }
 blockquote {
   border-left: 2px solid currentColor;
-  padding-left: 16px;
+  padding-left: var(--space-s);
   font-style: italic;
+}
+hr {
+  border: none;
+  border-top: 1px solid currentColor;
+  /* avoid a specificity issue where the `article>*` rules in page.html override hr margin (cascade layers?) */
+  margin: var(--space-2xl) 0 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+h1,
+.h1 {
+  font-size: var(--font-xl);
+  line-height: 1; /* align with name in the nav */
+  margin-bottom: var(
+    --space-xl
+  ); /* we can set spacing since there's always one h1 in the same spot */
+}
+h2 {
+  font-size: var(--font-l);
+}
+h3 {
+  font-size: var(--font-m);
+  font-variant: all-small-caps;
+}
+
+/* Utils */
+.mb-m {
+  margin-bottom: var(--space-m);
+}
+.mb-s {
+  margin-bottom: var(--space-s);
 }
 
 /* Accessibility */
