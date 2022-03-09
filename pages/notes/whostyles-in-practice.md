@@ -6,6 +6,8 @@ buildScript: "/scripts/formatPostDate.js"
 highlightCode: true
 ---
 
+> Update, March 2022: I've discontinued my whostyles and expect this note to contain broken links or features. I'll leave it online for archive purposes.
+
 > This is a technical note that follows up on the last one, [Indieweb vibes](./indieweb-vibes). Read on if you'd like to use whostyles on your website.
 
 > **Trigger warning**: iframes

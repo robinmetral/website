@@ -5,6 +5,8 @@ template: "/templates/page.html"
 buildScript: "/scripts/formatPostDate.js"
 ---
 
+> Update, March 2022: I've discontinued my whostyles and expect this note to contain broken links or features. I'll leave it online for archive purposes.
+
 The [Indieweb](https://indieweb.org/) feels distinctly different from the rest of the internet. Fewer hero sections, blue CTA buttons, popular Google Fonts, newsletter subscription popups.
 
 Technically, it's all about owning your content and data, and using open web standards as a platform for living and interacting online, rather than the gated platforms of F—, T—, etc.
