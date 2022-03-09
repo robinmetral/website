@@ -28,7 +28,7 @@ export async function getNotes(): Promise<Note[]> {
       return {
         title: frontmatter.title,
         publishDate: frontmatter.publishDate,
-        slug: `/notes/${file.replace(".md", "")}`,
+        slug: `/notes/${file.replace(".md", "")}/`,
       };
     })
   );

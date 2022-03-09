@@ -62,7 +62,7 @@ function getNotes(files: string[]): Note[] {
       title: string;
       publishDate: string;
     };
-    const slug = `/notes/${file.slice(0, -3)}`;
+    const slug = `/notes/${file.replace(".md", "")}/`;
     const url = SITE_URL + slug;
     return {
       title,
