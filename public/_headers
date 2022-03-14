@@ -7,8 +7,8 @@
 
 ## HTML
 
-/ # home
+/
   Cache-Control: max-age=600, must-revalidate
 
-/notes* # notes (list and notes)
+/notes*
   Cache-Control: max-age=600, must-revalidate
