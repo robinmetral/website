@@ -5,7 +5,7 @@ template: "/templates/page.html"
 buildScript: "/scripts/formatPostDate.js"
 ---
 
-It's now 201 days ago, on a sunny summer day in Ardèche, France, that I last [redesigned this website](/new-website).
+It's now 201 days ago, on a sunny summer day in Ardèche, France, that I last [redesigned this website](/notes/new-website).
 
 But in recent months I've started to want a new look for it. I liked the custom font I was using—[Fern](https://djr.com/notes/junes-font-of-the-month-fern-text) from David Jonathan Ross—and the styles were unique, but over time I became weary of them.
 
