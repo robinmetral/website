@@ -14,8 +14,8 @@ I wanted a refreshed, simpler, subtler look that would not distract from browsin
 Here's a before/after comparison (in dark mode) of what I came up with:
 
 <div style="display:flex;gap:var(--space-s);">
-<img src="/images/2021-website.webp" style="min-width:0;" alt="Before: forest green palette with rust orange accents, custom serif typeface." />
-<img src="/images/2022-website.webp" style="min-width:0;" alt="After: black and white palette with blue accents, default sans-serif typeface." />
+<img src="/static/images/2021-website.webp" style="min-width:0;" alt="Before: forest green palette with rust orange accents, custom serif typeface." />
+<img src="/static/images/2022-website.webp" style="min-width:0;" alt="After: black and white palette with blue accents, default sans-serif typeface." />
 </div>
 
 In a nutshell, the new styles move away from custom colors, typefaces, and layouts; and embrace the simplicity of a black-white-blue theme, system fonts, and web platform defaults (for example bulleted lists).

@@ -15,7 +15,7 @@ You should just leave this page and go watch the talk now (or [read the transcri
 
 Keith points to one of the issues with the modern web:[^1]
 
-![A slide from the talk showing the intrusive cookie banners of four major news websites](/images/the-state-of-the-web.png)
+![A slide from the talk showing the intrusive cookie banners of four major news websites](/static/images/the-state-of-the-web.png)
 
 > This is what users experience. A tedious, frustrating game of whack-a-mole with websites that claim to value our privacy while asking us to relinquish it.
 

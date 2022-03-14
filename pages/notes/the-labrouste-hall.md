@@ -7,7 +7,7 @@ buildScript: "/scripts/formatPostDate.js"
 
 This happened:
 
-![Screenshot of a Tweet in French](/images/salle-labrouste-tweet.webp)
+![Screenshot of a Tweet in French](/static/images/salle-labrouste-tweet.webp)
 
 The tweet says:
 
@@ -17,7 +17,7 @@ At first I just dismissed it, and answered that no, that must have been another 
 
 Later I looked up the Labrouste Hall, and wow:
 
-![Photo of the Labrouste Hall](/images/salle-labrouste.webp)
+![Photo of the Labrouste Hall](/static/images/salle-labrouste.webp)
 
 _([Photo by Adelphilos](https://commons.wikimedia.org/wiki/File:Salle_Labrouste_INHA.jpg) on Wikimedia Commons)_
 
@@ -27,7 +27,7 @@ It was built by architect Henri Labrouste between 1861 and 1868—apparently usi
 
 It looks great though.
 
-![Photo of the Labrouste Hall](/images/salle-labrouste-2.webp)
+![Photo of the Labrouste Hall](/static/images/salle-labrouste-2.webp)
 
 _([Photo by Paris 16](https://commons.wikimedia.org/wiki/File:France,_Paris_II_Biblioth%C3%A8que_nationale_de_France,_BnF,_Site_Richelieu,_Salle_Labrouste_1854-1875.jpg) on Wikimedia Commons)_
 
