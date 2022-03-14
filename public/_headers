@@ -1,0 +1,14 @@
+# Caching
+
+## Versioned assets
+
+/static/*
+  Cache-Control: max-age=31536000, immutable
+
+## HTML
+
+/ # home
+  Cache-Control: max-age=600, must-revalidate
+
+/notes* # notes (list and notes)
+  Cache-Control: max-age=600, must-revalidate
