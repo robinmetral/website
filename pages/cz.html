@@ -1,0 +1,161 @@
+<!--
+template: /templates/page.html
+title: Czechia
+-->
+
+<h1>Czechia <span aria-hidden="true">🇨🇿</span></h1>
+
+<section id="currency">
+  <h2><span aria-hidden="true">💶</span> CZK—EUR converter</h2>
+  <form>
+    <label for="amount">Amount (in CZK)</label>
+    <input id="amount" type="number" />
+    <button type="submit">Convert</button>
+  </form>
+  <p><span id="czk">1</span> CZK = <span id="eur">?</span> EUR</p>
+</section>
+
+<hr />
+
+<section id="weather">
+  <h2><span aria-hidden="true">☀️</span> Weather</h2>
+  <form>
+    <label for="city">City</label>
+    <select id="city">
+      <option value="prague">Prague</option>
+      <option value="ceskyKrumlov">Cesky Krumlov</option>
+      <option value="ceskeBudejovice">České Budějovice</option>
+      <option value="telc">Telč</option>
+      <option value="trebic">Třebíč</option>
+      <option value="brno">Brno</option>
+    </select>
+    <button type="submit">Get weather</button>
+  </form>
+  <p id="weather-results"></p>
+</section>
+
+<script type="module">
+  // elements
+  const currencyFormEl = document.querySelector("#currency form"); // currency form
+  const eurEl = document.getElementById("eur"); // printed euro value
+  const czkEl = document.getElementById("czk"); // printed czk value
+  const amountInputEl = document.getElementById("amount"); // amount input
+  const weatherFormEl = document.querySelector("#weather form"); // weather form
+  const citySelectEl = document.getElementById("city"); // city select
+  const weatherResultsEl = document.getElementById("weather-results"); // weather sentence
+
+  // globals
+  let rate;
+
+  // currency
+  function handleCurrencySubmit(event) {
+    event.preventDefault();
+    const amount = amountInputEl.value;
+    czkEl.innerText = amount;
+    eurEl.innerText = (amount * rate).toFixed(2);
+    currencyFormEl.reset();
+  }
+  async function getRate() {
+    // we get rates from https://github.com/fawazahmed0/currency-api
+    const response = await fetch(
+      "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/czk/eur.json"
+    );
+    const data = await response.json();
+    return data.eur;
+  }
+
+  // weather
+  const CITIES = {
+    prague: {
+      name: "Prague",
+      lat: 50.09,
+      lon: 14.42,
+    },
+    ceskyKrumlov: {
+      name: "Cesky Krumlov",
+      lat: 48.81,
+      lon: 14.32,
+    },
+    ceskeBudejovice: {
+      name: "České Budějovice",
+      lat: 48.97,
+      lon: 14.48,
+    },
+    telc: {
+      name: "Telč",
+      lat: 49.18,
+      lon: 15.45,
+    },
+    trebic: {
+      name: "Třebíč",
+      lat: 49.22,
+      lon: 15.88,
+    },
+    brno: {
+      name: "Brno",
+      lat: 49.19,
+      lon: 16.61,
+    },
+  };
+  async function handleWeatherSubmit(event) {
+    event.preventDefault();
+    const city = citySelectEl.value;
+    const weather = await getWeather(CITIES[city] || CITIES.prague); // default to prague
+    weatherResultsEl.innerText = `${getWeatherText(
+      weather.current.weather[0].id
+    )} in ${CITIES[city].name}`;
+  }
+  async function getWeather(city) {
+    const response = await fetch(
+      `https://owm.robinmetral.workers.dev/?lat=${city.lat}&lon=${city.lon}`
+    );
+    const data = await response.json();
+    return data;
+  }
+  // https://openweathermap.org/weather-conditions#Weather-Condition-Codes-2
+  function getWeatherText(weatherCode) {
+    switch (true) {
+      case weatherCode === 804:
+        return "☁️ Overcast";
+      case weatherCode === 803 || weatherCode === 802:
+        return "⛅ Cloudy";
+      case weatherCode === 801:
+        return "🌤️ Sunny";
+      case weatherCode === 800:
+        return "☀️ Clear";
+      case weatherCode === 781:
+        return "🌪️ Tornado";
+      case weatherCode >= 700:
+        return "🌫️ Foggy";
+      case weatherCode >= 600:
+        return "🌨️ Snowy";
+      case weatherCode >= 300:
+        return "🌧️ Rainy";
+      case weatherCode >= 200:
+        return "🌩️ Stormy";
+    }
+  }
+
+  async function init() {
+    // get conversion rate (save in global scope)
+    rate = await getRate();
+    // render default conversion for 1 CZK
+    eurEl.innerText = rate;
+    // wire up forms
+    currencyFormEl.onsubmit = handleCurrencySubmit;
+    weatherFormEl.onsubmit = handleWeatherSubmit;
+  }
+  init();
+</script>
+
+<style>
+  section > * {
+    margin-bottom: var(--space-m);
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-xs);
+  }
+</style>
