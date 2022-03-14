@@ -34,7 +34,6 @@ That works, sure, but let's try it again, this time with Maya's whostyle:
   srcdoc="
   <html style='background-color:var(--bg);'>
     <head>
-      <link rel='stylesheet' href='https://robinmetral.com/palette.css' />
       <link rel='stylesheet' href='https://maya.land/assets/whostyle.css' />
     </head>
     <body class='whostyle'>
@@ -56,7 +55,6 @@ The rest of the internet? [Kicks Condor](https://www.kickscondor.com/) says it b
   srcdoc="
   <html style='background-color:var(--bg);'>
     <head>
-      <link rel='stylesheet' href='https://robinmetral.com/palette.css' />
       <link rel='stylesheet' href='https://www.kickscondor.com/css/whostyle.css' />
     </head>
     <body class='whostyle'>

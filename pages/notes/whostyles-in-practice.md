@@ -24,7 +24,7 @@ Let's break it down:
 
 1 and 2 are to create your own whostyle. The end result:
 
-[https://robinmetral.com/whostyle.css](https://robinmetral.com/whostyle.css)
+[https://robinmetral.com/whostyle.css](https://robinmetral.com/whostyle.css) _(Update: taken offline)_
 
 3 is to quote others with their whostyles. The end result (for a [quote by Kicks Condor](https://www.kickscondor.com/hypertexting/)):
 
@@ -33,7 +33,6 @@ Let's break it down:
   srcdoc="
   <html style='background-color:var(--bg);'>
     <head>
-      <link rel='stylesheet' href='https://robinmetral.com/palette.css' />
       <link rel='stylesheet' href='https://www.kickscondor.com/css/whostyle.css' />
     </head>
     <body class='whostyle'>
@@ -67,7 +66,7 @@ Now that you have a `whostyle.css`, host it on your domain somewhere! Additional
 
 One additional thing I had to do here is ensure that the whostyle accepted CORS requests. Since the point is that others can include your stylesheet on their website (more on this below), the URL for your whostyle should allow cross-origin requests.
 
-How to do this entirely depends on your website's infrastructure. Since my site is statically published to [Cloudflare Pages](https://pages.cloudflare.com/), I used a [Cloudflare Worker](https://workers.cloudflare.com/) (a cloud function) to rewrite the response headers when another site requests this page:[^3]
+How to do this entirely depends on your website's infrastructure. Since my site is statically published to [Cloudflare Pages](https://pages.cloudflare.com/), I used a [Cloudflare Worker](https://workers.cloudflare.com/) (a cloud function) to rewrite the response headers when another site requests this page:[^3][^4]
 
 ```js
 addEventListener("fetch", (event) => {
@@ -104,7 +103,7 @@ I've seen two ways of doing this (there may be more).
 
 There are benefits and drawbacks to both approaches.
 
-The first is the easiest, cleanest (because no iframes), most performant (because no iframes). But it will pin the styles to the point in time you copied them—if the author redesigns their site, the changes won't be reflected on yours.[^4]
+The first is the easiest, cleanest (because no iframes), most performant (because no iframes). But it will pin the styles to the point in time you copied them—if the author redesigns their site, the changes won't be reflected on yours.[^5]
 
 The second will stay up-to-date since it downloads the whostyle directly from the author's website at runtime. But it is a pain to work with (because iframes), feels hacky (because iframes), and could be a security risk (because you load external content).
 
@@ -136,7 +135,7 @@ I also made a few improvements to make them look better:
   onload =
     "this.style.height=(Math.max(this.contentWindow.document.body.scrollHeight, this.contentWindow.document.documentElement.scrollHeight,this.contentWindow.document.body.offsetHeight, this.contentWindow.document.documentElement.offsetHeight,this.contentWindow.document.body.clientHeight, this.contentWindow.document.documentElement.clientHeight))+'px';";
   ```
-- Related to the above: if, like me, your website has a custom background-color, you'll have to add additional styles into the iframe to avoid a white border around your quotes.[^5]
+- Related to the above: if, like me, your website has a custom background-color, you'll have to add additional styles into the iframe to avoid a white border around your quotes.[^6]
 
 If I end up using whostyles again in the future, I would probably dig deeper into:
 
@@ -148,5 +147,6 @@ And that's that. If you're still here, I want to personally apologize about the 
 [^1]: Sorry about the absence of code block styling throughout this note, it's the first time I'm writing code in here and I haven't come around to making it pretty yet.
 [^2]: However, some of the whostyles I've used to quote others _are_ downloading fonts from G—, as well as external images.
 [^3]: Related: [Robin Sloan on cloud functions](https://society.robinsloan.com/archive/cloud-study/).
-[^4]: I've come to think that this is not necessarily a bad thing, instead, it might better reflect the author's thoughts at time of writing.
-[^5]: I had to go even further and download an external stylesheet pointing to my own website, because my background color changes depending on your dark mode OS settings and I couldn't find a way to make `<style>` tags inside iframes (this might be related to the way I parse markdown)
+[^4]: Update, March 2022: this could have been done with [Cloudflare Pages headers](https://developers.cloudflare.com/pages/platform/headers/) instead.
+[^5]: I've come to think that this is not necessarily a bad thing, instead, it might better reflect the author's thoughts at time of writing.
+[^6]: I had to go even further and download an external stylesheet pointing to my own website, because my background color changes depending on your dark mode OS settings and I couldn't find a way to make `<style>` tags inside iframes (this might be related to the way I parse markdown)
