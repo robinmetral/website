@@ -20,7 +20,6 @@ buildScript: /scripts/getNotesLastFive.js
       );
       const data = await res.json();
       const weatherCode = data.weather.icon;
-      console.log(weatherCode);
       switch (weatherCode) {
         case "clear-night":
         case "partly-cloudy-night":
