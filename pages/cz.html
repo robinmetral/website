@@ -29,9 +29,9 @@ title: Czechia
       <option value="trebic">Třebíč</option>
       <option value="brno">Brno</option>
     </select>
-    <button type="submit">Get weather</button>
+    <button type="submit">Get forecast</button>
   </form>
-  <p id="weather-results"></p>
+  <h3 aria-live="polite">Not submitted</h3>
 </section>
 
 <script type="module">
@@ -40,9 +40,7 @@ title: Czechia
   const eurEl = document.getElementById("eur"); // printed euro value
   const czkEl = document.getElementById("czk"); // printed czk value
   const amountInputEl = document.getElementById("amount"); // amount input
-  const weatherFormEl = document.querySelector("#weather form"); // weather form
-  const citySelectEl = document.getElementById("city"); // city select
-  const weatherResultsEl = document.getElementById("weather-results"); // weather sentence
+  const weatherSectionEl = document.getElementById("weather");
 
   // globals
   let rate;
@@ -99,11 +97,81 @@ title: Czechia
   };
   async function handleWeatherSubmit(event) {
     event.preventDefault();
-    const city = citySelectEl.value;
+    // get value
+    const city = document.getElementById("city").value;
+    // get weather
     const weather = await getWeather(CITIES[city] || CITIES.prague); // default to prague
-    weatherResultsEl.innerText = `${getWeatherText(
+    // render forecast title
+    document.querySelector("#weather h3").innerText = `${getWeatherIcon(
       weather.current.weather[0].id
-    )} in ${CITIES[city].name}`;
+    )} ${weather.current.weather[0].description} in ${CITIES[city].name}`;
+    // clear previous tables
+    document.querySelectorAll("table").forEach((table) => table.remove());
+    // set up hours table
+    const hoursTableEl = document.createElement("table");
+    const hoursCaption = document.createElement("caption");
+    hoursCaption.innerText = "Hourly forecast";
+    hoursTableEl.appendChild(hoursCaption);
+    const hourRow = document.createElement("tr");
+    hoursTableEl.appendChild(hourRow);
+    const hourIconRow = document.createElement("tr");
+    hoursTableEl.appendChild(hourIconRow);
+    const hourTempRow = document.createElement("tr");
+    hoursTableEl.appendChild(hourTempRow);
+    // fill hours table
+    const hours = [0, 3, 6, 9, 12];
+    hours.forEach((h) => {
+      // hour header cell
+      const hourEl = document.createElement("th");
+      hourEl.innerText = new Date(weather.hourly[h].dt * 1000).getHours() + "h";
+      hourRow.appendChild(hourEl);
+      // icon cell
+      const iconEl = document.createElement("td");
+      iconEl.innerText = getWeatherIcon(weather.hourly[h].weather[0].id);
+      iconEl.setAttribute(
+        "aria-label",
+        weather.hourly[h].weather[0].description
+      );
+      hourIconRow.appendChild(iconEl);
+      // temp cell
+      const tempEl = document.createElement("td");
+      tempEl.innerText = Math.round(weather.hourly[h].temp) + "°C";
+      hourTempRow.appendChild(tempEl);
+    });
+    // set up days table
+    const daysTableEl = document.createElement("table");
+    const daysCaption = document.createElement("caption");
+    daysCaption.innerText = "Daily forecast";
+    daysTableEl.appendChild(daysCaption);
+    const dayRow = document.createElement("tr");
+    daysTableEl.appendChild(dayRow);
+    const dayIconRow = document.createElement("tr");
+    daysTableEl.appendChild(dayIconRow);
+    const dayTempRow = document.createElement("tr");
+    daysTableEl.appendChild(dayTempRow);
+    // fill days table
+    const days = [0, 1, 2, 3, 4];
+    days.forEach((d) => {
+      // day header cell
+      const dayEl = document.createElement("th");
+      dayEl.innerText = new Date(weather.daily[d].dt * 1000).getDate();
+      dayRow.appendChild(dayEl);
+      // icon cell
+      const iconEl = document.createElement("td");
+      iconEl.innerText = getWeatherIcon(weather.daily[d].weather[0].id);
+      iconEl.setAttribute(
+        "aria-label",
+        weather.daily[d].weather[0].description
+      );
+      dayIconRow.appendChild(iconEl);
+      // temp cell
+      const tempEl = document.createElement("td");
+      tempEl.innerText = Math.round(weather.daily[d].temp.day) + "°C";
+      dayTempRow.appendChild(tempEl);
+    });
+    // render
+    weatherSectionEl.appendChild(hoursTableEl);
+    weatherSectionEl.appendChild(daysTableEl);
   }
   async function getWeather(city) {
     const response = await fetch(
@@ -113,26 +181,26 @@ title: Czechia
     return data;
   }
   // https://openweathermap.org/weather-conditions#Weather-Condition-Codes-2
-  function getWeatherText(weatherCode) {
+  function getWeatherIcon(iconId) {
     switch (true) {
-      case weatherCode === 804:
-        return "☁️ Overcast";
-      case weatherCode === 803 || weatherCode === 802:
-        return "⛅ Cloudy";
-      case weatherCode === 801:
-        return "🌤️ Sunny";
-      case weatherCode === 800:
-        return "☀️ Clear";
-      case weatherCode === 781:
-        return "🌪️ Tornado";
-      case weatherCode >= 700:
-        return "🌫️ Foggy";
-      case weatherCode >= 600:
-        return "🌨️ Snowy";
-      case weatherCode >= 300:
-        return "🌧️ Rainy";
-      case weatherCode >= 200:
-        return "🌩️ Stormy";
+      case iconId === 804:
+        return "☁️";
+      case iconId === 803 || iconId === 802:
+        return "⛅";
+      case iconId === 801:
+        return "🌤️";
+      case iconId === 800:
+        return "☀️";
+      case iconId === 781:
+        return "🌪️";
+      case iconId >= 700:
+        return "🌫️";
+      case iconId >= 600:
+        return "🌨️";
+      case iconId >= 300:
+        return "🌧️";
+      case iconId >= 200:
+        return "🌩️";
     }
   }
 
@@ -143,7 +211,7 @@ title: Czechia
     eurEl.innerText = rate;
     // wire up forms
     currencyFormEl.onsubmit = handleCurrencySubmit;
-    weatherFormEl.onsubmit = handleWeatherSubmit;
+    document.querySelector("#weather form").onsubmit = handleWeatherSubmit;
   }
   init();
 </script>
