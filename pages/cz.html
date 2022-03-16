@@ -32,6 +32,40 @@ title: Czechia
     <button type="submit">Get forecast</button>
   </form>
   <h3 aria-live="polite">Not submitted</h3>
+  <table>
+    <tr id="hour-row">
+      <td><!-- empty A1 cell --></td>
+      <!-- hour header cells -->
+    </tr>
+    <tr id="hour-icon-row" aria-hidden="true">
+      <th>Icon</th>
+      <!-- hour icon cells -->
+    </tr>
+    <tr id="hour-weather-row">
+      <th scope="row" id="hour-weather">Weather</th>
+      <!-- hour weather cells -->
+    </tr>
+    <tr id="hour-temp-row">
+      <th scope="row" id="hour-temp">Temperature</th>
+      <!-- hour temp cells -->
+    </tr>
+    <tr id="day-row">
+      <td><!-- empty A1 cell --></td>
+      <!-- day header cells -->
+    </tr>
+    <tr id="day-icon-row" aria-hidden="true">
+      <th>Icon</th>
+      <!-- day icon cells -->
+    </tr>
+    <tr id="day-weather-row">
+      <th scope="row" id="day-weather">Weather</th>
+      <!-- day weather cells -->
+    </tr>
+    <tr id="day-temp-row">
+      <th scope="row" id="day-temp">Temperature</th>
+      <!-- day temp cells -->
+    </tr>
+  </table>
 </section>
 
 <script type="module">
@@ -105,73 +139,58 @@ title: Czechia
     document.querySelector("#weather h3").innerText = `${getWeatherIcon(
       weather.current.weather[0].id
     )} ${weather.current.weather[0].description} in ${CITIES[city].name}`;
-    // clear previous tables
-    document.querySelectorAll("table").forEach((table) => table.remove());
-    // set up hours table
-    const hoursTableEl = document.createElement("table");
-    const hoursCaption = document.createElement("caption");
-    hoursCaption.innerText = "Hourly forecast";
-    hoursTableEl.appendChild(hoursCaption);
-    const hourRow = document.createElement("tr");
-    hoursTableEl.appendChild(hourRow);
-    const hourIconRow = document.createElement("tr");
-    hoursTableEl.appendChild(hourIconRow);
-    const hourTempRow = document.createElement("tr");
-    hoursTableEl.appendChild(hourTempRow);
+    // clear old data
+    document
+      .querySelectorAll(
+        "table tr th:not(:first-child), table tr td:not(:first-child)"
+      )
+      .forEach((cell) => cell.remove());
     // fill hours table
     const hours = [0, 3, 6, 9, 12];
     hours.forEach((h) => {
       // hour header cell
       const hourEl = document.createElement("th");
       hourEl.innerText = new Date(weather.hourly[h].dt * 1000).getHours() + "h";
-      hourRow.appendChild(hourEl);
+      hourEl.id = `hour-${h}`;
+      document.getElementById("hour-row").appendChild(hourEl);
       // icon cell
       const iconEl = document.createElement("td");
       iconEl.innerText = getWeatherIcon(weather.hourly[h].weather[0].id);
-      iconEl.setAttribute(
-        "aria-label",
-        weather.hourly[h].weather[0].description
-      );
-      hourIconRow.appendChild(iconEl);
+      document.getElementById("hour-icon-row").appendChild(iconEl);
+      // weather cell
+      const weatherEl = document.createElement("td");
+      weatherEl.innerText = weather.hourly[h].weather[0].description;
+      weatherEl.setAttribute("headers", `hour-${h} hour-weather`);
+      document.getElementById("hour-weather-row").appendChild(weatherEl);
       // temp cell
       const tempEl = document.createElement("td");
       tempEl.innerText = Math.round(weather.hourly[h].temp) + "°C";
-      hourTempRow.appendChild(tempEl);
+      tempEl.setAttribute("headers", `hour-${h} hour-temp`);
+      document.getElementById("hour-temp-row").appendChild(tempEl);
     });
-    // set up days table
-    const daysTableEl = document.createElement("table");
-    const daysCaption = document.createElement("caption");
-    daysCaption.innerText = "Daily forecast";
-    daysTableEl.appendChild(daysCaption);
-    const dayRow = document.createElement("tr");
-    daysTableEl.appendChild(dayRow);
-    const dayIconRow = document.createElement("tr");
-    daysTableEl.appendChild(dayIconRow);
-    const dayTempRow = document.createElement("tr");
-    daysTableEl.appendChild(dayTempRow);
     // fill days table
     const days = [0, 1, 2, 3, 4];
     days.forEach((d) => {
       // day header cell
       const dayEl = document.createElement("th");
       dayEl.innerText = new Date(weather.daily[d].dt * 1000).getDate();
-      dayRow.appendChild(dayEl);
+      dayEl.id = `day-${d}`;
+      document.getElementById("day-row").appendChild(dayEl);
       // icon cell
       const iconEl = document.createElement("td");
       iconEl.innerText = getWeatherIcon(weather.daily[d].weather[0].id);
-      iconEl.setAttribute(
-        "aria-label",
-        weather.daily[d].weather[0].description
-      );
-      dayIconRow.appendChild(iconEl);
+      document.getElementById("day-icon-row").appendChild(iconEl);
+      // weather cell
+      const weatherEl = document.createElement("td");
+      weatherEl.innerText = weather.daily[d].weather[0].description;
+      weatherEl.setAttribute("headers", `day-${d} day-weather`);
+      document.getElementById("day-weather-row").appendChild(weatherEl);
       // temp cell
       const tempEl = document.createElement("td");
       tempEl.innerText = Math.round(weather.daily[d].temp.day) + "°C";
-      dayTempRow.appendChild(tempEl);
+      tempEl.setAttribute("headers", `day-${d} day-temp`);
+      document.getElementById("day-temp-row").appendChild(tempEl);
     });
-    // render
-    weatherSectionEl.appendChild(hoursTableEl);
-    weatherSectionEl.appendChild(daysTableEl);
   }
   async function getWeather(city) {
     const response = await fetch(
