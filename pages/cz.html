@@ -34,35 +34,35 @@ title: Czechia
   <h3 aria-live="polite">Not submitted</h3>
   <table>
     <tr id="hour-row">
-      <td><!-- empty A1 cell --></td>
+      <th scope="row" class="sr-only">Time</th>
       <!-- hour header cells -->
     </tr>
-    <tr id="hour-icon-row" aria-hidden="true">
-      <th>Icon</th>
-      <!-- hour icon cells -->
-    </tr>
     <tr id="hour-weather-row">
-      <th scope="row" id="hour-weather">Weather</th>
+      <th scope="row" id="hour-weather" class="sr-only">Weather</th>
       <!-- hour weather cells -->
     </tr>
+    <tr id="hour-icon-row" aria-hidden="true">
+      <th class="sr-only">Icon</th>
+      <!-- hour icon cells -->
+    </tr>
     <tr id="hour-temp-row">
-      <th scope="row" id="hour-temp">Temperature</th>
+      <th scope="row" id="hour-temp" class="sr-only">Temperature</th>
       <!-- hour temp cells -->
     </tr>
     <tr id="day-row">
-      <td><!-- empty A1 cell --></td>
+      <th scope="row" class="sr-only">Day</th>
       <!-- day header cells -->
     </tr>
-    <tr id="day-icon-row" aria-hidden="true">
-      <th>Icon</th>
-      <!-- day icon cells -->
-    </tr>
     <tr id="day-weather-row">
-      <th scope="row" id="day-weather">Weather</th>
+      <th scope="row" id="day-weather" class="sr-only">Weather</th>
       <!-- day weather cells -->
     </tr>
+    <tr id="day-icon-row" aria-hidden="true">
+      <th class="sr-only">Icon</th>
+      <!-- day icon cells -->
+    </tr>
     <tr id="day-temp-row">
-      <th scope="row" id="day-temp">Temperature</th>
+      <th scope="row" id="day-temp" class="sr-only">Temperature</th>
       <!-- day temp cells -->
     </tr>
   </table>
@@ -136,9 +136,13 @@ title: Czechia
     // get weather
     const weather = await getWeather(CITIES[city] || CITIES.prague); // default to prague
     // render forecast title
-    document.querySelector("#weather h3").innerText = `${getWeatherIcon(
+    document.querySelector(
+      "#weather h3"
+    ).innerHTML = `<span aria-hidden="true">${getWeatherIcon(
       weather.current.weather[0].id
-    )} ${weather.current.weather[0].description} in ${CITIES[city].name}`;
+    )}</span> ${weather.current.weather[0].description} in ${
+      CITIES[city].name
+    }`;
     // clear old data
     document
       .querySelectorAll(
@@ -153,15 +157,15 @@ title: Czechia
       hourEl.innerText = new Date(weather.hourly[h].dt * 1000).getHours() + "h";
       hourEl.id = `hour-${h}`;
       document.getElementById("hour-row").appendChild(hourEl);
-      // icon cell
-      const iconEl = document.createElement("td");
-      iconEl.innerText = getWeatherIcon(weather.hourly[h].weather[0].id);
-      document.getElementById("hour-icon-row").appendChild(iconEl);
       // weather cell
       const weatherEl = document.createElement("td");
       weatherEl.innerText = weather.hourly[h].weather[0].description;
       weatherEl.setAttribute("headers", `hour-${h} hour-weather`);
       document.getElementById("hour-weather-row").appendChild(weatherEl);
+      // icon cell
+      const iconEl = document.createElement("td");
+      iconEl.innerText = getWeatherIcon(weather.hourly[h].weather[0].id);
+      document.getElementById("hour-icon-row").appendChild(iconEl);
       // temp cell
       const tempEl = document.createElement("td");
       tempEl.innerText = Math.round(weather.hourly[h].temp) + "°C";
@@ -173,18 +177,21 @@ title: Czechia
     days.forEach((d) => {
       // day header cell
       const dayEl = document.createElement("th");
-      dayEl.innerText = new Date(weather.daily[d].dt * 1000).getDate();
+      dayEl.innerText = new Date(weather.daily[d].dt * 1000).toLocaleDateString(
+        "en-US",
+        { weekday: "short" }
+      );
       dayEl.id = `day-${d}`;
       document.getElementById("day-row").appendChild(dayEl);
-      // icon cell
-      const iconEl = document.createElement("td");
-      iconEl.innerText = getWeatherIcon(weather.daily[d].weather[0].id);
-      document.getElementById("day-icon-row").appendChild(iconEl);
       // weather cell
       const weatherEl = document.createElement("td");
       weatherEl.innerText = weather.daily[d].weather[0].description;
       weatherEl.setAttribute("headers", `day-${d} day-weather`);
       document.getElementById("day-weather-row").appendChild(weatherEl);
+      // icon cell
+      const iconEl = document.createElement("td");
+      iconEl.innerText = getWeatherIcon(weather.daily[d].weather[0].id);
+      document.getElementById("day-icon-row").appendChild(iconEl);
       // temp cell
       const tempEl = document.createElement("td");
       tempEl.innerText = Math.round(weather.daily[d].temp.day) + "°C";
@@ -244,5 +251,25 @@ title: Czechia
     flex-direction: column;
     align-items: flex-start;
     gap: var(--space-xs);
+  }
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+  td,
+  th {
+    text-align: center;
+    padding: 0 var(--space-s);
+  }
+  #day-row th {
+    padding-top: var(--space-l);
+  }
+  #hour-weather-row td,
+  #day-weather-row td {
+    font-size: var(--font-s);
+  }
+  #hour-icon-row td,
+  #day-icon-row td {
+    font-size: var(--font-xl);
   }
 </style>
