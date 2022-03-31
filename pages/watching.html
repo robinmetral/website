@@ -78,7 +78,7 @@ template: /templates/page.html
     const parseTime = timeParse("%Y-%m-%d");
     const formatTime = timeFormat("%b %y");
     const byMonth = data.reduce((acc, cur) => {
-      const curMonth = formatTime(parseTime(cur.watchedOn));
+      const curMonth = formatTime(parseTime(cur.watchDate));
       const accIndex = acc.findIndex((a) => a.month === curMonth);
       if (accIndex >= 0) {
         acc[accIndex].count += 1;
