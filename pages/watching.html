@@ -1,28 +1,39 @@
 <!--
 template: /templates/page.html
+buildScript: /scripts/generateFilmsGrid.js
 -->
 
 <h1>Watching</h1>
-<p id="chart-label">Number of films watched by month since January 2021:</p>
+<ul>
+  <li>Films grid</li>
+</ul>
+<p>Number of films watched by month since January 2021:</p>
 <svg role="img" id="chart" viewBox="0 0 600 400"></svg>
 
 <script type="module">
+  /**
+   * Importing from d3 micropackages avoids loading unused ones like d3-geo
+   * We use Skypack pinned URLs: https://docs.skypack.dev/skypack-cdn/api-reference/pinned-urls-optimized
+   */
+  import { select } from "https://cdn.skypack.dev/pin/d3-selection@v3.0.0-sAmQ3giCT8irML5wz1T1/mode=imports,min/optimized/d3-selection.js";
   import {
-    select,
-    json,
     timeParse,
     timeFormat,
-    scaleLinear,
+  } from "https://cdn.skypack.dev/pin/d3-time-format@v4.1.0-f8eZV7eLtGIxvK8uvO3o/mode=imports,min/optimized/d3-time-format.js";
+  import {
     max,
     min,
     maxIndex,
     minIndex,
+  } from "https://cdn.skypack.dev/pin/d3-array@v3.1.1-Ibshj34oOmCw8da1RLSW/mode=imports,min/optimized/d3-array.js";
+  import {
+    scaleLinear,
     scaleBand,
+  } from "https://cdn.skypack.dev/pin/d3-scale@v4.0.2-qUv67mnQQKwRMEsPRKcO/mode=imports,min/optimized/d3-scale.js";
+  import {
     axisBottom,
     axisLeft,
-    mean,
-    format,
-  } from "https://cdn.skypack.dev/d3@7";
+  } from "https://cdn.skypack.dev/pin/d3-axis@v3.0.0-atdNID4TA9Y0wR53lsTq/mode=imports,min/optimized/d3-axis.js";
 
   const svg = select("#chart");
   const viewBox = svg.attr("viewBox").split(" ");
@@ -32,7 +43,7 @@ template: /templates/page.html
   const innerWidth = width - margin.left - margin.right;
   const innerHeight = height - margin.top - margin.bottom;
 
-  const render = (data) => {
+  function render(data) {
     // value accessors
     const xValue = (d) => d.month;
     const yValue = (d) => d.count;
@@ -65,28 +76,43 @@ template: /templates/page.html
 
     // label
     const count = (d) => d.count;
-    const average = format(".2r")(mean(data, count)); // format to 2 significant digits;
+    const average = Math.round(
+      data.reduce((acc, cur) => acc + cur.count, 0) / data.length
+    );
     const maxMonth = data[maxIndex(data, count)].month;
     const minMonth = data[minIndex(data, count)].month;
     const maxFilms = max(data, count);
     const minFilms = min(data, count);
-    const label = `Since January 2021, I've watched on average ${average} films each month—at most ${maxFilms} films in a month (${maxMonth}) and as few as just ${minFilms} (${minMonth}).`;
+    const label = `Bar chart. Watched on average ${average} films per month. Max ${maxFilms} films in ${maxMonth}. Min ${minFilms} films in ${minMonth}.`;
     svg.attr("aria-label", label);
-  };
+  }
 
-  json("/films.json").then((data) => {
-    const parseTime = timeParse("%Y-%m-%d");
-    const formatTime = timeFormat("%b %y");
-    const byMonth = data.reduce((acc, cur) => {
-      const curMonth = formatTime(parseTime(cur.watchDate));
-      const accIndex = acc.findIndex((a) => a.month === curMonth);
-      if (accIndex >= 0) {
-        acc[accIndex].count += 1;
-      } else {
-        acc.push({ month: curMonth, count: 1 });
-      }
-      return acc;
-    }, []);
-    render(byMonth);
-  });
+  fetch("/films.json") // native fetch to avoid loading an extra d3 package
+    .then((data) => data.json())
+    .then((json) => {
+      const parseTime = timeParse("%Y-%m-%d");
+      const formatTime = timeFormat("%b %y");
+      const byMonth = json.reduce((acc, cur) => {
+        const curMonth = formatTime(parseTime(cur.watchDate));
+        const accIndex = acc.findIndex((a) => a.month === curMonth);
+        if (accIndex >= 0) {
+          acc[accIndex].count += 1;
+        } else {
+          acc.push({ month: curMonth, count: 1 });
+        }
+        return acc;
+      }, []);
+      render(byMonth);
+    });
 </script>
+
+<style>
+  ul {
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: var(--space-s);
+    margin-bottom: var(--space-l);
+  }
+</style>
