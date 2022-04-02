@@ -22,17 +22,16 @@
       /* Layout */
       body {
         display: flex;
-        padding: var(--space-2xl);
-        gap: var(--space-2xl);
       }
       header {
         display: flex;
         flex-direction: column;
-        gap: var(--space-m);
+        border-right: 1px solid var(--text);
       }
       main {
         max-width: 768px;
         width: 100%;
+        padding: var(--space-l) var(--space-2xl);
       }
       /* Nav */
       .skip {
@@ -49,32 +48,44 @@
         transition: transform 0.2s ease-in-out;
       }
       .name {
+        padding: var(--space-l);
+        padding-right: var(--space-2xl);
+        border-bottom: 1px solid var(--text);
         font-variant: all-small-caps;
         font-weight: bold;
         line-height: 1;
-        width: 100px;
       }
       nav ul {
         display: flex;
         flex-direction: column;
         list-style-type: none;
-        padding-left: 0px;
+        padding: var(--space-l);
+        padding-right: var(--space-2xl);
       }
       @media screen and (max-width: 1024px) {
         body {
           flex-direction: column;
-          padding: var(--space-m);
         }
         header {
           width: 100%;
           flex-direction: row;
-          gap: var(--space-s);
           align-items: center;
+          border-right: none;
+          border-bottom: 1px solid var(--text);
         }
         nav ul {
           flex-direction: row;
           column-gap: var(--space-s);
           flex-wrap: wrap;
+          padding: var(--space-m);
+        }
+        .name {
+          border-bottom: none;
+          border-right: 1px solid var(--text);
+          padding: var(--space-m);
+        }
+        main {
+          padding: var(--space-m);
         }
       }
       /* Posts styling (TODO: only include on posts) */
@@ -97,7 +108,7 @@
   <body>
     <header>
       <a href="#main" class="skip">Skip to main content</a>
-      <div class="name">Robin Métral</div>
+      <div class="name">Robin<br />Métral</div>
       <nav>
         <ul role="list">
           <li><a href="/">Home</a></li>
