@@ -72,7 +72,7 @@ export async function buildPage(html: string): Promise<string> {
       .map(
         (film) =>
           `<li>
-            <img src="${film.posterUrl}" width="250" alt="" />
+            <img src="${film.posterUrl}" width="250" height="375" alt="" loading="lazy" />
             ${film.title}
           </li>`
       )
