@@ -12,7 +12,8 @@ Adapted for robinmetral.com:
 2. Reduced the font-size (1em -> 0.8em)
 3. Added highlighting for inline code blocks (code[class*="language-"] -> code)
 4. Added more bottom margin (0.5em 0 -> 2rem 0)
-5. changed the font to https://systemfontstack.com/
+5. Changed the font to https://systemfontstack.com/
+6. Target pre instead of pre[class=...] for code blocks styles: the pre tag doesn't (always?) have a class
 */
 
 @media (prefers-color-scheme: light) {
@@ -65,7 +66,7 @@ Adapted for robinmetral.com:
   }
 
   /* Code blocks */
-  pre[class*="language-"] {
+  pre {
     padding: 1em;
     margin: 2rem 0;
     overflow: auto;
@@ -189,7 +190,7 @@ Adapted for robinmetral.com:
   }
 
   /* Code blocks */
-  pre[class*="language-"] {
+  pre {
     padding: 1em;
     margin: 2rem 0;
     overflow: auto;
