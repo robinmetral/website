@@ -109,6 +109,16 @@
         border-top: 1px solid currentColor;
         font-size: var(--font-s);
       }
+      .comments h2 {
+        margin-bottom: var(--space-m);
+      }
+      .comments li {
+        font-size: var(--font-s);
+        margin-bottom: var(--space-s);
+      }
+      .comments li p {
+        margin-bottom: var(--space-xs);
+      }
     </style>
   </head>
   <body>
@@ -146,6 +156,11 @@
           {{/publishDate}} {{> content}} {{#publishDate}}
         </div>
       </article>
+      <div class="comments">
+        <hr />
+        <h2>Comments</h2>
+        __COMMENTS__
+      </div>
       {{/publishDate}}
     </main>
   </body>
