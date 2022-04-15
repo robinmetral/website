@@ -2,7 +2,7 @@
 title: "Webmentions, part 1"
 publishDate: "2022-04-09"
 template: "/templates/page.html"
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/processNote.js"
 ---
 
 Although I've known about [webmentions](https://www.w3.org/TR/webmention/) for years, I never actually set them up before.

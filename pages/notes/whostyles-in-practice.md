@@ -2,7 +2,7 @@
 title: "Whostyles in practice"
 publishDate: "2021-10-16"
 template: "/templates/page.html"
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/processNote.js"
 highlightCode: true
 ---
 

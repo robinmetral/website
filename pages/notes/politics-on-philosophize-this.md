@@ -2,7 +2,7 @@
 title: "Politics on Philosophize This"
 publishDate: "2021-10-16"
 template: "/templates/page.html"
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/processNote.js"
 ---
 
 Here's a transcript of something I heard yesterday on [_Philosophize This!_ episode 108](https://www.philosophizethis.org/podcast/frankfurt-school-intro?rq=108).

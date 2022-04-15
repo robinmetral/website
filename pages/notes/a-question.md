@@ -2,7 +2,7 @@
 title: "A question"
 publishDate: "2021-09-15"
 template: "/templates/page.html"
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/processNote.js"
 ---
 
 When is the last time you got caught in the rain?

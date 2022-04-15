@@ -2,7 +2,7 @@
 title: "The Best Films of 2021"
 publishDate: "2022-01-11"
 template: "/templates/page.html"
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/processNote.js"
 ---
 
 The 2021 video countdown is out!

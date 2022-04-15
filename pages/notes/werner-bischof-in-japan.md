@@ -2,7 +2,7 @@
 title: "Werner Bischof in Japan"
 publishDate: "2022-04-15"
 template: "/templates/page.html"
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/processNote.js"
 ---
 
 I was closing too many open tabs, and there was a Guardian article titled ['I go too far, too deep': the Swiss wanderer who found the soul of 1950s Japan ](https://www.theguardian.com/artanddesign/gallery/2021/dec/22/swiss-wanderer-soul-of-japan-werner-bischof).

@@ -2,7 +2,7 @@
 title: "Indieweb vibes"
 publishDate: "2021-10-13"
 template: "/templates/page.html"
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/processNote.js"
 ---
 
 > Update, March 2022: I've discontinued my whostyles and expect this note to contain broken links or features. I'll leave it online for archive purposes.

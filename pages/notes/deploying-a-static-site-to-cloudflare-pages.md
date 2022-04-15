@@ -2,7 +2,7 @@
 title: "Deploying a static site to Cloudflare Pages"
 publishDate: "2022-04-03"
 template: "/templates/page.html"
-buildScript: "/scripts/formatPostDate.js"
+buildScript: "/scripts/processNote.js"
 ---
 
 I don't often praise cloud service providers, but I've been really enjoying Cloudflare lately.
