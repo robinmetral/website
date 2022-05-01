@@ -11,7 +11,7 @@ Turns out that the article is a gallery of curated photos from Werner Bischof, o
 
 Bischof's early, pre-Magnum work photographing [trees in Switzerland](https://wernerbischof.com/wpcms/wp-content/uploads/2021/02/nn11587284-scaled.jpg) had prompted me to go into the woods with an infrared film loaded in my Nikon FM2.
 
-![Snow-draped trees in the garden of the Meiji shrine, Tokyo. Three persons carrying umbrellas walk through the snow wearing white robes.](https://wernerbischof.com/wpcms/wp-content/uploads/2020/05/shintopriestsinthecourt-1-scaled.jpg)
+![Snow-draped trees in the garden of the Meiji shrine, Tokyo. Three persons carrying umbrellas walk through the snow wearing white robes.](/static/images/2022-04-15-werner-bischof-japan.jpg)
 
 The Japan shots are wonderful, and I loved to read about the iconic 1951 shot [Courtyard of the Meiji shrine](https://www.magnumphotos.com/theory-and-practice/making-the-image-werner-bischofs-snow-draped-meiji-shrine/), pictured above.
 
