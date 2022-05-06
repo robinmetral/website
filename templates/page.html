@@ -27,7 +27,8 @@
     <style>
       /* Layout */
       body {
-        display: flex;
+        display: grid;
+        grid-template: 1fr / max-content 1fr;
       }
       header {
         display: flex;
@@ -70,7 +71,7 @@
       }
       @media screen and (max-width: 1024px) {
         body {
-          flex-direction: column;
+          grid-template: max-content 1fr / 1fr;
         }
         header {
           width: 100%;
@@ -86,9 +87,14 @@
           padding: var(--space-m);
         }
         .name {
+          padding: var(--space-m);
           border-bottom: none;
           border-right: 1px solid var(--text);
-          padding: var(--space-m);
+          /* make sure the border spans the entire height*/
+          height: 100%;
+          /* center name */
+          display: flex;
+          align-items: center;
         }
         main {
           padding: var(--space-m);
