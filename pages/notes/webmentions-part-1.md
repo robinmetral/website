@@ -5,6 +5,8 @@ template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
 ---
 
+> Update, July 2022: I lost momentum here and I'm not so interested in webmentions anymore at this point. Part 2 was never published. I might come back to them once more in a few years!
+
 Although I've known about [webmentions](https://www.w3.org/TR/webmention/) for years, I never actually set them up before.
 
 But with encouragement from [Clara](https://clarale.com/) who shared a good intro article by Rowan Manning, _[Webmentions for your Static Site](https://rowanmanning.com/posts/webmentions-for-your-static-site/)_, I think now's the time!
