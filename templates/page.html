@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/static/styles/global-20220313.css" />
+    <link rel="stylesheet" href="/static/styles/global-20220722.css" />
     {{#highlightCode}}
     <link rel="stylesheet" href="/static/styles/prism-20220408.css" />
     {{/highlightCode}}
@@ -23,7 +23,7 @@
       /* Layout */
       body {
         display: grid;
-        grid-template: 1fr / max-content 1fr;
+        grid-template: 1fr max-content / max-content 1fr;
       }
       header {
         display: flex;
@@ -36,19 +36,27 @@
       main {
         max-width: 768px;
         width: 100%;
-        padding: var(--space-l) var(--space-2xl);
+        padding: var(--space-3xl) var(--space-2xl);
+      }
+      footer {
+        border-top: 1px solid var(--text);
+        padding: var(--space-2xl);
+        font-size: var(--font-s);
+        grid-column-start: 2;
       }
       /* Nav */
-      .skip {
+      #skip {
         display: block;
         position: absolute;
         padding: var(--space-2xs) var(--space-xs);
         left: var(--space-m);
         top: var(--space-xs);
         transform: translateY(calc(-100% - calc(2 * var(--space-xs))));
-        background: var(--bg);
+        /* invert theme */
+        color: var(--bg);
+        background: var(--text);
       }
-      .skip:focus {
+      #skip:focus {
         transform: translateY(0);
         transition: transform 0.2s ease-in-out;
       }
@@ -69,7 +77,7 @@
       }
       @media screen and (max-width: 1024px) {
         body {
-          grid-template: max-content 1fr / 1fr;
+          grid-template: max-content 1fr max-content / 1fr;
         }
         header {
           width: 100%;
@@ -97,12 +105,16 @@
           align-items: center;
         }
         main {
-          padding: var(--space-m);
+          padding: var(--space-3xl) var(--space-m);
+        }
+        footer {
+          grid-column-start: auto;
+          padding: var(--space-s) var(--space-m);
         }
       }
       /* Posts styling (TODO: only include on posts) */
-      .e-content > *,
-      .e-content blockquote > * {
+      .post-content > *:not(:last-child),
+      .post-content blockquote > *:not(:last-child) {
         margin-bottom: var(--space-m);
       }
       .post-header {
@@ -112,14 +124,17 @@
       .footnotes {
         padding-top: var(--space-3xl);
         margin-top: var(--space-3xl);
-        border-top: 1px solid currentColor;
+        border-top: 1px solid var(--text);
         font-size: var(--font-s);
+      }
+      .footnotes li:not(:last-child) {
+        margin-bottom: var(--space-xs);
       }
     </style>
   </head>
   <body>
+    <a href="#main" id="skip">Skip to main content</a>
     <header>
-      <a href="#main" class="skip">Skip to main content</a>
       <div class="name">Robin<br />Métral</div>
       <nav>
         <ul role="list">
@@ -132,27 +147,35 @@
     <main id="main">
       <!-- if it has a publishDate it's a post -->
       {{#publishDate}}
-      <article class="h-entry">
+      <article>
         <div class="post-header">
-          <h1 class="p-name">{{title}}</h1>
+          <h1>{{title}}</h1>
           <p>
             <span class="sr-only">Published on</span>
             <time datetime="{{publishDate}}" class="dt-published"
               >{{publishDate}}</time
             >
-            <span class="sr-only">
-              by
-              <a class="p-author h-card" href="https://robinmetral.com"
-                >Robin Métral</a
-              ></span
-            >
           </p>
         </div>
-        <div class="e-content">
+        <div class="post-content">
           {{/publishDate}} {{> content}} {{#publishDate}}
         </div>
       </article>
       {{/publishDate}}
     </main>
+    <footer>
+      <a href="#skip">Back to top</a>
+      <p id="timing"></p>
+    </footer>
+    <script type="module">
+      window.addEventListener("load", function () {
+        const now = new Date().getTime();
+        const loadingTime = now - performance.timing.navigationStart;
+        const perfElement = document.getElementById("timing");
+        perfElement.innerText = `Loaded in ${(loadingTime / 1000).toFixed(
+          2
+        )}s.`;
+      });
+    </script>
   </body>
 </html>
