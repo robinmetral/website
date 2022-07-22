@@ -29,6 +29,9 @@
         display: flex;
         flex-direction: column;
         border-right: 1px solid var(--text);
+        position: sticky;
+        top: 0;
+        height: 100vh;
       }
       main {
         max-width: 768px;
@@ -74,6 +77,8 @@
           align-items: center;
           border-right: none;
           border-bottom: 1px solid var(--text);
+          position: static;
+          height: auto;
         }
         nav ul {
           flex-direction: row;
