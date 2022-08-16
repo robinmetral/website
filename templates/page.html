@@ -168,22 +168,9 @@
       <p id="timing"></p>
     </footer>
     <script type="module">
-      let observer = new IntersectionObserver(callback, {
-        threshold: 0.1,
-      });
-      let target = document.querySelector("footer");
-      observer.observe(target);
-      function callback(entries) {
-        const isIntersecting = entries[0].isIntersecting;
-        if (isIntersecting) {
-          calculatePerformance();
-          observer.unobserve(target);
-        }
-      }
-
-      function calculatePerformance() {
-        const loadingTime =
-          performance.timing.loadEventEnd - performance.timing.navigationStart;
+      window.addEventListener("load", function () {
+        const now = new Date().getTime();
+        const loadingTime = now - performance.timing.navigationStart;
         const transferredBytes = performance
           .getEntries()
           .map((entry) => entry.transferSize || 0) // we omit missing sizes like in paint perf entries
@@ -201,7 +188,7 @@
         )}kB in ${(loadingTime / 1000).toFixed(
           2
         )}s. Emitted ${emissions.toFixed(2)}g CO2e.`;
-      }
+      });
     </script>
   </body>
 </html>
