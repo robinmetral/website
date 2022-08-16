@@ -112,7 +112,8 @@
           padding: var(--space-s) var(--space-m);
         }
       }
-      /* Posts styling (TODO: only include on posts) */
+      {{#publishDate}}
+      /* Posts styling (if it has publishDate it's a post) */
       .post-content > *:not(:last-child),
       .post-content blockquote > *:not(:last-child) {
         margin-bottom: var(--space-m);
@@ -130,6 +131,7 @@
       .footnotes li:not(:last-child) {
         margin-bottom: var(--space-xs);
       }
+      {{/publishDate}}
     </style>
   </head>
   <body>
