@@ -114,6 +114,13 @@
           padding: var(--space-s) var(--space-m);
         }
       }
+      /* Fix Safari bug */
+      @supports (color-scheme: dark light) {
+        @media screen and (prefers-color-scheme: dark) {
+          :where(a:link) {color: #8c8cff;}
+          :where(a:visited) {color: #ffadff;}
+        }
+      }
       {{#publishDate}}
       /* Posts styling (if it has publishDate it's a post) */
       .post-content > *:not(:last-child),
