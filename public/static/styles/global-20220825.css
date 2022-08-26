@@ -43,12 +43,7 @@ h6 {
   isolation: isolate;
 }
 
-/* Variables */
 :root {
-  --black: hsl(0, 0%, 0%);
-  --white: hsl(0, 0%, 100%);
-  --accent-light: blue;
-  --accent-dark: lightskyblue;
   /* Typography: augmented fourth scale (1.414) */
   --font-s: 0.9rem; /* 14.5px–using major third scale for readability (augmented fourths would have been 12px) */
   --font-m: 1.125rem; /* 18px */
@@ -68,16 +63,6 @@ h6 {
 html {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, avenir next, avenir,
     segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
-  --bg: var(--white);
-  --text: var(--black);
-  --accent: var(--accent-light);
-}
-@media (prefers-color-scheme: dark) {
-  html {
-    --bg: var(--black);
-    --text: var(--white);
-    --accent: var(--accent-dark);
-  }
 }
 
 /* Defaults */
@@ -86,29 +71,18 @@ html {
 }
 
 body {
-  background-color: var(--bg);
-  color: var(--text);
   font-size: var(--font-m);
 }
 
 /* Components */
-a {
-  color: var(--accent);
-}
-a:focus-visible {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-  box-shadow: var(--accent) 0px 0px 0px 2px;
-  border-radius: 4px;
-}
 blockquote {
-  border-left: 2px solid var(--text);
+  border-left: 2px solid CanvasText;
   padding-left: var(--space-s);
   font-style: italic;
 }
 hr {
   border: none;
-  border-top: 1px solid var(--text);
+  border-top: 1px solid CanvasText;
   /* avoid a specificity issue where the `article>*` rules in page.html override hr margin (cascade layers?) */
   margin: var(--space-2xl) 0 !important;
 }

@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/static/styles/global-20220722.css" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" href="/static/styles/global-20220825.css" />
     {{#highlightCode}}
     <link rel="stylesheet" href="/static/styles/prism-20220408.css" />
     {{/highlightCode}}
@@ -28,7 +29,7 @@
       header {
         display: flex;
         flex-direction: column;
-        border-right: 1px solid var(--text);
+        border-right: 1px solid CanvasText;
         position: sticky;
         top: 0;
         height: 100vh;
@@ -39,7 +40,7 @@
         padding: var(--space-3xl) var(--space-2xl);
       }
       footer {
-        border-top: 1px solid var(--text);
+        border-top: 1px solid CanvasText;
         padding: var(--space-2xl);
         font-size: var(--font-s);
         grid-column-start: 2;
@@ -49,21 +50,22 @@
         display: block;
         position: absolute;
         padding: var(--space-2xs) var(--space-xs);
-        left: var(--space-m);
         top: var(--space-xs);
-        transform: translateY(calc(-100% - calc(2 * var(--space-xs))));
+        left: 50%;
+        /* x-axis to center. y-axis is -100% - the padding to position off the viewport */
+        transform: translate(-50%, calc(-100% - var(--space-xs)));
         /* invert theme */
-        color: var(--bg);
-        background: var(--text);
+        background: AccentColor;
+        color: AccentColorText;
       }
       #skip:focus {
-        transform: translateY(0);
+        transform: translate(-50%, 0);
         transition: transform 0.2s ease-in-out;
       }
       .name {
         padding: var(--space-l);
         padding-right: var(--space-2xl);
-        border-bottom: 1px solid var(--text);
+        border-bottom: 1px solid CanvasText;
         font-variant: all-small-caps;
         font-weight: bold;
         line-height: 1;
@@ -84,7 +86,7 @@
           flex-direction: row;
           align-items: center;
           border-right: none;
-          border-bottom: 1px solid var(--text);
+          border-bottom: 1px solid CanvasText;
           position: static;
           height: auto;
         }
@@ -97,7 +99,7 @@
         .name {
           padding: var(--space-m);
           border-bottom: none;
-          border-right: 1px solid var(--text);
+          border-right: 1px solid CanvasText;
           /* make sure the border spans the entire height*/
           height: 100%;
           /* center name */
@@ -110,6 +112,14 @@
         footer {
           grid-column-start: auto;
           padding: var(--space-s) var(--space-m);
+        }
+      }
+      /* Fix Safari dark mode bug */
+      /* Remove when this is fixed: https://bugs.webkit.org/show_bug.cgi?id=209851 */
+      @supports (color-scheme: dark light) {
+        @media screen and (prefers-color-scheme: dark) {
+          :where(a:link) {color: #8c8cff;}
+          :where(a:visited) {color: #ffadff;}
         }
       }
       {{#publishDate}}
@@ -125,7 +135,7 @@
       .footnotes {
         padding-top: var(--space-3xl);
         margin-top: var(--space-3xl);
-        border-top: 1px solid var(--text);
+        border-top: 1px solid CanvasText;
         font-size: var(--font-s);
       }
       .footnotes li:not(:last-child) {
@@ -166,7 +176,7 @@
       {{/publishDate}}
     </main>
     <footer>
-      <a href="#skip">Back to top</a>
+      <a href="#main">Back to top</a>
       <p id="timing"></p>
       <p>
         This website doesn't track you.
