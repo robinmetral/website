@@ -44,7 +44,6 @@ h6 {
 }
 
 :root {
-  color-scheme: dark light;
   /* Typography: augmented fourth scale (1.414) */
   --font-s: 0.9rem; /* 14.5px–using major third scale for readability (augmented fourths would have been 12px) */
   --font-m: 1.125rem; /* 18px */
