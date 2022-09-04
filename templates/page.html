@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
-    <link rel="stylesheet" href="/static/styles/global-20220825.css" />
+    <link rel="stylesheet" href="/static/styles/global-20220904.css" />
     {{#highlightCode}}
     <link rel="stylesheet" href="/static/styles/prism-20220408.css" />
     {{/highlightCode}}
@@ -29,7 +29,7 @@
       header {
         display: flex;
         flex-direction: column;
-        border-right: 1px solid CanvasText;
+        border-right: 2px solid CanvasText;
         position: sticky;
         top: 0;
         height: 100vh;
@@ -39,8 +39,13 @@
         width: 100%;
         padding: var(--space-3xl) var(--space-2xl);
       }
+      hr {
+        /* Negative margin to span to the nav border */
+        /* !important overrides a specificity issue with the .post-styling margins */
+        margin: var(--space-2xl) 0 var(--space-2xl) calc(-1 * var(--space-2xl)) !important;
+      }
       footer {
-        border-top: 1px solid CanvasText;
+        border-top: 2px solid CanvasText;
         padding: var(--space-2xl);
         font-size: var(--font-s);
         grid-column-start: 2;
@@ -65,7 +70,7 @@
       .name {
         padding: var(--space-l);
         padding-right: var(--space-2xl);
-        border-bottom: 1px solid CanvasText;
+        border-bottom: 2px solid CanvasText;
         font-variant: all-small-caps;
         font-weight: bold;
         line-height: 1;
@@ -86,7 +91,7 @@
           flex-direction: row;
           align-items: center;
           border-right: none;
-          border-bottom: 1px solid CanvasText;
+          border-bottom: 2px solid CanvasText;
           position: static;
           height: auto;
         }
@@ -99,7 +104,7 @@
         .name {
           padding: var(--space-m);
           border-bottom: none;
-          border-right: 1px solid CanvasText;
+          border-right: 2px solid CanvasText;
           /* make sure the border spans the entire height*/
           height: 100%;
           /* center name */
@@ -108,6 +113,11 @@
         }
         main {
           padding: var(--space-3xl) var(--space-m);
+        }
+        hr {
+          /* Negative margins to span the full width */
+          /* !important overrides a specificity issue with the .post-styling margins */
+          margin: var(--space-2xl) calc(-1 * var(--space-m)) !important;
         }
         footer {
           grid-column-start: auto;
@@ -133,9 +143,7 @@
         flex-direction: column-reverse;
       }
       .footnotes {
-        padding-top: var(--space-3xl);
-        margin-top: var(--space-3xl);
-        border-top: 1px solid CanvasText;
+        margin-top: var(--space-4xl);
         font-size: var(--font-s);
       }
       .footnotes li:not(:last-child) {
