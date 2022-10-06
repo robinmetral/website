@@ -31,7 +31,7 @@ Let's break it down:
 <iframe
   width="100%"
   srcdoc="
-  <html style='background-color:var(--bg);'>
+  <html>
     <head>
       <link rel='stylesheet' href='https://www.kickscondor.com/css/whostyle.css' />
     </head>

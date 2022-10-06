@@ -32,7 +32,7 @@ That works, sure, but let's try it again, this time with Maya's whostyle:
 <iframe
   width="100%"
   srcdoc="
-  <html style='background-color:var(--bg);'>
+  <html>
     <head>
       <link rel='stylesheet' href='https://maya.land/assets/whostyle.css' />
     </head>
@@ -53,7 +53,7 @@ The rest of the internet? [Kicks Condor](https://www.kickscondor.com/) says it b
 <iframe
   width="100%"
   srcdoc="
-  <html style='background-color:var(--bg);'>
+  <html>
     <head>
       <link rel='stylesheet' href='https://www.kickscondor.com/css/whostyle.css' />
     </head>
