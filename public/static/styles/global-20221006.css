@@ -76,13 +76,13 @@ body {
 
 /* Components */
 blockquote {
-  border-left: 2px solid CanvasText;
+  border-left: 2px solid currentColor;
   padding-left: var(--space-s);
   font-style: italic;
 }
 hr {
   border: none;
-  border-top: 2px solid CanvasText;
+  border-top: 2px solid currentColor;
 }
 h1,
 h2,

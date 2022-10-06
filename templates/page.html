@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
-    <link rel="stylesheet" href="/static/styles/global-20220904.css" />
+    <link rel="stylesheet" href="/static/styles/global-20221006.css" />
     {{#highlightCode}}
     <link rel="stylesheet" href="/static/styles/prism-20220408.css" />
     {{/highlightCode}}
@@ -29,7 +29,7 @@
       header {
         display: flex;
         flex-direction: column;
-        border-right: 2px solid CanvasText;
+        border-right: 2px solid currentColor;
         position: sticky;
         top: 0;
         height: 100vh;
@@ -45,7 +45,7 @@
         margin: var(--space-2xl) 0 var(--space-2xl) calc(-1 * var(--space-2xl)) !important;
       }
       footer {
-        border-top: 2px solid CanvasText;
+        border-top: 2px solid currentColor;
         padding: var(--space-2xl);
         font-size: var(--font-s);
         grid-column-start: 2;
@@ -59,7 +59,18 @@
         left: 50%;
         /* x-axis to center. y-axis is -100% - the padding to position off the viewport */
         transform: translate(-50%, calc(-100% - var(--space-xs)));
-        /* invert theme */
+        /**
+         * Without an explicit bg color, the text isn't readable when it
+         * overlays other text (narrow viewports), so we hardcode system colors
+         * from the CSS Color Module Level 4.
+         * https://www.w3.org/TR/css-color-4/#css-system-colors
+         *
+         * This isn't compatible with some old browsers e.g. Safari 12.
+         * Alternatives would be:
+         * - hardcode white on black (wouldn't follow the color mode)
+         * - use CSS filter hacks to transform the currentColor
+         * - do not overlay the skip link, render it inline and visible
+         */
         background: AccentColor;
         color: AccentColorText;
       }
@@ -70,7 +81,7 @@
       .name {
         padding: var(--space-l);
         padding-right: var(--space-2xl);
-        border-bottom: 2px solid CanvasText;
+        border-bottom: 2px solid currentColor;
         font-variant: all-small-caps;
         font-weight: bold;
         line-height: 1;
@@ -91,7 +102,7 @@
           flex-direction: row;
           align-items: center;
           border-right: none;
-          border-bottom: 2px solid CanvasText;
+          border-bottom: 2px solid currentColor;
           position: static;
           height: auto;
         }
@@ -104,7 +115,7 @@
         .name {
           padding: var(--space-m);
           border-bottom: none;
-          border-right: 2px solid CanvasText;
+          border-right: 2px solid currentColor;
           /* make sure the border spans the entire height*/
           height: 100%;
           /* center name */
