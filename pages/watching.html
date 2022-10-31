@@ -12,6 +12,7 @@ description: Films I've watched.
 
 <style>
   main ul {
+    --rating-el-size: 50px;
     padding: 0;
     list-style: none;
     display: grid;
@@ -23,5 +24,29 @@ description: Films I've watched.
     height: auto;
     aspect-ratio: 250 / 375;
     object-fit: cover;
+  }
+  main li {
+    position: relative;
+  }
+  main li::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: var(--rating-el-size) solid transparent;
+    border-right: var(--rating-el-size) solid rgba(0, 0, 0, 75%);
+    bottom: 0;
+    right: 0;
+  }
+  main li div {
+    position: absolute;
+    width: calc(var(--rating-el-size) / 2);
+    height: calc(var(--rating-el-size) / 2);
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* can this hardcoded color be avoided? */
   }
 </style>

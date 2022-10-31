@@ -42,8 +42,8 @@ export async function buildPage(html) {
       )
       .map(
         (film) => `<li>
-            <img src="${film.posterUrl}" width="250" height="375" alt="" loading="lazy" />
-            ${film.title}
+            <img src="${film.posterUrl}" width="250" height="375" alt="${film.title}" loading="lazy" />
+            <div><span class="sr-only">Rating: </span>${film.rating}</div>
           </li>`
       )
       .join("");
