@@ -10,14 +10,20 @@ const NOTES_DIR = "./pages/notes/";
 const PUBLIC_DIR = "./public/";
 const SITE_URL = "https://robinmetral.com";
 
-type Note = {
-  title: string;
-  date: Date;
-  url: string;
-  content: string;
-};
+/**
+ * @typedef {Object} Note
+ *
+ * @property {string} title
+ * @property {Date} date
+ * @property {string} url
+ * @property {string} content
+ */
 
-function generateFeed(notes: Note[]) {
+/**
+ * @param {Note[]} notes An array of notes to turn into a feed
+ * @return {string} RSS feed as a string
+ */
+function generateFeed(notes) {
   const lastNoteDate = notes[0].date;
   const feed = new Feed({
     title: "Robin Métral",
@@ -50,18 +56,14 @@ function generateFeed(notes: Note[]) {
       ],
     });
   });
-
   return feed.rss2();
 }
 
-function getNotes(files: string[]): Note[] {
+function getNotes(files) {
   return files.map((file) => {
     const str = readFileSync(NOTES_DIR + file, "utf8");
     const frontmatter = matter(str).data;
-    const { title, publishDate } = frontmatter as {
-      title: string;
-      publishDate: string;
-    };
+    const { title, publishDate } = frontmatter;
     const slug = `/notes/${file.replace(".md", "")}/`;
     const url = SITE_URL + slug;
     return {

@@ -4,24 +4,19 @@ import { load } from "js-yaml";
 
 const NOTES_DIR = `${cwd()}/pages/notes`;
 
-type Frontmatter = { [key: string]: string };
-
-function getFrontmatter(file: string): Frontmatter {
+function getFrontmatter(file) {
   const match =
     /^---(?:\r?\n|\r)(?:([\s\S]*?)(?:\r?\n|\r))?---(?:\r?\n|\r|$)/.exec(file);
-
   if (match) {
-    return load(match[1]) as Frontmatter;
+    return load(match[1]);
   } else {
     return {};
   }
 }
 
-type Note = { title: string; publishDate: string; slug: string };
-
-export async function getNotes(): Promise<Note[]> {
+export async function getNotes() {
   const files = await readdir(NOTES_DIR);
-  const notes: Note[] = await Promise.all(
+  const notes = await Promise.all(
     files.map(async (file) => {
       const content = await readFile(`${NOTES_DIR}/${file}`, "utf-8");
       const frontmatter = getFrontmatter(content);
@@ -35,7 +30,7 @@ export async function getNotes(): Promise<Note[]> {
   return notes;
 }
 
-export async function buildPage(html: string): Promise<string> {
+export async function buildPage(html) {
   try {
     const notes = await getNotes();
     const notesHtml = notes
@@ -44,17 +39,16 @@ export async function buildPage(html: string): Promise<string> {
           new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime()
       )
       .map(
-        (note) =>
-          `<li>
+        (note) => `<li>
             <a href="${note.slug}">${
-            note.title
-          }</a> (<span class="sr-only">Published on </span><time datetime="${
-            note.publishDate
-          }">${new Date(note.publishDate).toLocaleDateString("en-US", {
-            year: "numeric",
-            month: "long",
-            day: "numeric",
-          })}</time>)
+          note.title
+        }</a> (<span class="sr-only">Published on </span><time datetime="${
+          note.publishDate
+        }">${new Date(note.publishDate).toLocaleDateString("en-US", {
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        })}</time>)
           </li>`
       )
       .join("");

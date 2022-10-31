@@ -1,7 +1,6 @@
 # generated files
 public/feed.xml
 public/films.json
-scripts/*.js
 
 # build output
 dist

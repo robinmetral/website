@@ -1,6 +1,6 @@
 import { getNotes } from "./getNotes";
 
-export async function buildPage(html: string): Promise<string> {
+export async function buildPage(html) {
   try {
     const notes = await getNotes();
     const notesHtml = notes

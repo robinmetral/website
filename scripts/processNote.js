@@ -1,4 +1,4 @@
-function formatDate(date: string): string {
+function formatDate(date) {
   return new Date(date).toLocaleDateString("en-US", {
     weekday: "long",
     year: "numeric",
@@ -7,10 +7,7 @@ function formatDate(date: string): string {
   });
 }
 
-export async function buildPage(
-  html: string,
-  frontmatter: { [key: string]: string }
-): Promise<string> {
+export async function buildPage(html, frontmatter) {
   try {
     /**
      * Format date.
