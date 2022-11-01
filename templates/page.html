@@ -123,12 +123,12 @@
           align-items: center;
         }
         main {
-          padding: var(--space-3xl) var(--space-m);
+          padding: var(--space-2xl) var(--space-s); /* x padding needs to be the same as the hr negative x margin*/
         }
         hr {
           /* Negative margins to span the full width */
           /* !important overrides a specificity issue with the .post-styling margins */
-          margin: var(--space-2xl) calc(-1 * var(--space-m)) !important;
+          margin: var(--space-2xl) calc(-1 * var(--space-s)) !important;
         }
         footer {
           grid-column-start: auto;
