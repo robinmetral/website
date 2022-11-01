@@ -7,7 +7,7 @@ buildScript: "/scripts/processNote.js"
 
 A Belgian animated short about toxic friendships.
 
-![Still from Easter Eggs. Two teenagers are seated at an outdoor plastic table having milkshakes. Kevin, on the left, looks away at something happening offscreen. On the right, Jason looks down with a downtrodden look on his face.](https://www.themoviedb.org/t/p/original/yeTYvSubiRU8OTfQ7VCb1PJbbHN.jpg)
+<img width="1280" height="720" style="aspect-ratio:1280/720;height:auto;" src="https://www.themoviedb.org/t/p/original/yeTYvSubiRU8OTfQ7VCb1PJbbHN.jpg" alt="Still from Easter Eggs. Two teenagers are seated at an outdoor plastic table having milkshakes. Kevin, on the left, looks away at something happening offscreen. On the right, Jason looks down with a downtrodden look on his face." />
 
 The theme is addressed in a fairly detached way, in a series of scenes strung together by a loose narrative thread. There is no explicit moral to the story, no coming of age. Yet this critique of toxic teenage friendships is effective in its simplicity.
 
