@@ -13,7 +13,7 @@
     "feed": "^4.2.2",
     "gray-matter": "^4.0.3",
     "js-yaml": "^4.1.0",
-    "node-fetch": "^3.2.10",
+    "node-fetch": "^3.3.0",
     "serve": "^14.0.1",
     "unist-util-visit": "^4.1.1"
   }
