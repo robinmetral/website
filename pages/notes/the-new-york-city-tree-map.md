@@ -7,7 +7,7 @@ buildScript: "/scripts/processNote.js"
 
 Behold the updated [New York City Tree Map](https://tree-map.nycgovparks.org/):[^1]
 
-![](/static/images/2022-12-12-new-york-city-tree-map.webp)
+<img width="1280" height="677" style="aspect-ratio:1280/677;height:auto;" src="/static/images/2022-12-12-new-york-city-tree-map.webp"  alt="">
 
 - one dot on a map for each one of 859,065 NYC trees
 - 273 different tree species, the most common being the [London planetree](https://tree-map.nycgovparks.org/tree-map/species/66603)
