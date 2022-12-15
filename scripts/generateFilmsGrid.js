@@ -42,9 +42,12 @@ export async function buildPage(html) {
       )
       .map(
         (film) => `<li>
-            <img src="${film.posterUrl}" width="250" height="375" alt="${film.title}" loading="lazy" />
+          <span class="film-name">${film.title}</span>
+          <div class="film-poster">
+            <img src="${film.posterUrl}" width="250" height="375" alt="" loading="lazy" />
             <div><span class="sr-only">Rating: </span>${film.rating}</div>
-          </li>`
+          </div>
+        </li>`
       )
       .join("");
     return html.replace("<li>Films grid</li>", filmsHtml);

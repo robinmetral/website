@@ -6,6 +6,8 @@ description: Films I've watched.
 -->
 
 <h1>Watching</h1>
+<input type="checkbox" id="name-toggle" />
+<label for="name-toggle">Show film names</label>
 <ul>
   <li>Films grid</li>
 </ul>
@@ -20,15 +22,24 @@ description: Films I've watched.
     grid-gap: var(--space-s);
     margin-bottom: var(--space-l);
   }
+
   main img {
     height: auto;
     aspect-ratio: 250 / 375;
     object-fit: cover;
   }
+
   main li {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+  }
+
+  main li .film-poster {
     position: relative;
   }
-  main li::before {
+
+  main li .film-poster::before {
     content: "";
     position: absolute;
     width: 0px;
@@ -38,7 +49,8 @@ description: Films I've watched.
     bottom: 0;
     right: 0;
   }
-  main li div {
+
+  main li .film-poster div {
     position: absolute;
     width: calc(var(--rating-el-size) / 2);
     height: calc(var(--rating-el-size) / 2);
@@ -48,5 +60,24 @@ description: Films I've watched.
     align-items: center;
     justify-content: center;
     color: white; /* can this hardcoded color be avoided? */
+  }
+
+  /* CSS selector magic */
+  #name-toggle:not(:checked) ~ ul li .film-name {
+    /* copied from global .sr-only */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  #name-toggle + label {
+    display: inline-block;
+    margin-bottom: var(--space-l);
   }
 </style>
