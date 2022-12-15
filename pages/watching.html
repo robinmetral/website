@@ -6,8 +6,12 @@ description: Films I've watched.
 -->
 
 <h1>Watching</h1>
-<input type="checkbox" id="name-toggle" />
-<label for="name-toggle">Show film names</label>
+<!-- not using aria-hidden here because the tab stop would be weird for SR users -->
+<input type="checkbox" id="name-toggle" aria-describedby="name-toggle-desc" />
+<label for="name-toggle">Show plain text film names</label>
+<span id="name-toggle-desc" class="sr-only"
+  >This doesn't have any impact on screen reader usage.</span
+>
 <ul>
   <li>Films grid</li>
 </ul>
@@ -64,16 +68,7 @@ description: Films I've watched.
 
   /* CSS selector magic */
   #name-toggle:not(:checked) ~ ul li .film-name {
-    /* copied from global .sr-only */
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
+    display: none;
   }
 
   #name-toggle + label {

@@ -42,9 +42,10 @@ export async function buildPage(html) {
       )
       .map(
         (film) => `<li>
-          <span class="film-name">${film.title}</span>
+          <!-- hiding plain text name from SRs since it's already the poster's alt text -->
+          <span class="film-name" aria-hidden="true">${film.title}</span>
           <div class="film-poster">
-            <img src="${film.posterUrl}" width="250" height="375" alt="" loading="lazy" />
+            <img src="${film.posterUrl}" width="250" height="375" alt="${film.title}" loading="lazy" />
             <div><span class="sr-only">Rating: </span>${film.rating}</div>
           </div>
         </li>`
