@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
-    <link rel="stylesheet" href="/static/styles/global-20221006.css" />
+    <link rel="stylesheet" href="/static/styles/global-20230102.css" />
     {{#highlightCode}}
     <link rel="stylesheet" href="/static/styles/prism-20220408.css" />
     {{/highlightCode}}
@@ -23,7 +23,6 @@
     <style>
       /* Layout */
       body {
-        border: 2px solid currentColor;
         display: grid;
         grid-template: 1fr max-content / max-content 1fr;
       }
@@ -50,6 +49,13 @@
         padding: var(--space-2xl);
         font-size: var(--font-s);
         grid-column-start: 2;
+      }
+      .frame {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        border: 2px solid currentColor;
+        pointer-events: none;
       }
       /* Nav */
       #skip {
@@ -203,6 +209,7 @@
         <a href="/colophon/#privacy">Privacy policy</a>
       </p>
     </footer>
+    <div class="frame"></div>
     <script type="module">
       window.addEventListener("load", function () {
         const now = new Date().getTime();
