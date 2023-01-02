@@ -26,6 +26,16 @@
         display: grid;
         grid-template: 1fr max-content / max-content 1fr;
       }
+      body::after {
+        content: "";
+        position: fixed;
+        pointer-events: none;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border: 2px solid currentColor;
+      }
       header {
         display: flex;
         flex-direction: column;
@@ -49,13 +59,6 @@
         padding: var(--space-2xl);
         font-size: var(--font-s);
         grid-column-start: 2;
-      }
-      .frame {
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        border: 2px solid currentColor;
-        pointer-events: none;
       }
       /* Nav */
       #skip {
@@ -209,7 +212,6 @@
         <a href="/colophon/#privacy">Privacy policy</a>
       </p>
     </footer>
-    <div class="frame"></div>
     <script type="module">
       window.addEventListener("load", function () {
         const now = new Date().getTime();
