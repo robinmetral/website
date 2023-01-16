@@ -20,22 +20,22 @@ Now for your convenience (and mine), here's the full film list:
 <li><em>The Fabelmans</em> (dir. Steven Spielberg)</li>
 <li><em>The Northman</em> (dir. Robert Eggers)</li>
 <li><em>Resurrection</em> (dir. Andrew Semans)</li>
-<li><em>Banshees of Inisherin</em> (dir. Martin McDonagh)</li>
+<li><em>The Banshees of Inisherin</em> (dir. Martin McDonagh)</li>
 <li><em>Armageddon Time</em> (dir. James Gray)</li>
 <li><em>Saint Omer</em> (dir. Alice Diop)</li>
 <li><em>Ahed's Knee</em> (dir. Nadav Lapid)</li>
 <li><em>All the Beauty and the Bloodshed</em> (dir. Laura Poitras)</li>
-<li><em>EO</em> (dir. Jerzy Skolimowski)</li>
+<li><em>Eo</em> (dir. Jerzy Skolimowski)</li>
 <li><em>Benediction</em> (dir. Terence Davies)</li>
 <li><em>RRR</em> (dir. S. S. Rajamouli)</li>
 <li><em>After Yang</em> (dir. Kogonada)</li>
 <li><em>Top Gun Maverick</em> (dir. Joseph Kosinski)</li>
-<li><em>All that Breathes</em> (dir. Shaunak Sen)</li>
+<li><em>All That Breathes</em> (dir. Shaunak Sen)</li>
 <li><em>Jackass Forever</em> (dir. Jeff Tremaine)</li>
 <li><em>Nope</em> (dir. Jordan Peele)</li>
 <li><em>Decision to Leave</em> (dir. Park Chan-Wook)</li>
 <li><em>Crimes of the Future</em> (dir. David Cronenberg)</li>
-<li><em>We're all Going to the World's Fair</em> (dir. Jane Schoenbrun)</li>
+<li><em>We're All Going to the World's Fair</em> (dir. Jane Schoenbrun)</li>
 <li><em>Return to Seoul</em> (dir. Davy Chou)</li>
 <li><em>Descendant</em> (dir. Margaret Brown)</li>
 <li><em>Hit the Road</em> (dir. Panah Panahi)</li>
