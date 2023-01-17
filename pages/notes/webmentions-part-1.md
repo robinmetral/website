@@ -9,7 +9,7 @@ buildScript: "/scripts/processNote.js"
 
 Although I've known about [webmentions](https://www.w3.org/TR/webmention/) for years, I never actually set them up before.
 
-But with encouragement from [Clara](https://clarale.com/) who shared a good intro article by Rowan Manning, _[Webmentions for your Static Site](https://rowanmanning.com/posts/webmentions-for-your-static-site/)_, I think now's the time!
+But with encouragement from C who shared a good intro article by Rowan Manning, _[Webmentions for your Static Site](https://rowanmanning.com/posts/webmentions-for-your-static-site/)_, I think now's the time!
 
 I have no intention of listing the hoops through which one has to jump in order to set up webmentions. It was painful enough to wrap my head around all the components and quirks of the standard—I'm not surprised that webmentions haven't really been picking up speed.
 
