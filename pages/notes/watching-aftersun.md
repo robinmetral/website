@@ -1,6 +1,6 @@
 ---
 title: "Watching Aftersun"
-publishDate: "2023-01-18"
+publishDate: "2023-01-17"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
 ---
