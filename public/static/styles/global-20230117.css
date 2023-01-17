@@ -83,6 +83,7 @@ blockquote {
 }
 hr {
   border: none;
+  color: currentColor; /* somehow necessary to make the border's currentColor the same as the text color */
   border-top: 2px solid currentColor;
 }
 h1,
