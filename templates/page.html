@@ -196,8 +196,11 @@
             <time datetime="{{publishDate}}" class="dt-published"
               >{{publishDate}}</time
             >{{#categories.length}} in
-            <span class="sr-only">the categories </span
-            >[[CATEGORIES{{categories}}]]{{/categories.length}}
+            <span class="sr-only">the categories </span>{{#categories}}<a
+              href="/categories/{{name}}"
+              >{{name}}</a
+            >
+            {{/categories}}{{/categories.length}}
           </p>
         </div>
         <div class="post-content" {{#lang}}lang="{{lang}}"{{/lang}}>

@@ -1,6 +1,7 @@
 ---
 title: "Watching Aftersun"
-categories: ["films"]
+categories:
+  - name: films
 publishDate: "2023-01-17"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"

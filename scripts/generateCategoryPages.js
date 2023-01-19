@@ -68,7 +68,8 @@ function getNotesByCategories(notePaths) {
     const noteUrl = `/notes/${notePath.replace(".md", "")}/`;
     const note = { title, date: publishDate, url: noteUrl };
 
-    noteCategories?.forEach((category) => {
+    noteCategories?.forEach((c) => {
+      const category = c.name; // since categories are an array of object in frontmatter, we get c.name
       if (categories[category]) {
         return (categories[category] = [...categories[category], note]);
       }

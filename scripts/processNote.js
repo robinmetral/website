@@ -18,19 +18,6 @@ export async function buildPage(html, frontmatter) {
       .replace(
         />\d{4}-\d{2}-\d{2}</,
         `>${formatDate(frontmatter.publishDate)}<`
-      )
-      /**
-       * Format note categories.
-       * We match categories by the [[CATEGORIES]] substring in the html, and
-       * replace them by links to the proper categories pages.
-       */
-      .replace(/\[\[CATEGORIES(.+)\]\]/, (match, p1) =>
-        p1
-          .split(",")
-          .map(
-            (category) => `<a href="/categories/${category}">${category}</a>`
-          )
-          .join(", ")
       );
     return html;
   } catch (error) {

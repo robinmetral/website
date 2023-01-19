@@ -1,7 +1,9 @@
 ---
 title: "New website"
 description: "I'm rebuilding my website using Astro, with a fern-inspired theme and a focus on accessibility."
-categories: ["meta", "dev"]
+categories:
+  - name: meta
+  - name: dev
 publishDate: "2021-08-22"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
