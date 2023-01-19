@@ -1,5 +1,6 @@
 ---
 title: "Easter Eggs by Nicolas Keppens"
+categories: ["films"]
 publishDate: "2022-11-01"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"

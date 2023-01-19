@@ -1,5 +1,6 @@
 ---
 title: "Petroglyphs in the Russian Arctic"
+categories: ["films", "rabbithole"]
 publishDate: "2022-05-01"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
