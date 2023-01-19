@@ -163,6 +163,17 @@
         display: flex;
         flex-direction: column-reverse;
       }
+      .post-header .categories {
+        display: inline;
+        list-style: none;
+        padding: 0;
+      }
+      .post-header .categories li {
+        display: inline;
+      }
+      .post-header .categories li:not(:last-child)::after {
+        content: ", ";
+      }
       .footnotes {
         margin-top: var(--space-4xl);
         font-size: var(--font-s);
@@ -191,17 +202,17 @@
       <article>
         <div class="post-header">
           <h1>{{title}}</h1>
-          <p>
+          <div>
             <span class="sr-only">Published on</span>
-            <time datetime="{{publishDate}}" class="dt-published"
-              >{{publishDate}}</time
-            >{{#categories.length}} in
-            <span class="sr-only">the categories </span>{{#categories}}<a
-              href="/categories/{{name}}"
-              >{{name}}</a
-            >
-            {{/categories}}{{/categories.length}}
-          </p>
+            <time datetime="{{publishDate}}" class="dt-published">{{publishDate}}</time>
+            {{#categories.length}} in <span class="sr-only">the following categories:</span>
+            <ul class="categories" role="list">
+              {{#categories}}
+              <li><a href="/categories/{{name}}">{{name}}</a></li>
+              {{/categories}}
+            </ul>
+            {{/categories.length}}
+          </div>
         </div>
         <div class="post-content" {{#lang}}lang="{{lang}}"{{/lang}}>
           {{/publishDate}} {{> content}} {{#publishDate}}
