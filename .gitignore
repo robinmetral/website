@@ -1,6 +1,8 @@
 # generated files
 public/feed.xml
 public/films.json
+pages/categories/*
+!pages/categories/.gitkeep
 
 # build output
 dist
