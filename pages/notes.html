@@ -36,12 +36,21 @@ description: ...and things.
    */
   const allNotes = document.querySelectorAll("#notes-list li");
   const notesListHeading = document.getElementById("notes-list-heading");
+  const selectElement = document.getElementById("category-select");
   // remove no JS warning
   const notesFilterJSWarning = document
     .getElementById("notes-filter-js-warning")
     .remove();
   // render total note count
   notesListHeading.innerText = `${allNotes.length} notes`;
+  // set initial value
+  const urlParams = new URLSearchParams(window.location.search);
+  const initialCategory = urlParams.get("category");
+  if (initialCategory) {
+    selectElement.value = initialCategory;
+    // TODO there is probably a better way to filter the list on load than calling this manually
+    filterNotes(initialCategory);
+  }
 
   /**
    * This gets triggered when a user changes the value of the select
