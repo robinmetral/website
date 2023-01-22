@@ -24,6 +24,7 @@ export async function getNotes() {
         title: frontmatter.title,
         publishDate: frontmatter.publishDate,
         slug: `/notes/${file.replace(".md", "")}/`,
+        categories: frontmatter.categories,
       };
     })
   );
@@ -39,7 +40,9 @@ export async function buildPage(html) {
           new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime()
       )
       .map(
-        (note) => `<li>
+        (note) => `<li data-categories="${
+          note?.categories?.map((c) => c.name).join(" ") || ""
+        }">
             <a href="${note.slug}">${
           note.title
         }</a> (<span class="sr-only">Published on </span><time datetime="${

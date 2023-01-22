@@ -5,11 +5,70 @@ title: Notes
 description: ...and things.
 -->
 
-<Page>
-  <h1>Notes</h1>
-  <section>
-    <ul>
-      <li>Notes go here</li>
-    </ul>
-  </section>
-</Page>
+<h1>Notes</h1>
+<div class="mb-m">
+  <label for="category-select">Filter by category</label>
+  <select
+    id="category-select"
+    aria-describedby="notes-filter-js-warning"
+    onchange="filterNotes(this.value)"
+  >
+    <option value="">All</option>
+    <option value="accessibility">Accessibility</option>
+    <option value="books">Books</option>
+    <option value="dev">Dev</option>
+    <option value="films">Films</option>
+    <option value="meta">Meta</option>
+  </select>
+  <p id="notes-filter-js-warning">
+    <em> You need to enable JavaScript to use filters.</em>
+  </p>
+</div>
+<section aria-labelledby="notes-list-heading">
+  <h2 class="mb-s" id="notes-list-heading" tabindex="-1">All notes</h2>
+  <ul id="notes-list">
+    <li>Notes go here</li>
+  </ul>
+</section>
+<script>
+  /**
+   * Let's get this started
+   */
+  const allNotes = document.querySelectorAll("#notes-list li");
+  const notesListHeading = document.getElementById("notes-list-heading");
+  // remove no JS warning
+  const notesFilterJSWarning = document
+    .getElementById("notes-filter-js-warning")
+    .remove();
+  // render total note count
+  notesListHeading.innerText = `${allNotes.length} notes`;
+
+  /**
+   * This gets triggered when a user changes the value of the select
+   */
+  function filterNotes(category) {
+    // remove previous filter (show all notes)
+    allNotes.forEach((note) => note.removeAttribute("hidden"));
+    // if anything other than "all" was chosen...
+    if (category) {
+      // add hidden attributes to notes that don't have the chosen category in data-categories
+      let filteredNotes = [];
+      allNotes.forEach((note) => {
+        if (note.dataset.categories.split(" ").includes(category)) {
+          filteredNotes.push(note);
+        } else {
+          note.setAttribute("hidden", "");
+        }
+      });
+      // update list heading
+      notesListHeading.innerText = `${filteredNotes.length} note${
+        filteredNotes.length > 1 ? "s" : ""
+      } in "${category}"`;
+    } else {
+      // back to initial title
+      notesListHeading.innerText = `${allNotes.length} notes`;
+    }
+    // focus heading to announce new results
+    notesListHeading.focus();
+  }
+</script>
