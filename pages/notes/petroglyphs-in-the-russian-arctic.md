@@ -2,7 +2,6 @@
 title: "Petroglyphs in the Russian Arctic"
 categories:
   - name: films
-  - name: rabbit-hole
 publishDate: "2022-05-01"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"

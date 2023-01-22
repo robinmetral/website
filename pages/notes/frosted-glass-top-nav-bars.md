@@ -7,7 +7,7 @@ buildScript: "/scripts/processNote.js"
 
 Is it just me or does every top nav bar look like this now?
 
-<div style="height:300px;overflow:scroll;border:2px solid currentColor;">
+<div style="height:300px;overflow-y:scroll;border:2px solid currentColor;">
   <div style="position:sticky;top:0;">
     <div style="backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);padding:var(--space-s);text-align:center;">Top nav goes here</div>
     <div style="height:1px;background:currentColor;opacity:0.2;"><!-- dirty hack to add opacity to a border with currentColor --></div>
