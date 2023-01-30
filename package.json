@@ -14,7 +14,7 @@
     "gray-matter": "^4.0.3",
     "js-yaml": "^4.1.0",
     "node-fetch": "^3.3.0",
-    "serve": "^14.1.2",
+    "serve": "^14.2.0",
     "unist-util-visit": "^4.1.1"
   }
 }
