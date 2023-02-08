@@ -4,59 +4,40 @@ buildScript: /scripts/getNotesLastFive.js
 description: A personal website.
 -->
 
-<h1 class="sr-only">Home</h1>
-<p class="h1">Hello from <span id="weather">sunny</span> Berlin!</p>
+<h1>Welcome to this website thing</h1>
+<p class="mb-s">My name is Robin—hi!</p>
+<p class="mb-s">
+  I was born in Geneva (Switzerland not Ohio) in the last century. After living
+  in Berlin for four years, I recently moved to the Monts d'Ardèche region in
+  Southeastern France, and live in a 200-year-old former silk worm farm that my
+  grandparents turned into a home.
+</p>
+<p class="mb-s">
+  I work as an frontend engineer, which pays the bills and serves as my excuse
+  for the poor design of this thing. These days, when I'm not sitting at my
+  company-issued laptop, I like to climb, read, drink wine with bread and
+  cheese, and do a lot of other stuff that I'm not going to list here for the
+  sake of your time and mine.
+</p>
+<p class="mb-s">
+  This thing is an old-fashioned static website with very little fluff. For now
+  it has things I write in <a href="/notes/">notes</a>, and a log of films I
+  watched in <a href="/watching/">watching</a>.
+  <em
+    >(NB: since moving to France, I started to write some notes in French (my
+    native language, bonjour baguette). A language filter is coming soon but in
+    the meantime, feel free to ignore these/use a translator, you know how this
+    works.)</em
+  >
+</p>
+<p class="mb-m">
+  Enjoy browsing, and if you want to get in touch (compliments, praise,
+  applause, flattery etc.), my email is my first name @metral.ch.
+</p>
 <section>
   <h2 class="mb-s">Latest notes</h2>
   <ul role="list" class="mb-m">
     <li>Notes go here</li>
   </ul>
-  <a href="/notes">See all notes</a>
+  <a href="/notes/">See all notes</a>
 </section>
-<script type="module">
-  async function getWeather() {
-    try {
-      const res = await fetch(
-        `https://api.brightsky.dev/current_weather?wmo_station_id=10384`
-      );
-      const data = await res.json();
-      const weatherCode = data.weather.icon;
-      switch (weatherCode) {
-        case "clear-night":
-        case "partly-cloudy-night":
-          return "starry";
-        case "clear-day":
-          return "sunny";
-        case "partly-cloudy-day":
-        case "cloudy":
-          return "cloudy";
-        case "fog":
-          return "foggy";
-        case "wind":
-          return "windy";
-        case "rain":
-          return "rainy";
-        case "sleet":
-          return "sleety";
-        case "snow":
-          return "snowy";
-        case "hail":
-          return "haily";
-        case "thunderstorm":
-          return "stormy";
-        default:
-          return null;
-      }
-    } catch (error) {
-      return null;
-    }
-  }
-  async function setWeather() {
-    const weather = await getWeather();
-    if (weather) {
-      const weatherElement = document.getElementById("weather");
-      weatherElement.innerText = weather;
-    }
-  }
-  setWeather();
-</script>
