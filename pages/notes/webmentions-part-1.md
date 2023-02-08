@@ -1,5 +1,8 @@
 ---
 title: "Webmentions, part 1"
+categories:
+  - name: meta
+  - name: dev
 publishDate: "2022-04-09"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"

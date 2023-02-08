@@ -1,5 +1,7 @@
 ---
 title: "Indieweb vibes"
+categories:
+  - name: dev
 publishDate: "2021-10-13"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"

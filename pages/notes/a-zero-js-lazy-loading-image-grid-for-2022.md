@@ -1,5 +1,7 @@
 ---
 title: "A zero-JS, lazy-loading image grid for 2022"
+categories:
+  - name: dev
 publishDate: "2022-04-08"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"

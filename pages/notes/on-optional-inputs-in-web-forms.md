@@ -3,7 +3,6 @@ title: "On optional inputs in web forms"
 description: "Nobody likes to fill forms—don't ask users for unnecessary information."
 categories:
   - name: dev
-  - name: accessibility
 publishDate: "2022-09-16"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"

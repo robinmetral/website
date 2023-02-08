@@ -2,7 +2,6 @@
 title: "Je suis une pive"
 categories:
   - name: maps
-  - name: language
 publishDate: "2023-02-05"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"

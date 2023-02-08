@@ -1,5 +1,7 @@
 ---
 title: "TIL: use the Firefox address bar as a calculator"
+categories:
+  - name: other
 publishDate: "2022-09-22"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"

@@ -1,5 +1,8 @@
 ---
 title: "Whostyles in practice"
+categories:
+  - name: meta
+  - name: dev
 publishDate: "2021-10-16"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"

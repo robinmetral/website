@@ -1,5 +1,7 @@
 ---
 title: "The Oslo Trilogy"
+categories:
+  - name: films
 publishDate: "2022-06-12"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"

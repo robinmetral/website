@@ -1,5 +1,7 @@
 ---
 title: "The New York City Tree Map"
+categories:
+  - name: maps
 publishDate: "2022-12-12"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"

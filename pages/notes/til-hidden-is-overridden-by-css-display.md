@@ -1,5 +1,7 @@
 ---
 title: "TIL: [hidden] is overridden by CSS display"
+categories:
+  - name: dev
 publishDate: "2022-10-30"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"

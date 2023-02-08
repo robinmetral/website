@@ -1,5 +1,7 @@
 ---
 title: "A question"
+categories:
+  - name: other
 publishDate: "2021-09-15"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
