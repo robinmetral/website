@@ -27,7 +27,7 @@ Chrome has this cool thing where typing "20 / 16" in the address bar gives you t
 
 Turns out that the feature also exists in Firefox! It's just disabled by default.
 
-To enable it, go to [about:config](<[about:config](https://support.mozilla.org/en-US/kb/about-config-editor-firefox)>), accept the risk, search for "calculator" and toggle `browser.​urlbar.​suggest.​calculator` <!-- This `code` element contains zero-width spaces after each dot to make sure the words wrap on small screens --> to `true`.
+To enable it, go to [about:config](https://support.mozilla.org/en-US/kb/about-config-editor-firefox), accept the risk, search for "calculator" and toggle `browser.​urlbar.​suggest.​calculator` <!-- This `code` element contains zero-width spaces after each dot to make sure the words wrap on small screens --> to `true`.
 
 Done! Now you can simply type "20 / 16" in the Firefox address bar and you'll have your answer.
 
