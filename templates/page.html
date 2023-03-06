@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
-    <link rel="stylesheet" href="/static/styles/global-20230117.css" />
+    <link rel="stylesheet" href="/static/styles/global-20230303.css" />
     {{#highlightCode}}
     <link rel="stylesheet" href="/static/styles/prism-20220408.css" />
     {{/highlightCode}}
@@ -26,20 +26,10 @@
         display: grid;
         grid-template: 1fr max-content / max-content 1fr;
       }
-      body::after {
-        content: "";
-        position: fixed;
-        pointer-events: none;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        border: 2px solid currentColor;
-      }
       header {
         display: flex;
         flex-direction: column;
-        border-right: 2px solid currentColor;
+        border-right: var(--border-width) solid currentColor;
         position: sticky;
         top: 0;
         height: 100vh;
@@ -55,7 +45,7 @@
         margin: var(--space-2xl) 0 var(--space-2xl) calc(-1 * var(--space-2xl)) !important;
       }
       footer {
-        border-top: 2px solid currentColor;
+        border-top: var(--border-width) solid currentColor;
         padding: var(--space-2xl);
         font-size: var(--font-s);
         grid-column-start: 2;
@@ -91,7 +81,7 @@
       .name {
         padding: var(--space-l);
         padding-right: var(--space-2xl);
-        border-bottom: 2px solid currentColor;
+        border-bottom: var(--border-width) solid currentColor;
         font-variant: all-small-caps;
         font-weight: bold;
         line-height: 1;
@@ -112,7 +102,7 @@
           flex-direction: row;
           align-items: center;
           border-right: none;
-          border-bottom: 2px solid currentColor;
+          border-bottom: var(--border-width) solid currentColor;
           position: static;
           height: auto;
         }
@@ -125,7 +115,7 @@
         .name {
           padding: var(--space-m);
           border-bottom: none;
-          border-right: 2px solid currentColor;
+          border-right: var(--border-width) solid currentColor;
           /* make sure the border spans the entire height*/
           height: 100%;
           /* center name */

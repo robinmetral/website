@@ -59,6 +59,8 @@ h6 {
   --space-2xl: 48px;
   --space-3xl: 56px;
   --space-4xl: 64px;
+  /* Other */
+  --border-width: 4px;
 }
 html {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, avenir next, avenir,
@@ -77,14 +79,14 @@ body {
 
 /* Components */
 blockquote {
-  border-left: 2px solid currentColor;
+  border-left: var(--border-width) solid currentColor;
   padding-left: var(--space-s);
   font-style: italic;
 }
 hr {
   border: none;
   color: currentColor; /* somehow necessary to make the border's currentColor the same as the text color */
-  border-top: 2px solid currentColor;
+  border-top: var(--border-width) solid currentColor;
 }
 h1,
 h2,
