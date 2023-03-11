@@ -54,4 +54,4 @@ This week, our projection screen was also delivered! We'll finally be able to co
 
 ## Reading
 
-Graphic novels from the library (still very excited that we're able to borrow these). Noteworthy: **La maison de la plage** by Séverine Vidal and Víctor L. Pinel, **Et si l'amour c'était d'aimer** by Fabcaro (unintentional reread, short and completely worth it), and **Portugal** by Pedrosa (completely intentional reread, Pedrosa is certainly one of my favorite graphic novel authors out there).
+Graphic novels from the library (still very excited that we're able to borrow these). Noteworthy: **La maison de la plage** by Séverine Vidal and Víctor L. Pinel, **Le goût du chlore** by Bastien Vivès, **Et si l'amour c'était d'aimer** by Fabcaro (unintentional reread, short and completely worth it), and **Portugal** by Pedrosa (completely intentional reread, Pedrosa is certainly one of my favorite graphic novel authors out there).
