@@ -30,7 +30,7 @@ I could keep using N26 here (they operate across the EU) but (1) I wanted to swi
 
 The bad thing with traditional banks is that some operations still have do be done in person, and opening a joint account is one of those things. The good thing with La Banque Postale is that it's tied to the French postal services, and there's a post office in Largentière, a 15min drive from here. The other bad thing is that the Largentière post office doesn't do bank stuff anymore, so we had to make an appointment and drive 45min to Les Vans on a Wednesday morning, the only available slot in a 2-week+ window (and we were lucky that someone cancelled).
 
-So do we have a bank account now? No. We were missing a couple forms and documents. But we do have the phone number of our dedicated bank advisor (I've never had one!), so we shoul dbe able to sort it out soonish.
+So do we have a bank account now? No. We were missing a couple forms and documents. But we do have the phone number of our dedicated bank advisor (I've never had one!), so we should be able to sort it out soonish.
 
 ## Watching
 
