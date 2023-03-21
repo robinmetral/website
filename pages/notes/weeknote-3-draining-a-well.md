@@ -13,9 +13,9 @@ A bit late on this one! I'll be quick to make sure this gets published on Monday
 
 This week I helped out in the garden—season is starting and there's a lot to do!
 
-- **planted potatoes** with F (the potatoes had grown huge gems in the cellar, let's see if they survive in soil)
+- **planted potatoes** with F (the potatoes had grown huge germs in the cellar, let's see if they survive in soil)
 - **prepped the greenhouse**[^1]: weeding (painful, knowing that the [weeds were basically all edible](/notes/weeknote-2-lots-of-good-weed/)), watering the soil (very dry in there), breaking up the earth using a [grelinette](https://fr.wikipedia.org/wiki/Grelinette) and mixing it with manure that we picked up at a neighbor's
-- **planted salads** with F in the greenhouse! Got salad seedlings at the Les Vans market last Saturday. Unfortunateky they all died over the week. We're not sure if the seedlings were not great, if it was still too early for planting (the greenhouse still gets quite cold at night), or if there was eaten by some bug/slug/salad-loving-thing (it wasn't me).
+- **planted salads** with F in the greenhouse! Got salad seedlings at the Les Vans market last Saturday. Unfortunately they all died over the week. We're not sure if the seedlings were not great, if it was still too early for planting (the greenhouse still gets quite cold at night), or if there was eaten by some bug/slug/salad-loving-thing (it wasn't me)
 - **drained a well**[^2] with P who thankfully knew what he was doing. P and his team are going to waterproof the well thing, so it had to be empty. It was full of water and mud and tadpoles and baby salamanders (!) that we tried to save. Besides the age-old water bucket method (my shoulders are in pain) we made an actual [siphon](https://en.wikipedia.org/wiki/Siphon) with a really long tube, probably my first time seeeing this applied out of a classroom (never has to empty a car tank)
 
 ## Looking for a car
