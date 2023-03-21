@@ -18,7 +18,7 @@ We joined a workshop about wild plants that took place in our living room (F had
 
 We learned the names, properties, and health benefits of more than a dozen edible plants that grow in the wild around here, plus the differences between them and ways to eat them (mostly raw in mesclun salads, sometimes cooked like you'd cook spinach). There were classics that I knew already[^1]: pissenlit, nombril de vénus, plantain, orties, poireau sauvage. I'd never heard the name of most: lamier, crépi, laiture Saint-Joseph, porcelle, pimprenelle, cousteline, silène, cressonnette, oseille acetosella, stellaire, bourse à pasteur, lampsane. N, who was giving the workshop, had found all of these the previous day in her garden, and we passed the plants around the table, observing, smelling, tasting on the way. THE reference book is [Cueillir et cuisiner les plantes sauvages](https://www.decitre.fr/livres/cueillir-et-cuisiner-les-plantes-sauvages-9782744909009.html), written by N's teacher Mireille Sicard. On the list.
 
-After a fantastic potluck lunch (people really like food around here), we headed towards E's house (where we spent a night [last week](/notes/weeknote-1-first-crag-climb/)) to try and find some of the plants we'd leared about. A few steps out of the house, on the side of the road, we'd already found a dozen varieties! N likes to say that we're all stepping in salad.
+After a fantastic potluck lunch (people really like food around here), we headed towards E's house (where we spent a night [last week](/notes/weeknote-1-first-crag-climb/)) to try and find some of the plants we'd learned about. A few steps out of the house, on the side of the road, we'd already found a dozen varieties! N likes to say that we're all stepping in salad.
 
 The next day, we had trouble trying to recall the plants—let alone differentiating them—with F. Fortunately, the tl;dr is that you can make salad with pretty much anything that grows here.
 
@@ -28,9 +28,9 @@ In Berlin, I opened an account online in about 5min and before even arriving, by
 
 I could keep using N26 here (they operate across the EU) but (1) I wanted to switch to a bank that I can be sure doesn't invest in industries like fossil fuels[^2], (2) C and I kind of wanted to open a joint bank account, and (3) N26 conditions in FR are not as nice as in DE (no free card, not as many free withdrawals, etc). So we turned to a traditional bank, and after some research online[^3], we picked [La Banque Postale](https://www.labanquepostale.fr/).
 
-The bad thing with traditional banks is that some operations still have do be done in person, and opening a joint account is one of those things. The good thing with La Banque Postale is that it's tied to the French postal services, and there's a post office in Largentière, a 15min drive from here. The other bad thing is that the Largentière post office doesn't do bank stuff anymore, so we had to make an appointment and drive 45min to Les Vans on a Wednesday morning, the only available slot in a 2-week+ window (and we were lucky that someone cancelled).
+The bad thing with traditional banks is that some operations still have to be done in person, and opening a joint account is one of those things. The good thing with La Banque Postale is that it's tied to the French postal services, and there's a post office in Largentière, a 15min drive from here. The other bad thing is that the Largentière post office doesn't do bank stuff anymore, so we had to make an appointment and drive 45min to Les Vans on a Wednesday morning, the only available slot in a 2-week+ window (and we were lucky that someone cancelled).
 
-So do we have a bank account now? No. We were missing a couple forms and documents. But we do have the phone number of our dedicated bank advisor (I've never had one!), so we should be able to sort it out soonish.
+So do we have a bank account now? No. We were missing a couple of forms and documents. But we do have the phone number of our dedicated bank advisor (I've never had one!), so we should be able to sort it out soonish.
 
 ## Watching
 
