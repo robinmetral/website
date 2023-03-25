@@ -6,7 +6,8 @@
   "scripts": {
     "start": "brut && serve dist",
     "build": "brut",
-    "prebuild": "node scripts/prebuild.js"
+    "prebuild": "node scripts/prebuild.js",
+    "new": "bash ./scripts/new-note.sh"
   },
   "devDependencies": {
     "brut": "^0.0.30",
