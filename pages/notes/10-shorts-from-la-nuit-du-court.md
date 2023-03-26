@@ -7,7 +7,7 @@ template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
 ---
 
-Seven out of ten shorts that were screened at the _La Nuit du Court_ ("short film night") event that C and I attended at the Montpezat public library last week can be freely and legally watched online.
+Seven out of ten shorts that were screened at the [La Fête du Court](https://www.lafeteducourt.com/) short film event that C and I attended at the Montpezat public library last week can be freely and legally watched online.
 
 For your convenience and for future reference I listed them all below don't-thank-me:
 
@@ -35,13 +35,13 @@ Uploaded to Vimeo by the directors:
 
 ## 4. Vicious Cycle (3<span aria-label=" min">'</span>, 2017), by Michael Marczewski
 
-Among my favorite of the list, not for the animation (which is nice, don't get me wrong, kind of Blender-3D-style) but for the unspoken symbolism throughout.
+Among my favorites of the list, not for the animation (which is nice, don't get me wrong, kind of Blender-3D-style) but for the unspoken symbolism throughout.
 
 Uploaded to Vimeo by the director/animator:
 
 <div class='embed-container' style='padding-bottom:62.5%;'><iframe src='https://player.vimeo.com/video/198802302?title=1&byline=0&portrait=0' frameborder='0' allowFullScreen loading='lazy'></iframe></div>
 
-(Is it just for me that this one doesn't have video controls? Here's the [Vimeo link](https://vimeo.com/198802302) if this doesn't work for you either.)
+(Is it just me or this one doesn't have video controls? Here's the [Vimeo link](https://vimeo.com/198802302) just in case.)
 
 ## 5. Imbued Life (12<span aria-label=" min">'</span>, 2019), by Ivana Bošnjak and Thomas Johnson
 
@@ -95,7 +95,7 @@ Couldn't find this one online either, here's a trailer from [the production comp
 
 <video controls><source src="http://vixens-films.com/wp-content/uploads/2021/06/canyon_trailer.mp4" type="video/mp4"><source src="http://vixens-films.com/wp-content/uploads/2021/06/canyon_trailer.webm" type="video/webm"><source src="http://vixens-films.com/wp-content/uploads/2021/06/canyon_trailer.ogv" type="video/ogg"></video>
 
-That's all 10 of them! Vimeo particularly is a great place to find more shorts of all kinds—it's favored by filmmakers over YouTube because it streams in higher quality. It would be really cool if there were a website that curated and shared lists of shorts by genre, country, theme etc. Anyone could then organize their own _Nuit du court_ at home! If this already exists [I'd like to know](/contact/).
+That's all 10 of them! Vimeo particularly is a great place to find more shorts of all kinds—it's favored by filmmakers over YouTube because it streams in higher quality. It would be really cool if there were a website that curated and shared lists of shorts by genre, country, theme etc. Anyone could then organize their own short film nights at home! If this already exists [I'd like to know](/contact/).
 
 Bye!
 
