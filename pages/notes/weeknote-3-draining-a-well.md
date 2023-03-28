@@ -7,7 +7,7 @@ template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
 ---
 
-A bit late on this one! I'll be quick to make sure this gets published on Monday (I aim for Sundays, but yesterday I was busy throwing buckets of springwater out of a well).
+A bit late on this one! I'll be quick to make sure this gets published on Monday (I aim for Sundays, but yesterday I was busy throwing buckets of spring water out of a well).
 
 ## Garden work
 
@@ -16,13 +16,13 @@ This week I helped out in the garden—season is starting and there's a lot to d
 - **planted potatoes** with F (the potatoes had grown huge germs in the cellar, let's see if they survive in soil)
 - **prepped the greenhouse**[^1]: weeding (painful, knowing that the [weeds were basically all edible](/notes/weeknote-2-lots-of-good-weed/)), watering the soil (very dry in there), breaking up the earth using a [grelinette](https://fr.wikipedia.org/wiki/Grelinette) and mixing it with manure that we picked up at a neighbor's
 - **planted salads** with F in the greenhouse! Got salad seedlings at the Les Vans market last Saturday. Unfortunately they all died over the week. We're not sure if the seedlings were not great, if it was still too early for planting (the greenhouse still gets quite cold at night), or if there was eaten by some bug/slug/salad-loving-thing (it wasn't me)
-- **drained a well**[^2] with P who thankfully knew what he was doing. P and his team are going to waterproof the well thing, so it had to be empty. It was full of water and mud and tadpoles and baby salamanders (!) that we tried to save. Besides the age-old water bucket method (my shoulders are in pain) we made an actual [siphon](https://en.wikipedia.org/wiki/Siphon) with a really long tube, probably my first time seeeing this applied out of a classroom (never has to empty a car tank)
+- **drained a well**[^2] with P who thankfully knew what he was doing. P and his team are going to waterproof the well thing, so it had to be empty. It was full of water and mud and tadpoles and baby salamanders (!) that we tried to save. Besides the age-old water bucket method (my shoulders are in pain) we made an actual [siphon](https://en.wikipedia.org/wiki/Siphon) with a really long tube, probably my first time seeing this applied out of a classroom (never has to empty a car tank)
 
 ## Looking for a car
 
 We obviously[^3] need a car (thankfully not urgently, since we can share F's, but the sooner the better).
 
-This week we met A who took us to Aubenas for a tour of used car deadlerships. It was great to go with someone who knows about cars, because I don't. We took a bunch of pics and notes and listened to salesmen try to sell cars (they're convincing! I could never work in sales).
+This week we met A who took us to Aubenas for a tour of used car dealerships. It was great to go with someone who knows about cars, because I don't. We took a bunch of pics and notes and listened to salesmen try to sell cars (they're convincing! I could never work in sales).
 
 Back home, we spent hours going through the websites of these dealerships, where they list cars on offer. This helped us form an idea of what we're looking for without the pressure of a convincing salesman standing right there. C made a spreadsheet where we sorted through and compared them (some key criteria: trunk size big enough to put a bouldering crashpad, engine powerful enough for the Monts d'Ardèche hills, white if possible because black cars get really hot in the summer, in good enough shape so we don't have to bring it to the auto repair too much).
 
