@@ -1,0 +1,126 @@
+<!-- TODO make this work with Standards Mode then add DOCTYPE https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode -->
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/static/favicon-20220314.png" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        overflow: hidden;
+        font-family: sans-serif;
+      }
+      #main-container {
+        width: 100%;
+        height: 100%;
+      }
+      .sim-info {
+        position: absolute;
+        right: 0;
+        background-color: #ccc;
+        padding: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sim-info">
+      Current Date: <span id="current-date">?</span>
+      <br />
+      <button id="btn-start">Start</button>
+      <button id="btn-stop">Stop</button>
+      <button id="btn-reset">Reset</button>
+      <button id="btn-set-time">Set Time</button>
+    </div>
+    <div id="main-container"></div>
+    <script src="/spacekit/spacekit.js"></script>
+    <script type="module">
+      const startDate = new Date("2061-06-20");
+      const orbitPathPoints = 75 * 365; // roughly one point for each day in Halley's orbit length to make it smooth
+      // TODO this is probably not what I think it is
+      const orbitPathYears = 200; // 100y to make sure we render the full orbit path
+
+      // create a viz using https://github.com/typpo/spacekit
+      const viz = new Spacekit.Simulation(
+        document.getElementById("main-container"),
+        {
+          // use assets hosted on the spacekit GitHub
+          basePath: "/spacekit",
+          startDate,
+          startPaused: true,
+          jdPerSecond: 1,
+          camera: {
+            enableDrift: true,
+          },
+        }
+      );
+
+      // Create a skybox using NASA TYCHO artwork
+      // viz.createSkybox(Spacekit.SkyboxPresets.NASA_TYCHO);
+      viz.createStars();
+
+      // Add solar system objects
+      viz.createObject("Sun", Spacekit.SpaceObjectPresets.SUN);
+      viz.createObject("Mercury", Spacekit.SpaceObjectPresets.MERCURY);
+      viz.createObject("Venus", Spacekit.SpaceObjectPresets.VENUS);
+      viz.createObject("Earth", Spacekit.SpaceObjectPresets.EARTH);
+      viz.createObject("Mars", Spacekit.SpaceObjectPresets.MARS);
+      viz.createObject("Jupiter", Spacekit.SpaceObjectPresets.JUPITER);
+      viz.createObject("Saturn", Spacekit.SpaceObjectPresets.SATURN);
+      viz.createObject("Uranus", Spacekit.SpaceObjectPresets.URANUS);
+      viz.createObject("Neptune", Spacekit.SpaceObjectPresets.NEPTUNE);
+
+      // Keplerian orbital elements
+      const ephem = new Spacekit.Ephem(
+        {
+          epoch: 2474040.5, // JS time. Converter: https://ssd.jpl.nasa.gov/tools/jdc/#/cd
+          a: 17.74, // a. Semimajor axis (size of the ellipse). (periapsis+apoapsis)/2
+          e: 0.96658, // e. Eccentricity (shape of the ellipse)
+          i: 161.96, // i. Inclination
+          om: 59.396, // Ω (omega). Longitude of ascending node (?)
+          w: 112.05, // ω. Argument of periapsis
+          ma: 0.07323, // Mean anomaly
+          tp: 2474032.5, // Time of perihelion passage
+        },
+        "deg"
+      );
+
+      const halley = viz.createObject("Asteroid Aci", {
+        ephem,
+        ecliptic: {
+          // displayLines: true,
+          lineColor: 0x333333,
+        },
+        labelText: "Halley's Comet",
+        orbitPathSettings: {
+          numberSamplePoints: orbitPathPoints,
+          leadDurationYears: orbitPathYears,
+          trailDurationYears: orbitPathYears,
+        },
+      });
+
+      // Set up viewport
+      viz.zoomToFit(halley);
+
+      // Set up event listeners
+      document.getElementById("btn-start").onclick = function () {
+        viz.start();
+      };
+      document.getElementById("btn-stop").onclick = function () {
+        viz.stop();
+      };
+      document.getElementById("btn-reset").onclick = function () {
+        viz.setDate(startDate);
+      };
+      document.getElementById("btn-set-time").onclick = function () {
+        viz.setDate(new Date(prompt("Enter a date (YYYY-mm-dd)")));
+      };
+
+      const dateElement = document.getElementById("current-date");
+      viz.onTick = function () {
+        const d = viz.getDate();
+        dateElement.innerHTML = d.toLocaleDateString();
+      };
+    </script>
+  </body>
+</html>
