@@ -1,4 +1,4 @@
 import generateRSS from "./generateRSS.js";
-import getData from "./getData.js";
+import getFilmsData from "./getFilmsData.js";
 
-Promise.all([generateRSS(), getData()]);
+Promise.all([generateRSS(), getFilmsData()]);

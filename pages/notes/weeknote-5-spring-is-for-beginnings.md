@@ -13,7 +13,7 @@ Lots of things happened last week, but first, a personal announcement:
 
 ## This is the end, this is the beginning
 
-It's official: I've decided to leave my current position at SumUp (might share extra thoughts on this later). It's been a great ride over the last 4 years, but I'm also looking forward to the end of it! After my last day in May, I won't start another job (perks of (fin)tech) but will instead spend the next few months tending the garden (what a cliché), climbing hiking swimming, reading writing photographing, and trying to revive my sourdough starter[^1] (another cliché).
+It's official: I've decided to leave my job at SumUp (might share extra thoughts on this later). It's been a great ride over the last 4 years, but I'm also looking forward to the end of it! After my last day in May, I won't start another job (perks of (fin)tech) but will instead spend the next few months tending the garden (what a cliché), climbing hiking swimming, reading writing photographing, and trying to revive my sourdough starter[^1] (another cliché).
 
 And after that: the Second Big Trip is finally due! For French speakers or fearless users of Google Translate among you, C and I will pick up our blog [_Eau de poisson_](https://eaudepoisson.com/) for a long-awaited season 2[^2].
 

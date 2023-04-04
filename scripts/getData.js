@@ -3,7 +3,7 @@ import fetch from "node-fetch";
 
 const PUBLIC_DIR = "./public";
 
-export default async function getData() {
+export default async function getFilmsData() {
   try {
     const response = await fetch("https://logger.robinmetral.workers.dev/");
     const json = await response.json();
