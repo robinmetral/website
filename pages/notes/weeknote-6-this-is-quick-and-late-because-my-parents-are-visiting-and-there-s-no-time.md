@@ -1,5 +1,5 @@
 ---
-title: "Weeknote 6: this is quick and late because my parent are visiting and there's no time"
+title: "Weeknote 6: this is quick and late because my parents are visiting and there's no time"
 categories:
   - name: weeknotes
 publishDate: "2023-04-13"
