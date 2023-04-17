@@ -7,6 +7,8 @@ template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
 ---
 
+_Week 9 (27 February–5 March 2023)_
+
 After a few days of cold and rain (which seems to never lasts long over here), sun is back, and when the wind isn't too strong we can comfortably have our morning coffee out on the terrace. Feels like a dream.
 
 This week was intense in activities—who said living in the country is boring? (Probably someone who didn't live around here.)

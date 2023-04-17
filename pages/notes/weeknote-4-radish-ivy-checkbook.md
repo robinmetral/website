@@ -7,6 +7,8 @@ template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
 ---
 
+_Week 12 (20–26 March 2023)_
+
 Let's do bullet points this week:
 
 - Forgot to mention [last time](/notes/weeknote-3-draining-a-well/): C and I took part in a **bouldering competition** organized at our club on 18.3.23! Very friendly as usual for climbing comps, the main difference with _Get High_ in Berlin last year being that it was a club-only thing, so a lot of people knew each other, we all brought food for lunch, V who just started to make beer in Rocles had brought the said beer. I'm also pretty happy with what I climbed: 4 out of 6 purples (which is normally a red-gray at BK in Berlin, but for the competition they were more red-red)
@@ -20,13 +22,13 @@ Let's do bullet points this week:
 
 ## Watching
 
-I write a bit more about what I watch lately (instead of just [logging it](/watching/)), so this will be short. Links:
+I wrote a bit more about what I watched this week (instead of just [logging it](/watching/)), so this will be short. Just links:
 
 - [10 shorts from La Fête du Court](/notes/10-shorts-from-la-fete-du-court/)
-- [Operation Fortune by Guy Ritchie](/notes/operation-fortune-by-guy-ritchie/)
-- [Les Vacances de Monsieur Hulot by Jacques Tati](/notes/les-vacances-de-monsieur-hulot-by-jacques-tati/)
+- [**Operation Fortune: Ruse de Guerre** (2023) by Guy Ritchie](/notes/operation-fortune-by-guy-ritchie/)
+- [**Les Vacances de Monsieur Hulot** (1953) by Jacques Tati](/notes/les-vacances-de-monsieur-hulot-by-jacques-tati/)
 
-There are now [11 notes about films](https://robinmetral.com/notes/?category=films) on here!
+There are now [11 notes about films](/notes/?category=films) on here!
 
 ## Reading
 

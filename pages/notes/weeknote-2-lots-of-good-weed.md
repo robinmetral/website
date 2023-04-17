@@ -7,6 +7,8 @@ template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
 ---
 
+_Week 10 (6–12 March 2023)_
+
 A less busy/intense week than [the last](/notes/weeknote-1-first-crag-climb/), and I'm enjoying the rest. We bouldered less (our gym is closed until next weekend because they're setting routes for a competition, and there's only a cramped training gym available as a replacement), stayed home more. Sun and rain are alternating these days, I don't mind, sun is good for the mind and rain is good for the soil. It's getting warmer.
 
 ## Lots of good weed

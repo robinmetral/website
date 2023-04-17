@@ -7,6 +7,8 @@ template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
 ---
 
+_Week 13 (27 March–2 April 2023)_
+
 Spring! Weather here is getting reliably warmer (no more random sub-zero nights), beautiful white flowers of almost and plum trees (I think I mentioned these already?)
 
 Lots of things happened last week, but first, a personal announcement:
@@ -50,9 +52,8 @@ I already have projects at Mazet (_Complot de famille_, 6A+, failed my lead atte
 
 ## Watching
 
-A bit less than the previous week, but a couple of classics (watched without C):
+Just the one classic this week (watched without C):
 
-- [**Les vacances de Monsieur Hulot** (1953) by Jacques Tati](/notes/les-vacances-de-monsieur-hulot-by-jacques-tati/)
 - [**L'Atalante** (1934) by Jean Vigo](/notes/l-atalante-by-jean-vigo/)
 
 ...and a couple of shorts (watched with C):

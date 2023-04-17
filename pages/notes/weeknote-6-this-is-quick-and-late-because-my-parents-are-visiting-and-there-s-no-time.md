@@ -7,6 +7,8 @@ template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
 ---
 
+_Week 14 (3–9 April 2023)_
+
 As bullet points again, so this doesn't end up published next week:
 
 - Garden: planted salads in the greenhouse. Removed ivy from a bunch of plum trees that now sprang out from where F threw out a bucket of moldy plums 30 years ago
