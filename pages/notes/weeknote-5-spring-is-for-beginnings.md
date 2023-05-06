@@ -34,7 +34,7 @@ Sicily: completely new for me! I've never been south of Rome in Italy. I hear th
 - skipped Friday
 - ...because on Sunday, we went lead climbing outdoors for the very first time!
 
-We met people from the club at [Mazet](https://www.thecrag.com/en/climbing/france/mazet-plage) including F, our climbing instructor. He demonstrated how to se vacher at un relais (I'm won't even try to translate these), and everyone just ran off lead climbing while he was running up and down the wall (literally) to check if we were all tying knots properly.
+We met people from the club at [Mazet](https://www.ffme.fr/sne-fiche/637/) including F, our climbing instructor. He demonstrated how to se vacher at un relais (I'm won't even try to translate these), and everyone just ran off lead climbing while he was running up and down the wall (literally) to check if we were all tying knots properly.
 
 It was super fun, I liked it even more than [my first outdoor top-rope climb](/notes/weeknote-1-first-crag-climb/) last month (think I also liked the Mazet crag better than Chaulet), it was easier than I thought (already knew how to lead climb and lead belay from indoor training, simply hadn't learned how to se vacher at un relais) and I want to do it again very very soon. I also had a completely unexpected fall on a slab (foot slipped), my worst fear, but C caught the fall perfectly, I landed feet against the wall a few meters down, and made it back to the ground with only a scratch.
 

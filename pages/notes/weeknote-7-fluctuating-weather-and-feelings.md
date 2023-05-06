@@ -13,11 +13,11 @@ This week came with fluctuating weather, and fluctuating feelings (like I noted 
 
 ## More outdoor climbing
 
-...at the Mazet crag[^2] on Monday with the parents (first unsupervised lead climbing outdoors) and bouldering at Casteljau on Sunday with friends.
+...at the [Mazet crag](https://www.ffme.fr/sne-fiche/637/) (sectors _Petite Aiguille_ and _Troubadour_) on Monday with the parents (first unsupervised lead climbing outdoors) and bouldering at Casteljau on Sunday with friends.
 
-I'm super happy that C and I can finally climb outdoors independently!! We're also fully equipped since we dropped by the amazing [Face Sud](https://www.face-sud.com/) store (near Vallon) a couple weeks ago. (We're missing a few quickdraws[^3], one carabiner[^4] and a couple <span lang="fr">_maillons rapides_</span>[^5].)
+I'm super happy that C and I can finally climb outdoors independently!! We're also fully equipped since we dropped by the amazing [Face Sud](https://www.face-sud.com/) store (near Vallon) a couple weeks ago. (We're missing a few quickdraws[^2], one carabiner[^3] and a couple <span lang="fr">_maillons rapides_</span>[^4].)
 
-It wasn't the first time we went bouldering outdoors (we did a bit of that back in 2021 with C and J in the same area, Casteljau, and we even have a crashpad here), but it was really nice to go with people who knew the place. N and J (another J[^6]) know the place like the back of their hands and I enjoyed the boulders a lot more with them bringing us to their favorite problems, giving us tips when we got stuck etc. Outdoor bouldering is as tricky as indoors (read: trickier than rope climbing) but here there's no colorful resin hold, only hard-to-notice little gaps or lumps in the rock, sometimes obscured by moss. Being shown around by regulars was great.
+It wasn't the first time we went bouldering outdoors (we did a bit of that back in 2021 with C and J in the same area, Casteljau, and we even have a crashpad here), but it was really nice to go with people who knew the place. N and J (another J[^5]) know the place like the back of their hands and I enjoyed the boulders a lot more with them bringing us to their favorite problems, giving us tips when we got stuck etc. Outdoor bouldering is as tricky as indoors (read: trickier than rope climbing) but here there's no colorful resin hold, only hard-to-notice little gaps or lumps in the rock, sometimes obscured by moss. Being shown around by regulars was great.
 
 And we were also at the gym on Wednesday and Friday. And (I'm getting ahead of myself but) we just got back a session this Monday evening, April 17th (week 16), and I'm very happy to have finally finished another purple project that I worked on all throughout the week (15).
 
@@ -41,7 +41,7 @@ Not having a car is not really an option around here (though we do know people w
 
 Just one film again this week, and not one to brag about:
 
-- **Shazam! Fury of the Gods** (2023) by David F. Sandberg. A night when I wanted (needed?) light entertainment, and it didn't disappoint. Superhero stuff rarely does! (During the first lockdown back in the spring of 2020[^7], C and I went through the entire MCU in a custom order that [someone recommended on Reddit](https://www.reddit.com/r/marvelstudios/comments/fy0hvu/the_perfect_mcu_viewing_order/).) I giggled a lot, but would still not recommend this unless you're after exactly this kind of stuff. (This might be a film equivalent to a [Stephen King novel](/notes/later-by-stephen-king/)—or am I being too harsh on either of these?)
+- **Shazam! Fury of the Gods** (2023) by David F. Sandberg. A night when I wanted (needed?) light entertainment, and it didn't disappoint. Superhero stuff rarely does! (During the first lockdown back in the spring of 2020[^6], C and I went through the entire MCU in a custom order that [someone recommended on Reddit](https://www.reddit.com/r/marvelstudios/comments/fy0hvu/the_perfect_mcu_viewing_order/).) I giggled a lot, but would still not recommend this unless you're after exactly this kind of stuff. (This might be a film equivalent to a [Stephen King novel](/notes/later-by-stephen-king/)—or am I being too harsh on either of these?)
 
 ## Reading
 
@@ -51,10 +51,9 @@ Just one film again this week, and not one to brag about:
 - [**Later** (2021) by Stephen King](/notes/later-by-stephen-king/). See mention above in _Watching_.
 - [**Cette nuit, la mer est noire** (2015) by Florence Arthaud](/notes/cette-nuit-la-mer-est-noire-by-florence-arthaud/). Mixed feelings but I liked it overall and read it in a single day. Made me want to pick up another sailing-related biography!
 
-[^1]: I'm gonna start adding week numbers in here because
-[^2]: sectors [Petite Aiguille](https://www.thecrag.com/climbing/france/mazet-plage/area/566374368), [Troubadour](https://www.thecrag.com/climbing/france/mazet-plage/area/566374308)
-[^3]: we have 10, we can climb many routes but some require up to 15. We're not really limited by rope length, the one we got is 80 m.
-[^4]: for part of the anchoring technique we learned. We can use a quickdraw as a replacement in the meantime but we're already short on these
-[^5]: these are the little carabiner-like things that you can screw onto a point to be able to get down without having to leave a quickdraw behind, in case we can't get to the anchor (alternatively if there is an easier route up you can use that to get to the anchor, or ask a stronger climber for help)
-[^6]: maybe I should start to use the two first letters?
-[^7]: already three years ago!!
+[^1]: I'm gonna start adding week numbers in here because that will make it easier in the future
+[^2]: we have 10, we can climb many routes but some require up to 15. We're not really limited by rope length, the one we got is 80 m.
+[^3]: for part of the anchoring technique we learned. We can use a quickdraw as a replacement in the meantime but we're already short on these
+[^4]: these are the little carabiner-like things that you can screw onto a point to be able to get down without having to leave a quickdraw behind, in case we can't get to the anchor (alternatively if there is an easier route up you can use that to get to the anchor, or ask a stronger climber for help)
+[^5]: maybe I should start to use the two first letters?
+[^6]: already three years ago!!
