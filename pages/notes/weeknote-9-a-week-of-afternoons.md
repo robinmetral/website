@@ -7,7 +7,7 @@ template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
 ---
 
-_Week 18 (1 May–7 May 2023)_
+_Week 18 (1–7 May 2023)_
 
 C and J are visiting this week (and the next)! [We picked them up on Sunday in Valence](/notes/weeknote-8-les-branches/) and they're sleeping upstairs.
 
@@ -35,11 +35,11 @@ Drove towards Rocles. A stop by the Épicerie au Fournil with ice cream and fond
 
 In the evening C and I went bouldering at the gym—couldn't bring J and C because of our club's policy—only licensed members (for insurance reasons). Too bad!
 
-### Thursday: home, first salad, lasagna
+### Thursday: home, first salad from the garden, lasagna
 
 We stayed home on Thursday! Some cooking: for lunch I cut and prepared the first batavia salad that I planted a couple of months ago, it doesn't get any fresher than this. Crispy, juicy, a bit nutty, delicious! In the evening we all made Lasagna together, with chards from the garden, had a pet nat as an apéro, and a very good Viognier (from the Frères Royer) with the food.
 
-### Friday: climbing and waffle in Jaujac, moon
+### Friday: climbing and waffles in Jaujac, moon
 
 We went back to the Jaujac crag (Tras les Baumes), and had basically the same afternoon as [last week](/notes/weeknote-8-les-branches/) (except with J and C this time): pre-climbing lunch at the Estivin, climbing, and post-climbing waffle (plus galette this time) at the waffle place.
 
@@ -47,7 +47,7 @@ We gave a little lead climbing refresher to J and C and both climbed a very nice
 
 In the evening at around 9pm, as we were coming back from the garden after helping F plant eggplants and bell peppers, someone spotted the moon and it was HUGE: full, yellow-orangeish, just coming out next to the Mont Ventoux in the distance. I ran down to tell F to take a look, and she WhatsApp-called P to tell him to look too. Then we sat and watched for some time, amazed.
 
-### Saturday: Les Vans market
+### Saturday: Les Vans, Dire Straits, ice cream
 
 We left early on Saturday to get to Les Vans before 9 am for the market (any time after that means it'll be crowded and the parking close to the market will be full). Regular tour of the olive cheese veggie stalls, endive seedlings for F, then we sat for coffee and pastries on a terrace.
 
