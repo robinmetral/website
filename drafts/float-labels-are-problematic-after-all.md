@@ -1,0 +1,2 @@
+- http://mds.is/still-floating-labels/ (Medium: https://medium.com/bymds/are-float-labels-really-that-problematic-after-all-da7ffe7d5417)
+- https://medium.com/@adambsilver/really-enjoyed-hearing-your-thoughts-on-this-matt-e971cb8846b9
