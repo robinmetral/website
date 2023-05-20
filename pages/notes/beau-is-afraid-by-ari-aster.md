@@ -1,6 +1,9 @@
 ---
-created: 2023-05-20T17:22:21+02:00
-modified: 2023-05-20T17:25:59+02:00
+title: Beau Is Afraid by Ari Aster
+categories: ['{name: films}']
+publishDate: 2023-05-20
+template: /templates/page.html
+buildScript: /scripts/processNote.js
 ---
 
 # Beau Is Afraid by Ari Aster
