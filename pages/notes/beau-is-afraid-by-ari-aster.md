@@ -6,6 +6,4 @@ template: /templates/page.html
 buildScript: /scripts/processNote.js
 ---
 
-# Beau Is Afraid by Ari Aster
-
 Temp
