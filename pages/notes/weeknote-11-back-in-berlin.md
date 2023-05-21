@@ -1,5 +1,5 @@
 ---
-title: 'Weeknote #11: Back in Berlin'
+title: 'Weeknote #11: back in Berlin'
 categories: ['{name: weeknotes}']
 publishDate: 2023-05-21
 template: /templates/page.html
