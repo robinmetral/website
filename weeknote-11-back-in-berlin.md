@@ -1,3 +1,11 @@
+---
+title: 'Weeknote #11: Back in Berlin'
+categories: ['{name: weeknotes}']
+publishDate: 2023-05-21
+template: /templates/page.html
+buildScript: /scripts/processNote.js
+---
+
 _Week 20 (15–21 May 2023)_
 
 This week started with us arriving back in Berlin after 3.5 months away and [a long train ride](/notes/weeknote-10-a-week-of-aperos/).
