@@ -28,7 +28,8 @@ We spent the week at J and C's and our stay felt at once very familiar but also 
 
 ## The strange
 
-- the new office setup, having a guest badge
+- ...the reminiscing itself. Using the past tense a lot for things that felt so natural and obvious and routine only a few months back
+- getting a guest badge for the office
 - staying in Prenzlauer Berg. The neighborhood is great and I've been here countless times but it's not my Kiez! Losing by bearings, e.g. it feels strange to have to ride the Ringbahn for 30min after a night in Neukölln
 - the opposite: staying at J and C's instead of heading back home after an evening at their place
 - last day of work, handing back my laptop (working at SumUp has very much been tied to Berlin in my mind: I joined the company only a few months after moving to Berlin back in January 2019 and met most of my Berlin friends through it!)
