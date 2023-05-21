@@ -1,9 +1,10 @@
 ---
-title: 'Weeknote #11: back in Berlin'
-categories: ['{name: weeknotes}']
-publishDate: 2023-05-21
-template: /templates/page.html
-buildScript: /scripts/processNote.js
+title: "Weeknote #11: back in Berlin"
+categories:
+  - name: weeknotes
+publishDate: "2023-05-21"
+template: "/templates/page.html"
+buildScript: "/scripts/processNote.js"
 ---
 
 _Week 20 (15–21 May 2023)_
