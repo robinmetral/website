@@ -12,7 +12,7 @@ Sicily week 1 with I and B. Road trip from Palermo to Noto to the Etna and back 
 
 ### Palermo
 
-- cornetto with pistachio cream!
+- cornetto with pistachio cream! First one at U Cafè Sicilianu
 - Zisa castle was so underwhelming that it became a joke for the rest of the week
 - on some square a man sings: ya me ya me ya peya peya, ya me ya me ya peya peya pouli pouli pouli poula pouli pouli pouli poulaaaaaaya peya peya pouli pouli pouli poula
 - gelato at Cappadonia, one of the best in Italy according to [Gambero Rosso, the Michelin guide of gelato](gamberorosso.it/gelaterie/)
@@ -28,7 +28,10 @@ Sicily week 1 with I and B. Road trip from Palermo to Noto to the Etna and back 
 
 ### Syracuse Coast
 
-...
+- the guy who's supposed to open the house we rented tells us to meet him in 7 minutes (and arrives 15 minutes after that)
+- at the SiPiù supermarket I find the amaro Amara that I'd read about, plus about 5 other types of craft Sicilian amari. The Campari is on the lower shelf
+- first granita in Marzamemi at the bar caffè Al Ciclope 2 (because granita is an East Sicily thing), difference between a granita and a cremolata
+- swallows nesting in Marzamemi backstreets
 
 ### Etna
 
