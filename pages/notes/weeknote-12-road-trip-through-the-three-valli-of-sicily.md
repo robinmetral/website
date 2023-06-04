@@ -8,9 +8,9 @@ buildScript: /scripts/processNote.js
 
 _Week 21 (22–28 May 2023)_
 
-Sicily week 1 with I and B. Road trip from Palermo in the northwest to Noto in the southeast to the Etna in the northeast and back to Palermo. A good overview, albeit quick! I'd love to go back and spend more time in the Etna national park and in the Val di Noto region.
+First week in Sicily with I and B. Road trip from Palermo in the northwest, to Noto in the southeast, to the Etna in the northeast and back to Palermo. A good overview, albeit quick! I'd love to go back and spend more time in the Etna national park and in the Val di Noto region.
 
-Some memories and thoughts ordered by [valli of Sicily](https://en.m.wikipedia.org/wiki/Three_valli_of_Sicily) and roughly chronologically:
+Some memories and thoughts, ordered by [valli of Sicily](https://en.m.wikipedia.org/wiki/Three_valli_of_Sicily) and roughly chronologically:
 
 ### Val di Mazara
 
