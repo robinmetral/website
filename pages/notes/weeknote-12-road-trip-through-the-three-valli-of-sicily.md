@@ -56,7 +56,7 @@ Noto, Marzamemi, Siracusa
 
 Etna, Sperlinga
 
-_In progress!_
+_In progress_
 
 ## Watching
 
