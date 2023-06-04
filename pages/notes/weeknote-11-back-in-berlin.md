@@ -1,9 +1,10 @@
 ---
-title: 'Weeknote #11: back in Berlin'
-categories: ['{name: weeknotes}']
-publishDate: 2023-05-21
-template: /templates/page.html
-buildScript: /scripts/processNote.js
+title: "Weeknote #11: back in Berlin"
+categories:
+  - name: weeknotes
+publishDate: "2023-05-21"
+template: "/templates/page.html"
+buildScript: "/scripts/processNote.js"
 ---
 
 _Week 20 (15–21 May 2023)_
@@ -34,7 +35,7 @@ We spent the week at J and C's and our stay felt at once very familiar but also 
 - the opposite: staying at J and C's instead of heading back home after an evening at their place
 - last day of work, handing back my laptop (working at SumUp has very much been tied to Berlin in my mind: I joined the company only a few months after moving to Berlin back in January 2019 and met most of my Berlin friends through it!)
 - bouldering at BK felt different after 3 months at Roc n'Potes! In a good way though: I appreciated the professional and super interesting routesetting! (That red route on the Balloon with gray holds)
-- things, people are changing! M not joining for bouldering (injured), other M planning a move to Singapore next year, A will become a father this year and is thinking of moving, new staff at La Vineria+D is thinking of moving, F planning to take a break from work, etc. I wonder if some of this is because I opened up to people with our big scary plans, so they opened up in return
+- things, people are changing! M planning a move to Singapore, A becoming a father later this year and thinking of moving, new staff at La Vineria+D thinking of moving, F planning to take a break from work, etc. I wonder if some of this is is coming out now because I opened up to people with our big scary plans, so they opened up in return. Pace of change was always the same but it wasn't as explicit
 
 ## The end
 
@@ -51,4 +52,4 @@ C and me are spending the next few weeks between Sicily and Sardinia. I'm very e
 
 ## Reading
 
-- **On Writing** (2000), by Steven King. I finished listening to the audiobook version of this early in the week. It was good! I think I preferred the autobiographical aspect to the actual writing advice, but some of it was interesting (e.g. looking at stories as something that is uncovered instead of something that is plotted is surprising, and kind of nice)
+- **On Writing** (2000), by Stephen King. I finished listening to the audiobook version of this early in the week. It was good! I think I preferred the autobiographical aspect to the actual writing advice, but some of it was interesting (e.g. looking at stories as something that is uncovered instead of something that is plotted is surprising, and kind of nice)
