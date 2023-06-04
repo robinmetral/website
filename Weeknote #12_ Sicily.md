@@ -31,9 +31,17 @@ Sicily week 1 with I and B. Road trip from Palermo to Noto to the Etna and back 
 ### Syracuse Coast
 
 - the guy who's supposed to open the house we rented tells us to meet him in 7 minutes (and arrives 15 minutes after that)
+- biting into raw lemons from the garden, discovering the nespolo
 - at the SiPiù supermarket I find the amaro Amara that I'd read about, plus about 5 other types of craft Sicilian amari. The Campari is on the lower shelf
+- the black olive tapenade I get turns out to be vino cotto
+- Nero d'Avola!
 - first granita in Marzamemi at the bar caffè Al Ciclope 2 (because granita is an East Sicily thing), difference between a granita and a cremolata
-- swallows nesting in Marzamemi backstreets
+- swallows nesting in Marzamemi backstreets, cacti growing on walls and roofs
+- camera della morte of the ancient tuna fishing place
+- white wine in Noto, smells like apricot
+- granita+caffè at Cafè Sicilia in front of the Baroque cathedral
+- Amara spritz on the roof terrace and barbecue at the house, salsiccia eggplant zucchini, vino cotto sauce improvised by Clara
+- ...
 
 ### Etna
 
