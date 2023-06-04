@@ -1,5 +1,5 @@
 ---
-title: 'Weeknote #12: Sicily'
+title: 'Weeknote #12: Sicily week 1'
 categories: ['{name: weeknotes}']
 publishDate: 2023-06-04
 template: /templates/page.html
