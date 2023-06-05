@@ -54,9 +54,21 @@ Noto, Marzamemi, Siracusa
 
 ### Val Demone
 
-Etna, Sperlinga
+Etna, Taormina, Sperlinga
 
-_In progress_
+- the sheer enormity of "the mountain", as locals call Mount Etna. 3300+ meters with a snowy top, except where snow melts from the almost constant volcanic smokes
+- the winding roads, surprisingly good ones too. Still blasting Italo Classics and all singing along by this point
+- the richness and diversity of volcanic soil! At our Airbnb our host gave us some avocadoes and grapefruit from the garden. Also had some of the first cherries and last mandarins of the season
+- hiking around Monte Nero (from Piano Provenzana) on lava from the 2002 eruption (some burnt trees, some buried houses). All black volcanic rock with patches of Etna Milk Vetch (spikey moss thing) and the odd bunch of blooming Snow-In-Summer (small white flowers). Views of the mountain (in the background of our Polaroid pictures). Throwing rocks in craters to see how deep they go, "my friend get down it's dangerous" from a mountain guide when I climbed on a big rock
+- Very generous wine tasting (almost a full glass of 4 wines) at the Gambino Vini vineyard. Etna Rosso (mainly nero mascalese, and another nero), Etna Bianco (local white grapes)
+- Max and Valerie, the two small hyperactive cuddly dogs at our Airbnb
+- oldest chestnut tree in Europe, between 3600 and 4000 years old. Crazy
+- "rustic with taste" appetizer that we see on all restaurant menus (still not sure what it is)
+- Google Maps itinerary arriving into Taormina that looked like a tangled up spaghetto
+- great cannolo at [Roberto](https://maps.app.goo.gl/MKTiRmTitTvbkNbz7), il mago del cannolo
+- still in Taormina, the quiet Villa Comunale gardens after the busyness and luxury watch brands of the main street
+- ... (Still in progress)
+
 
 ## Watching
 
