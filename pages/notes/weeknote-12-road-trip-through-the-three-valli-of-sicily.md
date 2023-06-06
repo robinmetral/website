@@ -1,10 +1,9 @@
 ---
-title: "Weeknote #12: road trip through the three valli of Sicily"
-categories:
-  - name: weeknotes
-publishDate: "2023-06-04"
-template: "/templates/page.html"
-buildScript: "/scripts/processNote.js"
+title: 'Weeknote #12: road trip through the three valli of Sicily'
+categories: ['{name: weeknotes}']
+publishDate: 2023-06-04
+template: /templates/page.html
+buildScript: /scripts/processNote.js
 ---
 
 _Week 21 (22–28 May 2023)_
@@ -65,11 +64,12 @@ Etna, Taormina, Sperlinga
 - Max and Valerie, the two small hyperactive cuddly dogs at our Airbnb
 - oldest chestnut tree in Europe, between 3600 and 4000 years old. Crazy
 - "rustic with taste" appetizer that we see on all restaurant menus (still not sure what it is)
+-learning to play rummikub with Etna Bianco and taralli in the winter garden
 - Google Maps itinerary arriving into Taormina that looked like a tangled up spaghetto
 - great cannolo at [Roberto](https://maps.app.goo.gl/MKTiRmTitTvbkNbz7), il mago del cannolo
 - still in Taormina, the quiet Villa Comunale gardens after the busyness and luxury watch brands of the main street
-- ... (Still in progress)
-
+- the scenic drive from Taormina to Sperlinga, through the valley between Mount Etna and the Nebrodi mountains (lasted 1 full Italo Classics playthough)
+- last dinner with I and B at [Al Pilèr](https://maps.app.goo.gl/pXNE13p28Vv5G4DG6) in Nicosia, menu where 5€ pizze cohabit with 65€ _glasses_ of wine, highlights and regrets of the trip. Some regrets: fast pace, skipping Catania. Some highlights: the food, and things that had little to do with places (barbecue night, Italo Classics, inside jokes)
 
 ## Watching
 
