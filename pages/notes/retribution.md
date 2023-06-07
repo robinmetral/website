@@ -1,11 +1,3 @@
----
-title: Retribution
-categories: ['{name: other}']
-publishDate: 2023-06-07
-template: /templates/page.html
-buildScript: /scripts/processNote.js
----
-
 Woken up at 5 by a mosquito in the room
 
 Out by 6 in search of coffee
