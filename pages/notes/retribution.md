@@ -1,9 +1,10 @@
 ---
 title: Retribution
-categories: ['{name: other}']
-publishDate: 2023-06-07
-template: /templates/page.html
-buildScript: /scripts/processNote.js
+categories:
+  - name: other
+publishDate: "2023-06-07"
+template: "/templates/page.html"
+buildScript: "/scripts/processNote.js"
 ---
 
 Woken up at 5 by a mosquito in the room
@@ -16,6 +17,6 @@ By the Temo river
 
 Sun rising behind the castle hill
 
-Hundreds (thousands?) of swallows hunting above the waters
+Hundreds (thousands?) of swallows flying above the waters
 
-Wouldn't want to be a mosquito
+Hunting
