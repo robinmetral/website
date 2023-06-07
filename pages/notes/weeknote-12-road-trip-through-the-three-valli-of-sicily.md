@@ -1,9 +1,10 @@
 ---
-title: 'Weeknote #12: road trip through the three valli of Sicily'
-categories: ['{name: weeknotes}']
-publishDate: 2023-06-04
-template: /templates/page.html
-buildScript: /scripts/processNote.js
+title: "Weeknote #12: road trip through the three valli of Sicily"
+categories:
+  - name: weeknotes
+publishDate: "2023-06-04"
+template: "/templates/page.html"
+buildScript: "/scripts/processNote.js"
 ---
 
 _Week 21 (22–28 May 2023)_
