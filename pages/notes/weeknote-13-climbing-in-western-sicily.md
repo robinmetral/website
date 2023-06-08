@@ -1,7 +1,7 @@
 ---
 title: Climbing in Western Sicily
 categories: ['{name: weeknotes}']
-publishDate: 2023-06-08
+publishDate: 2023-06-09
 template: /templates/page.html
 buildScript: /scripts/processNote.js
 ---
@@ -22,11 +22,21 @@ We bought the topo and spent two mornings climbing there, renting crashpads from
 
 After Trapani, we spent the second half of the week at the northwestern tip of the island, close to popular San Vito Lo Capo (SVLC for short).
 
-The area has the most beautiful beaches that we've been to in Sicily (Isulidda, Tonarella dell' Uzzo), natural reserves (Lo Zingaro), and crazy weather (mountains on a peninsula. There was a huge thunderstorm, fortunately we were in the car).
+The area has the most beautiful beaches (pebble) that we've been to in Sicily[^2], natural reserves, and crazy weather (mountains on a peninsula. There was a huge thunderstorm, fortunately we were in the car). We managed to rent snorkeling gear for one day and swam with a bunch of fishes at the Tonarella dell' Uzzo. We looked at 
 
-It's also one of the most famous places for climbing in Sicily. Scogliera di Salinella is a huge, 5-kilometer-long, West-facing cliff right by the sea with hundreds and hundreds of sport climbing routes. Unfortunately we weren't ready for it (no gear, and our stay was a bit too last-minute to find a place to rent some[^2]) so that will have to wait for next time! Also good to know, there's a camping village right by the crag, El-Bahira (not sure if they rent gear).
+It's also one of the most famous places for climbing in Sicily. Scogliera di Salinella is a huge, 5-kilometer-long, West-facing cliff right by the sea with hundreds and hundreds of sport climbing routes. Unfortunately we weren't ready for it (no gear, and our stay was a bit too last-minute to find a place to rent some[^3]) so that will have to wait for next time! Also good to know, there's a camping village right by the crag, El-Bahira (not sure if they rent gear).
 
 We did "try" deep water soloing (DWS for short) for the first time, though. There's quotes around "try" because the crag we went to, Cala Firriato, was harder than expected, the water shallower than expected, and weather was gray/coldish so we apprehended falling more than expected. We climbed one 6a from the Rockfax topo, Techre, and would have wanted to try more but access to the bottom of the routes was a tricky 6b+ traverse, Panca Bestia, right above shallow waters. Next time we want to do DWS we'll go with someone who knows the spot for more peace of mind!
+
+## tl;dr if you intend to climb in Sicily
+
+- go West (unless you know what you're doing). There are crags in the East but it's much harder to find information about them
+- stay at Polvere di Stelle for bouldering, or at El-Bahira for sport climbing
+- you'll likely need a car even if you're staying by the crag at El-Bahira, SVLC is nearby but not within walking distance. Prepare for really bad dirt roads depending on where you go, might want something better than a Panda
+- go between October and May at the latest. In the summer you can still climb but only very early, very late, or DWS
+- plan enough time, there might be bad days. Polvere di Stelle has a small, sheltered wall in the garden. The nearest gym is Palermo (we haven't been)
+- topos: there's a Bosco Scorace bouldering topo that you can get at Polvere di Stelle. For sport climbing someone made a Sicily topo that you might manage to find online, otherwise you get it on the Rockfax app (with a 7-day trial, don't be like me and forget to cancel)
+- equipment: bring your own, otherwise you can rent from Polvere di Stelle (crashpads and sport climbing gear). A climbing hostel used to do rentals in SVLC but it closed down, not sure if it's possible to rent in town anymore (maybe at El-Bahira?)
 
 ## The food section
 
@@ -44,13 +54,19 @@ Some foods that we tried and that you should too if you're ever in Western Sicil
 
 ## 12 hours on the Palermo-Cagliari ferry
 
-In progress
+After returning the car in Palermo and a short afternoon in town (more arancine, cassate, and Gambero-Rosso-starred gelati) we hopped on the weekly ferry to Cagliari.
+
+Bye Sicily!
+
+The ride ended up feeling much shorter than 12 hours, partly because we met A, a German solo backpacker who'd been traveling Italy by herself for 11 months and really really liked to talk. We listened a lot, played Uno, and basically waited until it was time for breakfast, then lunch, then second lunch (all ferry food, we intended to buy things before boarding but everything was closed in Palermo at 7am (we'll do better on the next one). We hung out at a table on the top deck until it started to rain right in the middle of a Uno game and we moved to a shielded table. I finally tried the amaro Averna, super popular in Sicily, an herbal amaro "similar to Jägermeister", but that (thankfully) ended up being much better, even drunk on the rocks. Once in a while we took a walk around the ferry, a coffee at the coffee bar, a look above the railings. When docking in Cagliari we were rewarded by a nice sunset and dozens of flamingoes passing by[^4]. We made plans to see A the next day (her birthday!) before we go our separate ways: she's also on her way home but sailing from Olbia to Genoa next, while we're sailing from Porto Torres to Toulon.
 
 ## Watching, reading
 
-Still nothing! Thought I might have read on the ferry but turns out 12 hours go by pretty fast when there's A around (and Uno).
+Still nothing! Thought I might have read on the ferry but turns out 12 hours go by pretty fast when A is around (and when there's a Uno deck).
 
 I'm excited to be back home where we have our film projector, a MUBI subscription, and a library card.
 
 [^1]: we were almost happy that the rental company forced us into getting the full insurance for the car! Never before has a Fiat Panda wandered so far off the beaten path
-[^2]: G and D at Polvere di Stelle do also rent ropes, quickdraws, harnesses etc. if you're interested. SVLC is about 45 minutes drive from the B&B.
+[^2]: we managed to rent snorkeling gear just for one day (at Under Hundred, a diving center in SVLC) and really enjoyed swimming among the fishes at the Tonarella dell' Uzzo beach in the Lo Zingaro nature reserve. We watched sunset from Isulidda beach and looked at crabs, clams, one sea urchin
+[^3]: G and D at Polvere di Stelle do also rent ropes, quickdraws, harnesses etc. if you're interested. SVLC is about 45 minutes drive from the B&B
+[^4]: they live in a nature reserve nearby. They look really dumb when they fly (I think it's the first time I saw them up in the sky), like sticks with wings
