@@ -28,9 +28,9 @@ It's also one of the most famous places for climbing in Sicily. Scogliera di Sal
 
 We did "try" deep water soloing (DWS for short) for the first time, though. There's quotes around "try" because the crag we went to, Cala Firriato, was harder than expected, the water shallower than expected, and weather was gray/coldish so we apprehended falling more than expected. We climbed one 6a from the Rockfax topo, Techre, and would have wanted to try more but access to the bottom of the routes was a tricky 6b+ traverse, Panca Bestia, right above shallow waters. Next time we want to do DWS we'll go with someone who knows the spot for more peace of mind!
 
-## Food
+## The food section
 
-...that we tried and that you should too if you're ever in Western Sicily:
+Some foods that we tried and that you should too if you're ever in Western Sicily:
 
 - **Busiate**, local pasta from Trapani, originally made with knitting needles and if that's how they initially got their name (was it the Greek word maybe?). A small takeout restaurant in Marsala specializes in them, it's just called Busiate
 - ...eaten with **pesto alla Trapanese**, a refreshing pesto made of basil, pecorino, fresh tomatoes, almonds and optionally mint and lemon
@@ -38,10 +38,9 @@ We did "try" deep water soloing (DWS for short) for the first time, though. Ther
 - **Genovese**, a pastry from Erice (or at least one that's very popular and good in Erice--we've also seen it elsewhere). It's dough filled with pastry cream and coated with powdered sugar, eat it at the famous Pasticceria Maria Grammatico or the less-famous-but-just-as-tasty Pasticceria San Carlo (or both, like I did)
 - not from the region specifically (rather from Palermo, or so claim Palermitans) but the **Arancine** from La Tonda in Erice are worth a special mention!
 - another really good pastry that we've only seen in the area (but haven't researched where it's from yet) is the **cassatelle**, not to be confused with the famous **cassata** or marzipan-coated variant **cassatina**. It's dough filled with ricotta, shaped in a half-moon, deep fried, and it's delicious
-
-## Wine
-
-In progress
+- **Mazara red prawns**, considered a delicacy and usually eaten raw (a first for us). We had them as an antipasto at Profumi di Cous Cous and C says their head tastes sweet
+- **Marsala wine**, a fortified wine that's apparently similar to Sherry (I don't know Sherry, but found it similar to Porto). In Marsala try it at La Sirena Ubriaca, if only for the friendliness of the bar owner. [According to Wine Enthusiast](https://www.winemag.com/2022/11/23/marsala-wine/), Marco De Bartoli makes [the best Marsala](https://www.marcodebartoli.com/en/wines/vecchio-samperi/) (although it's interestingly not labeled Marsala because of the _in perpetuum_ a.k.a. [Solera](https://en.wikipedia.org/wiki/Solera) ageing process), so we're bringing back two bottles of that
+- Marsala isn't the only good wine in the region, and we've visited a few vineyards for tastings and to bring the right kind of souvenirs back home. Mustazza, Francesco Mazara, Giacco, we just drove around and called shortly before showing up, trying to avoid the really large, tour-of-the-vineyard-only estates
 
 ## 12 hours on the Palermo-Cagliari ferry
 
