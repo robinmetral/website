@@ -10,17 +10,17 @@ _Week 22 (29 May–04 June 2023)_
 
 ## Bouldering at Bosco Scorace
 
-After leaving I and B at the Palermo airport, we swapped our rental 4-people-4-bags big car for a small 2-people-2-bags Fiat Panda and took the highway towards Trapani in the West of the island.
+After leaving I and B at the Palermo airport, we swapped our rental 4-people-4-bags medium car for a 2-people-2-bags Fiat Panda and took the highway towards Trapani in the West of the island.
 
 After more than a week of not climbing we knew we'd really want to climb, so we'd booked a room for 3 nights at [Polvere di Stelle](https://bebpolveredistelle.it/), a B&B run by a couple of climbers from Milano. G and D have 5 dogs, two cats, a kitten, and a climbing wall in the garden where climbers from the area meet for a session and a drink a couple times each week.
 
-But the reason we came is that D also opened a bouldering crag in a forest 20 minutes (or 30 minutes with a Panda, bad roads[^1]) from the B&B: Bosco Scorace.
-
+But the reason we came is that D also opened a bouldering crag in a forest 20 minutes drive from the B&B (or 30 minutes with a Panda, bad roads[^1]). It's called Bosco Scorace.
+L
 We bought the topo and spent two mornings climbing there, renting crashpads from the B&B (two crashpads can surprisingly fit into a Panda). It was great! Amazing limestone boulders, super interesting problems, and not too warm in the sectors with more trees. Grading was pretty tough and I only managed a single 6a, but I have a lot of unfinished projects that I might get to continue working on next time!
 
 ## DWS in SVLC
 
-After Trapani, we spent the second half of the week at the northwestern tip of the island, close to popular San Vito Lo Capo (SVLC for short).
+We spent the second half of the week at the Northwestern tip of the island, close to popular San Vito Lo Capo (SVLC for short).
 
 The area has the most beautiful beaches (pebble) that we've been to in Sicily[^2], natural reserves, and crazy weather (mountains on a peninsula. There was a huge thunderstorm, fortunately we were in the car). We managed to rent snorkeling gear for one day and swam with a bunch of fishes at the Tonarella dell' Uzzo. We looked at 
 
