@@ -1,12 +1,13 @@
 ---
-title: Roamin' The Empire
-categories: ['{name: other}']
-publishDate: 2023-06-08
-template: /templates/page.html
-buildScript: /scripts/processNote.js
+title: "Roamin' The Empire"
+categories:
+  - name: other
+publishDate: "2023-06-08"
+template: "/templates/page.html"
+buildScript: "/scripts/processNote.js"
 ---
 
-Here's the tagline of the [Roamin' The Empire](http://www.roamintheempire.com/) blog:
+The tagline of the [Roamin' The Empire](http://www.roamintheempire.com/) blog says it all:
 
 > Archaeological Travels Through The Roman Empire
 
