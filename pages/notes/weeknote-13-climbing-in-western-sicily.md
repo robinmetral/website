@@ -1,3 +1,11 @@
+---
+title: 'Weeknote #13: climbing in Western Sicily'
+categories: ['{name: weeknotes}']
+publishDate: 2023-06-09
+template: /templates/page.html
+buildScript: /scripts/processNote.js
+---
+
 _Week 22 (29 May–04 June 2023)_
 
 ## Bouldering at Bosco Scorace
