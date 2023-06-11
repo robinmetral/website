@@ -7,7 +7,7 @@ template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
 ---
 
-_Week 22 (29 May–04 June 2023)_
+_Week 22 (29 May–4 June 2023)_
 
 ## Bouldering at Bosco Scorace
 
