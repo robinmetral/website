@@ -2,7 +2,7 @@
 title: "Weeknote #14 part 1: via a Turris Caralis"
 categories:
   - name: weeknotes
-publishDate: "2023-06-11"
+publishDate: "2023-06-12"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
 ---
@@ -82,7 +82,7 @@ Highlights:
 
 In the final train of our trip, from Toulon back to Valence, watched _The Red Turtle_ downloaded on the MUBI app. Can't wait for a larger screen/projection screen and for better sound!
 
-- [**The Red Turtle** (2016), by Michaël Dudok de Wit]()
+- [**The Red Turtle** (2016), by Michaël Dudok de Wit](/notes/the-red-turtle-by-michael-dudok-de-wit/)
 
 ## Reading
 
