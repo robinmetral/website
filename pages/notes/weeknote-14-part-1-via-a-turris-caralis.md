@@ -7,7 +7,7 @@ template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
 ---
 
-_Week 22, part 1 (5–9 June 2023)_
+_Week 23, part 1 (5–9 June 2023)_
 
 This first part of Weeknote #14 collects thoughts and memories about our very short trip through Sardinia on our way home to France, from Cagliari in the South to Porto Torres in the North.
 
