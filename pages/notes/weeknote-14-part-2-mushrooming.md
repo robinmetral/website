@@ -29,7 +29,7 @@ There seems to be less birds than in the spring (migrated north already?) and th
 
 On Saturday E went mushrooming and brought back the biggest cep mushroom I've seen in my life. F was all giddy and we lightly fried it right away with parsley and garlic. A single mushroom was enough for an entrée for three.
 
-So on Sunday morning,, we went mushrooming (for the first time![^1])
+So on Sunday morning, we went mushrooming (for the first time![^1])
 
 C took us to spots she knew, a short walk from the house, and we found SO MANY! Probably beginners luck (or just perfect timing, right after sustained precipitations) but we came home with a basket filled with half chanterelles and half ceps (the cep is the prized mushroom around here).
 
