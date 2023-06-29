@@ -7,6 +7,8 @@ template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
 ---
 
+_Week 24 (12–18 June 2023)_
+
 First full week back! Like I wrote in the mini [Weeknote #14 part 2](/notes/weeknote-14-part-2-mushrooming/), things are busy, not exactly the rest I was expecting after our long trip. I'm slowly catching up sleep and desperately trying to wake up early (aiming for 6 am with sunrise) to beat the heat in the garden, but circumstances are against me (read: busy evenings that keep me up late).
 
 ## In the universe of Miyazaki (and food)
@@ -38,7 +40,7 @@ Something interesting: some winemakers focus on the raw grapes, their wine refle
 
 ## Watching
 
-- [**Howl's Movig Castle** (2004) by Hayao Miyazaki](/notes/howls-moving-castle-by-hayao-miyazaki)
+- [**Howl's Moving Castle** (2004) by Hayao Miyazaki](/notes/howls-moving-castle-by-hayao-miyazaki)
 - [**John Wick: Chapter 4** (2023) by Chad Stahelski](/notes/john-wick-chapter-4-by-chad-stahelski/)
 - [**Decision to Leave** (2022) by Park Chan-wook](/notes/decision-to-leave-by-park-chan-wook/)
 
