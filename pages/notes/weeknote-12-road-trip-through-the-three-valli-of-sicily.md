@@ -20,7 +20,7 @@ Palermo
 - cornetto with pistachio cream! First one at [U Cafè Sicilianu](https://maps.app.goo.gl/2q4V2yvVp4JRvKat8) (good)
 - Zisa castle was so underwhelming that it became a joke for the rest of the week
 - on the corner of via Vittorio Emanuele and via Maqueda a man sings: ya me ya me ya peya peya, ya me ya me ya peya peya pouli pouli pouli poula pouli pouli pouli poulaaaaaaya peya peya pouli pouli pouli poula
-- the nearby gelato at [Cappadonia](https://maps.app.goo.gl/r6rMd2mnZ872fmZe8) is one of the best in Italy according to [Gambero Rosso, the Michelin guide of gelato](gamberorosso.it/gelaterie/)
+- the nearby gelato at [Cappadonia](https://maps.app.goo.gl/r6rMd2mnZ872fmZe8) is one of the best in Italy according to [Gambero Rosso, the Michelin guide of gelato](https://gamberorosso.it/gelaterie/)
 - at least 8000 types of pasta on offer even in the smallest supermarkets
 - it's arancina not arancino, explains our food tour guide in front of [Ke Palle](https://maps.app.goo.gl/NYmkbCmQWoW36ue27). Although someone from Catania and someone from Palermo could spend hours arguing about it. Rationale: the Palermitan recipe (saffron rice, no tomatoes), not the Catanian (no saffron, ragu), is the original because there were no tomatoes before the Colombian exchange. So: arancina is feminine
 - spleen sandwich (pani ca meusa) married (with cheese) or single (without cheese) at [Nni Franco U Vastiddaru](https://maps.app.goo.gl/CJxaRBQmPy1on4W76). Surprisingly good, went for a second one at [Il Chioschetto](https://maps.app.goo.gl/nNnmeCtvQ1czXdJA8) the next day for breakfast
@@ -65,7 +65,7 @@ Etna, Taormina, Sperlinga
 - Max and Valerie, the two small hyperactive cuddly dogs at our Airbnb
 - oldest chestnut tree in Europe, between 3600 and 4000 years old. Crazy
 - "rustic with taste" appetizer that we see on all restaurant menus (still not sure what it is)
--learning to play rummikub with Etna Bianco and taralli in the winter garden
+  -learning to play rummikub with Etna Bianco and taralli in the winter garden
 - Google Maps itinerary arriving into Taormina that looked like a tangled up spaghetto
 - great cannolo at [Roberto](https://maps.app.goo.gl/MKTiRmTitTvbkNbz7), il mago del cannolo
 - still in Taormina, the quiet Villa Comunale gardens after the busyness and luxury watch brands of the main street
