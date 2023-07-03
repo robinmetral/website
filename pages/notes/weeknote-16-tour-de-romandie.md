@@ -11,7 +11,7 @@ _Weeks 25 and 26 (19 June–2 July 2023)_
 
 Two weeks in one to avoid breaking up our Switzerland trip (Friday to Wednesday)!
 
-# Tour de Romandie
+## Tour de Romandie
 
 Back to Switzerland for the first time since December. A short stay, only 4 full days, that felt like a week! Intense. In a nutshell:
 
@@ -21,7 +21,7 @@ Back to Switzerland for the first time since December. A short stay, only 4 full
 - bouldering in Geneva (Arkose Genevois), Neuchâtel (ASEN), Lausanne (Grimper.ch Baulieu)
 - last-minute visits to family. C's cousin L at her new flat in Geneva, T at his flat in Neuchâtel, CC at their flat in Geneva
 
-# Meanwhile in Joux
+## Meanwhile in Joux
 
 Garden: did a lot of weedwhacking before the Switzerland trip and things are looking much cleaner! The garden is beautiful and in terms of food tomatoes plums will be ripe next month, green peppers zucchini potatoes Swiss chard redcurrant are in full swing. Thanks to the heavy rains in the spring, and being spared from hail! Coming back, springtime birdsong has been replaced (or just covered) by the noise of cicadas crickets. Summer.
 
@@ -29,7 +29,7 @@ Climbing: had our last bouldering sessions at the gym, before it closed for the 
 
 Other: bought many kilos of apricot from a producer in Rocher who comes to the square with her van twice a week and lets her customers know she's there via text messages, I ate a lot and C made jams. Picked plums and medlar (a.k.a. nespolo, [Sicily memories](/notes/weeknote-12-road-trip-through-the-three-valli-of-sicily/)) in D and M's garden near Largentière, I ate a lot and C made pie.
 
-# Watching
+## Watching
 
 - [**Asteroid City** (2023) by Wes Anderson](/notes/asteroid-city-by-wes-anderson/), watched at Le Navire
 - [**Peel** (1986, short) by Jane Campion](/notes/peel-by-jane-campion/)
@@ -37,7 +37,7 @@ Other: bought many kilos of apricot from a producer in Rocher who comes to the s
 - [**Once Upon a Time in America** (1984) by Sergio Leone](/notes/once-upon-a-time-in-america-by-sergio-leone/)
 - [**Babe** (1995) by Chris Noonan](/notes/babe-by-chris-noonan/)
 
-# Reading
+## Reading
 
 Graphic novels!
 
