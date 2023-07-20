@@ -5,6 +5,7 @@ categories:
 publishDate: "2023-07-18"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
+lang: fr
 ---
 
 Conseillé par une libraire en décembre 2022 à Genève[^1], j'avais acheté l'intégrale de ces BD qui suivent au fil des décennies un groupe d'amis au fin fond du Jura suisse qui créent et font vivre un lieu communautaire : la ferme des indociles.
