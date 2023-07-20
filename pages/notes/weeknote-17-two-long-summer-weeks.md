@@ -36,7 +36,7 @@ Some highlights:
 
 ## Second multipitch climb
 
-We climbed _Biotonne_ with N, [a local climbing instructor](https://lozere-escalade.com/), another 4-pitch route with longer pitches than _Alien vs. Predator_ (see above) so this time we climbed 100 m and ended up some 400 m above the Jonte (the approach from the road is a 300 m hike up to the bottom of the wall).
+We climbed _Biotone_ with N, [a local climbing instructor](https://lozere-escalade.com/), another 4-pitch route with longer pitches than _Alien vs. Predator_ (see above) so this time we climbed 100 m and ended up some 400 m above the Jonte (the approach from the road is a 300 m hike up to the bottom of the wall).
 
 Another beautiful climb, much harder than the first with a tough 6a+ pitch (hangdogged), incredible rock formations (we emerged right by the _Vase de Sèvre_, google it), vultures constantly flying overhead or under us (underhead?) along the wall. The hardest overall were the ambient 35 °C and the fact that the gorges de la Jonte walls are South-facing—we drank a lot of water used a lot of sunscreen and survived.
 
