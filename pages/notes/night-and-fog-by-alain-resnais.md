@@ -7,6 +7,6 @@ template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
 ---
 
-1956 documentary short about WW2 concentration camps. No words, must watch.
+1956 documentary short with archive footage from WW2 concentration camps. No words.
 
 8/10
