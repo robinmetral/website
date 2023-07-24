@@ -18,3 +18,5 @@ There's some resemblance between the works via some of the themes, and yet the t
 _Yellowface_, far from Victorian-era Britain, is set in modern-day America and embraces internet culture (Twitter Goodreads and and)—in this way it reminded me of books by Hank Green et. al. Under the surface of a Twitter drama though, this is a novel about the workings (and dysfunctions) of the publishing industry, esp. in regards to race.
 
 Kuang's debut novel _The Poppy War_ (2018), that I'll try to read next—7 people ahead of me in the waitlist—is the first of a fantasy trilogy, which promises to be something entirely different again. Looking forward to it!
+
+8/10
