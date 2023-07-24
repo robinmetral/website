@@ -43,7 +43,7 @@ I already have projects at Mazet (_Complot de famille_, 6A+, failed my lead atte
 ## Things I've been procrastinating and that I finally did
 
 - I sent a lot of printed pages to the French Assurance Maladie to try to get my insurance sorted out!
-- Since March 2019 I'd been maintaining a self-hosted [Mattermost](https://mattermost.com/) instance with exactly 7 users (4 MAUs if you really want to know). I don't like servers much, and even less when they're actually EC2 instances on AWS, so each upgrade was a pain, for few benefits (privacy was the main driver initially, plus channels are great, but not worth 20 EUR/mo and a headache every 3-6 months). So I backed up everything, shut it all down, and moved (back) to Telegram, where privacy isn't the worst and where channels are now a thing in groups (they call it "topics"). Satisfying.
+- Since March 2019 I'd been maintaining a self-hosted [Mattermost](https://mattermost.com/) instance with exactly 7 users (4 MAUs if you really want to know). I don't like servers much, and even less when they're actually EC2 instances on AWS, so each upgrade was a pain, for few benefits (privacy was the main driver initially, plus channels are great, but not worth 20 €/mo and a headache every 3-6 months). So I backed up everything, shut it all down, and moved (back) to Telegram, where privacy isn't the worst and where channels are now a thing in groups (they call it "topics"). Satisfying.
 
 ...and a couple that I haven't procrastinated but that finally happened and that seem relevant in this section:
 

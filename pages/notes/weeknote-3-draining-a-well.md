@@ -30,7 +30,7 @@ Back home, we spent hours going through the websites of these dealerships, where
 
 Our top choice is a 2019 Toyota Yaris and if everything goes to plan, we'll drive back to the dealership this week for a test drive in the hills. Fingers crossed!
 
-But wait! That's not all! (I wish.) Owning a car also means subscribing to car insurance, which I never had to do before, since I only ever drove my parents' car and rentals. And no car insurance history means that insurance is pricey. Initially I wanted to go for [Matmut](https://www.matmut.fr/), a more responsible insurance co-op that F uses and swears by[^4]. But the Matmut lady said that I was looking at roughly 220 EUR/mo, so instead I'll probably subscribe to [L'Olivier](https://www.lolivier.fr/), an online insurance (is "neoinsurance" a thing?) operated by a [large and British insurance group](https://en.wikipedia.org/wiki/Admiral_Group).
+But wait! That's not all! (I wish.) Owning a car also means subscribing to car insurance, which I never had to do before, since I only ever drove my parents' car and rentals. And no car insurance history means that insurance is pricey. Initially I wanted to go for [Matmut](https://www.matmut.fr/), a more responsible insurance co-op that F uses and swears by[^4]. But the Matmut lady said that I was looking at roughly 220 €/mo, so instead I'll probably subscribe to [L'Olivier](https://www.lolivier.fr/), an online insurance (is "neoinsurance" a thing?) operated by a [large and British insurance group](https://en.wikipedia.org/wiki/Admiral_Group).
 
 ## Watching
 

@@ -47,7 +47,7 @@ Uploaded to Vimeo by the director/animator:
 
 Complete opposite of the previous one: I LOVED the stop-motion animation here, but wasn't particularly amazed by the story. Maybe I didn't get it? [Let me know](/contact/) what you think.
 
-You can rent this on [Vimeo On Demand](https://vimeo.com/ondemand/imbuedlife) for less than 1 EUR. Trailer:
+You can rent this on [Vimeo On Demand](https://vimeo.com/ondemand/imbuedlife) for less than 1 €. Trailer:
 
 <div class='embed-container'><iframe src='https://player.vimeo.com/video/406329055?title=1&byline=0&portrait=0' frameborder='0' allowFullScreen loading='lazy'></iframe></div>
 
