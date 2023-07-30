@@ -25,7 +25,7 @@ Before all of that! C and I are traveling to Berlin in late May for a week, and 
 
 Berlin: can't wait to boulder at BK, see a movie at Il Kino, cycle through Tempelhof, drink wine at La Vineria, eat a pain au chocolat and an almond croissant and two cannelés at La Maison, and SEE FRIENDS!
 
-Sicily: completely new for me! I've never been south of Rome in Italy. I hear the food is good and so is the wine. We'll probably do some variation on the typical road-trip-around-the-island thing: [send recs](/contact/)!
+Sicily: completely new for me! I've never been south of Rome in Italy. I hear the food is good and so is the wine. We'll probably do some variation on the typical road-trip-around-the-island thing: send recs!
 
 ## Bouldering, bouldering, lead climbing
 

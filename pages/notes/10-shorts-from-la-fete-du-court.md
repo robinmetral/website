@@ -45,7 +45,7 @@ Uploaded to Vimeo by the director/animator:
 
 ## 5. Imbued Life (12<span aria-label=" min">'</span>, 2019), by Ivana Bošnjak and Thomas Johnson
 
-Complete opposite of the previous one: I LOVED the stop-motion animation here, but wasn't particularly amazed by the story. Maybe I didn't get it? [Let me know](/contact/) what you think.
+Complete opposite of the previous one: I LOVED the stop-motion animation here, but wasn't particularly amazed by the story. Maybe I didn't get it?
 
 You can rent this on [Vimeo On Demand](https://vimeo.com/ondemand/imbuedlife) for less than 1 €. Trailer:
 
@@ -95,7 +95,7 @@ Couldn't find this one online either, here's a trailer from [the production comp
 
 <video controls><source src="http://vixens-films.com/wp-content/uploads/2021/06/canyon_trailer.mp4" type="video/mp4"><source src="http://vixens-films.com/wp-content/uploads/2021/06/canyon_trailer.webm" type="video/webm"><source src="http://vixens-films.com/wp-content/uploads/2021/06/canyon_trailer.ogv" type="video/ogg"></video>
 
-That's all 10 of them! Vimeo particularly is a great place to find more shorts of all kinds—it's favored by filmmakers over YouTube because it streams in higher quality. It would be really cool if there were a website that curated and shared lists of shorts by genre, country, theme etc. Anyone could then organize their own short film nights at home! If this already exists [I'd like to know](/contact/).
+That's all 10 of them! Vimeo particularly is a great place to find more shorts of all kinds—it's favored by filmmakers over YouTube because it streams in higher quality. It would be really cool if there were a website that curated and shared lists of shorts by genre, country, theme etc. Anyone could then organize their own short film nights at home! If this already exists I'd like to know.
 
 Bye!
 
