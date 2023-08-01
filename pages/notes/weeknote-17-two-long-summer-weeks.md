@@ -78,7 +78,7 @@ Classics:
 ## Reading
 
 - [**Babel** (2022) by R. F. Kuang](/notes/babel-by-r-f-kuang/)
-- [**Isaac le Pirate, tome 1 : Les Amériques** (2000) par Christophe Blain](/notes/isaac-le-pirate-tome-1-les-ameriques-par-christophe-blain/) (French)
+- [**Isaac le Pirate, tome 1 : Les Amériques** (2001) par Christophe Blain](/notes/isaac-le-pirate-tome-1-les-ameriques-par-christophe-blain/) (French)
 - [**Les Indociles** (2022) par Camille Rebetez et Pitch Comment](/notes/les-indociles-par-camille-rebetez-et-pitch-comment/) (French)
 
 [^1]: most of the site is hard sport routes graded 7 and higher, but there's an odd 4-pitch route with pitches graded between 4 and 5.
