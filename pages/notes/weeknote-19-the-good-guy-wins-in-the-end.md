@@ -43,7 +43,7 @@ It was the perfect size, in the perfect location, and we'll be back for sure! Pl
 - [**Indiana Jones and the Last Crusade** (1989) by Steven Spielberg](/notes/indiana-jones-and-the-last-crusade-by-steven-spielberg/) 6/10
 - [**Indiana Jones and the Kingdom of the Crystal Skull** (2008) by Steven Spielberg](/notes/indiana-jones-and-the-kingdom-of-the-crystal-skull-by-steven-spielberg/) 6/10
 - [**Rocky** (1976) by John G. Avildsen](/notes/rocky-by-john-g-avildsen/) 8/10
-- [**Rocky II** (1979) by Sylvester Stallone](/notes/rocky-ii-by-sylvester-stallone/) 5/10
+- [**Rocky II** (1979) by Sylvester Stallone](/notes/rocky-ii-by-sylvester-stallone/) 3/10
 - [**Oppenheimer** (2023) by Christopher Nolan](/notes/oppenheimer-by-christopher-nolan/) 9/10
 - [**Along with the Gods** (2017) by Kim Yong-hwa](pages/notes/along-with-the-gods-by-kim-yong-hwa.md) (3/10)
 

@@ -13,6 +13,6 @@ I found III better than [II](/notes/rocky-ii-by-sylvester-stallone/) (which felt
 
 One point for Eye of the Tiger[^1].
 
-5/10
+IV/10
 
 [^1]: which was actually written for the film! Before the rewatch I thought I remembered that this was the song playing during the _Rocky steps_ scene in the original film, but no, the song was only released in 1982 as the theme for III (and as a single the day after the film's release).
