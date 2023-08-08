@@ -9,7 +9,7 @@ buildScript: "/scripts/processNote.js"
 
 _Week 13 (27 March–2 April 2023)_
 
-Spring! Weather here is getting reliably warmer (no more random sub-zero nights), beautiful white flowers of almost and plum trees (I think I mentioned these already?)
+Spring! Weather here is getting reliably warmer (no more random sub-zero nights), beautiful white flowers of almond and plum trees (I think I mentioned these already?)
 
 Lots of things happened last week, but first, a personal announcement:
 
