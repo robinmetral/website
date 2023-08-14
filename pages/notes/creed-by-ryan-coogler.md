@@ -11,4 +11,4 @@ buildScript: "/scripts/processNote.js"
 
 This was pretty good, definitely entertaining, I liked the new cast of central characters (and the ever-present, aging Rocky-Sylvester) and found the story "better" than the rest of the Rocky sequels (in quotes, because this might just be modern standards—age will tell). Looking forward to II (yup they had to keep the Roman numerals)
 
-7/10
+6/10
