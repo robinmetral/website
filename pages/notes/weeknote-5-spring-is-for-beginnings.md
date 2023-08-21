@@ -38,7 +38,7 @@ We met people from the club at [Mazet](https://www.ffme.fr/sne-fiche/637/) inclu
 
 It was super fun, I liked it even more than [my first outdoor top-rope climb](/notes/weeknote-1-first-crag-climb/) last month (think I also liked the Mazet crag better than Chaulet), it was easier than I thought (already knew how to lead climb and lead belay from indoor training, simply hadn't learned how to se vacher at un relais) and I want to do it again very very soon. I also had a completely unexpected fall on a slab (foot slipped), my worst fear, but C caught the fall perfectly, I landed feet against the wall a few meters down, and made it back to the ground with only a scratch.
 
-I already have projects at Mazet (_Complot de famille_, 6A+, failed my lead attempt but climbed it top-rope) and can't wait to also discover other crags in the area!
+I already have projects at Mazet (_Complot de famille_, 6a+, failed my lead attempt but climbed it top-rope) and can't wait to also discover other crags in the area!
 
 ## Things I've been procrastinating and that I finally did
 
