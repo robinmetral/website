@@ -98,10 +98,14 @@ buildScript: "/scripts/processNote.js"
 
 - pit of success, pit of despair: https://blog.codinghorror.com/falling-into-the-pit-of-success/
 
-## diversity
+## Diversity
 
 - https://www.sachajudd.com/one-direction
   - https://idlewords.com/talks/fan_is_a_tool_using_animal.htm (to read)
+
+## Cultural impact
+
+- Airspace: https://www.theverge.com/2016/8/3/12325104/airbnb-aesthetic-global-minimalism-startup-gentrification (things looking the same everywhere. Article to re-read)
 
 # Art
 
@@ -117,3 +121,24 @@ Resources
 # Politics
 
 - What I dislike about social justice is the certainty
+
+# Books
+
+## Publishing
+
+- French language travel book publishers (most are part of the [Union des éditeurs de voyage indépendants (UEVI)](https://www.librairieduvoyageur.com/page/qui-sommes-nous))
+  - \* [Akinome](https://www.editions-akinome.com/) (mostly drawings/kids/cooking)
+  - \*\* [Artisans Voyageurs](http://www.artisans-voyageurs.com/manuscrits.html)
+  - \* [L'Asiathèque](https://www.asiatheque.com/fr/) (more academic, incl. dictionaries and language books)
+  - \*\*\* [Bouts du monde (revue)](https://www.revue-boutsdumonde.com/contactez-nous/)
+  - \*\* [Elytis](https://www.editionselytis.com/)
+  - \*\* [Géorama](https://www.georama.fr/qui-sommes-nous/)
+  - \* [Gingko](https://www.ginkgo-editeur.fr/contact) (mostly novels and others)
+  - \* [Intervalles](https://www.editionsintervalles.com/contacts/) (mostly literature)
+  - \* [Magellan](https://editions-magellan.com/nous-contacter/) (doesn't seem to publish a lot of _récits de voyage_)
+  - \*\* [Nevicata](https://www.editionsnevicata.be/contact/)
+  - \*\* [Transboréal](https://transboreal.fr/index.php) (a LOT of short travel books)
+- Swiss french-language publishers
+  - \*\* [Zoé](https://www.editionszoe.ch/) (Bouvier et. al., not only travel)
+  - \* [Slatkine](https://www.slatkine.com/fr/homecategory/editions-slatkine) (GVA but not travel-specific)
+  - \*\*\* [D'autre part](https://www.dautrepart.ch/) (creative freedom! not only travel)
