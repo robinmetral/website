@@ -13,4 +13,6 @@ This was the first film I saw (I think?) by acclaimed _New German Cinema_ dire
 
 I loved the contrast between the gentle pacing and the violence of some of the story. Beautiful shots and photography (the colors! High contrast low saturation on a bright decor esp. in the final scenes, wonderful). The whole thing felt free, light, real. A pleasure to watch!
 
+[A nice take on the film, by Guy Lodge for The Guardian](https://www.theguardian.com/film/filmblog/2015/apr/27/my-favourite-cannes-winner-paris-texas)
+
 8/10
