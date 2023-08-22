@@ -2,7 +2,7 @@
 title: "L'usage du monde par Nicolas Bouvier"
 categories:
   - name: books
-publishDate: "2023-08-21"
+publishDate: "2023-08-22"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
 lang: fr
