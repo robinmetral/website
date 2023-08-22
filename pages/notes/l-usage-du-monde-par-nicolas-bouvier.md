@@ -8,8 +8,14 @@ buildScript: "/scripts/processNote.js"
 lang: fr
 ---
 
-Stub!
+Excellent. À lire lentement : un long voyage à pas de fourmi (ou de Fiat Topolino) jusqu'à la passe de Khyber ça prend du temps (un an et demi), alors il faut prendre son temps.
 
-(will write tomorrow or the day after or something)
+![La Fiat Topolino, immatriculée à Genève, sur la route d'Ankara. On voit la voiture de l'arrière, le capot est ouvert et Bouvier est retourné le siège passager, il regarde l'objectif. Deux valises sont attachée sur la roue de secours. La piste de gravillons s'étend jusqu'à l'horizon au pied de collines arides.](/static/images/20230822-nicolas-bouvier-fiat-topolino.jpg)
 
-(but this will be in French)
+Ça prend du temps mais ce n'est pas de tout repos. Bouvier et Vernet quittent l'Europe avec de l'argent pour quelques semaines seulement. Sur la route ils travaillent — Vernet expose ses peintures, Bouvier vend des articles et donne cours et conférences — et vivent frugalement.
+
+Dans le récit, écrit à son retour à Genève et publié dix ans après le voyage, Bouvier raconte la route, mais surtout les histoires des gens croisés dessus. C'est une narration très effacée, Bouvier passerait presque pour un narrateur détaché, mais à ce qu'on lit on comprend qu'il est au contraire extrêmement proche de son sujet — il lui donne simplement la place qu'il mérite, se contentant du second plan. C'est poétique, on voit les visages les paysages, on entend la musique.
+
+Il y a aussi une certaine nostalgie quand on pense que le voyage a eu lieu il y a 70 ans, et qu'il serait impossible à l'ère de la globalisation. Le monde de Bouvier est un monde révolu. Il nous en reste ce magnifique témoignage.
+
+9/10
