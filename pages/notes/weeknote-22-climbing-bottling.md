@@ -45,6 +45,6 @@ A few more dumb films as promised [last week](/notes/weeknote-21-starry-nights/)
 
 ## Reading
 
-- [**L'usage du monde** (1963) par Nicolas Bouvier](/notes/l-usage-du-monde-par-nicolas-bouvier/) (French)
+- [**L'usage du monde** (1963) par Nicolas Bouvier](/notes/l-usage-du-monde-par-nicolas-bouvier/) 9/10 (French)
 
 After finishing _L'usage du monde_ I immediately started reading another book by Bouvier, _Chroniques Japonaises_. Same trip: after driving to Pakistan (_L'usage du monde_) Bouvier continued through India to Ceylon (Sri Lanka) where he stayed for 9 months (_Le poisson scorpion_) and then caught a cargo ship to Japan (_Chroniques japonaises_) before sailing back to Europe.
