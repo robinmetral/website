@@ -13,6 +13,6 @@ In terms of story this is a hard-to-categorize romance-noir-detective-film. It's
 
 Also the poster art is great:
 
-<img width="1280" height="1920" style="aspect-ratio:1280/1920;height:auto;" src="/static/images/20230621-decision-to-leave.webp" />
+<img width="1280" height="1920" style="aspect-ratio:1280/1920;height:auto;" alt="Poster for Decision to Leave, hand-drawn art of the film's two main characters, with mountains and the sea, in a circle on a white background." src="/static/images/20230621-decision-to-leave.webp" />
 
 8/10
