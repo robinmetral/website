@@ -19,7 +19,7 @@ So in 2023 I plan to watch a selection of films from 1923. Incidentally that's a
 
 Here's my initial list, containing 5 feature films and one short[^1]:
 
-- **Safety Last!** by Fred C. Newmeyer and Sam Taylor
+- [**Safety Last!**](/notes/safety-last-by-harold-lloyd/) by Harold Lloyd
 - **Our Hospitality** by Buster Keaton and John G. Blystone
 - **The Pilgrim** and **A Woman of Paris** by Charlie Chaplin
 - **The Ten Commandments** by Cecil B. DeMille
