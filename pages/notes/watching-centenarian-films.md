@@ -17,15 +17,16 @@ The oldest film I've ever seen (I think) was Charlie Chaplin's 1921 _The Kid_, w
 
 So in 2023 I plan to watch a selection of films from 1923. Incidentally that's also the year that the original HOLLYWOODLAND sign was put up on the hills on Santa Monica. A good year to start this project!
 
-Here's my initial list, containing 5 feature films and one short[^1]:
+Here's my list, containing 5 feature films and two short[^1]:
 
 - [**Safety Last!**](/notes/safety-last-by-harold-lloyd/) by Harold Lloyd
 - **Our Hospitality** by Buster Keaton and John G. Blystone
 - **The Pilgrim** and **A Woman of Paris** by Charlie Chaplin
 - **The Ten Commandments** by Cecil B. DeMille
 - [**Felix in Hollywood**](/notes/felix-in-hollywood-by-otto-messmer/) (short) by Otto Messmer
+- **Alice's Wonderland** (short) by Walt Disney
 
 I selected themes by reading up on 1923 in film[^2] and picking some releases that (1) seemed interesting and (2) seemed available (many films of that era were lost). I'm not very happy with it in its current state (no women directors, only Hollywood stuff) so I'll probably be adding to it in the next few months. Suggestions welcome!
 
-[^1]: I'll add links to my notes after watching
+[^1]: I'll update the list over time, plus add links to notes after watching
 [^2]: here's a good read from the British Film Institute: [10 Great Films of 1923](https://www.bfi.org.uk/lists/10-great-films-1923)
