@@ -52,10 +52,10 @@ Speaking of fall:
 
 - [**Chronique japonaise** (1989) par Nicolas Bouvier](/notes/chronique-japonaise-par-nicolas-bouvier/) (French) 8/10
 - [**The Poppy War** (2018) by R. F. Kuang](/notes/the-poppy-war-by-r-f-kuang/) 6/10
-- **Chroniques de l'Occident nomade** (2011) par Aude Seigne (French) 5/10
-- **Paul a un travail d'été** (2002) par Michel Rabagliati (French, graphic novel) 8/10
-- **Rosalie Blum : une impression de déjà-vu** (2007) par Camille Jourdy (French, graphic novel) 6/10
+- [**Chroniques de l'Occident nomade** (2011) par Aude Seigne](/notes/chroniques-de-l-occident-nomade-par-aude-seigne/) (French) 5/10
+- [**Paul a un travail d'été** (2002) par Michel Rabagliati](/notes/paul-a-un-travail-d-ete-par-michel-rabagliati/) (French, graphic novel) 8/10
+- [**Rosalie Blum : une impression de déjà-vu** (2007) par Camille Jourdy](/notes/rosalie-blum-une-impression-de-deja-vu-par-camille-jourdy/) (French, graphic novel) 7/10
 
-Notes coming up throughout next week
+Notes coming up throughout next week _(12.9.23: all notes added)_
 
 [^1]: actually just noticing that the FFME website says this is a trad climbing crag... this explains a lot. The sport routes might just be leftovers
