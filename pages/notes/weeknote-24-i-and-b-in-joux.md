@@ -46,15 +46,15 @@ It's very much the end of the season for other summer crops. There will be leeks
 
 Speaking of fall:
 
-- [**Anatomy of a fall** (2023) par Justine Triet](/notes/anatomy-of-a-fall-by-justine-triet/) 8/10
+- [**Anatomy of a fall** (2023) by Justine Triet](/notes/anatomy-of-a-fall-by-justine-triet/) 8/10
 
 ## Reading
 
-- **Chronique japonaise** (1989) par Nicolas Bouvier (French)
-- **The Poppy War** (2018) by R. F. Kuang
-- **Chroniques de l'Occident nomade** (2011) par Aude Seigne (French)
-- **Paul a un travail d'été** (2002) par Michel Rabagliati (French, graphic novel)
-- **Rosalie Blum : une impression de déjà-vu** (2007) par Camille Jourdy (French, graphic novel)
+- [**Chronique japonaise** (1989) par Nicolas Bouvier](/notes/chronique-japonaise-par-nicolas-bouvier/) (French) 8/10
+- [**The Poppy War** (2018) by R. F. Kuang](/notes/the-poppy-war-by-r-f-kuang/) 6/10
+- **Chroniques de l'Occident nomade** (2011) par Aude Seigne (French) 5/10
+- **Paul a un travail d'été** (2002) par Michel Rabagliati (French, graphic novel) 8/10
+- **Rosalie Blum : une impression de déjà-vu** (2007) par Camille Jourdy (French, graphic novel) 6/10
 
 Notes coming up throughout next week
 
