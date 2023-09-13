@@ -58,7 +58,7 @@ A couple extra things this week:
 
 We had galettes at _Le 13H_, like we did back in 2021 when J and C were in Ardèche, and got some caillettes from the boucherie Broche across the street (out of all the caillettes we tried while J and C were here—the others were from the boucherie Moulin and from C in Chazeaux—these were our favorite!)
 
-Back home we planted the endives and F came upstairs for an apéro. A nice 100% Grenache from Lablachère that C and I got at the wine shop in Les Vans a couple of weeks ago. Then we waited for the moon to come out. It rose much later than the day before, also because it rose behind the Montcouquiol, the hill facing Joux. But the wait was worth it: the moon was just as big and yellow and breathtakingly beautiful as the day before. We sat on the edge of the stone wall overlooking the valley in the night and watched in silence.
+Back home we planted the endives and F came upstairs for an apéro. A nice 100% Grenache from Lablachère that C and I got at the wine shop in Les Vans a couple of weeks ago. Then we waited for the moon to come out. It rose much later than the day before, also because it rose behind the Montcoquiol, the hill facing Joux. But the wait was worth it: the moon was just as big and yellow and breathtakingly beautiful as the day before. We sat on the edge of the stone wall overlooking the valley in the night and watched in silence.
 
 ### Sunday
 
