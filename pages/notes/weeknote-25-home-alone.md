@@ -33,12 +33,12 @@ Not much: I couldn't connect my laptop to our projector (thanks Apple), and I tr
 
 Still, a couple of classic L.A. cop films, courtesy of MUBI's new [L.A. neo-noirs](https://mubi.com/en/fr/collections/los-angeles-neo-noir) collection:
 
-- **L.A. Confidential** (1997) by Curtis Hanson
-- **Heat** (1995) by Michael Mann
+- [**L.A. Confidential** (1997) by Curtis Hanson](/notes/l-a-confidential-by-curtis-hanson) 8/10
+- [**Heat** (1995) by Michael Mann](/notes/heat-by-michael-mann/) 9/10
 
 ## Reading
 
-Went to the library so I read a bunch of graphic novels:
+Went to the library so I read a bunch of French-language graphic novels:
 
 - **Paul à la campagne** (1999) par Michel Rabagliati (French)
 - **Paul en appartement** (2004) par Michel Rabagliati (French)
