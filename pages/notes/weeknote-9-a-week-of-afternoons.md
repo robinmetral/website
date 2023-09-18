@@ -9,9 +9,9 @@ buildScript: "/scripts/processNote.js"
 
 _Week 18 (1–7 May 2023)_
 
-C and J are visiting this week (and the next)! [We picked them up on Sunday in Valence](/notes/weeknote-8-les-branches/) and they're sleeping upstairs.
+J and C are visiting this week (and the next)! [We picked them up on Sunday in Valence](/notes/weeknote-8-les-branches/) and they're sleeping upstairs.
 
-They're on holiday this week, and Clara is too, she has holidays left to take before the end of her contract. I don't have any: my days were paid out when I relocated to France. So: this week, I wake up every morning at 6 am, and work until about 2 pm. After that, we have the afternoon free to do things together. (I'm the only one who drives, so others can't really go places without me.) If it sounds like an exhausting schedule, that's because it is—still, I'm glad we got to spend this time together!
+They're on holiday this week, and C is too, she has holidays left to take before the end of her contract. I don't have any: my days were paid out when I relocated to France. So: this week, I wake up every morning at 6 am, and work until about 2 pm. After that, we have the afternoon free to do things together. (I'm the only one who drives, so others can't really go places without me.) If it sounds like an exhausting schedule, that's because it is—still, I'm glad we got to spend this time together!
 
 ## The afternoons, day by day
 

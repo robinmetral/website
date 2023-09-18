@@ -48,7 +48,7 @@ Noto, Marzamemi, Siracusa
 - long walk among prickly pears and coneheaded thyme to the Spaggia di Calamosche in the Vendicari nature reserve (sandy beaches are overrated but good for sandcastles)
 - white wine in Noto, smells like apricot
 - granita+caffè at Cafè Sicilia in front of the Baroque cathedral
-- Amara spritz on the roof terrace and barbecue at the house, salsiccia eggplant zucchini, vino cotto sauce improvised by Clara. I tried to climb on the roof
+- Amara spritz on the roof terrace and barbecue at the house, salsiccia eggplant zucchini, vino cotto sauce improvised by C. I tried to climb on the roof
 - swordfish alla Siracusa style at [Kantunera](https://maps.app.goo.gl/tjEKiuXj28AJd77ZA) in Siracusa. Basically a tomato sauce with capers and raisins. Also super nice sardines beccafico as a starter. Here's a [nice read about Siracusa food](https://mortadellahead.com/5-things-you-must-eat-in-syracuse/)
 - ice cream at [Levante](https://maps.app.goo.gl/whUtSKTWBBMKSm7JA) after lunch
 - B's adventures at the nearby Neapolis archeological site (otherwise wouldn't recommend unless you're really into archaeology) (although there's a nice ficus tree)
