@@ -21,7 +21,7 @@ The sky was clear on Saturday and the stargazing session was amazing, with M gui
 
 And so many shooting stars! The Perseids were in full swing and even though we weren't stargazing in the early morning (peak Perseids), there were still a lot. Small blueish ones in numbers, but for the first time I also saw a handful of huge, reddish meteors. We were told that these have a different composition so they burn[^2] in a different color.[^3]
 
-Overall people really enjoyed the event. It was nothing fancy, one could say amateurish, but I think that's part of what makes it feel casual, authentic, magical. Just a bunch of humans in a school playground, looking up at the stars.
+Overall people really enjoyed the event. It was nothing fancy, one could say amateurish, but I think that's part of what makes it feel casual, authentic, magical. Just a bunch of humans in a school playground, looking up at the stars.
 
 ## Watching
 

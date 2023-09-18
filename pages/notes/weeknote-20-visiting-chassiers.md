@@ -13,7 +13,7 @@ This week came and went really fast! It was a bit less hot but we didn't do much
 
 ## Visiting Chassiers
 
-Went on a guided tour of Chassiers, the largest village (thus name of) our municipality, and one of Ardèche's _villages de caractère_[^1]. A guide showed us around and I was surprised—Chassiers is pretty quiet and I didn't think it would be so interesting! Some notes:
+Went on a guided tour of Chassiers, the largest village (thus name of) our municipality, and one of Ardèche's _villages de caractère_[^1]. A guide showed us around and I was surprised—Chassiers is pretty quiet and I didn't think it would be so interesting! Some notes:
 
 - **Churches**: the oldest church in the village (Roman, may date back to a 6th century monastery) is unique because it has two naves ending in two apses at the east end, one circular and one decagonal. (Read up on church architecture terms but I might be misusing these, it's [pretty complicated](https://en.wikipedia.org/wiki/Architecture_of_cathedrals_and_great_churches#Architecture).) One theory is that one nave was sacred while the other was not. The largest church in the village (Gothic, rebuilt in 1396) was built during the Catholic-Protestant religion wars so it's fortified: there are holes to drop things on enemies from the tower, ways to barricade the door, a narrow staircase that Protestant invaders would have to climb in a line before ducking to come out right under where a defending Catholic would wait with an axe. Protestants never attacked.
 - **Silk**: between the 16th and the 19th centuries silk was commonly made in the region, first in homes and then on a larger scale with dedicated magnaneries. This influenced the designs of traditional cévenol homes: a covered, first-floor terrace was called "couradou" (sounds like "courant d'air": a breeze) and that's where people would unwind silk worm cocoons after they were boiled—it turns out that boiling live worms can really stink up a place.
@@ -24,9 +24,9 @@ I'm sure that a lot of villages around have stories like this. Would love to lea
 
 ## Learning Russian
 
-In preparation of the trip (see [last week's note](/notes/weeknote-19-the-good-guy-wins-in-the-end/)) one of the things we're doing is learning Russian. Our itinerary will take us though the Caucasus and Central Asia, and a significant part of the population there speaks Russian as a second language to their first, usually Turkic, native language—it's the region's lingua franca, much more common and useful to get around than English (or so we hear). I know a few people in the area from my international conference days, and I do remember delegates from Uzbekistan Turkmenistan Azerbaijan Kazakhstan Kirghistan speaking Russian together (this surprised me at the time).
+In preparation of the trip (see [last week's note](/notes/weeknote-19-the-good-guy-wins-in-the-end/)) one of the things we're doing is learning Russian. Our itinerary will take us though the Caucasus and Central Asia, and a significant part of the population there speaks Russian as a second language to their first, usually Turkic, native language—it's the region's lingua franca, much more common and useful to get around than English (or so we hear). I know a few people in the area from my international conference days, and I do remember delegates from Uzbekistan Turkmenistan Azerbaijan Kazakhstan Kirghistan speaking Russian together (this surprised me at the time).
 
-So we're learning Russian. It's actually the second time I'm starting to learn it, the last was prior to a short trip to Belarus circa 2015, and I quickly gave up afterward, but I have some basics (alphabet, basic words).
+So we're learning Russian. It's actually the second time I'm starting to learn it, the last was prior to a short trip to Belarus circa 2015, and I quickly gave up afterward, but I have some basics (alphabet, basic words).
 
 As a first step I got Duolingo again (been on and off the app since 2014) and started the Russian course with an alphabet refresher. I looked up teachers on Italki and we had our first class on Monday (August 7, so technically doesn't belong in this weeknote, but shrug emoji).
 
@@ -34,7 +34,7 @@ This will all be for the first 3 months of the trip because Russian won't be a l
 
 ## Garden update
 
-I wake up at 6am these days and after coffee I go down to the garden with F. There's not a lot to do (most of the work weeding, weedwhacking, preparing the soil and structures was done in the spring and early summer) so we mosty look at veggies and water them and chat.
+I wake up at 6am these days and after coffee I go down to the garden with F. There's not a lot to do (most of the work weeding, weedwhacking, preparing the soil and structures was done in the spring and early summer) so we mosty look at veggies and water them and chat.
 
 There are lots of tomatoes and zucchini and eggplants and green beans and and and. Different varietals of each. The only veggie we really buy is cucumber, they were planted a bit late here so we don't have a lot. That means that we don't go to the market much anymore, and when we go it's mostly for bread[^2] and cheese.
 

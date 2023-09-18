@@ -49,7 +49,7 @@ Next crag next week!
 
 ## Reading
 
-- [**Les autonautes de la cosmoroute** (1983) by Carol Dunlop and Julio Cortázar](/notes/les-autonautes-de-la-cosmoroute-by-carol-dunlop-and-julio-cortazar/). I actually finished this a couple of weeks ago but forgot to write about it earlier, I'd started it [all the way back in May](/notes/weeknote-9-a-week-of-afternoons/) and read it sporadically
+- [**Les autonautes de la cosmoroute** (1983) by Carol Dunlop and Julio Cortázar](/notes/les-autonautes-de-la-cosmoroute-by-carol-dunlop-and-julio-cortazar/). I actually finished this a couple of weeks ago but forgot to write about it earlier, I'd started it [all the way back in May](/notes/weeknote-9-a-week-of-afternoons/) and read it sporadically
 - [**Yellowface** (2023) by R. F. Kuang](/notes/yellowface-by-r-f-kuang/)
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>

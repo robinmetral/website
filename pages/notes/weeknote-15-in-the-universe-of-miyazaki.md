@@ -9,7 +9,7 @@ buildScript: "/scripts/processNote.js"
 
 _Week 24 (12–18 June 2023)_
 
-First full week back! Like I wrote in the mini [Weeknote #14 part 2](/notes/weeknote-14-part-2-mushrooming/), things are busy, not exactly the rest I was expecting after our long trip. I'm slowly catching up sleep and desperately trying to wake up early (aiming for 6 am with sunrise) to beat the heat in the garden, but circumstances are against me (read: busy evenings that keep me up late).
+First full week back! Like I wrote in the mini [Weeknote #14 part 2](/notes/weeknote-14-part-2-mushrooming/), things are busy, not exactly the rest I was expecting after our long trip. I'm slowly catching up sleep and desperately trying to wake up early (aiming for 6 am with sunrise) to beat the heat in the garden, but circumstances are against me (read: busy evenings that keep me up late).
 
 ## In the universe of Miyazaki (and food)
 
@@ -26,7 +26,7 @@ In preparation we (re)watched [Howl's Moving Castle](/notes/howls-moving-castle-
 
 The concert, [Le monde musical de Miyazaki](https://web.archive.org/web/20230619144924/https://labeaume-musiques.fr/edition-2023/le-monde-musical-de-miyazaki/), was held at the Commanderie de Jalès, one of the oldest [commanderies](https://en.wikipedia.org/wiki/Commandery) in France, established by none other than the Knights Templar in 1140. It's incredible and quite unique to go to a concert in a place like this—one would expect it to be a museum with an entrance fee and plenty of do-not-enter do-not-touch signs around. Instead there was a Japanese food truck[^2], a stall with books about Miyazaki and the Studio Ghibli, and a pretty big crowd packed in the courtyard where the stage was, grass growing over the old stones and swallows flying overhead.
 
-For about an hour, starting at sundown and ending in the dark, we listened to an amazing string quartet, the _Quatuor Debussy_ (two violins, a viola and a cello), accompanied by 40-odd-people _Schola Cantharel_ choir, interpreting themes from Miyazaki films from Nausicaä to Ponyo via Spirited Away and Howl's Moving Castle. It was interesting to read about the relationship between Miyazaki and composer Hisaishi, that the concert booklet compared to Leone—Morricone. I liked the choir but I loved the quartet, they had an energy and amazing connection/cohesion between them.
+For about an hour, starting at sundown and ending in the dark, we listened to an amazing string quartet, the _Quatuor Debussy_ (two violins, a viola and a cello), accompanied by 40-odd-people _Schola Cantharel_ choir, interpreting themes from Miyazaki films from Nausicaä to Ponyo via Spirited Away and Howl's Moving Castle. It was interesting to read about the relationship between Miyazaki and composer Hisaishi, that the concert booklet compared to Leone—Morricone. I liked the choir but I loved the quartet, they had an energy and amazing connection/cohesion between them.
 
 ## Wine
 
@@ -46,7 +46,7 @@ Something interesting: some winemakers focus on the raw grapes, their wine refle
 
 ## Reading
 
-Back to it! Also we went to the library so we have tons of graphic novels and other books again. Also also I started to give a gut feeling rating to books so I remember how much I liked one or the other in the future—adding it at the end of [book notes](/notes/?category=books) from now on.
+Back to it! Also we went to the library so we have tons of graphic novels and other books again. Also also I started to give a gut feeling rating to books so I remember how much I liked one or the other in the future—adding it at the end of [book notes](/notes/?category=books) from now on.
 
 - [**Paper Names** by Susie Luo](/notes/paper-names-by-susie-luo/)
 - [**The Dutch House** by Ann Patchett](/notes/the-dutch-house-by-ann-patchett/)

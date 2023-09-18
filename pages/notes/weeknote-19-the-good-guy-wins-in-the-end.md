@@ -13,7 +13,7 @@ Bit of a slower week, might be compensating for the previous ones. It's hot too 
 
 ## The 2024 trip
 
-I think this is the first time I'm actually mentioning this here so here's the tl;dr: next year (2024) C and I are going back on a year-long trip. Southeast Asia again, but this we're taking the scenic route via the Silk Road (or what's left of it): Turkey, Georgia, Azerbaijan, Kazakhstan, Uzbekistan, Kirghistan China.
+I think this is the first time I'm actually mentioning this here so here's the tl;dr: next year (2024) C and I are going back on a year-long trip. Southeast Asia again, but this we're taking the scenic route via the Silk Road (or what's left of it): Turkey, Georgia, Azerbaijan, Kazakhstan, Uzbekistan, Kirghistan China.
 
 An overland trip to China in 2023 is a bit complicated to plan because there's this bit around longitude 51 with Russia to the north and Iran to the south, so there's only really one, narrow passage through via the Caspian Sea and Central Asia. We're still in the early phases of planning (visas, border crossings etc) but I'm already super excited!
 
@@ -21,9 +21,9 @@ Starting early also means that we have time to research themes and think of trip
 
 ## Organizing the _Nuits des étoiles_
 
-Like I said back in [Weeknote #4](/notes/weeknote-4-radish-ivy-checkbook/) C and I joined an association for the promotion of astronomy. We've been busy lately, because its main event is taking place in a couple of weeks! The _Nuits des étoiles_ (lit. "nights of the stars") is a national event that takes place every summer since 1991 in hundreds of towns all over the country. We're helping organise the 24th edition this year in the nearby village of Chassiers.
+Like I said back in [Weeknote #4](/notes/weeknote-4-radish-ivy-checkbook/) C and I joined an association for the promotion of astronomy. We've been busy lately, because its main event is taking place in a couple of weeks! The _Nuits des étoiles_ (lit. "nights of the stars") is a national event that takes place every summer since 1991 in hundreds of towns all over the country. We're helping organise the 24th edition this year in the nearby village of Chassiers.
 
-I know how to make websites so I was immediately put in charge of everything web, from the homepage to setting up the booking system for the event (spots are limited to 100 persons for each of the 3 nights). And since the association's website is an old, mostly-unmaintained WordPress site, there's a bit of mess to clean up, including at least one malicious script[^2]. Fortunately [WordPress is great](/notes/wordpress-a-new-hope/), so it was relatively easy to set up the booking system and build [a landing page](https://clairdetoiles-brindjardin.info/nuits-des-etoiles-2023/).
+I know how to make websites so I was immediately put in charge of everything web, from the homepage to setting up the booking system for the event (spots are limited to 100 persons for each of the 3 nights). And since the association's website is an old, mostly-unmaintained WordPress site, there's a bit of mess to clean up, including at least one malicious script[^2]. Fortunately [WordPress is great](/notes/wordpress-a-new-hope/), so it was relatively easy to set up the booking system and build [a landing page](https://clairdetoiles-brindjardin.info/nuits-des-etoiles-2023/).
 
 C and I also designed a poster for the _Nuits des étoiles_ theme of the year: cosmic dust. Since the event is falling right in the middle of the [Perseids](https://en.wikipedia.org/wiki/Perseids), we grabbed [a photo from NASA](https://images.nasa.gov/details/NHQ202108100009) and wrote a few things about meteors and [109P/Swift-Tuttle](https://en.wikipedia.org/wiki/Comet_Swift%E2%80%93Tuttle). We got the poster printed in A2 and it looks great!
 
@@ -47,11 +47,11 @@ It was the perfect size, in the perfect location, and we'll be back for sure! Pl
 - [**Oppenheimer** (2023) by Christopher Nolan](/notes/oppenheimer-by-christopher-nolan/) 9/10
 - [**Along with the Gods** (2017) by Kim Yong-hwa](pages/notes/along-with-the-gods-by-kim-yong-hwa.md) (3/10)
 
-Yup that's a _lot_ of films this week, one per day on average. How come? It was hot so I saw a few films in the afternoon (it's cooler when we stay cloistered inside in the dark), and also I like to finish what I start so I couldn't possibly watch [Raiders of the Lost Ark](/notes/raiders-of-the-lost-ark-by-steven-spielberg/) last week and _not_ watch Indiana Jones [2](/notes/indiana-jones-and-the-temple-of-doom-by-steven-spielberg/), [3](/notes/indiana-jones-and-the-last-crusade-by-steven-spielberg/) and [4](/notes/indiana-jones-and-the-kingdom-of-the-crystal-skull-by-steven-spielberg/) immediately after.
+Yup that's a _lot_ of films this week, one per day on average. How come? It was hot so I saw a few films in the afternoon (it's cooler when we stay cloistered inside in the dark), and also I like to finish what I start so I couldn't possibly watch [Raiders of the Lost Ark](/notes/raiders-of-the-lost-ark-by-steven-spielberg/) last week and _not_ watch Indiana Jones [2](/notes/indiana-jones-and-the-temple-of-doom-by-steven-spielberg/), [3](/notes/indiana-jones-and-the-last-crusade-by-steven-spielberg/) and [4](/notes/indiana-jones-and-the-kingdom-of-the-crystal-skull-by-steven-spielberg/) immediately after.
 
 ## Reading
 
-We went back to the library this week so I read a bunch of comics, and I've also started a new novel: _L'Usage du monde_ by Nicolas Bouvier, inspiration for the 2024 trip.[^3]
+We went back to the library this week so I read a bunch of comics, and I've also started a new novel: _L'Usage du monde_ by Nicolas Bouvier, inspiration for the 2024 trip.[^3]
 
 - [**Isaac le Pirate, tome 2, 3, 4 et 5** (2002-2005) par Christophe Blain](/notes/isaac-le-pirate-tomes-2-a-5-par-christophe-blain/) (French)
 

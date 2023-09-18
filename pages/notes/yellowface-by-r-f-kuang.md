@@ -13,7 +13,7 @@ There's some resemblance between the works via some of the themes, and yet the t
 
 > Babel was my big ponderous Dickensian bildungsroman; Yellowface, on the other hand, is a zippy, ridiculous, thriller meant to imitate the roiling schadenfreude of watching a Twitter meltdown. Babel is a slow read; Yellowface is meant to be devoured in a single sitting.
 
-...and I (almost) did, going through the 9-hour audiobook in under two days. It was gripping and things kept escalating and I really wanted to know what would happen next and what next and what next.
+...and I (almost) did, going through the 9-hour audiobook in under two days. It was gripping and things kept escalating and I really wanted to know what would happen next and what next and what next.
 
 _Yellowface_, far from Victorian-era Britain, is set in modern-day America and embraces internet culture (Twitter Goodreads and and)—in this way it reminded me of books by Hank Green et. al. Under the surface of a Twitter drama though, this is a novel about the workings (and dysfunctions) of the publishing industry, esp. in regards to race.
 

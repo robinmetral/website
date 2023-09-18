@@ -55,5 +55,5 @@ Finally back to our movie setup!
 
 I started listening to a new audiobook while cooking/gardening, _Paper Names_ by Susie Luo. I also have a couple of books in progress from before our trip that I'd like to pick back up. And we're planning a trip to the library soon for a refill.
 
-[^1]: I think I've been once in Valais, Switzerland when I was a kid with my parents and brothers but I can't remember the mushroom, just a wasp nest and lots of running/screaming/crying.
+[^1]: I think I've been once in Valais, Switzerland when I was a kid with my parents and brothers but I can't remember the mushroom, just a wasp nest and lots of running/screaming/crying.
 [^2]: the typical French pocket knife

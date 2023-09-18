@@ -31,7 +31,7 @@ Did I mention it was hot? We went bouldering on Monday morning but overall it's 
 
 Luckily there's a crag inside a cave, or caves actually, with more or less natural light depending on the route so climbable without headlamps. The name is [Beaume Escure](https://www.ffme.fr/sne-fiche/639/) and it's only a few minutes from our regular crags of Casteljau, Mazet etc.
 
-C and I had been there once but the topo isn't great here (complicated to record routes when they go front back above under) so we'd struggled to find routes and stuck to a few obvious ones. This time we went with N and B, and since N climbed here all of last summer (long hot summer), he showed us around. We climbed a couple of nice 5cs, jumped in the river, swung from a rope into the river, had a beer, and flashed a beautiful 6a+ that would have taken a lot more work without N's advice.
+C and I had been there once but the topo isn't great here (complicated to record routes when they go front back above under) so we'd struggled to find routes and stuck to a few obvious ones. This time we went with N and B, and since N climbed here all of last summer (long hot summer), he showed us around. We climbed a couple of nice 5cs, jumped in the river, swung from a rope into the river, had a beer, and flashed a beautiful 6a+ that would have taken a lot more work without N's advice.
 
 Good summer crag!
 

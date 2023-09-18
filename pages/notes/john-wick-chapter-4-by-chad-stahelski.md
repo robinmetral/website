@@ -13,4 +13,4 @@ I still think that the writers did a good job with the John Wick universe (organ
 
 5/10
 
-[^1]: and I think that action sequence choreography and directing is exactly why the film was so well received by critics overall
+[^1]: and I think that action sequence choreography and directing is exactly why the film was so well received by critics overall

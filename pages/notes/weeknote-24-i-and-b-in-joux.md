@@ -13,7 +13,7 @@ Another week! Not as hot and not as cold as [the last](/notes/weeknote-23-heatwa
 
 ## Vogüé
 
-C and I drove to Vogüé one day, we went climbing to a [small crag](https://www.ffme.fr/sne-fiche/684/) nearby (would not recommend, very small and sparse points = possible ground falls[^1]).
+C and I drove to Vogüé one day, we went climbing to a [small crag](https://www.ffme.fr/sne-fiche/684/) nearby (would not recommend, very small and sparse points = possible ground falls[^1]).
 
 Since we were close to the village we drove in for lunch, and although we've passed nearby multiple times, we'd never been inside. Vogüé is one of Ardèche's "villages de caractère", it's nested between an impressive limestone cliff to the east and the Ardèche river to the west. It has a castle and a main street with a few restaurants and shops. We had a platter of local foods for lunch at the village shop, which incidentally sells a really nice selection of nature wine.
 
@@ -24,7 +24,7 @@ Before leaving we walked back to the crag where we'd forgotten something. We too
 They visited over the weekend and only had one full day here. I had a list of ideas of things to do to fill at least a week. So we made choices and we:
 
 - went to the market at **Les Vans** in the morning, bought some foods, chatted with the sellers including one who moved back to France after 22 years in Laos and sells chili pepper snacks
-- visited the **Chauvet cave**, because it was overcast and B likes old stones. The Chauvet II reproduction is nice but I never quite had the illusion that I was actually looking at paleolithic art, too bad. There are more questions than answers about the art and the people who made it, but the visit was still interesting! I really want to try speleology
+- visited the **Chauvet cave**, because it was overcast and B likes old stones. The Chauvet II reproduction is nice but I never quite had the illusion that I was actually looking at paleolithic art, too bad. There are more questions than answers about the art and the people who made it, but the visit was still interesting! I really want to try speleology
 - had **ice cream** at _Aux glaces de mon père_, great as always, and we were given a scoop of red pepper iced cream after asking about it, it was surprisingly good (they add some raspberry to it for a touch of acidity)
 - jumped in the **river** at the _creux de l'ours_
 - listened to old French **music** in the car but quickly defaulted back to our [Sicily road trip](/notes/weeknote-12-road-trip-through-the-three-valli-of-sicily/) playlist, pouli pouli pouli poula

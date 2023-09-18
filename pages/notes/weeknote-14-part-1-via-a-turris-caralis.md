@@ -51,7 +51,7 @@ Highlights:
 
 The bus between Bosa and Alghero took the scenic coastal road, high up on cliffs overlooking the sea. The region around Bosa seems like a nice place to discover by car or bike, with more time!
 
-Alghero is special, since it used to be a Catalan town. This heritage is still felt in the architecture (two- or three-storied white buildings), food (paella is popular), and overall vibe (or maybe I was just biased). There is a small touristy city center with narrow alleys and fortified city walls going straight into the sea, but the city expanded inland quite a bit as it grew.
+Alghero is special, since it used to be a Catalan town. This heritage is still felt in the architecture (two- or three-storied white buildings), food (paella is popular), and overall vibe (or maybe I was just biased). There is a small touristy city center with narrow alleys and fortified city walls going straight into the sea, but the city expanded inland quite a bit as it grew.
 
 We were staying closed to the Giardini Giuseppe Manno and it was the perfect park: lots of shade for sitting in the grass or on a bench, a small café with outdoor seating in a corner, located right by the Via Catalonia bus station, close to a fresh produce market, to a bookshop that doubled as a wine bar, and to nice restaurants. We had lunch in the park twice, getting panini or focaccie to go and eating fresh fruits from the market (the very first apricots and peaches of the season!).
 
@@ -86,6 +86,6 @@ In the final train of our trip, from Toulon back to Valence, watched _The Red Tu
 
 ## Reading
 
-As I write this, we just got back home and I have more free time than I've had in the past 4 years—wait for it!
+As I write this, we just got back home and I have more free time than I've had in the past 4 years—wait for it!
 
 [^1]: everything we'd read online before the trip said things like "best to rent a car, public transport is unreliable at best, if not nonexistent". Turns out it's actually really good and I'd recommend it to anyone unless they want to go out of the beaten path—just like traveling anywhere.

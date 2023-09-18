@@ -21,7 +21,7 @@ We climbed roughly from 9 am until 2 pm, but then instead of going home or for a
 
 ## Trip to the gorges de de la Jonte
 
-A short improvised trip for my 28th birthday! C and I stayed at a campground in Meyrueis for a couple of nights. It was great to discover this part of Lozère! It is very similar to Ardèche (it's three hours drive but only 80 km away as the crow flies, right on the other side of the Cévennes) with a lot of nature sports, hiking canoeing canyoning caving climbing.
+A short improvised trip for my 28th birthday! C and I stayed at a campground in Meyrueis for a couple of nights. It was great to discover this part of Lozère! It is very similar to Ardèche (it's three hours drive but only 80 km away as the crow flies, right on the other side of the Cévennes) with a lot of nature sports, hiking canoeing canyoning caving climbing.
 
 Some highlights:
 
