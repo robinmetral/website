@@ -43,8 +43,8 @@ Went to the library so I read a bunch of French-language graphic novels:
 - **Paul à la campagne** (1999) par Michel Rabagliati (French)
 - **Paul en appartement** (2004) par Michel Rabagliati (French)
 - **Paul dans le métro** (2005) par Michel Rabagliati (French)
-- **Rosalie Blum : Haut les mains, peau de lapin !** (2008) par Camille Jourdy (French)
-- **Rosalie Blum : Au hasard Balthazar !** (2009) par Camille Jourdy (French)
+- [**Rosalie Blum : Haut les mains, peau de lapin !** (2008) par Camille Jourdy](/notes/rosalie-blum-haut-les-mains-peau-de-lapin-par-camille-jourdy/) (French) 7/10
+- [**Rosalie Blum : Au hasard Balthazar !** (2009) par Camille Jourdy](/notes/rosalie-blum-au-hasard-balthazar-par-camille-jourdy/) (French) 6/10
 
 ...plus I have a lot of books in progress! Fiction: **The Dragon Republic**, second tome in R. F. Kuang's Poppy Wars trilogy, and Jesse Q. Sutanto's latest novel **Vera Wong's Unsolicited Advice for Murderers**. Non-fiction: Bouvier's **Le vide et le plein**, and Graeber and Wengrow's **The Dawn of Everything**.
 
