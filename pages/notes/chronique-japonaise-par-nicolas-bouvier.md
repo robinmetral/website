@@ -14,6 +14,6 @@ _Chronique japonaise_ s'ouvre donc sur une histoire du pays, entrecoupée de ré
 
 Ça se lit presque comme un recueil de nouvelles — les textes sont assez détachés, bien qu'unis par un thème et une chronologie. Bouvier a gardé sa capacité de transmettre une atmosphère en quelques lignes, quelques mots. On est transporté au Japon avec lui. Le tout est trop divers pour entrer dans les détails ici, il faut le voir comme une collection de vignettes minutieusement élaborées (qui aurait d'ailleurs fait fureur à l'âge des blogs et des médias sociaux). Vaut une lecture pour les amateurs de Bouvier ou pour qui voyage au Japon.
 
-Le reste des carnets gris, longtemps inédit, a finalement été publié en 2009 dans une œuvre posthume : _Le vide et le plein : Carnets du Japon 1964-1970_. Je l'ai déjà entamée.
+Le reste des carnets gris, longtemps inédit, a finalement été publié en 2009 dans une œuvre posthume : [_Le vide et le plein : Carnets du Japon 1964-1970_](/notes/le-vide-et-le-plein-par-nicolas-bouvier/). Je l'ai déjà entamée.
 
 8/10
