@@ -10,7 +10,7 @@ lang: fr
 
 Excellent. À lire lentement : un long voyage à pas de fourmi (ou de Fiat Topolino) jusqu'à la passe de Khyber ça prend du temps (un an et demi), alors il faut prendre son temps.
 
-<img width="1280" height="871" style="aspect-ratio:1280/871;height:auto;" src="/static/images/20230822-nicolas-bouvier-fiat-topolino.jpg" alt="Photo d'archive en noir et blanc. La Fiat Topolino, immatriculée à Genève, sur la route d'Ankara. On voit la voiture de l'arrière, le capot est ouvert et Bouvier est retourné le siège passager, il regarde l'objectif. Deux valises sont attachée sur la roue de secours. La piste de gravillons s'étend jusqu'à l'horizon au pied de collines arides.">
+<img width="1280" height="871" style="aspect-ratio:1280/871;height:auto;" src="/static/images/20230822-nicolas-bouvier-fiat-topolino.jpg" alt="Photo d'archive en noir et blanc. La Fiat Topolino, immatriculée à Genève, sur la route d'Ankara. On voit la voiture de l'arrière, le capot est ouvert et Thierry Vernet est retourné le siège passager, il regarde l'objectif. Deux valises sont attachée sur la roue de secours. La piste de gravillons s'étend jusqu'à l'horizon au pied de collines arides.">
 
 Ça prend du temps mais ce n'est pas de tout repos. Bouvier et Vernet quittent l'Europe avec de l'argent pour quelques semaines seulement. Sur la route ils travaillent — Vernet expose ses peintures, Bouvier vend des articles et donne cours et conférences — et vivent frugalement.
 
