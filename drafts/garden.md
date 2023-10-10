@@ -9,6 +9,7 @@ buildScript: "/scripts/processNote.js"
 ## Uncateg.
 
 - [Priority of Constituencies](https://www.w3.org/TR/html-design-principles/#priority-of-constituencies)
+- guidelines for textual websites: https://seirdy.one/posts/2020/11/23/website-best-practices/
 
 ## Don't break pages
 
@@ -47,6 +48,7 @@ buildScript: "/scripts/processNote.js"
 ### CSS
 
 - josh comeau's course!
+- testing CSS feature support: https://moderncss.dev/testing-feature-support-for-modern-css/
 
 ### HTML
 
