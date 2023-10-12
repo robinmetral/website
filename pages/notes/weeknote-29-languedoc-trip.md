@@ -101,7 +101,7 @@ Niente
 
 Ah no actually I did read a comic I found at K's:
 
-- [**Yojimbot** (2021) by Sylvain Repos](/notes/yojimbot-by-sylvain-repos/) 5/10
+- [**Yojimbot** (2021) by Sylvain Repos](/notes/yojimbot-by-sylvain-repos/) 4/10
 
 [^1]: on [this photo](https://fr.wikipedia.org/wiki/S%C3%A9ranne#/media/Fichier:Peyre_Martine_0040mod.jpg) (not mine), taken from the Peyre Martine (in the Séranne), we see: the village, the Roc the Tras Castel above to the left, the causse de la Selle to the right. And in the distance, Pic Saint-Loup and the Hortus
 [^2]: the original is nicer if your read French: "J'ai connu vos parents, j'ai vu naître leurs pères, j'ai été le témoin de ce que fut leur vie. Comme eux restez fidèles à notre vieille terre, comme moi accrochez vos racines au pays."
