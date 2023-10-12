@@ -56,7 +56,7 @@ So I'm dividing the bullet points into three rough areas: the Buège and Héraul
 - actually I do want to name the coffee shops and wine bar (posterity etc). [ADN Café](https://maps.app.goo.gl/phW7YrywNEHq46FH8) [Café Cours](https://maps.app.goo.gl/oF9hxYKZDfVNhGBAA) [Hôtel Pinard](https://maps.app.goo.gl/LrT2eyfSWbKm5Cgx6)
 - next time I'd like to go to the Jardin des plantes
 - EVERYTHING is so cool and trendy in old town Montpellier. Cool cafés cool restaurants cool shops. It's almost too much? Gone is the feeling of having found a hidden gem, gems are all lined up in plain sight[^7]
-- met K at her flat! It's super well-located and beautiful, art plants books. She's been here for something like 12 years, about time I visit
+- met K at her flat! It's super well-located and beautiful, art plants books, old stone floor. She's been here for something like 12 years, about time I visit
 - coffee in the morning, C fetches pastries from [ikonka](https://maps.app.goo.gl/YHCy1o5sYh6jrDdr5), K's rec
 - lucky us: Saturday is market day at the foot of the Arceaux, the arches under the Saint-Clément aqueduct. It's a beautiful morning, still fresh, soft sunlight on plane trees. Farmers stalls, street food, crafts, lots of people
 - at 10 in the morning I'm eating fougasse aux grattons (flatbread with pork cracklings), a Montpellier specialty
@@ -72,7 +72,7 @@ So I'm dividing the bullet points into three rough areas: the Buège and Héraul
 - also Pézenas has [petits pâtés](https://www.herault-tourisme.com/fr/bien-manger/notre-art-de-vivre/nos-recettes-de-specialites-locales/petits-pates-de-pezenas/)!! A local specialty, little dough pockets filled with a lamb-spice-etc mixture that tastes... sweet? And lemony
 - we swap plane trees for chestnut trees, feels like home
 - eve: [Chai Christine Cannac](https://maps.app.goo.gl/HncReDVYsDUbtien9) in Bédarieux, a pioneer in Languedoc nature wines. Christine is super welcoming and warm and serves amazing wines
-- Olargues: another Plus Beaux Villages de France® village, on a small hill with the Jaur river circling it, must have been good for defending it. Climbed to the tower, walked the streets, small Sunday morning market
+- Olargues: another Plus Beaux Villages de France® village, on a small hill with the Jaur river circling it, must have been good for defending it. Climbed to the tower, walked the streets, escalier de la Commanderie (love that one of the sights is a staircase), small Sunday morning market
 - favorite thing in the village was [this épicerie fine](https://maps.app.goo.gl/qDN2athqXPqxNhGaA), local wine food crafts
 - drive to the other side of the Montagne Noire, goodbye chestnut trees hello garrigue, dense green oak forests
 - [middle-of-nowhere lunch](https://maps.app.goo.gl/EJzJYrxVyxPS87yQA) by the vineyards of the AOC Muscat de Saint-Jean-de-Minervois[^3] (sweet wine, aromas of pear)
@@ -91,7 +91,7 @@ So I'm dividing the bullet points into three rough areas: the Buège and Héraul
 - [bakery stop](https://maps.app.goo.gl/KXYPqXWXJGGFnp7W9) for a sandwich in Faugères, walk in the village
 - next time: try AOC Faugères[^3] wine
 - in the Pic Saint-Loup area in a single week summer became fall, colors completely different, warmer softer
-- coffee stop(s) at the village of Sauve in the Gard. Artist studios, people on terrasses under plane trees, fresh air in the old medieval streets, nice village alert
+- coffee stop(s) at the village of Sauve in the Gard. People on terrasses under plane trees, large bright village squares, narrow dark fresh medieval streets, artist studios, Guaté Mao stencils—nice village alert
 - \~\~ _home!_
 - [^8]
 
