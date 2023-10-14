@@ -1,7 +1,7 @@
 ---
 title: "Season 2 season"
 categories:
-  - name: films
+  - name: other
 publishDate: "2023-10-14"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
