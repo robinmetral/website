@@ -7,7 +7,7 @@ template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
 ---
 
-So we've been on this Indiana Jones rewatch ([Raiders](/notes/raiders-of-the-lost-ark-by-steven-spielberg/), [Temple of Doom](/notes/indiana-jones-and-the-temple-of-doom-by-steven-spielberg/), [Last Crusade](pages/notes/indiana-jones-and-the-last-crusade-by-steven-spielberg.md)) and the last we had to see was the 2008 reboot _Indiana Jones and the Kingdom of the Crystal Skull_.
+So we've been on this Indiana Jones rewatch ([Raiders](/notes/raiders-of-the-lost-ark-by-steven-spielberg/), [Temple of Doom](/notes/indiana-jones-and-the-temple-of-doom-by-steven-spielberg/), [Last Crusade](/notes/indiana-jones-and-the-last-crusade-by-steven-spielberg/)) and the last we had to see was the 2008 reboot _Indiana Jones and the Kingdom of the Crystal Skull_.
 
 I wasn't looking forward to it. At all. In my memories from my 2008 watch (when the film came out), it wasn't very _Indiana Jones_, mostly I didn't like that it had aliens (spoilers!). I remembered ants, a good motorcycle chase scene with Indy's son Mutt (spoilers again!), but that was about it. It probably didn't help that people were generally dunking on the film (a reboot after 20 years is meant to ruffle some feathers), and I ended up believing that this was a plain bad movie.
 

@@ -13,6 +13,6 @@ It's a good Japanese-depicted-by-Americans crime show, yakuza, police and the od
 
 I don't know how realistic the depiction of Japanese work culture and hostess clubs is, but watching the show is somewhat of a culture shock. Same with the yakuza-police relations. Yet, surprisingly, some of the characters I relate to/understand the least are Westerners (e.g. Samantha). Maybe because while the Japanese characters seem to behave based on a completely different value set than I'm used to, at least it's consistent. Some of the Westerners' actions seem incoherent at best (or I just didn't get them).
 
-In a similar vein I liked Giri/Haji (Joe Barton, 2019) much better, though I don't really remember why because I watched it over three years ago.
+In a similar vein I liked _Giri/Haji_ (Joe Barton, 2019) much better, though I don't really remember why because I watched it over three years ago.
 
 6/10

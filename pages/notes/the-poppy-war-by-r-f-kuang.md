@@ -7,7 +7,7 @@ template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
 ---
 
-I really liked Kuang's other novels [Babel](pages/notes/babel-by-r-f-kuang.md) and [Yellowface](pages/notes/yellowface-by-r-f-kuang.md), so I wanted to read her debut, a fantasy novel set in a world inspired by Song dynasty China.
+I really liked Kuang's other novels [Babel](/notes/babel-by-r-f-kuang/) and [Yellowface](/notes/yellowface-by-r-f-kuang/), so I wanted to read her debut, a fantasy novel set in a world inspired by Song dynasty China.
 
 Reading about the book you'll come across the word "grimdark". It's a subgenre of fantasy that Damien Walter, writing for The Guardian, sums up as "bigger swords, more fighting, bloodier blood, more fighting, axes, more fighting" (he's not a fan, can you tell?).
 

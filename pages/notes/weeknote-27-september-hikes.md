@@ -9,7 +9,7 @@ buildScript: "/scripts/processNote.js"
 
 _Week 38 (18–24 September 2023)_
 
-Heavy rain early in the week (cf. [last weeknote](/notes/weeknote-26-unintended-smirks.md)) followed by clear skies with perfect daytime temperatures around 25°C (feels warmer with the sun, still wearing shorts) and around 10°C at night (= fewer mosquitoes, sweater in the morning, warm duvet back in the bedsheet). Face is still half paralyzed (cf. [last weeknote](/notes/weeknote-26-unintended-smirks.md) again). Besides this life is good.
+Heavy rain early in the week (cf. [last weeknote](/notes/weeknote-26-unintended-smirks/)) followed by clear skies with perfect daytime temperatures around 25°C (feels warmer with the sun, still wearing shorts) and around 10°C at night (= fewer mosquitoes, sweater in the morning, warm duvet back in the bedsheet). Face is still half paralyzed (cf. [last weeknote](/notes/weeknote-26-unintended-smirks/) again). Besides this life is good.
 
 ## September hikes
 
@@ -17,7 +17,7 @@ September: warm but not too warm, late in the season so not too busy, beautiful 
 
 ### Beaumont botanic trail
 
-This was technically [week 37](/notes/weeknote-26-unintended-smirks.md), not 38 (if I remember correctly), but I forgot to mention it over there. A 5.2 km loop with 376 m positive elevation, roughly 3 hours.
+This was technically [week 37](/notes/weeknote-26-unintended-smirks/), not 38 (if I remember correctly), but I forgot to mention it over there. A 5.2 km loop with 376 m positive elevation, roughly 3 hours.
 
 We parked by the pont du Gua, where my family used to swim in the Beaume river when I was a kid. The hike starts with a short but steep and shadeless climb to the village of La Roche, I guess that it makes up most of the 376 m. Then it's almost flat for most of the hike, under trees, crossing small streams. We ate the last blackberries (a bit watery by now) and wild apples.
 

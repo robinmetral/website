@@ -45,7 +45,7 @@ It was the perfect size, in the perfect location, and we'll be back for sure! Pl
 - [**Rocky** (1976) by John G. Avildsen](/notes/rocky-by-john-g-avildsen/) 8/10
 - [**Rocky II** (1979) by Sylvester Stallone](/notes/rocky-ii-by-sylvester-stallone/) 3/10
 - [**Oppenheimer** (2023) by Christopher Nolan](/notes/oppenheimer-by-christopher-nolan/) 9/10
-- [**Along with the Gods** (2017) by Kim Yong-hwa](pages/notes/along-with-the-gods-by-kim-yong-hwa.md) (3/10)
+- [**Along with the Gods** (2017) by Kim Yong-hwa](/notes/along-with-the-gods-by-kim-yong-hwa/) (3/10)
 
 Yup that's a _lot_ of films this week, one per day on average. How come? It was hot so I saw a few films in the afternoon (it's cooler when we stay cloistered inside in the dark), and also I like to finish what I start so I couldn't possibly watch [Raiders of the Lost Ark](/notes/raiders-of-the-lost-ark-by-steven-spielberg/) last week and _not_ watch Indiana Jones [2](/notes/indiana-jones-and-the-temple-of-doom-by-steven-spielberg/), [3](/notes/indiana-jones-and-the-last-crusade-by-steven-spielberg/) and [4](/notes/indiana-jones-and-the-kingdom-of-the-crystal-skull-by-steven-spielberg/) immediately after.
 
