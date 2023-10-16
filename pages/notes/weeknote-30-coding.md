@@ -28,7 +28,8 @@ The next big step is to add highlighting+annotation features, which unlike Hypot
 Saw _Tokyo Vice_, it had been a while we hadn't watched a series! ([There's more coming](/notes/season-2-season/).) (Can't actually remember the last one we watched just now, probably a few months ago?[^3])
 
 - [**Tokyo Vice** season 1 (2022) by J. T. Rogers](/notes/tokyo-vice-season-1-by-j-t-rogers/) 6/10
-- [**Chicago** (2002) by Rob Marshall](/notes/chicago-by-rob-marshall/) 9/10
+- [**Chicago** (2002) by Rob Marshall](/notes/chicago-by-rob-marshall/) 7/10
+- [**A Haunting in Venice** (2023) by Kenneth Branagh](/notes/a-haunting-in-venice-by-kenneth-branagh) 6/10
 
 ## Reading
 
