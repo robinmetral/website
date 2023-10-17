@@ -2,22 +2,11 @@
 title: "Back to the Future by Irina Werning"
 categories:
   - name: photography
-publishDate: "2023-10-14"
+publishDate: "2023-10-17"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
 ---
 
-One of the most ...
+Amazing amazing project by Irina Werning: [Back to the Future](https://irinawerning.com/back-to-the-future/)
 
-...
-
-[A December 2022 post](https://clarale.com/posts/21-berlin-post-christmas/) on C's website reminded me of this
-Companion Berlin
-
-https://irinawerning.com/back-to-the-future/#02
-
-...
-
-Book out of print
-Amazon: https://camelcamelcamel.com/
-Ebay saved search
+Discovered the book in [Dec 2022](https://clarale.com/posts/21-berlin-post-christmas/) at Companion Coffee, Neukölln. Unfortunately it's out of print and used copies sell for over $200. Added price alerts on Amazon and eBay, maybe I'll get lucky
