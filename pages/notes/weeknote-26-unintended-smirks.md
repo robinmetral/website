@@ -27,7 +27,7 @@ We started a new TV show: **Tokyo Vice**. It's from last year and I'd heard good
 
 Finished two audiobooks that I started [last week](/notes/weeknote-25-home-alone/):
 
-- [**The Dragon Republic** (2019) by R. F. Kuang](/notes/the-dragon-republic-by-r-f-kuang/) 5/10
+- [**The Dragon Republic** (2019) by R. F. Kuang](/notes/the-dragon-republic-by-r-f-kuang/) 4/10
 - [**Vera Wong's Unsolicited Advice for Murderers** (2023) by Jesse Q. Sutanto](/notes/vera-wong-s-unsolicited-advice-for-murderers-by-jesse-q-sutanto/) 6/10
 
 C and I also stumbled upon a tiny secondhand bookstore in Largentière, with mostly very old 1€ books. I got two books: Camus' classic <span lang="fr">_L'étranger_</span> (1942) that I've been [meaning to re-read](/notes/l-exil-et-le-royaume-by-albert-camus/), and Laurent Binet's newer _HHhH_ (2010) that I'd heard of somewhere and that I've already started reading.

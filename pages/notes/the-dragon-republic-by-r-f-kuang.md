@@ -13,4 +13,4 @@ Still grimdark = fighting and war and betrayal and other terrible, terrible thin
 
 I'll still listen to the third and last book when my turn comes on Libby!
 
-5/10
+4/10
