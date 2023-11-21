@@ -49,6 +49,7 @@ C and I had been to Brussels twice in the last few years. Once on the way to Lo
   - C found a pretty wooden tangram puzzle in a [huge antique store](https://www.antiek-depot.com/)
   - tried [cuberdons](https://visit.gent.be/en/cuberdons), a Ghent specialty confection. Not my fav
   - has a waffle (when in Belgium), flawlessly ordered in Flemish (almost)
+  - made a [list of favorite words in Flemish](/notes/favorite-words-in-flemish/)
   - C joined us for the evening from Brussels, also hadn't seen her since 2016, also hasn't changed a bit
   - 5pm, flavored jenever shots at _'t Dreupelkot_, a longstanding bar that became something of a local attraction. Shots are poured so full that it's customary to take a first sip from the glass on the bar counter. The chili shot is properly spicy
   - next bar is _het Spijker_, a cosy candlelit table upstairs. Beers and sharing plates of tasteless cheese, favored up with mustard and... celery salt?? (apparently another Belgian specialty)
