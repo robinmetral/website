@@ -7,16 +7,16 @@ template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"
 ---
 
-Opleidingstegoed
-Appeltaart
-Boterham
-Kookboek
-Bompa
-Fonduehuis
-Pannenkoeken
-Boekhandel
-Hulpkok
-Paraplubak
-Goedemiddag
-Sneeuw
-Smokkelaar
+- Opleidingstegoed
+- Appeltaart
+- Boterham
+- Kookboek
+- Bompa
+- Fonduehuis
+- Pannenkoeken
+- Boekhandel
+- Hulpkok
+- Paraplubak
+- Goedemiddag
+- Sneeuw
+- Smokkelaar
