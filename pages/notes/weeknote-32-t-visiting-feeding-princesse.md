@@ -68,8 +68,9 @@ Back to the basics:
 
 ## Watching
 
-2024 Olympic Games EU qualifiers for bouldering and lead climbing ([women](https://www.youtube.com/watch?v=_gEStUMjzIE), [men](https://www.youtube.com/watch?v=FOQ4CxiN2Z4)). But also:
+Before T arrived we finished OFMD season 2, and watched the 2024 Olympic Games EU qualifiers for bouldering and lead climbing ([women](https://www.youtube.com/watch?v=_gEStUMjzIE), [men](https://www.youtube.com/watch?v=FOQ4CxiN2Z4)). Plus a Studio Ghibli movie with T and F.
 
+- [**Our Flag Means Death** (season 2, 2023) by David Jenkins](/notes/our-flag-means-death-season-2-by-david-jenkins/) 8/10
 - [**Grave of the Fireflies** (1988) by Isao Takahata](/notes/grave-of-the-fireflies-by-isao-takahata/) 6/10
 
 [^1]: a tube is a bit weird, that's true, but it's great to squeeze chestnut cream right into your mouth as a snack
