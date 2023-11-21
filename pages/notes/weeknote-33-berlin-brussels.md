@@ -69,7 +69,7 @@ I wanted to go to the cinema in Berlin but we didn't make it: next time! We did 
 
 I'd packed a book (a big heavy one[^2]) for the trip and haven't opened it. But I immediately read one of the books I found at Saint George's in Berlin:
 
-- [**No. 91/92: notes on a Parisian commute** (2021) by Lauren Elkin](/notes/no-91-92-notes-on-a-parisian-commute-by-lauren-elkin/) 8/10
+- [**No. 91/92: notes on a Parisian commute** (2021) by Lauren Elkin](/notes/no-91-92-notes-on-a-parisian-commute-by-lauren-elkin/) 9/10
 
 [^1]: As demonstrated by [this guy](https://eaudepoisson.com/static/images/20171209-ninh-binh-500-marches-pose-caca.jpg) squatting on a wall at the edge of a cliff near Ninh Bình, casually eating chips. He has no idea I've been thinking of him regularly for the past six years
 [^2]: actually that's probably the problem. Trips are already a mental load, so books for traveling should feel light and approachable

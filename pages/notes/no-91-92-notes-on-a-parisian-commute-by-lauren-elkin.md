@@ -13,6 +13,6 @@ The best way to describe the book is to say how it was written. In 2014-2015 Lau
 
 The resulting book is a sort of memoir of short prose, almost poetry-like. There's the background of the year going by, with big [public](https://en.wikipedia.org/wiki/Charlie_Hebdo_shooting) and intimate events unfolding. But the book isn't about them—it's the thoughts of someone on her commute, half-awake in the morning, making or missing the bus, watching other commuters and Paris outside the bus windows. It's about what Perec[^1] calls the infraordinary: what happens when nothing happens.
 
-8/10
+9/10
 
 [^1]: there are a lot of Perec inspiration and references in there which I loved. I'll need to get my hands on _An Attempt at Exhausting a Place in Paris_
