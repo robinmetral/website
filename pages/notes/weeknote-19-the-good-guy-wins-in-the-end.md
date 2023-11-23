@@ -9,15 +9,7 @@ buildScript: "/scripts/processNote.js"
 
 _Week 30 (24–30 July 2023)_
 
-Bit of a slower week, might be compensating for the previous ones. It's hot too so I spent more time inside watching movies[^1], planning the 2024 trip, writing [notes about movies](/notes/?category=films) etc.
-
-## The 2024 trip
-
-I think this is the first time I'm actually mentioning this here so here's the tl;dr: next year (2024) C and I are going back on a year-long trip. Southeast Asia again, but this we're taking the scenic route via the Silk Road (or what's left of it): Turkey, Georgia, Azerbaijan, Kazakhstan, Uzbekistan, Kirghistan China.
-
-An overland trip to China in 2023 is a bit complicated to plan because there's this bit around longitude 51 with Russia to the north and Iran to the south, so there's only really one, narrow passage through via the Caspian Sea and Central Asia. We're still in the early phases of planning (visas, border crossings etc) but I'm already super excited!
-
-Starting early also means that we have time to research themes and think of trip-related projects. Theme example: the house we live in used to be a [magnanery](https://en.wikipedia.org/wiki/Magnanery) (silk farm) and we'll be traveling on the Silk Road, so there's probably something there. Project example: we'll be making zines throughout the trip, probably one for each country, share them digitally and print them when we get back. And more!
+Bit of a slower week, might be compensating for the previous ones. It's hot too so I spent more time inside watching movies[^1], writing [notes about movies](/notes/?category=films) etc.
 
 ## Organizing the _Nuits des étoiles_
 
@@ -51,10 +43,9 @@ Yup that's a _lot_ of films this week, one per day on average. How come? It was 
 
 ## Reading
 
-We went back to the library this week so I read a bunch of comics, and I've also started a new novel: _L'Usage du monde_ by Nicolas Bouvier, inspiration for the 2024 trip.[^3]
+We went back to the library this week so I read a bunch of comics, and I've also started a new novel: _L'Usage du monde_ by Nicolas Bouvier.
 
 - [**Isaac le Pirate, tome 2, 3, 4 et 5** (2002-2005) par Christophe Blain](/notes/isaac-le-pirate-tomes-2-a-5-par-christophe-blain/) (French)
 
 [^1]: mostly 70s and 80s Hollywood blockbusters as you'll see, hence the title
 [^2]: the script for a visit counter that someone must have added to the site years ago would open a advertising popup. It did this randomly for a very small amount of visits, so it wasn't straightforward to catch.
-[^3]: [not quite the same itinerary](https://commons.wikimedia.org/wiki/File:Carte_du_voyage_de_Nicolas_Bouvier_dans_L%27Usage_du_monde.jpg) since Bouvier was heading to India plus could get into Iran without possibly being arrested, but it's still overland to Asia so there's something

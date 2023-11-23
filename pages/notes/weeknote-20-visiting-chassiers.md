@@ -22,16 +22,6 @@ Went on a guided tour of Chassiers, the largest village (thus name of) our munic
 
 I'm sure that a lot of villages around have stories like this. Would love to learn about them!
 
-## Learning Russian
-
-In preparation of the trip (see [last week's note](/notes/weeknote-19-the-good-guy-wins-in-the-end/)) one of the things we're doing is learning Russian. Our itinerary will take us though the Caucasus and Central Asia, and a significant part of the population there speaks Russian as a second language to their first, usually Turkic, native language—it's the region's lingua franca, much more common and useful to get around than English (or so we hear). I know a few people in the area from my international conference days, and I do remember delegates from Uzbekistan Turkmenistan Azerbaijan Kazakhstan Kirghistan speaking Russian together (this surprised me at the time).
-
-So we're learning Russian. It's actually the second time I'm starting to learn it, the last was prior to a short trip to Belarus circa 2015, and I quickly gave up afterward, but I have some basics (alphabet, basic words).
-
-As a first step I got Duolingo again (been on and off the app since 2014) and started the Russian course with an alphabet refresher. I looked up teachers on Italki and we had our first class on Monday (August 7, so technically doesn't belong in this weeknote, but shrug emoji).
-
-This will all be for the first 3 months of the trip because Russian won't be a lingua franca when we get to China—but I started to look into Mandarin courses...
-
 ## Garden update
 
 I wake up at 6am these days and after coffee I go down to the garden with F. There's not a lot to do (most of the work weeding, weedwhacking, preparing the soil and structures was done in the spring and early summer) so we mosty look at veggies and water them and chat.
