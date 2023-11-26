@@ -21,7 +21,7 @@ Some things that made us get out of our slippers: picking saffron (when we just 
 
 ## Watching
 
-Series only, [we have some catching up to do](/notes/season-2-season/). C and I saw the second season of Loki and I also started watching [BEEF](<https://en.wikipedia.org/wiki/Beef_(TV_series)>).
+Series only, [we have some catching up to do](/notes/season-2-season/). C and I saw the second season of Loki and I also started watching [Beef](/notes/beef-season-1-by-lee-sung-jin/).
 
 - [**Loki** (season 2, 2023) by Michael Waldron](/notes/loki-season-2-by-michael-waldron/) 6/10
 
