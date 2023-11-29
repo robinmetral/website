@@ -64,7 +64,7 @@ So every morning for 4 or 5 days, we carried a dish of pasta with Leclerc eggs u
 
 Back to the basics:
 
-- [**Les Aventures de Tintin** (12 albums sur 24) par Hergé](/notes/les-aventures-de-tintin-par-herge/) (French)
+- [**Les Aventures de Tintin** (12 albums) par Hergé](/notes/les-aventures-de-tintin-par-herge/) (French)
 
 ## Watching
 
