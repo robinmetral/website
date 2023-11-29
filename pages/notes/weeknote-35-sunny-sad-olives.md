@@ -11,7 +11,7 @@ _Week 47 (20–26 November 2023)_
 
 Busy [ranting](https://robinmetral.com/notes/why-does-it-have-to-be-so-slow/) so this will be short
 
-## Acrostic not really
+## Sunny sad olives
 
 Sunny cold
 
