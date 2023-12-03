@@ -10,8 +10,8 @@ lang: fr
 
 | Numéro | Titre                         | Parution | Relu ? |
 | ------ | ----------------------------- | -------- | ------ |
-| 1      | Tintin au pays des Soviets    | 1930     |        |
-| 2      | Tintin au Congo               | 1931     |        |
+| 1      | Tintin au pays des Soviets    | 1930     | oui    |
+| 2      | Tintin au Congo               | 1931     | oui    |
 | 3      | Tintin en Amérique            | 1932     | oui    |
 | 4      | Les Cigares du pharaon        | 1934     | oui    |
 | 5      | Le Lotus bleu                 | 1936     | oui    |
@@ -27,10 +27,10 @@ lang: fr
 | 15     | Tintin au pays de l'or noir   | 1950     | oui    |
 | 16     | Objectif Lune                 | 1953     | oui    |
 | 17     | On a marché sur la Lune       | 1954     | oui    |
-| 18     | L'Affaire Tournesol           | 1956     |        |
+| 18     | L'Affaire Tournesol           | 1956     | oui    |
 | 19     | Coke en stock                 | 1958     | oui    |
 | 20     | Tintin au Tibet               | 1960     | oui    |
-| 21     | Les Bijoux de la Castafiore   | 1963     |        |
+| 21     | Les Bijoux de la Castafiore   | 1963     | oui    |
 | 22     | Vol 714 pour Sydney           | 1968     | oui    |
 | 23     | Tintin et les Picaros         | 1976     |        |
 | 24     | Tintin et l'Alph-Art          | 1986     |        |
@@ -54,4 +54,13 @@ En général certains aspects ont pas super bien vieilli. On s'y attend pour une
 - Tintin au Tibet : super, une petite séquence d'escalade marrante ("et dire qu'il y en a qui font ça pour le plaisir", dit le capitaine)
 - Vol 714 pour Sydney : moyen les extra-terrestres, mais bien rigolé avec les bosses du boss
 
-Donc dans la semaine j'ai relu la moitié des 24 albums ! Il faudra trouver les autres. Je mettrai cette note à jour au fur et à mesure
+Donc dans la semaine j'ai relu la moitié des 24 albums ! Il faudra trouver les autres. Je mettrai cette note à jour au fur et à mesure.
+
+## 3 décembre 2023
+
+Emprunté quatre albums supplémentaires à la médiathèque. Il y avait aussi _Le Secret de la Licorne_ mais pas _Le Trésor de Rackham le Rouge_, donc je l'ai laissé. Plus que huit albums à relire !
+
+- Tintin au pays des Soviets : noir et blanc, textes et dessins pas encore très rodés, ça fait un peu pilote de la série à venir. Tintin atterrit à l'aéroport de Tempelhof à Berlin
+- Tintin au Congo : assez mal vieilli
+- L'Affaire Tournesol : ok
+- Les Bijoux de la Castafiore : Moulinsart, une marche cassée, des fausses pistes et un perroquet. Un classique, super
