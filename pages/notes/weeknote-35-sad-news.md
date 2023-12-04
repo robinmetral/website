@@ -1,5 +1,5 @@
 ---
-title: "Weeknote #35: sunny sad olives"
+title: "Weeknote #35: sad news"
 categories:
   - name: weeknotes
 publishDate: "2023-11-27"
@@ -9,13 +9,11 @@ buildScript: "/scripts/processNote.js"
 
 _Week 47 (20–26 November 2023)_
 
-Busy [ranting](https://robinmetral.com/notes/why-does-it-have-to-be-so-slow/) so this will be short
-
-## Sunny sad olives
+Busy [ranting](https://robinmetral.com/notes/why-does-it-have-to-be-so-slow/) so this will be short:
 
 Sunny cold
 
-Sad news came midweek, heading to Switzerland for a couple of days next week to be with family. Not feeling like elaborating in here.
+Sad news came midweek, heading to Geneva for a couple of days next week to be with family
 
 Olives all picked, most of them will be pressed for oil, I saved three samples (different varietals) to try to [preserve "fachouire"-style](http://la-cachina.over-blog.com/article-24881261.html) but it's not really working so far
 
