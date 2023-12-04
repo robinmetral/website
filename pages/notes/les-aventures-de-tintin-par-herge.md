@@ -58,7 +58,7 @@ Donc dans la semaine j'ai relu la moitié des 24 albums ! Il faudra trouver les
 
 ## 3 décembre 2023
 
-Emprunté quatre albums supplémentaires à la médiathèque. Il y avait aussi _Le Secret de la Licorne_ mais pas _Le Trésor de Rackham le Rouge_, donc je l'ai laissé. Plus que huit albums à relire !
+Trouvé quatre albums supplémentaires à la médiathèque. Il y avait aussi _Le Secret de la Licorne_ mais pas _Le Trésor de Rackham le Rouge_, donc pas emprunté. Plus que huit albums à relire
 
 - Tintin au pays des Soviets : noir et blanc, textes et dessins pas encore très rodés, ça fait un peu pilote de la série à venir. Tintin atterrit à l'aéroport de Tempelhof à Berlin
 - Tintin au Congo : assez mal vieilli
