@@ -28,5 +28,5 @@ First fondue of the season with N.
 ## Reading
 
 - [**André-Gilles, journal de confinement** (2020) par Aurel](/notes/andre-gilles-journal-de-confinement-par-aurel/) 2/10 (French, comic)
-- **Livres perdus, nouvelles chaussures** (2021), par Boutheyna Bouslama (French, note coming)
+- [**Livres perdus, nouvelles chaussures** (2021), par Boutheyna Bouslama](/notes/livres-perdus-nouvelles-chaussures-par-boutheyna-bouslama/) 7/10 (French)
 - [**Les Aventures de Tintin** (4 albums) par Hergé](/notes/les-aventures-de-tintin-par-herge/) (French, comics)
