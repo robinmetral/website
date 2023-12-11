@@ -27,7 +27,7 @@ Last multipitch climb, we'll try not to forget the techniques we learned over th
 
 Last weekend here, spent at a training: learning to recognize and find meteorites. Geology and planetology basics, looking at meteorites under a polarized light microscope, looking at rocks that make up the old houses of Chassiers (sandstone). Part of the citizen science project [Vigie-Ciel](https://www.vigie-ciel.org/) (FR) that our association partners with.
 
-The next days will be our last here, we're driving to Geneva on Thursday. Over there, Bouvier's [L'usage du monde](/notes/l-usage-du-monde-par-nicolas-bouvier/) has been made into [a play](https://theatredecarouge.ch/spectacle/lusage-du-monde/) and is showing at the Théâtre de Carouge, but it's booked out. I made [a scraper](pages/notes/a-cron-web-scraper-with-telegram-alerts.md) to try and find seats.
+The next days will be our last here, we're driving to Geneva on Thursday. Over there, Bouvier's [L'usage du monde](/notes/l-usage-du-monde-par-nicolas-bouvier/) has been made into [a play](https://theatredecarouge.ch/spectacle/lusage-du-monde/) and is showing at the Théâtre de Carouge, but it's booked out. I made [a scraper](/notes/a-cron-web-scraper-with-telegram-alerts/) to try and find seats.
 
 ## Watching
 
