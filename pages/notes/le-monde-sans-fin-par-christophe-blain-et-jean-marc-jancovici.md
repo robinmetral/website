@@ -22,3 +22,5 @@ Pour finir, quelques trucs en vrac qui me restent en tête deux semaines après 
 - si on voulait tourner aux énergies dites renouvelables, il faudrait 2 tonnes de batteries pour chaque foyer en France stocker l'énergie produite
 - la sortie de l'Allemagne du nucléaire serait un désastre environnemental, parce que le pays a remplacé une bonne partie de son nucléaire par du charbon. Des écosystèmes sont détruits pour ouvrir des mines de lignite, et entre 2013 et 2022 (9 ans), l'Allemagne a émis l'équivalent de 10 ans d'émissions de si elle était restée au nucléaire (une hausse d'environ 10%)
 - façon de voir les secteurs secondaire (industrie) et tertiaire (services) : les emplois du secondaire sont conditionnés par le nombre de machines (plus de machines = plus d'emplois) ; les emplois du tertiaire sont conditionnés par le nombre d'objets produits par le secondaire. Donc par exemple si on ouvre une usine de voitures on crée des emplois du secondaire, puis quand les voitures sortent de l'usine elles créent des emplois du tertiaire (vendeurs, créditeurs, assureurs etc., et même indirectement fonctionnaires autour du permis de conduire, de la circulation...)
+
+7/10
