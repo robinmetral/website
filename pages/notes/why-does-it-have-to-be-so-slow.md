@@ -2,7 +2,7 @@
 title: "Why does it have to be so slow"
 categories:
   - name: maps
-  - name: web
+  - name: dev
 publishDate: "2023-11-26"
 template: "/templates/page.html"
 buildScript: "/scripts/processNote.js"

@@ -76,4 +76,6 @@ If the script executes in under a minute (and it should, and it does) then 1 usa
 
 It was super fast/easy to spin this up and it works great. This note was mostly to document how the thing roughly works—I'll probably build more of these in the future.
 
-Now I hope we get seats!
+Now I hope we get seats![^1]
+
+[^1]: Update: [got seats](/notes/weeknote-38-setting-off/)!
