@@ -46,5 +46,5 @@ Result: `https://www.youtube-nocookie.com/embed/<video-id>?rel=0&hl=<lang>`
 
 Another possible improvement could be to nest the `<frame>` inside `<details>`. Since the frame is lazy loaded, requests would only go out to Google servers when users expand the details. The `<summary>` can then be used as a form of disclaimer/warning: "Open video in the YouTube player". But for most users, this only means an extra click — we decided against it.
 
-[^1]: besides ditching `width` and `height` and making the iframe responsive using [an old trick](https://alistapart.com/article/creating-intrinsic-ratios-for-video/) ([updated](https://gomakethings.com/responsive-iframes-with-the-css-aspect-ratio-property/))
+[^1]: besides ditching `width` and `height` and making the frame responsive using [an old trick](https://alistapart.com/article/creating-intrinsic-ratios-for-video/) ([updated](https://gomakethings.com/responsive-iframes-with-the-css-aspect-ratio-property/))
 [^2]: a fancy name for query params
