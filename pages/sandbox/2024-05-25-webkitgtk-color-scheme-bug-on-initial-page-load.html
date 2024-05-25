@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>WebKitGTK color-scheme bug on initial page load</title>
+  </head>
+  <body>
+    <h1>WebKitGTK color-scheme bug on initial page load</h1>
+    <p>
+      When the user's preference is set for dark mode, a webpage that uses the
+      <a
+        href="https://html.spec.whatwg.org/multipage/semantics.html#meta-color-scheme"
+        ><code>color-scheme</code> meta element</a
+      >
+      renders with light text on light background, causing the page to appear
+      blank. The page renders as expected upon reload.
+    </p>
+    <p>To reproduce, open this page in Web/Epiphany in a new tab or window.</p>
+    <p>
+      <em
+        >Reproduced on May 25, 2024 in Web 46 (WebKitGTK 2.44.1) and Epiphany
+        Technology Preview 46.0-89-g1aca13c01+ (WebKitGTK 2.45.2). WebKit bug
+        reference:
+        <a href="https://bugs.webkit.org/show_bug.cgi?id=264996"
+          >264996 — [GTK] `color-scheme: light dark` shows white text on
+          white</a
+        ></em
+      >
+    </p>
+  </body>
+</html>
