@@ -138,19 +138,6 @@
           padding: var(--space-s) var(--space-m);
         }
       }
-      /* Fix Safari dark mode bug */
-      /* Remove when this is fixed: https://bugs.webkit.org/show_bug.cgi?id=209851 */
-      /* Edit: fixed https://github.com/WebKit/WebKit/pull/17512, remove when I manage to test on Safari */
-      @supports (color-scheme: dark light) {
-        @media screen and (prefers-color-scheme: dark) {
-          :where(a:link) {
-            color: #8c8cff;
-          }
-          :where(a:visited) {
-            color: #ffadff;
-          }
-        }
-      }
       {{#publishDate}}
       /* Posts styling (if it has publishDate it's a post) */
       .post-content > *:not(:last-child),
