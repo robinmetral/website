@@ -4,7 +4,7 @@ categories:
   - name: maps
   - name: photography
 publishDate: "2021-10-18"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

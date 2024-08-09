@@ -3,7 +3,7 @@ title: "Loki (season 2) by Michael Waldron"
 categories:
   - name: films
 publishDate: "2023-11-21"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

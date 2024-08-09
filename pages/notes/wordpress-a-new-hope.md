@@ -3,7 +3,7 @@ title: "WordPress: A New Hope"
 categories:
   - name: dev
 publishDate: "2021-10-25"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

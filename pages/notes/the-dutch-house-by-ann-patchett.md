@@ -3,7 +3,7 @@ title: "The Dutch House by Ann Patchett"
 categories:
   - name: books
 publishDate: "2023-06-19"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

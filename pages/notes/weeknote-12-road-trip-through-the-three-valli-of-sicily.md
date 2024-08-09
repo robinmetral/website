@@ -3,7 +3,7 @@ title: "Weeknote #12: road trip through the three valli of Sicily"
 categories:
   - name: weeknotes
 publishDate: "2023-06-04"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

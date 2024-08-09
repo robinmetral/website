@@ -3,7 +3,7 @@ title: "TIL: automatic theme switching in VSCode"
 categories:
   - name: dev
 publishDate: "2023-03-26"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 highlightCode: true
 ---

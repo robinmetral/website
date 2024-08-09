@@ -3,7 +3,7 @@ title: "Weeknote #38: setting off"
 categories:
   - name: weeknotes
 publishDate: "2023-12-24"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

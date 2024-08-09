@@ -3,7 +3,7 @@ title: "Decision to Leave by Park Chan-wook"
 categories:
   - name: films
 publishDate: "2023-06-21"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

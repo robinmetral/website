@@ -3,7 +3,7 @@ title: "Operation Fortune by Guy Ritchie"
 categories:
   - name: films
 publishDate: "2023-03-23"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

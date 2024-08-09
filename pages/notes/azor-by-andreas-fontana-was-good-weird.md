@@ -3,7 +3,7 @@ title: "Azor by Andreas Fontana was good weird"
 categories:
   - name: films
 publishDate: "2022-01-04"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

@@ -3,7 +3,7 @@ title: "The Dragon Republic by R. F. Kuang"
 categories:
   - name: books
 publishDate: "2023-09-18"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

@@ -3,7 +3,7 @@ title: "The Best Films of 2021"
 categories:
   - name: films
 publishDate: "2022-01-11"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

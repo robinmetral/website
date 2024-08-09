@@ -3,7 +3,7 @@ title: "Weeknote #1: first crag climb"
 categories:
   - name: weeknotes
 publishDate: "2023-03-05"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

@@ -3,7 +3,7 @@ title: "Weeknote #27: September hikes"
 categories:
   - name: weeknotes
 publishDate: "2023-09-30"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

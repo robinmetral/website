@@ -3,7 +3,7 @@ title: "Weeknote #15: in the universe of Miyazaki"
 categories:
   - name: weeknotes
 publishDate: "2023-06-20"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

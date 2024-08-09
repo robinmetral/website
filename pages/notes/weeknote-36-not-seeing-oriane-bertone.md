@@ -3,7 +3,7 @@ title: "Weeknote #36: not seeing Oriane Bertone"
 categories:
   - name: weeknotes
 publishDate: "2023-12-04"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

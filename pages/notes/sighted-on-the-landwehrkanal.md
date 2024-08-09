@@ -3,7 +3,7 @@ title: "Sighted on the Landwehrkanal"
 categories:
   - name: other
 publishDate: "2022-08-12"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

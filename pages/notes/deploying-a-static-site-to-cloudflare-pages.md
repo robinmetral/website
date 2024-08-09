@@ -3,7 +3,7 @@ title: "Deploying a static site to Cloudflare Pages"
 categories:
   - name: dev
 publishDate: "2022-04-03"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

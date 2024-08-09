@@ -3,7 +3,7 @@ title: "All Systems Red by Martha Wells"
 categories:
   - name: books
 publishDate: "2023-11-23"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

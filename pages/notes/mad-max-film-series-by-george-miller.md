@@ -3,7 +3,7 @@ title: "Mad Max film series by George Miller"
 categories:
   - name: films
 publishDate: "2024-06-04"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

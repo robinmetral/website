@@ -3,7 +3,7 @@ title: "Thanh Công Village, Thanh Công Neighbourhood, by Phan Thị Vàng Anh"
 categories:
   - name: films
 publishDate: "2023-04-03"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

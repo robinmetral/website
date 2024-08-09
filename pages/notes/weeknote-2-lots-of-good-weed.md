@@ -3,7 +3,7 @@ title: "Weeknote #2: lots of good weed"
 categories:
   - name: weeknotes
 publishDate: "2023-03-11"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

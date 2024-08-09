@@ -3,7 +3,7 @@ title: "Weeknote #35: sad news"
 categories:
   - name: weeknotes
 publishDate: "2023-11-27"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

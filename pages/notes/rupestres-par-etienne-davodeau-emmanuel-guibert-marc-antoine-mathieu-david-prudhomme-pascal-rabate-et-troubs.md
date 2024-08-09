@@ -3,7 +3,7 @@ title: "Rupestres par Étienne Davodeau, Emmanuel Guibert, Marc-Antoine Mathieu,
 categories:
   - name: books
 publishDate: "2023-12-10"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 lang: "fr"
 ---

@@ -3,7 +3,7 @@ title: "Weeknote #5: spring is for beginnings"
 categories:
   - name: weeknotes
 publishDate: "2023-04-04"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

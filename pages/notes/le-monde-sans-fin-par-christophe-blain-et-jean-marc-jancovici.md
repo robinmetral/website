@@ -3,7 +3,7 @@ title: "Le Monde sans fin par Christophe Blain et Jean-Marc Jancovici"
 categories:
   - name: books
 publishDate: "2023-12-24"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 lang: "fr"
 ---

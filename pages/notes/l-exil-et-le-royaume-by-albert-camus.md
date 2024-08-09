@@ -3,7 +3,7 @@ title: "L'exil et le Royaume by Albert Camus"
 categories:
   - name: books
 publishDate: "2023-04-16"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

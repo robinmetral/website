@@ -3,7 +3,7 @@ title: "Yojimbot by Sylvain Repos"
 categories:
   - name: books
 publishDate: "2023-10-12"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

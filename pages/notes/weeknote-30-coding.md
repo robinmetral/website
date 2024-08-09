@@ -3,7 +3,7 @@ title: "Weeknote #30: coding"
 categories:
   - name: weeknotes
 publishDate: "2023-10-15"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

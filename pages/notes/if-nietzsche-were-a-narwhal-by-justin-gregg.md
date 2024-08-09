@@ -3,7 +3,7 @@ title: "If Nietzsche Were a Narwhal by Justin Gregg"
 categories:
   - name: books
 publishDate: "2023-12-24"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

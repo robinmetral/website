@@ -3,7 +3,7 @@ title: "Petroglyphs in the Russian Arctic"
 categories:
   - name: films
 publishDate: "2022-05-01"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

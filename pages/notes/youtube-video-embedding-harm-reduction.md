@@ -3,7 +3,7 @@ title: "YouTube video embedding harm reduction"
 categories:
   - name: dev
 publishDate: "2024-05-17"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 highlightCode: true
 ---

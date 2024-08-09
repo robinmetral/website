@@ -3,7 +3,7 @@ title: "Tokyo Vice (season 1), by J. T. Rogers"
 categories:
   - name: films
 publishDate: "2023-10-15"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

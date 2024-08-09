@@ -3,7 +3,7 @@ title: "John Wick: Chapter 4 by Chad Stahelski"
 categories:
   - name: films
 publishDate: "2023-06-20"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

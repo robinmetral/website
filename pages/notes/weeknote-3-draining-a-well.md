@@ -3,7 +3,7 @@ title: "Weeknote #3: draining a well"
 categories:
   - name: weeknotes
 publishDate: "2023-03-20"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

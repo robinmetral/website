@@ -3,7 +3,7 @@ title: "Rosalie Blum : Au hasard Balthazar ! par Camille Jourdy"
 categories:
   - name: books
 publishDate: "2023-09-18"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 lang: "fr"
 ---

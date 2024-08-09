@@ -3,7 +3,7 @@ title: "Weeknote 7: fluctuating weather and feelings"
 categories:
   - name: weeknotes
 publishDate: "2023-04-17"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

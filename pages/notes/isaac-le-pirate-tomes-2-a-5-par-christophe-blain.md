@@ -3,7 +3,7 @@ title: "Isaac le Pirate, tomes 2 à 5 par Christophe Blain"
 categories:
   - name: books
 publishDate: "2023-07-30"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 lang: fr
 ---

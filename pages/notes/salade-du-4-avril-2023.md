@@ -3,7 +3,7 @@ title: "Salade du 4 avril 2023"
 categories:
   - name: other
 publishDate: "2023-04-04"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 lang: fr
 ---

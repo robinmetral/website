@@ -3,7 +3,7 @@ title: "Ad blockers are not allowed on Youtube"
 categories:
   - name: other
 publishDate: "2023-10-14"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

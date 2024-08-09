@@ -3,7 +3,7 @@ title: "Weeknote #9: a week of afternoons"
 categories:
   - name: weeknotes
 publishDate: "2023-05-14"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

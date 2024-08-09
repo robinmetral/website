@@ -3,7 +3,7 @@ title: "Weeknote #32: T visiting, feeding Princesse"
 categories:
   - name: weeknotes
 publishDate: "2023-11-02"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

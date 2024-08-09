@@ -3,7 +3,7 @@ title: "Dernier week-end de janvier par Bastien Vivès"
 categories:
   - name: books
 publishDate: "2023-12-07"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 lang: "fr"
 ---

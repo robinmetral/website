@@ -3,7 +3,7 @@ title: "Felix in Hollywood by Otto Messmer"
 categories:
   - name: films
 publishDate: "2023-08-03"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

@@ -3,7 +3,7 @@ title: "Chronique japonaise par Nicolas Bouvier"
 categories:
   - name: books
 publishDate: "2023-09-12"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 lang: "fr"
 ---

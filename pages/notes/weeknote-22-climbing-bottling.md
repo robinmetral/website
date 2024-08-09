@@ -3,7 +3,7 @@ title: "Weeknote #22: climbing bottling"
 categories:
   - name: weeknotes
 publishDate: "2023-08-21"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

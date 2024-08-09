@@ -3,7 +3,7 @@ title: "La Prose du Transsibérien par Blaise Cendrars"
 categories:
   - name: books
 publishDate: "2023-08-21"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 lang: fr
 ---

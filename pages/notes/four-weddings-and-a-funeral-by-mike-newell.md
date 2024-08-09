@@ -3,7 +3,7 @@ title: "Four Weddings and a Funeral by Mike Newell"
 categories:
   - name: films
 publishDate: "2023-10-21"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

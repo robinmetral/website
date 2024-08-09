@@ -3,7 +3,7 @@ title: "The emperor's despair"
 categories:
   - name: books
 publishDate: "2022-03-07"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

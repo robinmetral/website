@@ -4,7 +4,7 @@ description: "Nobody likes to fill forms—don't ask users for unnecessary infor
 categories:
   - name: dev
 publishDate: "2022-09-16"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

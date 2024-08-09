@@ -3,7 +3,7 @@ title: "Along with the Gods by Kim Yong-hwa"
 categories:
   - name: films
 publishDate: "2023-07-30"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

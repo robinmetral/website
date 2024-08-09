@@ -1,6 +1,6 @@
 ---
 title: "Garden"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

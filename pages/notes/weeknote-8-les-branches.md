@@ -3,7 +3,7 @@ title: "Weeknote #8: Les Branches"
 categories:
   - name: weeknotes
 publishDate: "2023-05-07"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

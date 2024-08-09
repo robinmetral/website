@@ -3,7 +3,7 @@ title: "Weeknote #23: heatwave harvest"
 categories:
   - name: weeknotes
 publishDate: "2023-08-27"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

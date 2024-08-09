@@ -3,7 +3,7 @@ title: "The enshittification of Spotify"
 categories:
   - name: other
 publishDate: "2023-03-28"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

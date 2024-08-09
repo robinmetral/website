@@ -4,7 +4,7 @@ categories:
   - name: maps
   - name: dev
 publishDate: "2023-11-26"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

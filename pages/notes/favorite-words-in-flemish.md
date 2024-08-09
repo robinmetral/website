@@ -3,7 +3,7 @@ title: "Favorite words in Flemish"
 categories:
   - name: other
 publishDate: "2023-11-21"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

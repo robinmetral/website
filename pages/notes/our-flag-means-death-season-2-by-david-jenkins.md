@@ -3,7 +3,7 @@ title: "Our Flag Means Death (season 2) by David Jenkins"
 categories:
   - name: films
 publishDate: "2023-11-21"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

@@ -3,7 +3,7 @@ title: "Back to the Future by Irina Werning"
 categories:
   - name: photography
 publishDate: "2023-10-17"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

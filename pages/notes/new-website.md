@@ -5,7 +5,7 @@ categories:
   - name: meta
   - name: dev
 publishDate: "2021-08-22"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

@@ -3,7 +3,7 @@ title: "Juneberry serviceberry saskatoon"
 categories:
   - name: other
 publishDate: "2023-06-11"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

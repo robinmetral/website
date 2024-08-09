@@ -3,7 +3,7 @@ title: "Heat by Michael Mann"
 categories:
   - name: films
 publishDate: "2023-09-13"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

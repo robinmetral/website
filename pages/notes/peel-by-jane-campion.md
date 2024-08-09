@@ -3,7 +3,7 @@ title: "Peel by Jane Campion"
 categories:
   - name: films
 publishDate: "2023-06-30"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

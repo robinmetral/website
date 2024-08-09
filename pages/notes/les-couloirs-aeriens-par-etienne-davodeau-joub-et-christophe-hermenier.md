@@ -3,7 +3,7 @@ title: "Les couloirs aériens par Étienne Davodeau, Joub et Christophe Hermenie
 categories:
   - name: books
 publishDate: "2023-12-10"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 lang: "fr"
 ---

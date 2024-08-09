@@ -3,7 +3,7 @@ title: "Babe by Chris Noonan"
 categories:
   - name: films
 publishDate: "2023-07-02"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

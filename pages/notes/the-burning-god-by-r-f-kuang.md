@@ -3,7 +3,7 @@ title: "The Burning God by R. F. Kuang"
 categories:
   - name: books
 publishDate: "2023-10-21"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

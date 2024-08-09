@@ -3,7 +3,7 @@ title: "In The Heights by Jon M. Chu"
 categories:
   - name: films
 publishDate: "2024-06-10"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

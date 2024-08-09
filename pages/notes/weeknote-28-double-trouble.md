@@ -3,7 +3,7 @@ title: "Weeknote #28: double trouble"
 categories:
   - name: weeknotes
 publishDate: "2023-10-03"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

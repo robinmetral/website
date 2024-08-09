@@ -4,7 +4,7 @@ desription: "Yet another creative way to track users against their will?"
 categories:
   - name: dev
 publishDate: "2024-05-20"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

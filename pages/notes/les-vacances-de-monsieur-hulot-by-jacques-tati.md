@@ -3,7 +3,7 @@ title: "Les Vacances de Monsieur Hulot by Jacques Tati"
 categories:
   - name: films
 publishDate: "2023-03-26"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

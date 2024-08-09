@@ -3,7 +3,7 @@ title: "Creed III by Michael B. Jordan"
 categories:
   - name: films
 publishDate: "2023-08-14"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

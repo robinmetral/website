@@ -3,7 +3,7 @@ title: "Howl's Moving Castle by Hayao Miyazaki"
 categories:
   - name: films
 publishDate: "2023-06-16"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

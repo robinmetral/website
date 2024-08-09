@@ -3,7 +3,7 @@ title: "Isaac le Pirate, tome 1 : Les Amériques par Christophe Blain"
 categories:
   - name: books
 publishDate: "2023-07-03"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 lang: fr
 ---

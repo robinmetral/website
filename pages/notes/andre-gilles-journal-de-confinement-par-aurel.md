@@ -3,7 +3,7 @@ title: "André-Gilles, journal de confinement par Aurel"
 categories:
   - name: books
 publishDate: "2023-11-28"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 lang: "fr"
 ---

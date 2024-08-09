@@ -3,7 +3,7 @@ title: "The Flash by Andy Muschietti"
 categories:
   - name: films
 publishDate: "2023-08-17"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

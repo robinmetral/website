@@ -3,7 +3,7 @@ title: "Beef (season 1) by Lee Sung Jin"
 categories:
   - name: films
 publishDate: "2023-11-26"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

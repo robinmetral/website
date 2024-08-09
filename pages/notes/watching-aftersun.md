@@ -3,7 +3,7 @@ title: "Watching Aftersun"
 categories:
   - name: films
 publishDate: "2023-01-17"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

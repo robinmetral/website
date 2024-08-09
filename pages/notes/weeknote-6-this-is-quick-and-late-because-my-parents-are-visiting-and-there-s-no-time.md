@@ -3,7 +3,7 @@ title: "Weeknote 6: this is quick and late because my parents are visiting and t
 categories:
   - name: weeknotes
 publishDate: "2023-04-13"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

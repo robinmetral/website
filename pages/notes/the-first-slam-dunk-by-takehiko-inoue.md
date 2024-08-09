@@ -3,7 +3,7 @@ title: "The First Slam Dunk by Takehiko Inoue"
 categories:
   - name: films
 publishDate: "2024-05-29"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

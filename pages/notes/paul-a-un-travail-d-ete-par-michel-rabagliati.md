@@ -3,7 +3,7 @@ title: "Paul a un travail d'été par Michel Rabagliati"
 categories:
   - name: books
 publishDate: "2023-09-12"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 lang: "fr"
 ---

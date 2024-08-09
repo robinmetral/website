@@ -3,7 +3,7 @@ title: "Yellowface by R. F. Kuang"
 categories:
   - name: books
 publishDate: "2023-07-23"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

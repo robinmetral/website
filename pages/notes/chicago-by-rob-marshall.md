@@ -3,7 +3,7 @@ title: "Chicago by Rob Marshall"
 categories:
   - name: films
 publishDate: "2023-10-14"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

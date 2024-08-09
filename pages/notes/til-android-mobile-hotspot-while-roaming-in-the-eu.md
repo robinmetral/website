@@ -3,7 +3,7 @@ title: "TIL: Android mobile hotspot while roaming in the EU"
 categories:
   - name: other
 publishDate: "2024-01-22"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

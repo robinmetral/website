@@ -3,7 +3,7 @@ title: "Night and Fog by Alain Resnais"
 categories:
   - name: films
 publishDate: "2023-07-20"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

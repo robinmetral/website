@@ -3,7 +3,7 @@ title: "Diabolique by Henri-Georges Clouzot"
 categories:
   - name: films
 publishDate: "2023-07-19"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

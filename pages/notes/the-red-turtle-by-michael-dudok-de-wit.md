@@ -3,7 +3,7 @@ title: "The Red Turtle by Michaël Dudok de Wit"
 categories:
   - name: films
 publishDate: "2023-06-12"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 

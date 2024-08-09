@@ -3,7 +3,7 @@ title: "Weeknote #26: unintended smirks"
 categories:
   - name: weeknotes
 publishDate: "2023-09-18"
-template: "/templates/page.html"
+template: page
 buildScript: "/scripts/processNote.js"
 ---
 
