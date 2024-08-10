@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
     <link rel="stylesheet" href="/static/styles/global-20230303.css" />
-    {{#highlightCode}}
+    {{#page.frontmatter.highlightCode}}
     <link rel="stylesheet" href="/static/styles/prism-20220408.css" />
-    {{/highlightCode}}
+    {{/page.frontmatter.highlightCode}}
     <link rel="icon" href="/static/favicon-20220314.png" />
     <link
       rel="alternate"
@@ -15,14 +15,14 @@
       href="/feed.xml"
       title="Robin Métral"
     />
-    <title>{{#title}}{{title}} | {{/title}}Robin Métral</title>
-    {{#description}}
-    <meta name="description" content="{{description}}" />
-    {{/description}}
+    <title>{{#page.frontmatter.title}}{{.}} | {{/page.frontmatter.title}}Robin Métral</title>
+    {{#page.frontmatter.description}}
+    <meta name="description" content="{{.}}" />
+    {{/page.frontmatter.description}}
     <meta property="og:site_name" content="Robin Métral">
-    {{#title}}
-    <meta property="og:title" content="{{title}}">
-    {{/title}}
+    {{#page.frontmatter.title}}
+    <meta property="og:title" content="{{.}}">
+    {{/page.frontmatter.title}}
     <style>
       /* Layout */
       body {
@@ -151,7 +151,7 @@
           }
         }
       }
-      {{#publishDate}}
+      {{#page.frontmatter.publishDate}}
       /* Posts styling (if it has publishDate it's a post) */
       .post-content > *:not(:last-child),
       .post-content blockquote > *:not(:last-child) {
@@ -179,7 +179,7 @@
       .footnotes li:not(:last-child) {
         margin-bottom: var(--space-xs);
       }
-      {{/publishDate}}
+      {{/page.frontmatter.publishDate}}
     </style>
   </head>
   <body>
@@ -196,27 +196,28 @@
     </header>
     <main id="main">
       <!-- if it has a publishDate it's a post -->
-      {{#publishDate}}
+      {{#page.frontmatter.publishDate}}
       <article>
         <div class="post-header">
-          <h1>{{title}}</h1>
+          <h1>{{page.frontmatter.title}}</h1>
           <div>
             <span class="sr-only">Published on</span>
-            <time datetime="{{publishDate}}" class="dt-published">{{publishDate}}</time>
-            {{#categories.length}} in <span class="sr-only">the following categories:</span>
+            <time datetime="{{page.frontmatter.publishDate}}" class="dt-published">{{page.frontmatter.publishDate}}</time>
+            <!-- TODO: .length is not standard mustache, see https://github.com/mustache/spec/discussions/157 -->
+            {{#page.frontmatter.categories.length}} in <span class="sr-only">the following categories:</span>
             <ul class="categories" role="list">
-              {{#categories}}
+              {{#page.frontmatter.categories}}
               <li><a href="/notes?category={{name}}" rel="tag">{{name}}</a></li>
-              {{/categories}}
+              {{/page.frontmatter.categories}}
             </ul>
-            {{/categories.length}}
+            {{/page.frontmatter.categories.length}}
           </div>
         </div>
-        <div class="post-content" {{#lang}}lang="{{lang}}"{{/lang}}>
-          {{/publishDate}} {{> content}} {{#publishDate}}
+        <div class="post-content" {{#page.frontmatter.lang}}lang="{{.}}"{{/page.frontmatter.lang}}>
+          {{/page.frontmatter.publishDate}} {{> content}} {{#page.frontmatter.publishDate}}
         </div>
       </article>
-      {{/publishDate}}
+      {{/page.frontmatter.publishDate}}
     </main>
     <footer>
       <a href="#main">Back to top</a>
