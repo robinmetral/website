@@ -1,6 +1,5 @@
 <!--
 template: page
-buildScript: /scripts/generateFilmsGrid.js
 title: Watching
 description: Films I've watched.
 -->
@@ -15,6 +14,14 @@ description: Films I've watched.
   >
   thank you) and at the cinema (Il Kino, Wolf were my favs back in Berlin).
 </p>
+<p class="mb-m">
+  <em>
+    Update: my custom reviewing system broke ages ago and I'm not sure why. I'm
+    leaving this page around in case I ever want to try and fix it. In the
+    meantime, you can read some of my more recent
+    <a href="/notes/?category=films">film notes</a>.</em
+  >
+</p>
 <!-- not using aria-hidden here because the tab stop would be weird for SR users -->
 <input type="checkbox" id="name-toggle" aria-describedby="name-toggle-desc" />
 <label for="name-toggle">Show plain text film names</label>
@@ -22,7 +29,38 @@ description: Films I've watched.
   >This doesn't have any impact on screen reader experience.</span
 >
 <ul>
-  <li>Films grid</li>
+  <li>
+    <!-- hiding plain text name from SRs since it's already the poster's alt text -->
+    <span class="film-name" aria-hidden="true">No films</span>
+    <div class="film-poster">
+      <img src="" width="250" height="375" alt="" loading="lazy" />
+      <div><span class="sr-only">Rating: </span>0</div>
+    </div>
+  </li>
+  <li>
+    <!-- hiding plain text name from SRs since it's already the poster's alt text -->
+    <span class="film-name" aria-hidden="true">No films</span>
+    <div class="film-poster">
+      <img src="" width="250" height="375" alt="" loading="lazy" />
+      <div><span class="sr-only">Rating: </span>0</div>
+    </div>
+  </li>
+  <li>
+    <!-- hiding plain text name from SRs since it's already the poster's alt text -->
+    <span class="film-name" aria-hidden="true">No films</span>
+    <div class="film-poster">
+      <img src="" width="250" height="375" alt="" loading="lazy" />
+      <div><span class="sr-only">Rating: </span>0</div>
+    </div>
+  </li>
+  <li>
+    <!-- hiding plain text name from SRs since it's already the poster's alt text -->
+    <span class="film-name" aria-hidden="true">No films</span>
+    <div class="film-poster">
+      <img src="" width="250" height="375" alt="" loading="lazy" />
+      <div><span class="sr-only">Rating: </span>0</div>
+    </div>
+  </li>
 </ul>
 
 <style>
