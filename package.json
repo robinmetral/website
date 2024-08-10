@@ -10,7 +10,7 @@
     "new": "bash ./scripts/new-note.sh"
   },
   "devDependencies": {
-    "brut": "^0.0.33",
+    "brut": "../brut/brut",
     "feed": "^4.2.2",
     "gray-matter": "^4.0.3",
     "js-yaml": "^4.1.0",
