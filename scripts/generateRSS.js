@@ -1,5 +1,6 @@
 /**
  * This script generates an RSS2 feed from the markdown notes.
+ * TODO: this should be done by brut instead
  */
 
 import { readdirSync, readFileSync, writeFileSync } from "fs";
@@ -63,12 +64,12 @@ function getNotes(files) {
   return files.map((file) => {
     const str = readFileSync(NOTES_DIR + file, "utf8");
     const frontmatter = matter(str).data;
-    const { title, publishDate } = frontmatter;
+    const { title, published_date } = frontmatter;
     const slug = `/notes/${file.replace(".md", "")}/`;
     const url = SITE_URL + slug;
     return {
       title,
-      date: new Date(publishDate),
+      date: new Date(published_date),
       url,
       content: `<a href="${url}">${frontmatter.title}</a>`,
     };

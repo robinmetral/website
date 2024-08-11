@@ -2,9 +2,8 @@
 title: "A zero-JS, lazy-loading image grid for 2022"
 categories:
   - name: dev
-publishDate: "2022-04-08"
+published_date: "2022-04-08"
 template: page
-buildScript: "/scripts/processNote.js"
 highlightCode: true
 ---
 

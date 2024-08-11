@@ -2,9 +2,8 @@
 title: "The Burning God by R. F. Kuang"
 categories:
   - name: books
-publishDate: "2023-10-21"
+published_date: "2023-10-21"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Third and final book in R. F. Kuang's Poppy War trilogy, after [The Poppy War](/notes/the-poppy-war-by-r-f-kuang/) and [The Dragon Republic](/notes/the-dragon-republic-by-r-f-kuang/).

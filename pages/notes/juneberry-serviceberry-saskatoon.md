@@ -2,9 +2,8 @@
 title: "Juneberry serviceberry saskatoon"
 categories:
   - name: other
-publishDate: "2023-06-11"
+published_date: "2023-06-11"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 These are all names of the fruit of the [amelanchier](https://en.wikipedia.org/wiki/Amelanchier), a small tree with edible berry-like fruits, primarily found in North America.

@@ -2,9 +2,8 @@
 title: "Weeknote #1: first crag climb"
 categories:
   - name: weeknotes
-publishDate: "2023-03-05"
+published_date: "2023-03-05"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Week 9 (27 February–5 March 2023)_

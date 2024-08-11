@@ -2,9 +2,8 @@
 title: "Weeknote #25: home alone"
 categories:
   - name: weeknotes
-publishDate: "2023-09-11"
+published_date: "2023-09-11"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Week 36 (4–10 September 2023)_

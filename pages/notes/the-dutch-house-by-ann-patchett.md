@@ -2,9 +2,8 @@
 title: "The Dutch House by Ann Patchett"
 categories:
   - name: books
-publishDate: "2023-06-19"
+published_date: "2023-06-19"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 After [Paper Names](/notes/paper-names-by-susie-luo/), _The Dutch House_ is the second book in a row that I pick by its cover and summary on the Libby app, by adding the filters "English", "audiobook" and "available now" and sorting the results by popularity.

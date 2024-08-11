@@ -2,9 +2,8 @@
 title: "Citizen Kane by Orson Welles"
 categories:
   - name: films
-publishDate: "2023-07-19"
+published_date: "2023-07-19"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Finally saw this classic, frequently hailed as the single best film of all time and topping countless—usually American—best films lists.

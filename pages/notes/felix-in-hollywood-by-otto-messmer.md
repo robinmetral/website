@@ -2,9 +2,8 @@
 title: "Felix in Hollywood by Otto Messmer"
 categories:
   - name: films
-publishDate: "2023-08-03"
+published_date: "2023-08-03"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 1923 cartoon short of famous silent-era character Felix the Cat. I picked this one to watch as part of my [centenarian films project](/notes/watching-centenarian-films/) mostly because it features prominent figures from the emerging cinema industry at the time: Charlie Chaplin, Cecil B. DeMille... who've directed other [1923 films on my watchlist](/notes/watching-centenarian-films/).

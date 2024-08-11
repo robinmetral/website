@@ -2,9 +2,8 @@
 title: "Weeknote #37: fondue fondue"
 categories:
   - name: weeknotes
-publishDate: "2023-12-10"
+published_date: "2023-12-10"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Week 49 (4–10 December 2023)_

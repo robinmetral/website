@@ -2,9 +2,8 @@
 title: "TIL: Android mobile hotspot while roaming in the EU"
 categories:
   - name: other
-publishDate: "2024-01-22"
+published_date: "2024-01-22"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 This is something I've run across a few times on the road: you're roaming (e.g. you're on a French plan but on the train in Germany) and thanks to the EU you can use your data as if you were back home, BUT somehow sharing data via the Android mobile hotspot doesn't work, so you can't connect to the internet from your laptop.

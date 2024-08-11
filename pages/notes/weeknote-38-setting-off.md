@@ -2,9 +2,8 @@
 title: "Weeknote #38: setting off"
 categories:
   - name: weeknotes
-publishDate: "2023-12-24"
+published_date: "2023-12-24"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Weeks 50 and 51 (11–24 December 2023)_

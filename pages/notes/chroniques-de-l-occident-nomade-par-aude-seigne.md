@@ -2,9 +2,8 @@
 title: "Chroniques de l'Occident nomade par Aude Seigne"
 categories:
   - name: books
-publishDate: "2023-09-12"
+published_date: "2023-09-12"
 template: page
-buildScript: "/scripts/processNote.js"
 lang: "fr"
 ---
 

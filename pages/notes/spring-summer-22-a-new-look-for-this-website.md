@@ -2,9 +2,8 @@
 title: "Spring-Summer '22: a new look for this website"
 categories:
   - name: meta
-publishDate: "2022-03-09"
+published_date: "2022-03-09"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 It's now 201 days ago, on a sunny summer day in Ardèche, France, that I last [redesigned this website](/notes/new-website).

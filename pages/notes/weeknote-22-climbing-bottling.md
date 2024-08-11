@@ -2,9 +2,8 @@
 title: "Weeknote #22: climbing bottling"
 categories:
   - name: weeknotes
-publishDate: "2023-08-21"
+published_date: "2023-08-21"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Week 33 (14–20 August 2023)_

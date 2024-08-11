@@ -2,9 +2,8 @@
 title: "Cinema Paradiso by Giuseppe Tornatore"
 categories:
   - name: films
-publishDate: "2023-04-13"
+published_date: "2023-04-13"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Crammed six chairs in front of our new projection screens to see this with K, S, G, F and C. In a way we must have looked a bit like the _Cinema Paradiso_ audience we see in the film, perhaps a bit less overly enthusiastic.

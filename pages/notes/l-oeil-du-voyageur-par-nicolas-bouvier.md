@@ -2,9 +2,8 @@
 title: "L'œil du voyageur par Nicolas Bouvier"
 categories:
   - name: books
-publishDate: "2023-10-02"
+published_date: "2023-10-02"
 template: page
-buildScript: "/scripts/processNote.js"
 lang: "fr"
 ---
 

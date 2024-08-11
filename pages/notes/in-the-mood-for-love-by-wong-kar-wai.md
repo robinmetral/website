@@ -2,9 +2,8 @@
 title: "In the Mood for Love by Wong Kar-wai"
 categories:
   - name: films
-publishDate: "2023-09-20"
+published_date: "2023-09-20"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 I can see why this is considered one of the best films of the 21st century (maybe a bit early to tell since we're less than a quarter through the century, but a list titled "best films of the 21st century" is understandably more dramatic—and click-worthy—than "best films of the first 22 years of the 21st century").

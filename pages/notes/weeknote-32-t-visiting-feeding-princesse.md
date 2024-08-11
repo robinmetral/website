@@ -2,9 +2,8 @@
 title: "Weeknote #32: T visiting, feeding Princesse"
 categories:
   - name: weeknotes
-publishDate: "2023-11-02"
+published_date: "2023-11-02"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Week 43 and half of 44 (23 October–2 November 2023)_

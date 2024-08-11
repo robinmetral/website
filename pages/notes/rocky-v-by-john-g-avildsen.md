@@ -2,9 +2,8 @@
 title: "Rocky V by John G. Avildsen"
 categories:
   - name: films
-publishDate: "2023-08-08"
+published_date: "2023-08-08"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 John G. Avildsen is back in the director's seat after Stallone took over for films II to IV.

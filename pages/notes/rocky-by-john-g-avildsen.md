@@ -2,9 +2,8 @@
 title: "Rocky by John G. Avildsen"
 categories:
   - name: films
-publishDate: "2023-07-28"
+published_date: "2023-07-28"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 After Indiana Jones I figured I'd just rewatch the Rocky films, along with the _Creed_ reboot that I've never seen.

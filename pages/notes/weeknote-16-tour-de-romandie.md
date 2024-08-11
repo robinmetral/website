@@ -2,9 +2,8 @@
 title: "Weeknote #16: tour de Romandie"
 categories:
   - name: weeknotes
-publishDate: "2023-07-03"
+published_date: "2023-07-03"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Weeks 25 and 26 (19 June–2 July 2023)_

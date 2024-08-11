@@ -2,9 +2,8 @@
 title: "Indieweb vibes"
 categories:
   - name: dev
-publishDate: "2021-10-13"
+published_date: "2021-10-13"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 > Update, March 2022: I've discontinued my whostyles and expect this note to contain broken links or features. I'll leave it online for archive purposes.

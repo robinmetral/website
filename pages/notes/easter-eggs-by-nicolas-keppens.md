@@ -2,9 +2,8 @@
 title: "Easter Eggs by Nicolas Keppens"
 categories:
   - name: films
-publishDate: "2022-11-01"
+published_date: "2022-11-01"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 A Belgian animated short about toxic friendships.

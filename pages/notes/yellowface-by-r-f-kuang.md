@@ -2,9 +2,8 @@
 title: "Yellowface by R. F. Kuang"
 categories:
   - name: books
-publishDate: "2023-07-23"
+published_date: "2023-07-23"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Second book by R. F. Kuang that I'm reading in a row, after [Babel](/notes/babel-by-r-f-kuang/) (2022). _Yellowface_ (2023) is her latest novel, published a couple of months ago. Yes there's quite a long waitlist for borrowing the audiobook via Libby.

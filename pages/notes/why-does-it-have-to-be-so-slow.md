@@ -3,9 +3,8 @@ title: "Why does it have to be so slow"
 categories:
   - name: maps
   - name: dev
-publishDate: "2023-11-26"
+published_date: "2023-11-26"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Hey it's cool that [millionaires digitize their map collection and share it with the world](https://www.openculture.com/2023/11/oculi-mundi-a-beautiful-online-archive-of-130-ancient-maps-atlases-globes.html) but why does the website, "[Oculi Mundi](https://oculi-mundi.com/)", have to be so slow?

@@ -2,9 +2,8 @@
 title: "A cron web scraper with Telegram alerts"
 categories:
   - name: dev
-publishDate: "2023-12-10"
+published_date: "2023-12-10"
 template: page
-buildScript: "/scripts/processNote.js"
 highlightCode: true
 ---
 

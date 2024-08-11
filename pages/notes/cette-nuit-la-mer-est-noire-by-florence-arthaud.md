@@ -2,9 +2,8 @@
 title: "Cette nuit, la mer est noire by Florence Arthaud"
 categories:
   - name: books
-publishDate: "2023-04-16"
+published_date: "2023-04-16"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Borrowed at the public library and read in a single day yesterday[^1]. Despite its 194 pages it's a pretty short book—just printed in a way that makes it seem longer than it really is (I'm not complaining, I don't think that being longer would have made it better).

@@ -2,9 +2,8 @@
 title: "Zack Snyder's Justice League"
 categories:
   - name: films
-publishDate: "2023-08-21"
+published_date: "2023-08-21"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Missed _Justice League_ when it came out back in 2017, which I guess makes sense since it was so badly received. Then in 2021 the co-director of the original film Zack Snyder (who had to leave the production midway through) released his own cut of the film, after fans asked for it via 180'000 signatures on a petition and _#ReleaseTheSnyderCut_. It's not really a director's cut since new footage was shot for it, but whatever. Fans thought that the original film was bad because Zack's vision for the film hadn't been honored by Joss Wheldon, who stepped in when Zack left. OF COURSE if Zack had been directing the whole thing it would be SO GOOD.

@@ -2,9 +2,8 @@
 title: "10 shorts from La Fête du Court"
 categories:
   - name: films
-publishDate: "2023-03-26"
+published_date: "2023-03-26"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Seven out of ten shorts that were screened at the [La Fête du Court](https://www.lafeteducourt.com/) short film event that C and I attended at the Montpezat public library last week can be freely and legally watched online.

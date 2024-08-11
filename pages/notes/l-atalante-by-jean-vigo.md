@@ -2,9 +2,8 @@
 title: "L'Atalante by Jean Vigo"
 categories:
   - name: films
-publishDate: "2023-03-31"
+published_date: "2023-03-31"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _L'Atalante_ (1934) by Jean Vigo. For a moment I thought this might be the oldest film I've seen, but Chaplin's _The Kid_ is from 1921—even though it feels more modern, somehow?

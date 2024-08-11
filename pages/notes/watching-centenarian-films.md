@@ -2,9 +2,8 @@
 title: "Watching centenarian films"
 categories:
   - name: films
-publishDate: "2023-08-03"
+published_date: "2023-08-03"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 It recently dawned on me that people can now watch films that were released over 100 years ago.

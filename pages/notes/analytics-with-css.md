@@ -3,9 +3,8 @@ title: "Analytics with CSS"
 desription: "Yet another creative way to track users against their will?"
 categories:
   - name: dev
-publishDate: "2024-05-20"
+published_date: "2024-05-20"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 I like a lot of the ideas behind the [BearBlog](https://bearblog.dev/) blogging platform: lightweight pages, RSS feeds, and "No trackers, ads, or scripts".

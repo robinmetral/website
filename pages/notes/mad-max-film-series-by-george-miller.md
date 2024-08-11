@@ -2,9 +2,8 @@
 title: "Mad Max film series by George Miller"
 categories:
   - name: films
-publishDate: "2024-06-04"
+published_date: "2024-06-04"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Slightly disappointed that throughout the whole series, the phrase "Mad Max", or "Max is mad", or any variation of it never come up in a line.[^1]

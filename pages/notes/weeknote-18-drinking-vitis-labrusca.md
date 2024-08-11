@@ -2,9 +2,8 @@
 title: "Weeknote #18: drinking vitis labrusca"
 categories:
   - name: weeknotes
-publishDate: "2023-07-24"
+published_date: "2023-07-24"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Week 29 (17–23 July 2023)_

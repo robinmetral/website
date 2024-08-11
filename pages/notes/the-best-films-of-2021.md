@@ -2,9 +2,8 @@
 title: "The Best Films of 2021"
 categories:
   - name: films
-publishDate: "2022-01-11"
+published_date: "2022-01-11"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 The 2021 video countdown is out!

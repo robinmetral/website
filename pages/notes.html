@@ -1,6 +1,5 @@
 <!--
 template: page
-buildScript: /scripts/getNotes.js
 title: Notes
 description: ...and things.
 -->
@@ -36,7 +35,17 @@ description: ...and things.
 <section aria-labelledby="notes-list-heading">
   <h2 class="mb-s" id="notes-list-heading" tabindex="-1">All notes</h2>
   <ul id="notes-list">
-    <li>Notes go here</li>
+    {{#context.notes}}
+    <li
+      data-categories="{{#frontmatter.categories}}{{name}} {{/frontmatter.categories}}"
+    >
+      <a href="{{slug}}">{{frontmatter.title}}</a> (<span class="sr-only"
+        >Published on </span
+      ><time datetime="{{frontmatter.published_date}}"
+        >{{frontmatter.published_date_string}}</time
+      >)
+    </li>
+    {{/context.notes}}
   </ul>
 </section>
 <script>

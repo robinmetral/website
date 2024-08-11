@@ -2,9 +2,8 @@
 title: "Indiana Jones and the Kingdom of the Crystal Skull by Steven Spielberg"
 categories:
   - name: films
-publishDate: "2023-07-28"
+published_date: "2023-07-28"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 So we've been on this Indiana Jones rewatch ([Raiders](/notes/raiders-of-the-lost-ark-by-steven-spielberg/), [Temple of Doom](/notes/indiana-jones-and-the-temple-of-doom-by-steven-spielberg/), [Last Crusade](/notes/indiana-jones-and-the-last-crusade-by-steven-spielberg/)) and the last we had to see was the 2008 reboot _Indiana Jones and the Kingdom of the Crystal Skull_.

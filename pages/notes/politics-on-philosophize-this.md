@@ -2,9 +2,8 @@
 title: "Politics on Philosophize This"
 categories:
   - name: other
-publishDate: "2021-10-16"
+published_date: "2021-10-16"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Here's a transcript of something I heard yesterday on [_Philosophize This!_ episode 108](https://www.philosophizethis.org/podcast/frankfurt-school-intro?rq=108).

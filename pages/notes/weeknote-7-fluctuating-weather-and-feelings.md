@@ -2,9 +2,8 @@
 title: "Weeknote 7: fluctuating weather and feelings"
 categories:
   - name: weeknotes
-publishDate: "2023-04-17"
+published_date: "2023-04-17"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Week 15 (10–16 April 2023)[^1]_

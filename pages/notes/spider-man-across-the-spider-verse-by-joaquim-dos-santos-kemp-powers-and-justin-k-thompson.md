@@ -2,9 +2,8 @@
 title: "Spider-Man: Across the Spider-Verse by Joaquim Dos Santos, Kemp Powers and Justin K. Thompson"
 categories:
   - name: films
-publishDate: "2023-08-15"
+published_date: "2023-08-15"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Wow what a long note name. Suitable for a long film—[the longest American animated film](https://en.wikipedia.org/wiki/List_of_longest_animated_films) there is at 140 min (still a far cry from the longest animated film period, Japan's 168 min _In This Corner (and Other Corners) of the World_).

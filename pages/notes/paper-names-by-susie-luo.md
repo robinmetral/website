@@ -2,9 +2,8 @@
 title: "Paper Names by Susie Luo"
 categories:
   - name: books
-publishDate: "2023-06-19"
+published_date: "2023-06-19"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Borrowed the audiobook from the VOEBB public library in Berlin, vi the Libby app (wishing they won't deactivate my account when they realize I don't live in Berlin anymore).

@@ -2,9 +2,8 @@
 title: "Safety Last! by Harold Lloyd"
 categories:
   - name: films
-publishDate: "2023-08-27"
+published_date: "2023-08-27"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 [Centenarian film](/notes/watching-centenarian-films/). A "thrill picture", as they called it when it came out back in 1923. There's no special effects, so Harold Lloyd[^1] climbing the exterior of a 12-story building is part stunt work (from him and a "human fly" stuntman) and part [ingenious optical tricks](https://archive.org/details/photoplayvolume22425chic/page/33/mode/1up?view=theater):[^2]

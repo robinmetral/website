@@ -2,9 +2,8 @@
 title: "Creed by Ryan Coogler"
 categories:
   - name: films
-publishDate: "2023-08-08"
+published_date: "2023-08-08"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 "Had to" rewatch all the Rocky franchise so I could get to this. Somehow I'd completely missed Creed when it came out and only became aware of it recently when Creed III came out.

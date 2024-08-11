@@ -2,9 +2,8 @@
 title: "Quitter Saigon par Clément Baloup"
 categories:
   - name: books
-publishDate: "2023-07-02"
+published_date: "2023-07-02"
 template: page
-buildScript: "/scripts/processNote.js"
 lang: fr
 ---
 

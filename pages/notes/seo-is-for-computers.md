@@ -2,9 +2,8 @@
 title: "SEO is for computers"
 categories:
   - name: other
-publishDate: "2023-03-08"
+published_date: "2023-03-08"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 From the latest installment of Drew Austin's _Kneeling Bus_ newsletter, [Speak No Evil](https://kneelingbus.substack.com/p/speak-no-evil), about the _enshittification_ of platforms[^1]:

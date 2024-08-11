@@ -2,9 +2,8 @@
 title: "Weeknote #9: a week of afternoons"
 categories:
   - name: weeknotes
-publishDate: "2023-05-14"
+published_date: "2023-05-14"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Week 18 (1–7 May 2023)_

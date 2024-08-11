@@ -2,9 +2,8 @@
 title: "Heat by Michael Mann"
 categories:
   - name: films
-publishDate: "2023-09-13"
+published_date: "2023-09-13"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Seen on MUBI [last week](/notes/weeknote-25-home-alone/), paired with Curtis Hanson's [L.A. Confidential](/notes/l-a-confidential-by-curtis-hanson/) (both are in MUBI's new collection [L.A. neo-noirs](https://mubi.com/en/fr/collections/los-angeles-neo-noir), nice).

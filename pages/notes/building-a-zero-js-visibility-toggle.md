@@ -2,9 +2,8 @@
 title: "Building a zero-JS visibility toggle"
 categories:
   - name: dev
-publishDate: "2022-12-15"
+published_date: "2022-12-15"
 template: page
-buildScript: "/scripts/processNote.js"
 highlightCode: true
 ---
 

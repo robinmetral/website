@@ -2,9 +2,8 @@
 title: "Decision to Leave by Park Chan-wook"
 categories:
   - name: films
-publishDate: "2023-06-21"
+published_date: "2023-06-21"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 First off, this is amazing directing, I found myself thinking "wow" multiple times. The film won Park Best Director at Cannes last year.

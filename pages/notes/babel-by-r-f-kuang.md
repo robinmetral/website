@@ -2,9 +2,8 @@
 title: "Babel by R. F. Kuang"
 categories:
   - name: books
-publishDate: "2023-07-19"
+published_date: "2023-07-19"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Grabbed this from the Libby popular list without many expectations, but a hunch I'd like it: a speculative fiction about languages and imperialism. A long audiobook clocking at around 21 h, I had to listen to roughly 90 min per day if I wanted to finish it before it was returned to the library (long waitlist).

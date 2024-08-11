@@ -2,9 +2,8 @@
 title: "Weeknote #23: heatwave harvest"
 categories:
   - name: weeknotes
-publishDate: "2023-08-27"
+published_date: "2023-08-27"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Week 34 (21–27 August 2023)_

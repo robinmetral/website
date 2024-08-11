@@ -2,9 +2,8 @@
 title: "Georges Perec on Spaces"
 categories:
   - name: books
-publishDate: "2021-09-10"
+published_date: "2021-09-10"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 I'm staying in an old house in Ardèche, France, and on a shelf I found a couple of books by [Georges Perec](https://en.wikipedia.org/wiki/Georges_Perec).

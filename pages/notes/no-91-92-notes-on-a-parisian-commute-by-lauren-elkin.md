@@ -2,9 +2,8 @@
 title: "No. 91/92: notes on a Parisian commute by Lauren Elkin"
 categories:
   - name: books
-publishDate: "2023-11-21"
+published_date: "2023-11-21"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Part of the six-book haul that we brought back from secondhand bookshops in our [last Berlin trip](/notes/weeknote-33-berlin-brussels/). I picked this one up immediately because it's short and light and approachable, with large margins and lots of whitespace. Perfect book to read on a trip.

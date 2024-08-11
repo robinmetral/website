@@ -2,9 +2,8 @@
 title: "L'exil et le Royaume by Albert Camus"
 categories:
   - name: books
-publishDate: "2023-04-16"
+published_date: "2023-04-16"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 <span lang="fr">_L'exil et le Royaume_</span> (English: _Exile and the Kingdom_) is a 1957 book of stories by Albert Camus[^1].

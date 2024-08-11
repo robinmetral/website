@@ -2,9 +2,8 @@
 title: "Le vide et le plein par Nicolas Bouvier"
 categories:
   - name: books
-publishDate: "2023-09-27"
+published_date: "2023-09-27"
 template: page
-buildScript: "/scripts/processNote.js"
 lang: "fr"
 ---
 

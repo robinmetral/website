@@ -2,9 +2,8 @@
 title: "Raiders of the Lost Ark by Steven Spielberg"
 categories:
   - name: films
-publishDate: "2023-07-20"
+published_date: "2023-07-20"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 A classic, of course. This was probably my 3rd or 4th watch, but the first in many years. C had never seen it before.

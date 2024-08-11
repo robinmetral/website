@@ -2,9 +2,8 @@
 title: "The Hunger Games film series"
 categories:
   - name: films
-publishDate: "2023-12-07"
+published_date: "2023-12-07"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Single note for the first 4 films, so excluding the new _Ballad of Songbirds & Snakes_ (2023):

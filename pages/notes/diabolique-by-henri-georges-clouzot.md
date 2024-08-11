@@ -2,9 +2,8 @@
 title: "Diabolique by Henri-Georges Clouzot"
 categories:
   - name: films
-publishDate: "2023-07-19"
+published_date: "2023-07-19"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Streamed 1955 psychological horror film _Les diaboliques_[^1] on MUBI, where Clouzot's 1942 debut _The Murderer Lives at Number 21_ is also showing (on my watchlist).

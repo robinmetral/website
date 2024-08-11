@@ -2,9 +2,8 @@
 title: "Weeknote #4: radish ivy checkbook"
 categories:
   - name: weeknotes
-publishDate: "2023-03-28"
+published_date: "2023-03-28"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Week 12 (20–26 March 2023)_

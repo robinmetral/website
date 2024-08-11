@@ -2,9 +2,8 @@
 title: "Roamin' The Empire"
 categories:
   - name: other
-publishDate: "2023-06-08"
+published_date: "2023-06-08"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 The tagline of the [Roamin' The Empire](http://www.roamintheempire.com/) blog says it all:

@@ -2,9 +2,8 @@
 title: "Elevation by Stephen King"
 categories:
   - name: books
-publishDate: "2023-05-04"
+published_date: "2023-05-04"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Listened to the audiobook version of _Elevation_ (2018) by Stephen King (read by the author) shortly after finishing [my first Stephen King novel](/notes/later-by-stephen-king/)[^1].

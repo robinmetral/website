@@ -2,9 +2,8 @@
 title: "Weeknote #17: two long summer weeks"
 categories:
   - name: weeknotes
-publishDate: "2023-07-19"
+published_date: "2023-07-19"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Weeks 27 and 28 (3–16 July 2023)_

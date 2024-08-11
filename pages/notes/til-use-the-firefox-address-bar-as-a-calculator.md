@@ -2,9 +2,8 @@
 title: "TIL: use the Firefox address bar as a calculator"
 categories:
   - name: other
-publishDate: "2022-09-22"
+published_date: "2022-09-22"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Since I'm still not sure what exactly I want this to be (this = this website) I figured I'd just try a <abbr title="Today I Learned">TIL</abbr> post._

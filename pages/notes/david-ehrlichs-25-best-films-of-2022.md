@@ -2,9 +2,8 @@
 title: "David Ehrlich's 25 Best Films of 2022"
 categories:
   - name: films
-publishDate: "2023-01-16"
+published_date: "2023-01-16"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 I've had David Ehrlich's _25 Best Films of 2022_ video countdown more or less on repeat over the past few days. This is a yearly thing[^1] and the [second time](/notes/the-best-films-of-2021) that I'm impatiently waiting for the release.

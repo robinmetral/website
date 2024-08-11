@@ -2,9 +2,8 @@
 title: "Peel by Jane Campion"
 categories:
   - name: films
-publishDate: "2023-06-30"
+published_date: "2023-06-30"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 1986 Palme d'Or-winning short by Jane Campion[^1] (who recently won Best Director at the 2022 Oscars for _The Power of the Dog_). On power authority and gender (the long-form title reads "An Exercise in Discipline"), patriarchy.

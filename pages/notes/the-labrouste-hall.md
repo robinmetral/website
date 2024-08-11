@@ -2,9 +2,8 @@
 title: "The Labrouste Hall"
 categories:
   - name: other
-publishDate: "2021-11-17"
+published_date: "2021-11-17"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 This happened:

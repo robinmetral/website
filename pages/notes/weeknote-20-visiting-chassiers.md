@@ -2,9 +2,8 @@
 title: "Weeknote #20: visiting Chassiers"
 categories:
   - name: weeknotes
-publishDate: "2023-08-09"
+published_date: "2023-08-09"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Week 31 (31 July–6 August 2023)_

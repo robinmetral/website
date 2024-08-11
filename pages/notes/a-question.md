@@ -2,9 +2,8 @@
 title: "A question"
 categories:
   - name: other
-publishDate: "2021-09-15"
+published_date: "2021-09-15"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 When is the last time you got caught in the rain?

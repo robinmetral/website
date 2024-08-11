@@ -2,9 +2,8 @@
 title: "Operation Fortune by Guy Ritchie"
 categories:
   - name: films
-publishDate: "2023-03-23"
+published_date: "2023-03-23"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Bit disappointed by this one ([Operation Fortune](https://en.wikipedia.org/wiki/Operation_Fortune:_Ruse_de_Guerre) (2023) by Guy Ritchie).

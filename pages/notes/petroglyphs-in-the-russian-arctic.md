@@ -2,9 +2,8 @@
 title: "Petroglyphs in the Russian Arctic"
 categories:
   - name: films
-publishDate: "2022-05-01"
+published_date: "2022-05-01"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Recently watched: [Compartment No. 6](https://en.wikipedia.org/wiki/Compartment_No._6) by Finnish director Juho Kuosmanen, who [described it](https://www.theguardian.com/film/2022/apr/10/compartment-no-6-review-bittersweet-brief-encounter-on-an-arctic-bound-train) as _"an Arctic road movie that takes place in a train"_.

@@ -2,9 +2,8 @@
 title: "Creed II by Steven Caple Jr."
 categories:
   - name: films
-publishDate: "2023-08-14"
+published_date: "2023-08-14"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 As much as I was surprised—in a good way—with the original [Creed](/notes/creed-by-ryan-coogler/), this disappointed. Maybe I should have expected it: Creed II is the sequel of a reboot. The Rocky franchise probably only works because there's enough years between each film to give people time to forget.

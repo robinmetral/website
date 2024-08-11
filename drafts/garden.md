@@ -1,7 +1,6 @@
 ---
 title: "Garden"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 # Web

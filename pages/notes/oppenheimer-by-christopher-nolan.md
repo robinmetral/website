@@ -2,9 +2,8 @@
 title: "Oppenheimer by Christopher Nolan"
 categories:
   - name: films
-publishDate: "2023-07-28"
+published_date: "2023-07-28"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Second time at the movies at Le Navire in Aubenas for this 3h biopic about J. Robert Oppenheimer, "father of the atomic bomb".

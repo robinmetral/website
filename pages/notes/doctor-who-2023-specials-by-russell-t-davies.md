@@ -2,9 +2,8 @@
 title: "Doctor Who (2023 specials) by Russell T Davies"
 categories:
   - name: films
-publishDate: "2023-12-10"
+published_date: "2023-12-10"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Doctor Who to me is another 2020 lockdown watch[^1], we watched basically all of seasons 1 to 12 (of the 2005 revival) and have been watching the new seasons as they were released since then.

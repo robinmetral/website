@@ -2,9 +2,8 @@
 title: "Les Aventures de Tintin par Hergé"
 categories:
   - name: books
-publishDate: "2023-11-02"
+published_date: "2023-11-02"
 template: page
-buildScript: "/scripts/processNote.js"
 lang: fr
 ---
 
