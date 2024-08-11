@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2022-06-12"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Recently watched films by Norwegian director Joachim Trier because his last feature, [_The Worst Person in the World_](<https://en.wikipedia.org/wiki/The_Worst_Person_in_the_World_(film)>) is out in cinemas[^1].

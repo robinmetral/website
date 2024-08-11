@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-07-24"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Similar weirdness watching this in 2023 as for [the first film](/notes/raiders-of-the-lost-ark-by-steven-spielberg/), portrayal of women[^1] (even worse than in _Raiders of the Lost Ark_???) and of non-American characters (especially Chinese and Indian extras).

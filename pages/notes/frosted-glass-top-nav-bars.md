@@ -4,7 +4,6 @@ categories:
   - name: dev
 published_date: "2022-12-12"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Is it just me or does every top nav bar look like this now?

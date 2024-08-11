@@ -4,7 +4,6 @@ categories:
   - name: other
 published_date: "2023-06-07"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Woken up at 5 by a mosquito in the room

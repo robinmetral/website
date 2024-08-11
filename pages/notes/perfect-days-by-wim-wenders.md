@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-12-04"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Le Navire, Valence, 16h20, theater 3 (almost full). The film opens with _House of the Rising Sun_, and before Eric Burdon starts singing, everyone in the room thinks it's _Le pénitencier_ by Johnny Hallyday (probably).

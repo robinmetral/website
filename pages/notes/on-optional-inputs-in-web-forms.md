@@ -5,7 +5,6 @@ categories:
   - name: dev
 published_date: "2022-09-16"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 I was catching up on Kitty Giraudel's latest article, [The required fault in our stars](https://kittygiraudel.com/2022/08/05/the-required-fault-in-our-stars/).

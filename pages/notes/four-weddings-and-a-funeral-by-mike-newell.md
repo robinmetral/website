@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-10-21"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Four Weddings and a Funeral_ (Mike Newell, 1994) is [streaming on MUBI FR](https://mubi.com/en/fr/films/four-weddings-and-a-funeral) right now. We wanted something light that we could watch while cracking walnuts and it was perfect (it's walnut season).

@@ -5,7 +5,6 @@ categories:
   - name: dev
 published_date: "2021-10-16"
 template: page
-buildScript: "/scripts/processNote.js"
 highlightCode: true
 ---
 

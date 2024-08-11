@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-05-20"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 wip

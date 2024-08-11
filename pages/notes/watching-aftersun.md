@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-01-17"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Aftersun_ (dir. Charlotte Wells, 2022) is a film that takes time to process. On the surface, it's about the circa-1999 package vacation to Turkey of 11-year-old Sophie (Frankie Corio) and her father Calum (Paul Mescal). Think resort hotel, beach sun and suncreen, karaoke nights, and group excursions to local tourist attractions.

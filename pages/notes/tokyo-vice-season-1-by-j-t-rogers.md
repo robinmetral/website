@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-10-15"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Heard about Tokyo Vice when the first season came out last year, but it came back to my attention when reading up on [Heat](/notes/heat-by-michael-mann/), because Michael Mann incidentally directed the series' first episode.

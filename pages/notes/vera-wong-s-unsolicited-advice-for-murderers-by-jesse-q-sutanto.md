@@ -4,7 +4,6 @@ categories:
   - name: books
 published_date: "2023-09-18"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Second book I read by Jesse Q. Sutanto, after [Dial A for Aunties](/notes/dial-a-for-aunties-by-jesse-q-sutanto/) [a few weeks ago](/notes/weeknote-23-heatwave-harvest/).

@@ -1,7 +1,6 @@
 ---
 title: "Food links"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 I don't know where else to put these.

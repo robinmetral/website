@@ -4,7 +4,6 @@ categories:
   - name: weeknotes
 published_date: "2023-06-12"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Week 23, part 1 (5–9 June 2023)_

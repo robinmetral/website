@@ -4,7 +4,6 @@ categories:
   - name: maps
 published_date: "2022-12-12"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Behold the updated [New York City Tree Map](https://tree-map.nycgovparks.org/):[^1]

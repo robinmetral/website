@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-10-03"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Netflix [recently released](https://www.netflix.com/tudum/articles/wes-anderson-netflix-short-films) four new Wes Anderson shorts, based on four Roald Dahl stories:

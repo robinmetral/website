@@ -4,7 +4,6 @@ categories:
   - name: books
 published_date: "2023-04-29"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Sputnik Sweetheart_ (1999) is a short(er) Murakami novel, about 7h in its audiobook version (borrowed via the Libby app, narrated by Adam Sims). It's magical realism (in a moderate dose) with classic Murakami themes of relationships (some cringy), loneliness, books, music, cats. It's got a sort of impossible love triangle, alternate worlds and a bit of mystery.

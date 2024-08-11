@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2022-01-04"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Warning: some spoilers._

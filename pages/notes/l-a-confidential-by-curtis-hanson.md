@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-09-13"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Seen on MUBI [last week](/notes/weeknote-25-home-alone/), paired with Michael Mann's [Heat](/notes/heat-by-michael-mann/) (both are in MUBI's new collection [L.A. neo-noirs](https://mubi.com/en/fr/collections/los-angeles-neo-noir), nice).

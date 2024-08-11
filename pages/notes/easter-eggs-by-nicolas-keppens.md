@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2022-11-01"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 A Belgian animated short about toxic friendships.

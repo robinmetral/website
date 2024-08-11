@@ -4,7 +4,6 @@ categories:
   - name: weeknotes
 published_date: "2023-10-12"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Week 40 (2–8 October 2023)_

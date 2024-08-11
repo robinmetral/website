@@ -201,10 +201,7 @@
         <div class="post-header">
           <h1>{{page.frontmatter.title}}</h1>
           <div>
-            <span class="sr-only">Published on</span>
-            <time datetime="{{page.frontmatter.published_date}}" class="dt-published">{{page.frontmatter.published_date}}</time>
-            <!-- TODO: .length is not standard mustache, see https://github.com/mustache/spec/discussions/157 -->
-            {{#page.frontmatter.categories.length}} in <span class="sr-only">the following categories:</span>
+            <span class="sr-only">Published on</span> <time datetime="{{page.frontmatter.published_date}}" class="dt-published">{{page.frontmatter.published_date_string}}</time>{{#page.frontmatter.categories.length}} in <span class="sr-only">the following categories:</span>
             <ul class="categories" role="list">
               {{#page.frontmatter.categories}}
               <li><a href="/notes?category={{name}}" rel="tag">{{name}}</a></li>

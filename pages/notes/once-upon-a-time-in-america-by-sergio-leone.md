@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-07-02"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Unlike his famous Dollar Trilogy (The Good, the Bad and the Ugly etc.), Sergio Leone's _Once Upon a Time in America_ is not a western film... but swap the New York streets for a desert landscape, and you could argue it kind of is.

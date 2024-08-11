@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-03-26"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 After watching a Tati short at [La Fête du Court](/notes/10-shorts-from-la-fete-du-court/) I wanted to (re)watch _Les Vacances de Monsieur Hulot_ (1953).

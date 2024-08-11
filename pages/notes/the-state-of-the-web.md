@@ -4,7 +4,6 @@ categories:
   - name: dev
 published_date: "2021-11-16"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Someone shared a talk that [Jeremy Keith](https://adactio.com/ "Link to Jeremy Keith's personal website Adactio") gave at _An Event Apart_ earlier this year: [**The State Of The Web**](https://vimeo.com/641568337 "Link to the video on Vimeo").

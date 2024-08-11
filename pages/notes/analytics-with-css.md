@@ -5,7 +5,6 @@ categories:
   - name: dev
 published_date: "2024-05-20"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 I like a lot of the ideas behind the [BearBlog](https://bearblog.dev/) blogging platform: lightweight pages, RSS feeds, and "No trackers, ads, or scripts".

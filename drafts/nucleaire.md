@@ -4,7 +4,6 @@ categories:
   - name:
 published_date: "2023-12-24"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Sur Janco et Le monde sans fin:

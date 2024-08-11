@@ -4,7 +4,6 @@ categories:
   - name: dev
 published_date: "2021-10-25"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 My frustration with WordPress is a big part of what led me into frontend engineering.

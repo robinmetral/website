@@ -4,7 +4,6 @@ categories:
   - name: dev
 published_date: "2023-04-04"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 ...as an illustrated, real-world example.

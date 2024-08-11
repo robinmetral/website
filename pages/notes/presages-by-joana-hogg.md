@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-04-20"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Joana Hogg (dir. [The Souvenir](https://en.wikipedia.org/wiki/The_Souvenir), [The Souvenir Part II](https://en.wikipedia.org/wiki/The_Souvenir_Part_II), [The Eternal Daughter](https://en.wikipedia.org/wiki/The_Eternal_Daughter), etc.[^1]) spends a winter in Los Angeles and films her surroundings. In a voice-over she talks about wanting to make a film about modern LA.

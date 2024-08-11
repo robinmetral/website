@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2022-01-11"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 The 2021 video countdown is out!

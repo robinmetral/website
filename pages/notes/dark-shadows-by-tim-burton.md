@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-11-07"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 First Tim Burton in a while (the last I saw was Big Eyes, I think), watched with J and C.

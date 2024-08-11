@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2024-05-29"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 2022 anime film by Japanese mangaka-turned-director Takehiko Inoue, based on his 1990s basketball manga [Slam Dunk](<https://en.wikipedia.org/wiki/Slam_Dunk_(manga)>).

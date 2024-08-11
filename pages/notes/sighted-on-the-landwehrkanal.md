@@ -4,7 +4,6 @@ categories:
   - name: other
 published_date: "2022-08-12"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 A beaver![^1]

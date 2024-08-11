@@ -4,7 +4,6 @@ categories:
   - name: other
 published_date: "2023-10-14"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 [Ad blockers are not allowed on YouTube](https://www.reddit.com/r/youtube/comments/13cfdbi/apparently_ad_blockers_are_not_allowed_on_youtube/)

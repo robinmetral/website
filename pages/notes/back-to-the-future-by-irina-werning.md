@@ -4,7 +4,6 @@ categories:
   - name: photography
 published_date: "2023-10-17"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Amazing amazing project by Irina Werning: [Back to the Future](https://irinawerning.com/back-to-the-future/)

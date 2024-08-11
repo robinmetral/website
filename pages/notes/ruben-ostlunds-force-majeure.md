@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-03-18"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Watched _Force Majeure_ (2014), the second film I see by Swedish director Ruben Östlund[^1], who recently won his second Palme d'Or for _Triangle of Sadness_ (2022).

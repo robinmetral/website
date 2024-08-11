@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-06-12"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Short and sweet animation movie by Oscar-winning Dutch animator Michaël Dudok de Wit, and produced by the legendary Studio Ghibli[^1].

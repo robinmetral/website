@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-09-20"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Short (15 min), streams on MUBI. The story is told from the perspective of a black cat who wants to know what "the most precious thing in the world" is. He goes out on a sort of quest to meet three "weirdos" who might have an answer. I didn't understand what the short was actually trying to say, or how any of the scenes fit together other than by being as absurd as each other. Is that the point? Is there a point?

@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-06-29"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 A divisive Wes Anderson film, that some dismissed as the director parodizing of his own style. It's true that the aesthetics are extremely[^1], almost comically, "Wes Anderson". But behind the symmetrical, pastel-colored façade of the film hides deeper meaning.

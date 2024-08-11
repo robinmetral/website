@@ -4,7 +4,6 @@ categories:
   - name: other
 published_date: "2023-10-21"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 [_Pygmy Love Song_](https://www.youtube.com/watch?v=CJ3h55yAYdI), by Cameroonian musician Francis Bebey, has been stuck in my head for days. First heard on an episode of the second season of _Our Flag Means Death_ (it's [season 2 season](/notes/season-2-season/)).

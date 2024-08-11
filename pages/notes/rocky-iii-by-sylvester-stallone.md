@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-08-03"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Continuing my Rocky watchthrough.

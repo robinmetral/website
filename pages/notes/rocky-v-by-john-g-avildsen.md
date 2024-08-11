@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-08-08"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 John G. Avildsen is back in the director's seat after Stallone took over for films II to IV.

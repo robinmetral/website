@@ -4,7 +4,6 @@ categories:
   - name: books
 published_date: "2023-07-21"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Forgot how I initially found out about this mostly-forgotten 1983 travelogue by Carol Dunlop and Julio Cortazár. Back then, not knowing about the authors—for example that Cortazár is hailed as one of the core authors in the [Latin American Boom](https://en.wikipedia.org/wiki/Latin_American_Boom) along with the likes of Mario Vargas Llosa, Gabriel García Marquez and Carlos Fuentes—I was captivated by the book's premise: in May 1982, a couple embark on a 32-day journey on the _Autoroute du Soleil_, the Paris–Marseilles freeway, aboard a red Volkswagen camper van named Fafner, after the dragon in Wagner's _Der Ring des Nibelungen_. Some rules they set for themselves: they can't leave the freeway, have to visit two rest stops per day (overnighting in one), and must record detailed scientific observations about the expedition.

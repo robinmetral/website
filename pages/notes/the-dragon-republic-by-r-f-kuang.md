@@ -4,7 +4,6 @@ categories:
   - name: books
 published_date: "2023-09-18"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Book 2 of R. F. Kuang's Poppy Wars trilogy, following [The Poppy War](/notes/the-poppy-war-by-r-f-kuang/). Listened at 1.25x speed because I had about 10 days to listen to the 24 hour audiobook.

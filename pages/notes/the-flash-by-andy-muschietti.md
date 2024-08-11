@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-08-17"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Light spoilers_

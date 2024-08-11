@@ -4,7 +4,6 @@ categories:
   - name: books
 published_date: "2023-12-24"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 First proper nonfiction I read in a while (as in not a memoir or biography, something more scientific). Listened to the audiobook: it was available on Libby and the title caught my eye.

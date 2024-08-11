@@ -4,7 +4,6 @@ categories:
   - name: books
 published_date: "2023-04-16"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Listened to this via the Libby app. It's one of the newer Stephen King novels, published in 2021. I can't say how it compares to other Stephen King books because this is the first one I read, I think.

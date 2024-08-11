@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-07-02"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 A short-and-sweet animals-that-speak children (?) film by Chris Nolan if his name were misspelled.

@@ -4,7 +4,6 @@ categories:
   - name: other
 published_date: "2023-03-28"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Spotify was never great for supporting artists, but at least, it did its job (play music) is a relatively[^1] reliable and unobtrusive way.

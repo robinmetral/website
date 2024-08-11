@@ -4,7 +4,6 @@ categories:
   - name: other
 published_date: "2023-10-14"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 It's season 2 season!

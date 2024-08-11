@@ -4,7 +4,6 @@ categories:
   - name: books
 published_date: "2023-07-03"
 template: page
-buildScript: "/scripts/processNote.js"
 lang: fr
 ---
 

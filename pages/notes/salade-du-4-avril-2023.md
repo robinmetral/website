@@ -4,7 +4,6 @@ categories:
   - name: other
 published_date: "2023-04-04"
 template: page
-buildScript: "/scripts/processNote.js"
 lang: fr
 ---
 

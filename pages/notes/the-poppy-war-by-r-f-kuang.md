@@ -4,7 +4,6 @@ categories:
   - name: books
 published_date: "2023-09-11"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 I really liked Kuang's other novels [Babel](/notes/babel-by-r-f-kuang/) and [Yellowface](/notes/yellowface-by-r-f-kuang/), so I wanted to read her debut, a fantasy novel set in a world inspired by Song dynasty China.

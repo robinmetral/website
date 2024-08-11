@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-07-24"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 A man emerges from the desert, scrubby and mute, four years after he disappeared without a word. As he gets his life back on track and tries to reunite with his family, we start to learn about the reasons he left.

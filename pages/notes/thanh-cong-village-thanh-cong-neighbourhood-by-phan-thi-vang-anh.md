@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-04-03"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Documentary short film streaming on [Tenk](https://www.on-tenk.com/fr/documentaires/les-films-de-cin-ma-du-r-el/dans-le-quartier-de-tanh-congh-il-y-a-le-village-de-tanh-congh)[^1] about loudspeakers in Hanoi that authorities insist on keeping in place for announcements like "all dogs need to be vaccinated, come tomorrow between 7am and 11am" while locals find them too noisy and vandalize them (but they seem to not have anything against the idea of loudspeaker announcements itself). Authorities send technicians to repair them, and the cycle goes on.

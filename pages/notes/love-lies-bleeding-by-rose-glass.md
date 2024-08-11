@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2024-06-01"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 The Hulk, but make it an ambitious lesbian bodybuilder who gets embroiled in the dysfunctions of a local crime family in small-town New Mexico. And while you're at it, add enough violence (that borders on body horror) to fully deserve an R rating.

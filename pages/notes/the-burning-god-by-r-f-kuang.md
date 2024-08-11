@@ -4,7 +4,6 @@ categories:
   - name: books
 published_date: "2023-10-21"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Third and final book in R. F. Kuang's Poppy War trilogy, after [The Poppy War](/notes/the-poppy-war-by-r-f-kuang/) and [The Dragon Republic](/notes/the-dragon-republic-by-r-f-kuang/).

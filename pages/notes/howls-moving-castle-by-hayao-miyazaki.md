@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-06-16"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Not sure if I'd seen this one by Japanese animation superstar Hayao Miyazaki. Based on a book by British author Diana Wynne Jones, the story is set in a world of magical realism on a backdrop of war (think 20th century coal-powered machinery but also magic), and follows young hatter Sophie as she is turned into an old lady and crosses the path of a wizard named Howl (Hauru in the Japanese version).

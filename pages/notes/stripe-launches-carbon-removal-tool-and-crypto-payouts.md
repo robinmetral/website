@@ -4,7 +4,6 @@ categories:
   - name: other
 published_date: "2022-07-10"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Stumbled on the [Stripe Climate program](https://stripe.com/climate)[^1], but another recent Stripe launch came to mind... isn't Stripe also getting into [crypto](https://en.wikipedia.org/wiki/Environmental_impact_of_cryptocurrencies)?

@@ -4,7 +4,6 @@ categories:
   - name: weeknotes
 published_date: "2023-11-21"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 _Half of week 44 and week 45 (3–12 November 2023)_

@@ -4,7 +4,6 @@ categories:
   - name: films
 published_date: "2023-07-30"
 template: page
-buildScript: "/scripts/processNote.js"
 ---
 
 Korean blockbuster, its full name is _Along with the Gods: The Two Worlds_ (2017) because it was filmed at the same time as the sequel _Along with the Gods: The Last 49 Days_ (2018).
