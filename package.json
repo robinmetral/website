@@ -13,9 +13,6 @@
     "brut": "../brut/brut",
     "feed": "^4.2.2",
     "gray-matter": "^4.0.3",
-    "js-yaml": "^4.1.0",
-    "node-fetch": "^3.3.2",
-    "serve": "^14.2.3",
-    "unist-util-visit": "^5.0.0"
+    "serve": "^14.2.3"
   }
 }
