@@ -2,7 +2,7 @@
 title: "10 shorts from La Fête du Court"
 categories:
   - name: films
-publishDate: "2023-03-26"
+published_date: "2023-03-26"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

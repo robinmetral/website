@@ -2,7 +2,7 @@
 title: "Rosalie Blum : Haut les mains, peau de lapin ! par Camille Jourdy"
 categories:
   - name: books
-publishDate: "2023-09-18"
+published_date: "2023-09-18"
 template: page
 buildScript: "/scripts/processNote.js"
 lang: "fr"

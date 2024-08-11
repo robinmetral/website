@@ -2,7 +2,7 @@
 title: "Dans les forêts de Sibérie par Sylvain Tesson"
 categories:
   - name: books
-publishDate: "2023-11-27"
+published_date: "2023-11-27"
 template: page
 buildScript: "/scripts/processNote.js"
 lang: fr

@@ -2,7 +2,7 @@
 title: "Can't we talk about something more pleasant? by Roz Chast"
 categories:
   - name: books
-publishDate: "2023-07-02"
+published_date: "2023-07-02"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

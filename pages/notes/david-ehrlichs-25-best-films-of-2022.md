@@ -2,7 +2,7 @@
 title: "David Ehrlich's 25 Best Films of 2022"
 categories:
   - name: films
-publishDate: "2023-01-16"
+published_date: "2023-01-16"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

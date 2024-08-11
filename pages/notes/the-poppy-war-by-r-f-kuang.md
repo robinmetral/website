@@ -2,7 +2,7 @@
 title: "The Poppy War by R. F. Kuang"
 categories:
   - name: books
-publishDate: "2023-09-11"
+published_date: "2023-09-11"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

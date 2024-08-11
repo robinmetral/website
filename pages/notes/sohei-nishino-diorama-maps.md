@@ -3,7 +3,7 @@ title: "Sohei Nishino's Diorama Maps"
 categories:
   - name: maps
   - name: photography
-publishDate: "2021-10-18"
+published_date: "2021-10-18"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

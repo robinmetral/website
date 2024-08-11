@@ -17,7 +17,7 @@ export async function buildPage(html, frontmatter) {
        */
       .replace(
         />\d{4}-\d{2}-\d{2}</,
-        `>${formatDate(frontmatter.publishDate)}<`
+        `>${formatDate(frontmatter.published_date)}<`
       );
     return html;
   } catch (error) {

@@ -2,7 +2,7 @@
 title: "Présages by Joana Hogg"
 categories:
   - name: films
-publishDate: "2023-04-20"
+published_date: "2023-04-20"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

@@ -2,7 +2,7 @@
 title: "The State Of The Web"
 categories:
   - name: dev
-publishDate: "2021-11-16"
+published_date: "2021-11-16"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

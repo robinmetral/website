@@ -2,7 +2,7 @@
 title: "Spring-Summer '22: a new look for this website"
 categories:
   - name: meta
-publishDate: "2022-03-09"
+published_date: "2022-03-09"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

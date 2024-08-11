@@ -2,7 +2,7 @@
 title: "Weeknote #20: visiting Chassiers"
 categories:
   - name: weeknotes
-publishDate: "2023-08-09"
+published_date: "2023-08-09"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

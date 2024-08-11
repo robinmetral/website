@@ -2,7 +2,7 @@
 title: 'Ruben Östlund''s "Force Majeure"'
 categories:
   - name: films
-publishDate: "2023-03-18"
+published_date: "2023-03-18"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

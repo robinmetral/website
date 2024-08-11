@@ -2,7 +2,7 @@
 title: "Indiana Jones and the Last Crusade by Steven Spielberg"
 categories:
   - name: films
-publishDate: "2023-07-27"
+published_date: "2023-07-27"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

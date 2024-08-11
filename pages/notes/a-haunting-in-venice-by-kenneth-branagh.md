@@ -2,7 +2,7 @@
 title: "A Haunting in Venice by Kenneth Branagh"
 categories:
   - name: films
-publishDate: "2023-10-16"
+published_date: "2023-10-16"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

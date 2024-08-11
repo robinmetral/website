@@ -2,7 +2,7 @@
 title: "Zack Snyder's Justice League"
 categories:
   - name: films
-publishDate: "2023-08-21"
+published_date: "2023-08-21"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

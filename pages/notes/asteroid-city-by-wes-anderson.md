@@ -2,7 +2,7 @@
 title: "Asteroid City by Wes Anderson"
 categories:
   - name: films
-publishDate: "2023-06-29"
+published_date: "2023-06-29"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

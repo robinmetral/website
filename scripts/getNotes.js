@@ -22,7 +22,7 @@ export async function getNotes() {
       const frontmatter = getFrontmatter(content);
       return {
         title: frontmatter.title,
-        publishDate: frontmatter.publishDate,
+        published_date: frontmatter.published_date,
         slug: `/notes/${file.replace(".md", "")}/`,
         categories: frontmatter.categories,
       };
@@ -37,7 +37,8 @@ export async function buildPage(html) {
     const notesHtml = notes
       .sort(
         (a, b) =>
-          new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime()
+          new Date(b.published_date).getTime() -
+          new Date(a.published_date).getTime()
       )
       .map(
         (note) => `<li data-categories="${
@@ -46,8 +47,8 @@ export async function buildPage(html) {
             <a href="${note.slug}">${
           note.title
         }</a> (<span class="sr-only">Published on </span><time datetime="${
-          note.publishDate
-        }">${new Date(note.publishDate).toLocaleDateString("en-US", {
+          note.published_date
+        }">${new Date(note.published_date).toLocaleDateString("en-US", {
           year: "numeric",
           month: "long",
           day: "numeric",

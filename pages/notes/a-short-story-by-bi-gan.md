@@ -2,7 +2,7 @@
 title: "A Short Story by Bi Gan"
 categories:
   - name: films
-publishDate: "2023-09-20"
+published_date: "2023-09-20"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

@@ -2,7 +2,7 @@
 title: "TIL: [hidden] is overridden by CSS display"
 categories:
   - name: dev
-publishDate: "2022-10-30"
+published_date: "2022-10-30"
 template: page
 buildScript: "/scripts/processNote.js"
 highlightCode: true

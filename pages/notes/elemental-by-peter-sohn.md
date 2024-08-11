@@ -2,7 +2,7 @@
 title: "Elemental by Peter Sohn"
 categories:
   - name: films
-publishDate: "2023-08-26"
+published_date: "2023-08-26"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

@@ -2,7 +2,7 @@
 title: "Dark Shadows by Tim Burton"
 categories:
   - name: films
-publishDate: "2023-11-07"
+published_date: "2023-11-07"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

@@ -3,7 +3,7 @@ title: "Webmentions, part 1"
 categories:
   - name: meta
   - name: dev
-publishDate: "2022-04-09"
+published_date: "2022-04-09"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

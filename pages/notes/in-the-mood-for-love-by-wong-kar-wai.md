@@ -2,7 +2,7 @@
 title: "In the Mood for Love by Wong Kar-wai"
 categories:
   - name: films
-publishDate: "2023-09-20"
+published_date: "2023-09-20"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

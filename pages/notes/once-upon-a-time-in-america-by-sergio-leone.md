@@ -2,7 +2,7 @@
 title: "Once Upon a Time in America by Sergio Leone"
 categories:
   - name: films
-publishDate: "2023-07-02"
+published_date: "2023-07-02"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

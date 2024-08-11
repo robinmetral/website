@@ -2,7 +2,7 @@
 title: "Doctor Who (2023 specials) by Russell T Davies"
 categories:
   - name: films
-publishDate: "2023-12-10"
+published_date: "2023-12-10"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

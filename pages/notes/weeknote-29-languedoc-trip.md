@@ -2,7 +2,7 @@
 title: "Weeknote #29: Languedoc trip"
 categories:
   - name: weeknotes
-publishDate: "2023-10-12"
+published_date: "2023-10-12"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

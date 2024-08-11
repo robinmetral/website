@@ -2,7 +2,7 @@
 title: "Nage Libre par Sébastien Chrisostome"
 categories:
   - name: books
-publishDate: "2023-11-23"
+published_date: "2023-11-23"
 template: page
 buildScript: "/scripts/processNote.js"
 lang: "fr"

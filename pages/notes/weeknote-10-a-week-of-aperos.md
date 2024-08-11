@@ -2,7 +2,7 @@
 title: "Weeknote #10: a week of apéros"
 categories:
   - name: weeknotes
-publishDate: "2023-05-14"
+published_date: "2023-05-14"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

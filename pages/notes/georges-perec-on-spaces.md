@@ -2,7 +2,7 @@
 title: "Georges Perec on Spaces"
 categories:
   - name: books
-publishDate: "2021-09-10"
+published_date: "2021-09-10"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

@@ -2,7 +2,7 @@
 title: "Creed II by Steven Caple Jr."
 categories:
   - name: films
-publishDate: "2023-08-14"
+published_date: "2023-08-14"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

@@ -2,7 +2,7 @@
 title: "Creed by Ryan Coogler"
 categories:
   - name: films
-publishDate: "2023-08-08"
+published_date: "2023-08-08"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

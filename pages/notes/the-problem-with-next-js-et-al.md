@@ -2,7 +2,7 @@
 title: "The problem with Next.js (et al.)"
 categories:
   - name: dev
-publishDate: "2023-04-04"
+published_date: "2023-04-04"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

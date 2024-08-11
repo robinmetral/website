@@ -4,7 +4,7 @@ description: "I'm rebuilding my website using Astro, with a fern-inspired theme 
 categories:
   - name: meta
   - name: dev
-publishDate: "2021-08-22"
+published_date: "2021-08-22"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

@@ -2,7 +2,7 @@
 title: "Rocky III by Sylvester Stallone"
 categories:
   - name: films
-publishDate: "2023-08-03"
+published_date: "2023-08-03"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

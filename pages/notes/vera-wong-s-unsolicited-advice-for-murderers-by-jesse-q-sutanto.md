@@ -2,7 +2,7 @@
 title: "Vera Wong's Unsolicited Advice for Murderers by Jesse Q. Sutanto"
 categories:
   - name: books
-publishDate: "2023-09-18"
+published_date: "2023-09-18"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

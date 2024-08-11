@@ -6,7 +6,8 @@ export async function buildPage(html) {
     const notesHtml = notes
       .sort(
         (a, b) =>
-          new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime()
+          new Date(b.published_date).getTime() -
+          new Date(a.published_date).getTime()
       )
       .slice(0, 5)
       .map((note) => `<li><a href="${note.slug}">${note.title}</a></li>`)

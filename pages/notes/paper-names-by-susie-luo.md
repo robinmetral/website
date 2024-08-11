@@ -2,7 +2,7 @@
 title: "Paper Names by Susie Luo"
 categories:
   - name: books
-publishDate: "2023-06-19"
+published_date: "2023-06-19"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

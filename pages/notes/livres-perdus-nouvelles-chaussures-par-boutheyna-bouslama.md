@@ -2,7 +2,7 @@
 title: "Livres perdus, nouvelles chaussures par Boutheyna Bouslama"
 categories:
   - name: books
-publishDate: "2023-12-11"
+published_date: "2023-12-11"
 template: page
 buildScript: "/scripts/processNote.js"
 lang: "fr"

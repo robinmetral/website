@@ -2,7 +2,7 @@
 title: "Perfect Days by Wim Wenders"
 categories:
   - name: films
-publishDate: "2023-12-04"
+published_date: "2023-12-04"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

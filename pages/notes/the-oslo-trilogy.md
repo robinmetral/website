@@ -2,7 +2,7 @@
 title: "The Oslo Trilogy"
 categories:
   - name: films
-publishDate: "2022-06-12"
+published_date: "2022-06-12"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

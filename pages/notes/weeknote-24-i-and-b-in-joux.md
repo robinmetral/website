@@ -2,7 +2,7 @@
 title: "Weeknote #24: I and B in Joux"
 categories:
   - name: weeknotes
-publishDate: "2023-09-04"
+published_date: "2023-09-04"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

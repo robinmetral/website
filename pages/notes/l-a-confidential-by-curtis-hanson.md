@@ -2,7 +2,7 @@
 title: "L.A. Confidential by Curtis Hanson"
 categories:
   - name: films
-publishDate: "2023-09-13"
+published_date: "2023-09-13"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

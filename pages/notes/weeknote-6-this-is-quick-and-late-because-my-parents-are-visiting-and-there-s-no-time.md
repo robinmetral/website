@@ -2,7 +2,7 @@
 title: "Weeknote 6: this is quick and late because my parents are visiting and there's no time"
 categories:
   - name: weeknotes
-publishDate: "2023-04-13"
+published_date: "2023-04-13"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

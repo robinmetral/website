@@ -2,7 +2,7 @@
 title: "Elevation by Stephen King"
 categories:
   - name: books
-publishDate: "2023-05-04"
+published_date: "2023-05-04"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

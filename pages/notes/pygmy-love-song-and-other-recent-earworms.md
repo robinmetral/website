@@ -2,7 +2,7 @@
 title: "Pygmy Love Song and other recent earworms"
 categories:
   - name: other
-publishDate: "2023-10-21"
+published_date: "2023-10-21"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

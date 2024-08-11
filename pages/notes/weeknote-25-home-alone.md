@@ -2,7 +2,7 @@
 title: "Weeknote #25: home alone"
 categories:
   - name: weeknotes
-publishDate: "2023-09-11"
+published_date: "2023-09-11"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

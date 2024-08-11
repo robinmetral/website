@@ -3,7 +3,7 @@ title: "Analytics with CSS"
 desription: "Yet another creative way to track users against their will?"
 categories:
   - name: dev
-publishDate: "2024-05-20"
+published_date: "2024-05-20"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

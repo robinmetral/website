@@ -2,7 +2,7 @@
 title: "Cinema Paradiso by Giuseppe Tornatore"
 categories:
   - name: films
-publishDate: "2023-04-13"
+published_date: "2023-04-13"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

@@ -2,7 +2,7 @@
 title: "Les Indociles par Camille Rebetez et Pitch Comment"
 categories:
   - name: books
-publishDate: "2023-07-18"
+published_date: "2023-07-18"
 template: page
 buildScript: "/scripts/processNote.js"
 lang: fr

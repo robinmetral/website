@@ -2,7 +2,7 @@
 title: "Spider-Man: Across the Spider-Verse by Joaquim Dos Santos, Kemp Powers and Justin K. Thompson"
 categories:
   - name: films
-publishDate: "2023-08-15"
+published_date: "2023-08-15"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

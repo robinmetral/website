@@ -2,7 +2,7 @@
 title: "Stripe launches carbon removal tool and crypto payouts"
 categories:
   - name: other
-publishDate: "2022-07-10"
+published_date: "2022-07-10"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

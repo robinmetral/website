@@ -2,7 +2,7 @@
 title: "Season 2 season"
 categories:
   - name: other
-publishDate: "2023-10-14"
+published_date: "2023-10-14"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

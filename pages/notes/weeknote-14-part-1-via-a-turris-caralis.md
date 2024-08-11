@@ -2,7 +2,7 @@
 title: "Weeknote #14 part 1: via a Turris Caralis"
 categories:
   - name: weeknotes
-publishDate: "2023-06-12"
+published_date: "2023-06-12"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

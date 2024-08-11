@@ -2,7 +2,7 @@
 title: "Le pays des faïsses"
 categories:
   - name: books
-publishDate: "2023-02-11"
+published_date: "2023-02-11"
 template: page
 buildScript: "/scripts/processNote.js"
 lang: "fr"

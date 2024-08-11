@@ -2,7 +2,7 @@
 title: "Cette nuit, la mer est noire by Florence Arthaud"
 categories:
   - name: books
-publishDate: "2023-04-16"
+published_date: "2023-04-16"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

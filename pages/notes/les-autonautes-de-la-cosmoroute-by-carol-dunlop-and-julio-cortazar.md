@@ -2,7 +2,7 @@
 title: "Les autonautes de la cosmoroute by Carol Dunlop and Julio Cortázar"
 categories:
   - name: books
-publishDate: "2023-07-21"
+published_date: "2023-07-21"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

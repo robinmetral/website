@@ -2,7 +2,7 @@
 title: "Anatomy of a Fall by Justine Triet"
 categories:
   - name: films
-publishDate: "2023-09-04"
+published_date: "2023-09-04"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

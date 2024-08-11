@@ -2,7 +2,7 @@
 title: "Babel by R. F. Kuang"
 categories:
   - name: books
-publishDate: "2023-07-19"
+published_date: "2023-07-19"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

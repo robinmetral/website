@@ -2,7 +2,7 @@
 title: "Grave of the Fireflies by Isao Takahata"
 categories:
   - name: films
-publishDate: "2023-11-02"
+published_date: "2023-11-02"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

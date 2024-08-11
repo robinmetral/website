@@ -2,7 +2,7 @@
 title: "Werner Bischof in Japan"
 categories:
   - name: photography
-publishDate: "2022-04-15"
+published_date: "2022-04-15"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

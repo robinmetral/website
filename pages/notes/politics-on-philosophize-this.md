@@ -2,7 +2,7 @@
 title: "Politics on Philosophize This"
 categories:
   - name: other
-publishDate: "2021-10-16"
+published_date: "2021-10-16"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

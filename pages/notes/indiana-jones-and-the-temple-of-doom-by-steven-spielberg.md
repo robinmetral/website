@@ -2,7 +2,7 @@
 title: "Indiana Jones and the Temple of Doom by Steven Spielberg"
 categories:
   - name: films
-publishDate: "2023-07-24"
+published_date: "2023-07-24"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

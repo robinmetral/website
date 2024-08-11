@@ -2,7 +2,7 @@
 title: "Indiana Jones and the Kingdom of the Crystal Skull by Steven Spielberg"
 categories:
   - name: films
-publishDate: "2023-07-28"
+published_date: "2023-07-28"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

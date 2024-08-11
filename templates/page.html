@@ -151,8 +151,8 @@
           }
         }
       }
-      {{#page.frontmatter.publishDate}}
-      /* Posts styling (if it has publishDate it's a post) */
+      {{#page.frontmatter.published_date}}
+      /* Posts styling (if it has published_date it's a post) */
       .post-content > *:not(:last-child),
       .post-content blockquote > *:not(:last-child) {
         margin-bottom: var(--space-m);
@@ -179,7 +179,7 @@
       .footnotes li:not(:last-child) {
         margin-bottom: var(--space-xs);
       }
-      {{/page.frontmatter.publishDate}}
+      {{/page.frontmatter.published_date}}
     </style>
   </head>
   <body>
@@ -195,14 +195,14 @@
       </nav>
     </header>
     <main id="main">
-      <!-- if it has a publishDate it's a post -->
-      {{#page.frontmatter.publishDate}}
+      <!-- if it has a published_date it's a post -->
+      {{#page.frontmatter.published_date}}
       <article>
         <div class="post-header">
           <h1>{{page.frontmatter.title}}</h1>
           <div>
             <span class="sr-only">Published on</span>
-            <time datetime="{{page.frontmatter.publishDate}}" class="dt-published">{{page.frontmatter.publishDate}}</time>
+            <time datetime="{{page.frontmatter.published_date}}" class="dt-published">{{page.frontmatter.published_date}}</time>
             <!-- TODO: .length is not standard mustache, see https://github.com/mustache/spec/discussions/157 -->
             {{#page.frontmatter.categories.length}} in <span class="sr-only">the following categories:</span>
             <ul class="categories" role="list">
@@ -214,10 +214,10 @@
           </div>
         </div>
         <div class="post-content" {{#page.frontmatter.lang}}lang="{{.}}"{{/page.frontmatter.lang}}>
-          {{/page.frontmatter.publishDate}} {{> content}} {{#page.frontmatter.publishDate}}
+          {{/page.frontmatter.published_date}} {{> content}} {{#page.frontmatter.published_date}}
         </div>
       </article>
-      {{/page.frontmatter.publishDate}}
+      {{/page.frontmatter.published_date}}
     </main>
     <footer>
       <a href="#main">Back to top</a>

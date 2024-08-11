@@ -2,7 +2,7 @@
 title: "Weeknote #19: the good guy wins in the end"
 categories:
   - name: weeknotes
-publishDate: "2023-08-01"
+published_date: "2023-08-01"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

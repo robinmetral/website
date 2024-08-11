@@ -2,7 +2,7 @@
 title: "L'Atalante by Jean Vigo"
 categories:
   - name: films
-publishDate: "2023-03-31"
+published_date: "2023-03-31"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

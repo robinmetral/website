@@ -2,7 +2,7 @@
 title: "Rocky Balboa by Sylvester Stallone"
 categories:
   - name: films
-publishDate: "2023-08-08"
+published_date: "2023-08-08"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

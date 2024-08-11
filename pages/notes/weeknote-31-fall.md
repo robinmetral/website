@@ -2,7 +2,7 @@
 title: "Weeknote #31: fall"
 categories:
   - name: weeknotes
-publishDate: "2023-10-23"
+published_date: "2023-10-23"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

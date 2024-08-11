@@ -2,7 +2,7 @@
 title: "Sputnik Sweetheart by Haruki Murakami"
 categories:
   - name: books
-publishDate: "2023-04-29"
+published_date: "2023-04-29"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

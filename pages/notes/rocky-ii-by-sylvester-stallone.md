@@ -2,7 +2,7 @@
 title: "Rocky II by Sylvester Stallone"
 categories:
   - name: films
-publishDate: "2023-07-30"
+published_date: "2023-07-30"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

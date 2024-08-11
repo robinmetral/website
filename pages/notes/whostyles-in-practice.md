@@ -3,7 +3,7 @@ title: "Whostyles in practice"
 categories:
   - name: meta
   - name: dev
-publishDate: "2021-10-16"
+published_date: "2021-10-16"
 template: page
 buildScript: "/scripts/processNote.js"
 highlightCode: true

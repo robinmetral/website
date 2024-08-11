@@ -2,7 +2,7 @@
 title: "Weeknote #33: Berlin–Brussels"
 categories:
   - name: weeknotes
-publishDate: "2023-11-21"
+published_date: "2023-11-21"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

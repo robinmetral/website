@@ -2,7 +2,7 @@
 title: "Rupestres par Étienne Davodeau, Emmanuel Guibert, Marc-Antoine Mathieu, David Prudhomme, Pascal Rabaté et Troubs"
 categories:
   - name: books
-publishDate: "2023-12-10"
+published_date: "2023-12-10"
 template: page
 buildScript: "/scripts/processNote.js"
 lang: "fr"

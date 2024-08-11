@@ -2,7 +2,7 @@
 title: "The Wonderful Story of Henry Sugar (and other shorts) by Wes Anderson"
 categories:
   - name: films
-publishDate: "2023-10-03"
+published_date: "2023-10-03"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

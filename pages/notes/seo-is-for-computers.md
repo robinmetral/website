@@ -2,7 +2,7 @@
 title: "SEO is for computers"
 categories:
   - name: other
-publishDate: "2023-03-08"
+published_date: "2023-03-08"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

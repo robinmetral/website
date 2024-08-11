@@ -2,7 +2,7 @@
 title: "Beau Is Afraid by Ari Aster"
 categories:
   - name: films
-publishDate: "2023-05-20"
+published_date: "2023-05-20"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

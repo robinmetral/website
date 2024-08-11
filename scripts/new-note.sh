@@ -17,6 +17,6 @@ if [ -z "$1" ]
     exit 1
 else
   slug=$(slugify "$1")
-  echo -e "---\ntitle: \"$1\" \ncategories:\n  - name: \npublishDate: \"$(date '+%Y-%m-%d')\"\ntemplate: page\nbuildScript: \"/scripts/processNote.js\"\n---" > pages/notes/$slug.md
+  echo -e "---\ntitle: \"$1\" \ncategories:\n  - name: \npublished_date: \"$(date '+%Y-%m-%d')\"\ntemplate: page\nbuildScript: \"/scripts/processNote.js\"\n---" > pages/notes/$slug.md
   echo "Created new note \"$1\" at \"/pages/notes/$slug.md\""
 fi

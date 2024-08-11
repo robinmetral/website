@@ -2,7 +2,7 @@
 title: "Weeknote #21: starry nights"
 categories:
   - name: weeknotes
-publishDate: "2023-08-16"
+published_date: "2023-08-16"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

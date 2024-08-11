@@ -2,7 +2,7 @@
 title: "Weeknote #14 part 2: mushrooming"
 categories:
   - name: weeknotes
-publishDate: "2023-06-13"
+published_date: "2023-06-13"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

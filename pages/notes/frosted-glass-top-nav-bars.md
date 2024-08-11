@@ -2,7 +2,7 @@
 title: '"Frosted glass" top nav bars'
 categories:
   - name: dev
-publishDate: "2022-12-12"
+published_date: "2022-12-12"
 template: page
 buildScript: "/scripts/processNote.js"
 ---

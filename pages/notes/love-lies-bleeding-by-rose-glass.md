@@ -2,7 +2,7 @@
 title: "Love Lies Bleeding by Rose Glass"
 categories:
   - name: films
-publishDate: "2024-06-01"
+published_date: "2024-06-01"
 template: page
 buildScript: "/scripts/processNote.js"
 ---
