@@ -1,5 +1,6 @@
 /**
  * This script generates an RSS2 feed from the markdown notes.
+ * TODO: this should be done by brut instead
  */
 
 import { readdirSync, readFileSync, writeFileSync } from "fs";
