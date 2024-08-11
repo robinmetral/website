@@ -15,7 +15,9 @@ export default {
       note.frontmatter.published_date_string = formattedDate;
       return note;
     });
+    const notesLastTen = notesWithFormattedDate.slice(0, 10);
     context.notes = notesWithFormattedDate;
+    context.notes_last_ten = notesLastTen;
     return context;
   },
 };

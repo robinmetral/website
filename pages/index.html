@@ -1,6 +1,5 @@
 <!--
 template: page
-buildScript: /scripts/getNotesLastFive.js
 description: A personal website.
 -->
 
@@ -38,7 +37,9 @@ description: A personal website.
 <section>
   <h2 class="mb-s">Latest notes</h2>
   <ul role="list" class="mb-m">
-    <li>Notes go here</li>
+    {{#context.notes_last_ten}}
+    <li><a href="{{slug}}">{{frontmatter.title}}</a></li>
+    {{/context.notes_last_ten}}
   </ul>
   <a href="/notes/">See all notes</a>
 </section>
