@@ -1,0 +1,36 @@
+<!--
+title: Robin Métral
+description: Robin's notes
+base_url: https://robinmetral.com
+author: Robin
+lang: en
+permalink: /feed.xml
+-->
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{page.frontmatter.title}}</title>
+  <subtitle>{{page.frontmatter.description}}</subtitle>
+  <link href="{{&page.frontmatter.base_url}}" />
+  <link href="{{&page.frontmatter.base_url}}{{&page.slug}}" rel="self" />
+  <id>{{&page.frontmatter.base_url}}{{&page.slug}}</id>
+  <updated>{{&context.updated_date_iso}}</updated>
+  <author>
+    <name>{{page.frontmatter.author}}</name>
+  </author>
+  {{#context.notes_last_ten}}
+  <entry>
+    <title>{{frontmatter.title}}</title>
+    <link href="{{&page.frontmatter.base_url}}{{&slug}}" />
+    <id>{{&page.frontmatter.base_url}}{{&slug}}</id>
+    <published>{{&frontmatter.published_date_iso}}</published>
+    <updated>{{&frontmatter.published_date_iso}}</updated>
+    <content
+      type="html"
+      xml:base="{{&page.frontmatter.base_url}}"
+      xml:lang="{{#frontmatter.lang}}{{.}}{{/frontmatter.lang}}{{^frontmatter.lang}}{{page.frontmatter.lang}}{{/frontmatter.lang}}"
+    >
+      {{content}}
+    </content>
+  </entry>
+  {{/context.notes_last_ten}}
+</feed>
