@@ -17,7 +17,7 @@ permalink: /feed.xml
   <author>
     <name>{{page.frontmatter.author}}</name>
   </author>
-  {{#context.notes_last_ten}}
+  {{#context.notes_last_thirty}}
   <entry>
     <title>{{frontmatter.title}}</title>
     <link href="{{&page.frontmatter.base_url}}{{&slug}}" />
@@ -32,5 +32,5 @@ permalink: /feed.xml
       {{content}}
     </content>
   </entry>
-  {{/context.notes_last_ten}}
+  {{/context.notes_last_thirty}}
 </feed>
