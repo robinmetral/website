@@ -18,8 +18,10 @@ export default {
       return note;
     });
     context.notes = notesWithFormattedDate;
-    // last 10 notes for homepage and feed
+    // last 10 notes for homepage
     context.notes_last_ten = context.notes.slice(0, 10);
+    // last 30 notes for feed
+    context.notes_last_thirty = context.notes.slice(0, 30);
     // ISO date for Atom feed
     context.updated_date_iso = context.notes[0].frontmatter.published_date_iso;
     return context;
