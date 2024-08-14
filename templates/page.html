@@ -11,17 +11,19 @@
     <link rel="icon" href="/static/favicon-20220314.png" />
     <link
       rel="alternate"
-      type="application/rss+xml"
+      type="application/atom+xml"
       href="/feed.xml"
-      title="Robin Métral"
+      title="Robin's notes"
     />
-    <title>{{#page.frontmatter.title}}{{.}} | {{/page.frontmatter.title}}Robin Métral</title>
+    <title>
+      {{#page.frontmatter.title}}{{.}} | {{/page.frontmatter.title}}Robin Métral
+    </title>
     {{#page.frontmatter.description}}
     <meta name="description" content="{{.}}" />
     {{/page.frontmatter.description}}
-    <meta property="og:site_name" content="Robin Métral">
+    <meta property="og:site_name" content="Robin Métral" />
     {{#page.frontmatter.title}}
-    <meta property="og:title" content="{{.}}">
+    <meta property="og:title" content="{{.}}" />
     {{/page.frontmatter.title}}
     <style>
       /* Layout */
@@ -151,8 +153,10 @@
           }
         }
       }
-      {{#page.frontmatter.published_date}}
-      /* Posts styling (if it has published_date it's a post) */
+    </style>
+    {{#page.frontmatter.published_date}}
+    <!-- Posts styling (if it has published_date it's a post) -->
+    <style>
       .post-content > *:not(:last-child),
       .post-content blockquote > *:not(:last-child) {
         margin-bottom: var(--space-m);
@@ -179,8 +183,8 @@
       .footnotes li:not(:last-child) {
         margin-bottom: var(--space-xs);
       }
-      {{/page.frontmatter.published_date}}
     </style>
+    {{/page.frontmatter.published_date}}
   </head>
   <body>
     <a href="#main" id="skip">Skip to main content</a>
@@ -201,7 +205,13 @@
         <div class="post-header">
           <h1>{{page.frontmatter.title}}</h1>
           <div>
-            <span class="sr-only">Published on</span> <time datetime="{{page.frontmatter.published_date}}" class="dt-published">{{page.frontmatter.published_date_string}}</time>{{#page.frontmatter.categories.length}} in <span class="sr-only">the following categories:</span>
+            <span class="sr-only">Published on</span>
+            <time
+              datetime="{{page.frontmatter.published_date}}"
+              class="dt-published"
+              >{{page.frontmatter.published_date_string}}</time
+            >{{#page.frontmatter.categories.length}} in
+            <span class="sr-only">the following categories:</span>
             <ul class="categories" role="list">
               {{#page.frontmatter.categories}}
               <li><a href="/notes?category={{name}}" rel="tag">{{name}}</a></li>
@@ -210,11 +220,13 @@
             {{/page.frontmatter.categories.length}}
           </div>
         </div>
-        <div class="post-content" {{#page.frontmatter.lang}}lang="{{.}}"{{/page.frontmatter.lang}}>
-          {{/page.frontmatter.published_date}} {{> content}} {{#page.frontmatter.published_date}}
-        </div>
+        {{#page.frontmatter.lang}}
+        <div class="post-content" lang="{{.}}">{{>content}}</div>
+        {{/page.frontmatter.lang}}{{^page.frontmatter.lang}}
+        <div class="post-content">{{/page.frontmatter.lang}}{{>content}}</div>
       </article>
-      {{/page.frontmatter.published_date}}
+      {{/page.frontmatter.published_date}} {{^page.frontmatter.published_date}}
+      {{>content}}{{/page.frontmatter.published_date}}
     </main>
     <footer>
       <a href="#main">Back to top</a>

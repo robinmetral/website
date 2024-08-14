@@ -6,13 +6,10 @@
   "scripts": {
     "start": "brut && serve dist",
     "build": "brut",
-    "prebuild": "node scripts/prebuild.js",
     "new": "bash ./scripts/new-note.sh"
   },
   "devDependencies": {
-    "brut": "^0.0.34",
-    "feed": "^4.2.2",
-    "gray-matter": "^4.0.3",
+    "brut": "^0.0.35",
     "serve": "^14.2.3"
   }
 }

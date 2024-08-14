@@ -1,9 +1,4 @@
-# generated files
-public/feed.xml
-public/films.json
-
 # build output
 dist
-
 # dependencies
 node_modules
