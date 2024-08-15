@@ -1,5 +1,18 @@
+import rehypeShiki from "@shikijs/rehype";
+
 export default {
   collections: ["notes"],
+  rehypePlugins: [
+    [
+      rehypeShiki,
+      {
+        themes: {
+          light: "vitesse-light",
+          dark: "vitesse-dark",
+        },
+      },
+    ],
+  ],
   processContext: (context) => {
     const notesWithFormattedDate = context.notes.map((note) => {
       const publishedDate = new Date(note.frontmatter.published_date);

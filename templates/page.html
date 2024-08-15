@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
     <link rel="stylesheet" href="/static/styles/global-20230303.css" />
-    {{#page.frontmatter.highlightCode}}
-    <link rel="stylesheet" href="/static/styles/prism-20220408.css" />
-    {{/page.frontmatter.highlightCode}}
     <link rel="icon" href="/static/favicon-20220314.png" />
     <link
       rel="alternate"
@@ -182,6 +179,21 @@
       }
       .footnotes li:not(:last-child) {
         margin-bottom: var(--space-xs);
+      }
+      /* Code blocks */
+      pre {
+        overflow: auto;
+        padding: var(--space-xs) var(--space-s);
+        font-size: var(--font-s);
+      }
+      /* For shiki code highlighting color schemes */
+      /* https://shiki.style/guide/dual-themes */
+      @media screen and (prefers-color-scheme: dark) {
+        .shiki,
+        .shiki span {
+          color: var(--shiki-dark) !important;
+          background-color: var(--shiki-dark-bg) !important;
+        }
       }
     </style>
     {{/page.frontmatter.published_date}}

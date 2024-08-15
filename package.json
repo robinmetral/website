@@ -4,12 +4,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "brut && serve dist",
+    "start": "brut && NO_UPDATE_CHECK=1 serve dist",
     "build": "brut",
     "new": "bash ./scripts/new-note.sh"
   },
   "devDependencies": {
-    "brut": "^0.0.35",
+    "@shikijs/rehype": "^1.13.0",
+    "brut": "^0.0.36",
     "serve": "^14.2.3"
   }
 }
