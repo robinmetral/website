@@ -13,7 +13,7 @@
                 <link rel="icon" href="/static/favicon-20220314.png" />
             </head>
             <body>
-                <main style="max-width: 768px; padding: var(--space-3xl) var(--space-2xl); margin: auto;">
+                <main style="max-width: 768px; padding: var(--space-xl) var(--space-m); margin: auto;">
                     <h1>RSS feed</h1>
                     <p style="margin-bottom: var(--space-l);">This is an RSS feed. Subscribe by copying the URL into your newsreader. Visit <a href="https://aboutfeeds.com">About Feeds</a> to learn more and get started.</p>
                     <h2 style="margin-bottom: var(--space-s);">Latest posts</h2>
