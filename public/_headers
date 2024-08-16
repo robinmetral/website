@@ -12,3 +12,10 @@
 
 /notes*
   Cache-Control: max-age=600, must-revalidate
+
+# Feed
+# The feed with an XSL stylesheet shouldn't be served as application/rss+xml. See https://github.com/genmon/aboutfeeds/blob/main/tools/pretty-feed-v3.xsl
+
+/feed.xml
+  Content-Type: application/xml; charset=utf-8
+  x-content-type-options: nosniff
