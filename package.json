@@ -9,7 +9,7 @@
     "new": "bash ./scripts/new-note.sh"
   },
   "devDependencies": {
-    "@shikijs/rehype": "^1.16.1",
+    "@shikijs/rehype": "^1.16.2",
     "brut": "^0.0.36",
     "serve": "^14.2.3"
   }
