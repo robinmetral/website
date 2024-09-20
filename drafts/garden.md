@@ -12,8 +12,8 @@ template: page
 
 ## Don't break pages
 
+- https://www.w3.org/Provider/Style/URI
 - https://jeffhuang.com/designed_to_last/ (to read)
-- the one from Berners Lee
 
 ## Framework fatigue
 
@@ -48,6 +48,9 @@ template: page
 
 - josh comeau's course!
 - testing CSS feature support: https://moderncss.dev/testing-feature-support-for-modern-css/
+- CSS resets
+  - https://www.joshwcomeau.com/css/custom-css-reset/
+  - https://piccalil.li/blog/a-more-modern-css-reset/
 
 ### HTML
 
@@ -57,6 +60,10 @@ template: page
 ### HTTP
 
 - caching headers: https://simonhearne.com/2022/caching-header-best-practices/
+
+### Browsers
+
+- map Safari to WebKit versions (surprisingly difficult): https://github.com/mdn/browser-compat-data/blob/main/browsers/safari.json
 
 ## Accessibility
 
@@ -70,6 +77,7 @@ template: page
 - names
   - https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/
   - some w3c thing???
+- intersection of performance and accessibility: https://noti.st/ericwbailey/Yfyaxa/slides (to read)
 
 ### Fun
 
