@@ -12,21 +12,21 @@ lang: fr
 |   1    | Tintin au pays des Soviets    |   1930   | déc. 2023 |   \*   |
 |   2    | Tintin au Congo               |   1931   | déc. 2023 |   \*   |
 |   3    | Tintin en Amérique            |   1932   | nov. 2023 |  \*\*  |
-|   4    | Les Cigares du pharaon        |   1934   | nov. 2023 | \*\*\* |
+|   4    | Les Cigares du pharaon        |   1934   | nov. 2023 |  \*\*  |
 |   5    | Le Lotus bleu                 |   1936   | nov. 2023 | \*\*\* |
 |   6    | L'Oreille cassée              |   1937   | août 2025 |  \*\*  |
 |   7    | L'Île Noire                   |   1938   | nov. 2023 | \*\*\* |
-|   8    | Le Sceptre d'Ottokar          |   1939   | nov. 2023 |   \*   |
+|   8    | Le Sceptre d'Ottokar          |   1939   | nov. 2023 |  \*\*  |
 |   9    | Le Crabe aux pinces d'or      |   1941   |           |        |
 |   10   | L'Étoile mystérieuse          |   1942   | nov. 2023 |   \*   |
 |   11   | Le Secret de La Licorne       |   1943   | août 2025 | \*\*\* |
 |   12   | Le Trésor de Rackham le Rouge |   1945   | août 2025 | \*\*\* |
 |   13   | Les Sept Boules de cristal    |   1948   |           |        |
 |   14   | Le Temple du Soleil           |   1949   |           |        |
-|   15   | Tintin au pays de l'or noir   |   1950   | nov. 2023 | \*\*\* |
+|   15   | Tintin au pays de l'or noir   |   1950   | nov. 2023 |  \*\*  |
 |   16   | Objectif Lune                 |   1953   | nov. 2023 | \*\*\* |
 |   17   | On a marché sur la Lune       |   1954   | nov. 2023 | \*\*\* |
-|   18   | L'Affaire Tournesol           |   1956   | déc. 2023 |   \*   |
+|   18   | L'Affaire Tournesol           |   1956   | déc. 2023 |  \*\*  |
 |   19   | Coke en stock                 |   1958   | nov. 2023 |   \*   |
 |   20   | Tintin au Tibet               |   1960   | nov. 2023 | \*\*\* |
 |   21   | Les Bijoux de la Castafiore   |   1963   | déc. 2023 |  \*\*  |
@@ -44,7 +44,7 @@ En général certains aspects ont pas super bien vieilli. On s'y attend pour une
 - **Les Cigares du pharaon** : un peu dans tous les sens entre l'Égypte et l'Inde. Apparition des Dupondt et de Rastapopoulos, un classique
 - **Le Lotus bleu** : suite des Cigares du pharaon, super
 - **L'Île Noire** : relu il y a quelques mois, je ne sais plus où. Top
-- **Le Sceptre d'Ottokar** : pas mon préféré niveau scénario. Apparition de la Castafiore
+- **Le Sceptre d'Ottokar** : pas mon préféré niveau scénario mais un classique. Création de la Syldavie et de la Bordurie, apparition de la Castafiore
 - **L'Étoile mystérieuse** : bof
 - **Tintin au pays de l'or noir** : génial
 - **Objectif Lune** : classique
