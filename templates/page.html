@@ -235,7 +235,8 @@
         {{#page.frontmatter.lang}}
         <div class="post-content" lang="{{.}}">{{>content}}</div>
         {{/page.frontmatter.lang}}{{^page.frontmatter.lang}}
-        <div class="post-content">{{/page.frontmatter.lang}}{{>content}}</div>
+        <div class="post-content">{{>content}}</div>
+        {{/page.frontmatter.lang}}
       </article>
       {{/page.frontmatter.published_date}} {{^page.frontmatter.published_date}}
       {{>content}}{{/page.frontmatter.published_date}}
