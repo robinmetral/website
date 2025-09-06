@@ -150,6 +150,17 @@
           }
         }
       }
+      @media print {
+        /* Hide nav and footer */
+        header,
+        footer {
+          display: none;
+        }
+        /* Reset margins, these are handled by the printer */
+        #main {
+          padding: revert;
+        }
+      }
     </style>
     {{#page.frontmatter.published_date}}
     <!-- Posts styling (if it has published_date it's a post) -->
