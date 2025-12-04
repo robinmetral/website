@@ -1,0 +1,4 @@
+# Deuxfleurs config
+# https://git.deuxfleurs.fr/Deuxfleurs/dxfl#website-configuration
+
+error_page = "404.html"

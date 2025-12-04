@@ -6,6 +6,7 @@
   "scripts": {
     "start": "brut && NO_UPDATE_CHECK=1 serve dist",
     "build": "brut",
+    "deploy": "brut && dxfl deploy robinmetral.com ./dist",
     "new": "bash ./scripts/new-note.sh"
   },
   "devDependencies": {
