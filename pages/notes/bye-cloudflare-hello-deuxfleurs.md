@@ -40,7 +40,7 @@ Cosy!
 
 Post-migration observations:
 
-Performance-wise, quick manual testing using WebPageTest (2 runs per case) shows that for a US desktop on wifi, LCP (Largest Contenful Paint) increased from ~0.5s to ~1.7s (still within Google's definition of "good"). In Europe, LCP is stable at ~0.5s, as expected since the server is in France.
+Performance-wise, quick manual testing using WebPageTest (2 runs per case) shows that for a US desktop on wifi, LCP (Largest Contenful Paint) increased from ~0.5s to ~1.7s (still within Google's definition of "good"). In Europe, LCP is stable at ~0.5s, as expected since the servers are in France.
 
 One minor issue is that Deuxfleurs' static hosting solution doesn't (yet) support setting custom `Cache-Control` headers, which I used on Cloudflare Pages to cache static assets (CSS, images) as immutable, and to increase the default caching of HTML resources. I've [reported it](https://git.deuxfleurs.fr/Deuxfleurs/dxfl/issues/36) and the feature should be added soon![^2]
 
