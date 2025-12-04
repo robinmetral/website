@@ -237,7 +237,9 @@
             <span class="sr-only">the following categories:</span>
             <ul class="categories" role="list">
               {{#page.frontmatter.categories}}
-              <li><a href="/notes?category={{name}}" rel="tag">{{name}}</a></li>
+              <li>
+                <a href="/notes/?category={{name}}" rel="tag">{{name}}</a>
+              </li>
               {{/page.frontmatter.categories}}
             </ul>
             {{/page.frontmatter.categories.length}}
