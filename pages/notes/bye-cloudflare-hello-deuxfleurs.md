@@ -48,7 +48,7 @@ In terms of publishing workflow, the website isn't automatically built and deplo
 
 One positive side-effect of migrating is that Cloudflare isn't [injecting unwanted tracking scripts](https://community.cloudflare.com/t/cant-disable-web-analytics-for-coudflare-pages-site/761716) into webpages anymore.
 
-I'm very happy!
+That's it!
 
 [^1]: When solving problems, we're biased towards adding rather than substracting _([Nature 592, 258–261, 2021](https://www.nature.com/articles/s41586-021-03380-y))_
 [^2]: Perks of using a small, convivial non-profit as a host
