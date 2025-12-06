@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@shikijs/rehype": "^3.2.1",
-    "brut": "^0.0.36",
+    "brut": "^0.0.37",
     "serve": "^14.2.5"
   }
 }
