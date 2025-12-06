@@ -7,8 +7,8 @@ export default {
       rehypeShiki,
       {
         themes: {
-          light: "vitesse-light",
-          dark: "vitesse-dark",
+          light: "github-light-default",
+          dark: "github-dark-default",
         },
       },
     ],
