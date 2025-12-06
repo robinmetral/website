@@ -1,0 +1,23 @@
+when:
+  event:
+    - push
+    - manual
+  branch:
+    - main
+
+steps:
+  - name: build
+    image: node:lts-alpine
+    commands:
+      - npm install
+      - npm run build
+
+  - name: deploy
+    image: node:lts-alpine
+    environment:
+      AWS_ACCESS_KEY_ID:
+        from_secret: key_id
+      AWS_SECRET_ACCESS_KEY:
+        from_secret: key_secret
+    commands:
+      - npx --yes dxfl deploy robinmetral.com ./dist --yes
