@@ -4,7 +4,6 @@ categories:
   - name: dev
 published_date: "2022-04-08"
 template: page
-highlightCode: true
 ---
 
 A pretty common web pattern: image grids. I wanted one for my [Watching](/watching/) page, where I display a film posters grid.

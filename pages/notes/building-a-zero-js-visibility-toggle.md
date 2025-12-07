@@ -4,7 +4,6 @@ categories:
   - name: dev
 published_date: "2022-12-15"
 template: page
-highlightCode: true
 ---
 
 [CSS selectors](https://www.w3.org/TR/selectors-4/) are awesome.

@@ -4,7 +4,6 @@ categories:
   - name: dev
 published_date: "2023-12-10"
 template: page
-highlightCode: true
 ---
 
 We really want seats for [this play](https://theatredecarouge.ch/spectacle/lusage-du-monde/), but it's booked out. A number of seats occasionally free up, but there's no way to join a waiting list or anything.

@@ -4,7 +4,6 @@ categories:
   - name: dev
 published_date: "2022-10-30"
 template: page
-highlightCode: true
 ---
 
 From Monica Dinculescu's [fyi: [hidden] is a lie](https://meowni.ca/hidden.is.a.lie.html):

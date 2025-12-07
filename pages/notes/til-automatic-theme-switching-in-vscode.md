@@ -4,7 +4,6 @@ categories:
   - name: dev
 published_date: "2023-03-26"
 template: page
-highlightCode: true
 ---
 
 Dropping this in here for future reference, because there are outdated posts about this online and I keep forgetting how to set this up.

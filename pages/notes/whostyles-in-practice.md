@@ -5,7 +5,6 @@ categories:
   - name: dev
 published_date: "2021-10-16"
 template: page
-highlightCode: true
 ---
 
 > Update, March 2022: I've discontinued my whostyles and expect this note to contain broken links or features. I'll leave it online for archive purposes.

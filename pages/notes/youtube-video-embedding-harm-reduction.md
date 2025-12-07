@@ -4,7 +4,6 @@ categories:
   - name: dev
 published_date: "2024-05-17"
 template: page
-highlightCode: true
 ---
 
 Wanted to start embedding YouTube videos on [Eau de poisson](https://eaudepoisson.com) instead of just linking over (in rare, specific cases where a video is central to the content).
