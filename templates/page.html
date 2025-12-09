@@ -4,7 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
-    <link rel="stylesheet" href="/static/styles/global-20230303.css" />
+    <link rel="stylesheet" href="/static/styles/global-20251209.css" />
+    {{#page.frontmatter.published_date}}
+    <link rel="stylesheet" href="/static/styles/posts-20251209.css" />
+    {{/page.frontmatter.published_date}}
+    <script
+      type="module"
+      src="/static/scripts/calculate-emissions-20251209.js"
+    ></script>
     <link rel="icon" href="/static/favicon-20220314.png" />
     <link
       rel="alternate"
@@ -22,192 +29,6 @@
     {{#page.frontmatter.title}}
     <meta property="og:title" content="{{.}}" />
     {{/page.frontmatter.title}}
-    <style>
-      /* Layout */
-      body {
-        display: grid;
-        grid-template: 1fr max-content / max-content 1fr;
-      }
-      header {
-        display: flex;
-        flex-direction: column;
-        border-right: var(--border-width) solid currentColor;
-        position: sticky;
-        top: 0;
-        height: 100vh;
-      }
-      main {
-        max-width: 768px;
-        width: 100%;
-        padding: var(--space-3xl) var(--space-2xl);
-      }
-      hr {
-        /* Negative margin to span to the nav border */
-        /* !important overrides a specificity issue with the .post-styling margins */
-        margin: var(--space-2xl) 0 var(--space-2xl) calc(-1 * var(--space-2xl)) !important;
-      }
-      footer {
-        border-top: var(--border-width) solid currentColor;
-        padding: var(--space-2xl);
-        font-size: var(--font-s);
-        grid-column-start: 2;
-      }
-      /* Nav */
-      #skip {
-        display: block;
-        position: absolute;
-        padding: var(--space-2xs) var(--space-xs);
-        top: var(--space-xs);
-        left: 50%;
-        /* x-axis to center. y-axis is -100% - the padding to position off the viewport */
-        transform: translate(-50%, calc(-100% - var(--space-xs)));
-        /**
-         * Without an explicit bg color, the text isn't readable when it
-         * overlays other text (narrow viewports), so we hardcode system colors
-         * from the CSS Color Module Level 4.
-         * https://www.w3.org/TR/css-color-4/#css-system-colors
-         *
-         * This isn't compatible with some old browsers e.g. Safari 12.
-         * Alternatives would be:
-         * - hardcode white on black (wouldn't follow the color mode)
-         * - use CSS filter hacks to transform the currentColor
-         * - do not overlay the skip link, render it inline and visible
-         */
-        background: AccentColor;
-        color: AccentColorText;
-      }
-      #skip:focus {
-        transform: translate(-50%, 0);
-        transition: transform 0.2s ease-in-out;
-      }
-      .name {
-        padding: var(--space-l);
-        padding-right: var(--space-2xl);
-        border-bottom: var(--border-width) solid currentColor;
-        font-variant: all-small-caps;
-        font-weight: bold;
-        line-height: 1;
-      }
-      nav ul {
-        display: flex;
-        flex-direction: column;
-        list-style-type: none;
-        padding: var(--space-l);
-        padding-right: var(--space-2xl);
-      }
-      @media screen and (max-width: 1024px) {
-        body {
-          grid-template: max-content 1fr max-content / 1fr;
-        }
-        header {
-          width: 100%;
-          flex-direction: row;
-          align-items: center;
-          border-right: none;
-          border-bottom: var(--border-width) solid currentColor;
-          position: static;
-          height: auto;
-        }
-        nav ul {
-          flex-direction: row;
-          column-gap: var(--space-s);
-          flex-wrap: wrap;
-          padding: var(--space-m);
-        }
-        .name {
-          padding: var(--space-m);
-          border-bottom: none;
-          border-right: var(--border-width) solid currentColor;
-          /* make sure the border spans the entire height*/
-          height: 100%;
-          /* center name */
-          display: flex;
-          align-items: center;
-        }
-        main {
-          padding: var(--space-2xl) var(--space-s); /* x padding needs to be the same as the hr negative x margin*/
-        }
-        hr {
-          /* Negative margins to span the full width */
-          /* !important overrides a specificity issue with the .post-styling margins */
-          margin: var(--space-2xl) calc(-1 * var(--space-s)) !important;
-        }
-        footer {
-          grid-column-start: auto;
-          padding: var(--space-s) var(--space-m);
-        }
-      }
-      /* Fix Safari dark mode bug */
-      /* Remove when this is fixed: https://bugs.webkit.org/show_bug.cgi?id=209851 */
-      /* Edit: fixed https://github.com/WebKit/WebKit/pull/17512, remove when I manage to test on Safari */
-      @supports (color-scheme: dark light) {
-        @media screen and (prefers-color-scheme: dark) {
-          :where(a:link) {
-            color: #8c8cff;
-          }
-          :where(a:visited) {
-            color: #ffadff;
-          }
-        }
-      }
-      @media print {
-        /* Hide nav and footer */
-        header,
-        footer {
-          display: none;
-        }
-        /* Reset margins, these are handled by the printer */
-        #main {
-          padding: revert;
-        }
-      }
-    </style>
-    {{#page.frontmatter.published_date}}
-    <!-- Posts styling (if it has published_date it's a post) -->
-    <style>
-      .post-content > *:not(:last-child),
-      .post-content blockquote > *:not(:last-child) {
-        margin-bottom: var(--space-m);
-      }
-      .post-header {
-        display: flex;
-        flex-direction: column-reverse;
-      }
-      .post-header .categories {
-        display: inline;
-        list-style: none;
-        padding: 0;
-      }
-      .post-header .categories li {
-        display: inline;
-      }
-      .post-header .categories li:not(:last-child)::after {
-        content: ", ";
-      }
-      .footnotes {
-        margin-top: var(--space-4xl);
-        font-size: var(--font-s);
-      }
-      .footnotes li:not(:last-child) {
-        margin-bottom: var(--space-xs);
-      }
-      /* Code blocks */
-      pre {
-        overflow: auto;
-        padding: var(--space-xs) var(--space-s);
-        font-size: var(--font-s);
-      }
-      /* For shiki code highlighting color schemes */
-      /* https://shiki.style/guide/dual-themes */
-      @media screen and (prefers-color-scheme: dark) {
-        .shiki,
-        .shiki span {
-          color: var(--shiki-dark) !important;
-          background-color: var(--shiki-dark-bg) !important;
-        }
-      }
-    </style>
-    {{/page.frontmatter.published_date}}
   </head>
   <body>
     <a href="#main" id="skip">Skip to main content</a>
@@ -222,7 +43,6 @@
       </nav>
     </header>
     <main id="main">
-      <!-- if it has a published_date it's a post -->
       {{#page.frontmatter.published_date}}
       <article>
         <div class="post-header">
@@ -250,7 +70,7 @@
         <div class="post-content" lang="{{.}}">
 {{>content}}
         </div>
-        {{/page.frontmatter.lang}} {{^page.frontmatter.lang}}
+        {{/page.frontmatter.lang}}{{^page.frontmatter.lang}}
         <!-- prettier-ignore -->
         <div class="post-content">
 {{>content}}
@@ -262,34 +82,11 @@
     </main>
     <footer>
       <a href="#top">Back to top</a>
-      <p id="timing"></p>
+      <p id="emissions"></p>
       <p>
         Read the
         <a href="/colophon/">colophon</a>
       </p>
     </footer>
-    <script type="module">
-      window.addEventListener("load", function () {
-        const now = new Date().getTime();
-        const loadingTime = now - performance.timing.navigationStart;
-        const transferredBytes = performance
-          .getEntries()
-          .map((entry) => entry.transferSize || 0) // we omit missing sizes like in paint perf entries
-          .reduce((a, b) => a + b, 0);
-        /**
-         * Calculating digital emissions in g CO2e
-         * https://sustainablewebdesign.org/calculating-digital-emissions/
-         */
-        const transferredGigabytes = transferredBytes / 1000000000;
-        const emissions = transferredGigabytes * 0.81 * 442;
-
-        const perfElement = document.getElementById("timing");
-        perfElement.innerText = `Loaded ${(transferredBytes / 1000).toFixed(
-          2
-        )}kB in ${(loadingTime / 1000).toFixed(
-          2
-        )}s. Emitted ${emissions.toFixed(2)}g CO2e.`;
-      });
-    </script>
   </body>
 </html>

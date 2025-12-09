@@ -1,0 +1,275 @@
+/* Reset (https://www.joshwcomeau.com/css/custom-css-reset/) */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/* Variables */
+:root {
+  /* Typography: augmented fourth scale (1.414) */
+  --font-s: 0.9rem; /* 14.5px–using major third scale for readability (augmented fourths would have been 12px) */
+  --font-m: 1.125rem; /* 18px */
+  --font-l: 1.591rem; /* 25.5px */
+  --font-xl: 2.249rem; /* 36px */
+  /* Spacings: linear scale */
+  --space-2xs: 4px; /* I know, it's not really linear, deal with it */
+  --space-xs: 8px;
+  --space-s: 16px;
+  --space-m: 24px;
+  --space-l: 32px;
+  --space-xl: 40px;
+  --space-2xl: 48px;
+  --space-3xl: 56px;
+  --space-4xl: 64px;
+  /* Other */
+  --border-width: 4px;
+}
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+}
+
+/* Defaults */
+html {
+  scroll-behavior: smooth;
+  overscroll-behavior: none;
+}
+body {
+  font-size: var(--font-m);
+}
+
+/* Components */
+blockquote {
+  border-left: var(--border-width) solid currentColor;
+  padding-left: var(--space-s);
+  font-style: italic;
+}
+hr {
+  border: none;
+  color: currentColor; /* somehow necessary to make the border's currentColor the same as the text color */
+  border-top: var(--border-width) solid currentColor;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+h1,
+.h1 {
+  font-size: var(--font-xl);
+  line-height: 1; /* align with name in the nav */
+  margin-bottom: var(
+    --space-xl
+  ); /* we can set spacing since there's always one h1 in the same spot */
+}
+h2 {
+  font-size: var(--font-l);
+}
+h3 {
+  font-size: var(--font-m);
+  font-variant: all-small-caps;
+}
+
+/* Utils */
+.mb-m {
+  margin-bottom: var(--space-m);
+}
+.mb-s {
+  margin-bottom: var(--space-s);
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Page */
+/* Layout */
+body {
+  display: grid;
+  grid-template: 1fr max-content / max-content 1fr;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  border-right: var(--border-width) solid currentColor;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+main {
+  max-width: 768px;
+  width: 100%;
+  padding: var(--space-3xl) var(--space-2xl);
+}
+hr {
+  /* Negative margin to span to the nav border */
+  /* !important overrides a specificity issue with the .post-styling margins */
+  margin: var(--space-2xl) 0 var(--space-2xl) calc(-1 * var(--space-2xl)) !important;
+}
+footer {
+  border-top: var(--border-width) solid currentColor;
+  padding: var(--space-2xl);
+  font-size: var(--font-s);
+  grid-column-start: 2;
+}
+/* Nav */
+#skip {
+  display: block;
+  position: absolute;
+  padding: var(--space-2xs) var(--space-xs);
+  top: var(--space-xs);
+  left: 50%;
+  /* x-axis to center. y-axis is -100% - the padding to position off the viewport */
+  transform: translate(-50%, calc(-100% - var(--space-xs)));
+  /**
+         * Without an explicit bg color, the text isn't readable when it
+         * overlays other text (narrow viewports), so we hardcode system colors
+         * from the CSS Color Module Level 4.
+         * https://www.w3.org/TR/css-color-4/#css-system-colors
+         *
+         * This isn't compatible with some old browsers e.g. Safari 12.
+         * Alternatives would be:
+         * - hardcode white on black (wouldn't follow the color mode)
+         * - use CSS filter hacks to transform the currentColor
+         * - do not overlay the skip link, render it inline and visible
+         */
+  background: AccentColor;
+  color: AccentColorText;
+}
+#skip:focus {
+  transform: translate(-50%, 0);
+  transition: transform 0.2s ease-in-out;
+}
+.name {
+  padding: var(--space-l);
+  padding-right: var(--space-2xl);
+  border-bottom: var(--border-width) solid currentColor;
+  font-variant: all-small-caps;
+  font-weight: bold;
+  line-height: 1;
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: var(--space-l);
+  padding-right: var(--space-2xl);
+}
+@media screen and (max-width: 1024px) {
+  body {
+    grid-template: max-content 1fr max-content / 1fr;
+  }
+  header {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    border-right: none;
+    border-bottom: var(--border-width) solid currentColor;
+    position: static;
+    height: auto;
+  }
+  nav ul {
+    flex-direction: row;
+    column-gap: var(--space-s);
+    flex-wrap: wrap;
+    padding: var(--space-m);
+  }
+  .name {
+    padding: var(--space-m);
+    border-bottom: none;
+    border-right: var(--border-width) solid currentColor;
+    /* make sure the border spans the entire height*/
+    height: 100%;
+    /* center name */
+    display: flex;
+    align-items: center;
+  }
+  main {
+    padding: var(--space-2xl) var(--space-s); /* x padding needs to be the same as the hr negative x margin*/
+  }
+  hr {
+    /* Negative margins to span the full width */
+    /* !important overrides a specificity issue with the .post-styling margins */
+    margin: var(--space-2xl) calc(-1 * var(--space-s)) !important;
+  }
+  footer {
+    grid-column-start: auto;
+    padding: var(--space-s) var(--space-m);
+  }
+}
+/* Fix Safari dark mode bug */
+/* Remove when this is fixed: https://bugs.webkit.org/show_bug.cgi?id=209851 */
+/* Edit: fixed https://github.com/WebKit/WebKit/pull/17512, remove when I manage to test on Safari */
+@supports (color-scheme: dark light) {
+  @media screen and (prefers-color-scheme: dark) {
+    :where(a:link) {
+      color: #8c8cff;
+    }
+    :where(a:visited) {
+      color: #ffadff;
+    }
+  }
+}
+@media print {
+  /* Hide nav and footer */
+  header,
+  footer {
+    display: none;
+  }
+  /* Reset margins, these are handled by the printer */
+  #main {
+    padding: revert;
+  }
+}

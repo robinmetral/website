@@ -1,0 +1,41 @@
+.post-content > *:not(:last-child),
+.post-content blockquote > *:not(:last-child) {
+  margin-bottom: var(--space-m);
+}
+.post-header {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.post-header .categories {
+  display: inline;
+  list-style: none;
+  padding: 0;
+}
+.post-header .categories li {
+  display: inline;
+}
+.post-header .categories li:not(:last-child)::after {
+  content: ", ";
+}
+.footnotes {
+  margin-top: var(--space-4xl);
+  font-size: var(--font-s);
+}
+.footnotes li:not(:last-child) {
+  margin-bottom: var(--space-xs);
+}
+/* Code blocks */
+pre {
+  overflow: auto;
+  padding: var(--space-xs) var(--space-s);
+  font-size: var(--font-s);
+}
+/* For shiki code highlighting color schemes */
+/* https://shiki.style/guide/dual-themes */
+@media screen and (prefers-color-scheme: dark) {
+  .shiki,
+  .shiki span {
+    color: var(--shiki-dark) !important;
+    background-color: var(--shiki-dark-bg) !important;
+  }
+}
