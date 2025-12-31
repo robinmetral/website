@@ -10,7 +10,7 @@ template: page
 
 If you already use newish selectors on a daily basis, then what follows will probably seem very mundane by now (5 years after the release of [Selectors Level 3](https://www.w3.org/TR/selectors-3/)). I don't use complex selectors much[^1], so I'm still occasionally blown away by how incredible they've become. Today was such an occasion.
 
-So I have this [grid of films I'm watching](/watching/):[^2]
+So I have this grid of films I'm watching _(2025: page removed)_:[^2]
 
 <img width="1280" height="794" style="aspect-ratio:1280/794;height:auto;" src="/static/images/2022-04-08-image-grid-final.jpg" alt="A grid of posters of films I've watched recently">
 
@@ -70,7 +70,7 @@ And for this toggle, only HTML and CSS are really necessary. I ended up building
 }
 ```
 
-[Here it is](/watching/)! A simple, React-less, JS-less visibility toggle.
+Here it is _(2025: page removed)_! A simple, React-less, JS-less visibility toggle.
 
 CSS selectors are awesome!
 

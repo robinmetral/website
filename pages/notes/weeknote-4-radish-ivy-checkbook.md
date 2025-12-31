@@ -21,7 +21,7 @@ Let's do bullet points this week:
 
 ## Watching
 
-I wrote a bit more about what I watched this week (instead of just [logging it](/watching/)), so this will be short. Just links:
+I wrote a bit more about what I watched this week (instead of just listing it), so this will be short. Just links:
 
 - [10 shorts from La Fête du Court](/notes/10-shorts-from-la-fete-du-court/)
 - [**Operation Fortune: Ruse de Guerre** (2023) by Guy Ritchie](/notes/operation-fortune-by-guy-ritchie/)

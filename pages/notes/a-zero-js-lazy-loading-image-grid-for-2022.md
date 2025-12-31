@@ -6,7 +6,7 @@ published_date: "2022-04-08"
 template: page
 ---
 
-A pretty common web pattern: image grids. I wanted one for my [Watching](/watching/) page, where I display a film posters grid.
+A pretty common web pattern: image grids. I wanted one for my Watching page _(2026: page removed)_, where I display a film posters grid.
 
 A possible problem with this pattern is performance and data usage: although the HTML for the page is only 5 KB (0.005 MB), the (currently) 107 poster images total almost 7 MB[^1].
 
