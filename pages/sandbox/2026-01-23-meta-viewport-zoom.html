@@ -1,17 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
     <meta name="color-scheme" content="light dark" />
     <title>Meta viewport zoom</title>
   </head>
   <body>
     <h1>Meta viewport zoom</h1>
-    <p>This is to manually test whether the following meta tag:</p>
+    <p>
+      This is to manually test whether the following
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta/name/viewport"
+        ><code>&lt;meta name=&quot;viewport&quot; /&gt;</code></a
+      >
+      attributes disable zoom:
+    </p>
     <pre>
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1&quot; /&gt;
     </pre>
-    <p>...disables zoom on Android.</p>
+    <p>
+      Assumptions: this shouldn't disable zoom on iOS devices
+      <a
+        href="https://webkit.org/blog/7367/new-interaction-behaviors-in-ios-10/"
+        >since iOS 10</a
+      >, but should still disable zoom on Android.
+    </p>
+    <p>
+      Preventing users from zooming pages up to at least 200% fails WCAG 2.2 AA
+      success criterion
+      <a href="https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html"
+        >1.4.4. Resize Text</a
+      >.
+    </p>
+    <hr />
+    <p>
+      From: Vercel Interface Guidelines
+      <a
+        href="https://github.com/vercel-labs/web-interface-guidelines/issues/11"
+        >issue 11</a
+      >
+    </p>
   </body>
 </html>
