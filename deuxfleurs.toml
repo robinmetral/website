@@ -5,12 +5,12 @@ error_page = "404.html"
 
 # Versioned and static assets
 [[headers]]
-for = "/static/*"
+for = "static/*"
 [headers.values]
 Cache-Control = "max-age=31536000, immutable"
 
 # HTML
 [[headers]]
-for = ["/", "/notes/*"]
+for = "**/*.html"
 [headers.values]
 Cache-Control = "max-age=600, must-revalidate"
