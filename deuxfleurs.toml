@@ -2,3 +2,15 @@
 # https://git.deuxfleurs.fr/Deuxfleurs/dxfl#website-configuration
 
 error_page = "404.html"
+
+# Versioned and static assets
+[[headers]]
+for = "/static/*"
+[headers.values]
+Cache-Control = "max-age=31536000, immutable"
+
+# HTML
+[[headers]]
+for = ["/", "/notes/*"]
+[headers.values]
+Cache-Control = "max-age=600, must-revalidate"
