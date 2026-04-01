@@ -1,0 +1,203 @@
+<!--
+template: page
+title: Dashboard
+-->
+
+<h1>Dashboard</h1>
+<section aria-labelledby="section-gas-title" class="mb-m">
+  <h2 id="section-gas-title">Gas</h2>
+  <p>
+    Aggregates gas prices from nearby stations and adjusts the SP95-E10 price to
+    account for the 1-3% loss in efficiency.
+  </p>
+  <form>
+    <div class="flex">
+      <label for="section-gas-input">Reduce E10 efficiency by (%):</label>
+      <input
+        id="section-gas-input"
+        type="number"
+        name="percentage"
+        value="1.5"
+        step="0.1"
+      />
+    </div>
+    <button type="submit" class="flex">Fetch data</button>
+  </form>
+  <table>
+    <thead>
+      <tr>
+        <th>Station</th>
+        <th>Type</th>
+        <th>Adjusted price</th>
+        <th>Price (orig.)</th>
+        <th>Changed</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</section>
+
+<script type="module">
+  const BASE_URL = "https://www.prix-carburants.gouv.fr/station/";
+  const STATIONS = [
+    { name: "Carrefour de Largentière", id: "7110004" },
+    { name: "Intermarché de Rosières", id: "7260002" },
+    { name: "Carrefour d'Aubenas", id: "7200010" },
+    { name: "Intermarché d'Aubenas", id: "7200007" },
+    { name: "Leclerc de Saint-Étienne", id: "7200006" },
+  ];
+
+  document.querySelector("form").addEventListener("submit", load);
+
+  async function load(event) {
+    event.preventDefault();
+    const data = new FormData(event.currentTarget);
+    const percentage = data.get("percentage");
+
+    const tableBody = document.querySelector("tbody");
+    tableBody.innerHTML = ""; // clear
+
+    const prices = await getPrices(percentage);
+    prices.forEach((price) => {
+      tableBody.insertAdjacentHTML(
+        "beforeend",
+        `<tr>
+<td><a href="${BASE_URL + price.stationId}"><strong>${price.stationName}</strong></a></td>
+<td>${price.type}</td>
+<td><strong>${price.price}</strong></td>
+<td>${price.originalPrice || price.price}</td>
+<td>${price.date}</td>
+</tr>`,
+      );
+    });
+  }
+
+  /**
+   * Get gas prices for all stations
+   **/
+  async function getPrices(percentage) {
+    // Fetch data for all stations
+    const stations = await Promise.all(
+      STATIONS.map(async ({ name, id }) => {
+        const res = await fetch(BASE_URL + id);
+        const html = await res.text();
+        const data = parseTable(html);
+        return {
+          name,
+          id,
+          ...data,
+        };
+      }),
+    );
+    // Reduce into array of prices
+    const prices = stations.reduce((acc, cur) => {
+      if (cur.e5) {
+        acc.push({
+          type: "E5",
+          stationName: cur.name,
+          stationId: cur.id,
+          price: cur.e5.price,
+          date: cur.e5.date,
+        });
+      }
+      if (cur.e10) {
+        acc.push({
+          type: "E10",
+          stationName: cur.name,
+          stationId: cur.id,
+          // adjust E10 price
+          price:
+            Math.round(cur.e10.price * (percentage / 100 + 1) * 1000) / 1000,
+          originalPrice: cur.e10.price,
+          date: cur.e10.date,
+        });
+      }
+      return acc;
+    }, []);
+    // Sort by asc
+    const sorted = prices.sort((a, b) => a.price - b.price);
+    return sorted;
+  }
+
+  /**
+   * Extracts SP95 (E5) and SP95-E10 gas prices from an HTML table from
+   * prix-carburants.gouv.fr.
+   *
+   * Example source URL: https://www.prix-carburants.gouv.fr/station/7110004
+   * Table structure:
+   *
+   * <table>
+   *   <thead>
+   *     <tr>
+   *       <th>Carburant<br>Date</th>
+   *       <th>Prix en €/L</th>
+   *     </tr>
+   *   </thead>
+   *   <tbody>
+   *     <tr>
+   *       <td>
+   *         <strong>SP95-E10 (E10)</strong>
+   *         <br>
+   *         <span>21/03/26</span>
+   *       </td>
+   *       <td>
+   *         <strong>1.989</strong>
+   *       </td>
+   *     </tr>
+   *   </tbody>
+   * </table>
+   **/
+  function parseTable(htmlString) {
+    const parser = new DOMParser();
+    const table = parser
+      .parseFromString(htmlString, "text/html")
+      .querySelector("table");
+    if (!table) {
+      throw new Error("No table found.");
+    }
+    // Get all tbody rows that are not empty
+    const rows = Array.from(
+      table.querySelectorAll("tbody tr:has(td.prix strong)"),
+    );
+    if (rows.length === 0) {
+      throw new Error("No rows found.");
+    }
+
+    const results = {
+      e5: null,
+      e10: null,
+    };
+    rows.map((row, i) => {
+      if (row.textContent.includes("SP95-E10 (E10)")) {
+        results.e10 = {
+          date: row.querySelector("td:first-of-type span").textContent.trim(),
+          price: parseFloat(
+            row.querySelector("td:last-of-type").textContent.trim(),
+          ),
+        };
+      } else if (row.textContent.includes("SP95 (E5)")) {
+        results.e5 = {
+          date: row.querySelector("td:first-of-type span").textContent.trim(),
+          price: parseFloat(
+            row.querySelector("td:last-of-type").textContent.trim(),
+          ),
+        };
+      }
+    });
+    return results;
+  }
+</script>
+<style>
+  th,
+  td {
+    padding: var(--space-xs);
+  }
+  .flex {
+    display: flex;
+    gap: var(--space-s);
+    align-items: center;
+  }
+  section * {
+    margin-bottom: var(--space-s);
+  }
+</style>
